@@ -4,7 +4,7 @@ This is an unofficial Total Miner XML Modding API documentation. This documentat
 
 ## Table of Contents:
 
- - [Data Types](#data-Types)
+ - [Data Types](#data-types)
  - [ItemData.xml](#itemdataxml)
  - [ItemTypeData.xml](#itemtypedataxml)
  - [ItemTypeClassData.xml](#itemtypeclassdataxml)
@@ -48,11 +48,11 @@ A real number (decimal) between -3.4 x 10³⁸ and 3.4 x 10³⁸.
 
 ### Vector2
 
-Two floats as { float X, float Y }.
+Two floats as { [float](#float) X, [float](#float) Y }.
 
 ### Vector3
 
-Three floats as { float X, float Y, float Z }.
+Three floats as { [float](#float) X, [float](#float) Y, [float](#float) Z }.
 
 ### Item
 
@@ -60,11 +60,11 @@ A Total Miner item ID. No spaces are allowed. Can usually be either an existing 
 
 ### InventoryItemXML
 
-An item with as { Item Item, ushort Durability, int Count }.
+An item as { [Item](#item) Item, [ushort](#ushort) Durability, [int](#int) Count }.
 
 ### InventoryItemNDXML
 
-An item with as { Item Item, int Count }.
+An item as { [Item](#item) Item, [int](#int) Count }.
 
 ## ItemData.xml:
 
