@@ -4,7 +4,7 @@ This is an unofficial Total Miner XML Modding API documentation. This documentat
 
 ## Table of Contents:
 
- - [Data Types](#Data-Types)
+ - [Data Types](#data-Types)
  - [ItemData.xml](#itemdataxml)
  - [ItemTypeData.xml](#itemtypedataxml)
  - [ItemTypeClassData.xml](#itemtypeclassdataxml)
@@ -14,7 +14,7 @@ This is an unofficial Total Miner XML Modding API documentation. This documentat
  - [ItemSoundData.xml](#itemsounddataxml)
  - [SkillData.xml](#skilldataxml)
  - [BlueprintData.xml](#blueprintdataxml)
- - [ItemTextures32.xml/ItemTexture16.xml](#itemtextures32xml/itemtexture16.xml)
+ - [ItemTextures32.xml/ItemTexture16.xml](#itemtextures32xmlitemtexture16xml)
 
 ## Data Types:
 
