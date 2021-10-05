@@ -1,11 +1,12 @@
 # (Unofficial) XML Modding API Documentation
 
 ## Pages
-- [Index](/index)
-- [Data Types](/data-types)
-- [Adding and Modifying Items](/items)
-- [Modifying Blocks](/blocks)
-- [Adding and Modifying NPCs](/npcs)
+- [Home](/index)
+- [XML Documentation](/xml/xml-doc)
+- [Data Types](/xml/data-types)
+- [Adding and Modifying Items](/xml/items)
+- [Modifying Blocks](/xml/blocks)
+- [Adding and Modifying NPCs](/xml/npcs)
 
 # Adding And Modifying Items
 
@@ -27,76 +28,76 @@ Items can be added and modified with XML mods. Items can be added and given prop
 
 Contains general information about the item.
 
-### ItemID: [Item](/data-types#item)
+### ItemID: [Item](/xml/data-types#item)
 
 The ID of the item. If this is an existing item, that item will be modified, otherwise the item will be added.
 
-### Name: [string](/data-types#string)
+### Name: [string](/xml/data-types#string)
 
 The name of the item that appears in the inventory, item interact screen, etc. The name can include spaces.
 
-### Desc: [string](/data-types#string)
+### Desc: [string](/xml/data-types#string)
 
 The description of the item shown on the item interact screen.
 
-### IsValid: [bool](/data-types#bool)
+### IsValid: [bool](/xml/data-types#bool)
 
 If false, the item cannot be obtained through normal means, effectively removing the item.
 
-### IsEnabled: [bool](/data-types#bool)
+### IsEnabled: [bool](/xml/data-types#bool)
 
 If false, the item will be initially disabled. The item can be enabled or disabled manually in the Item Options menu. If you're looking to effectively remove an item, use IsValid.
 
-### LockedDD: [bool](/data-types#bool)
+### LockedDD: [bool](/xml/data-types#bool)
 
 If true, the item will be locked in shops in Dig Deep until either the blueprint is found or the item is equipped.
 
-### LockedCR: [bool](/data-types#bool)
+### LockedCR: [bool](/xml/data-types#bool)
 
 If true, the item will be locked in shops in Creative until the item is equipped.
 
-### LockedSU: [bool](/data-types#bool)
+### LockedSU: [bool](/xml/data-types#bool)
 
 If true, the item will be locked in shops in Survival until the item is equipped.
 
-### MinCSPrice: [int](/data-types#int)
+### MinCSPrice: [int](/xml/data-types#int)
 
 The price the item sells for in the shop. The item can be bought for 120% of this price. 0 = Free, -1 = Unpurchasable. Note that setting the price to -1 will also remove the item from the creative inventory.
 
-### StackSize: [int](/data-types#int)
+### StackSize: [int](/xml/data-types#int)
 
 The maximum stack size of the item. If the item has durability, the stack size will always be 1.
 
-### Durability: [ushort](/data-types#ushort)
+### Durability: [ushort](/xml/data-types#ushort)
 
 The durability of the item. If this is above 0, the item's stack size will always be 1.
 
-### StrikeDamage: [float](/data-types#float)
+### StrikeDamage: [float](/xml/data-types#float)
 
 The base damage the item deals to targets when attacking.
 
-### StrikeReach: [float](/data-types#float)
+### StrikeReach: [float](/xml/data-types#float)
 
 The maximum distance the item can strike enemies at, in blocks.
 
-### HealPower: [short](/data-types#short)
+### HealPower: [short](/xml/data-types#short)
 
 The amount of health the item heals when used.
 
-### BurnTime: [ushort](/data-types#ushort)
+### BurnTime: [ushort](/xml/data-types#ushort)
 
 The amount of time, in seconds, the item burns in a furnace.
 
-### SmeltTime: [float](/data-types#float)
+### SmeltTime: [float](/xml/data-types#float)
 
 The amount of time, in seconds, the item takes to be smelted in a furnace. If the item cannot be created in a furnace, this is ignored.
 
-### ParticleLight: [byte](/data-types#byte)
+### ParticleLight: [byte](/xml/data-types#byte)
 
 How much the item glows in the player's hand and on the ground. The item will not emit light.
 - Valid Values: Between 0 and 15.
 
-### CanDropIfLocked: [bool](/data-types#bool)
+### CanDropIfLocked: [bool](/xml/data-types#bool)
 
 If false, the item cannot be dropped by mobs unless the item has been unlocked.
 
@@ -113,7 +114,7 @@ How the game displays this item's name in plural.
 
 Contains information about the item's type data and use.
 
-### ItemID: [Item](/data-types#item)
+### ItemID: [Item](/xml/data-types#item)
 
 The ID of the item. If this is an existing item, that item will be modified, otherwise the item will be added.
 
@@ -174,11 +175,11 @@ Contains information about the the item class. The amount of hits taken to destr
 
 The ID of this class. No spaces are allowed. If this is an existing class, that class will be modified, otherwise the class will be added.
 
-### Power: [ushort](/data-types#ushort)
+### Power: [ushort](/xml/data-types#ushort)
 
 The amount of "damage" an item with this class deals to blocks when mining.
 
-### MaxResistance: [ushort](/data-types#ushort)
+### MaxResistance: [ushort](/xml/data-types#ushort)
 
 The maximum block resistance that this class can mine. Blocks with a higher resistance will be unmineable
 
@@ -194,27 +195,27 @@ Contains information about the stat bonuses of items. Every 100 points in a stat
 
 The ID of this combat class. No spaces are allowed. If this is an existing combat class, that combat class will be modified, otherwise the combat class will be added.
 
-### Health: [short](/data-types#short)
+### Health: [short](/xml/data-types#short)
 
 The amount of Health stat points equipping this item adds.
 
-### Attack: [short](/data-types#short)
+### Attack: [short](/xml/data-types#short)
 
 The amount of Attack stat points equipping this item adds.
 
-### Strength: [short](/data-types#short)
+### Strength: [short](/xml/data-types#short)
 
 The amount of Strength stat points equipping this item adds.
 
-### Defence: [short](/data-types#short)
+### Defence: [short](/xml/data-types#short)
 
 The amount of Defence stat points equipping this item adds.
 
-### Ranged: [short](/data-types#short)
+### Ranged: [short](/xml/data-types#short)
 
 The amount of Ranged stat points equipping this item adds.
 
-### Looting: [short](/data-types#short)
+### Looting: [short](/xml/data-types#short)
 
 The amount of Looting stat points equipping this item adds.
 
@@ -226,27 +227,27 @@ The amount of Looting stat points equipping this item adds.
 
 Contains information about the swing time of the item. The Time field is the total amount of time the item takes to swing and is not affected by another other field. Say, Time=1, and Pause=0.5: The item will take 1 second to swing, half a second of which is spent paused.
 
-### ItemID: [Item](/data-types#item)
+### ItemID: [Item](/xml/data-types#item)
 
 The ID of this item. If this is an existing item, that item will be modified.
 
-### Time: [float](/data-types#float)
+### Time: [float](/xml/data-types#float)
 
 The total time, in seconds, it takes to swing the item. Other time values are not added to this time.
 
-### Pause: [float](/data-types#float)
+### Pause: [float](/xml/data-types#float)
 
 The amount of time, in seconds, the item stays in the rest position after being swung before being able to be swung again.
 
-### ExtendedPause: [float](/data-types#float)
+### ExtendedPause: [float](/xml/data-types#float)
 
 The amount of time, in seconds, the item remains in its fully extended position.
 
-### RetractTime: [float](/data-types#float)
+### RetractTime: [float](/xml/data-types#float)
 
 The amount of time, in seconds, the item takes to return to the rest position after reaching its fully extended position. Setting this to -1 makes the item retract in the same amount of time it takes to extend.
 
-### RetractSmooth: [bool](/data-types#bool)
+### RetractSmooth: [bool](/xml/data-types#bool)
 
 If true, the item will retract smoothly.
 
@@ -263,47 +264,47 @@ Contains information about how items are swung.
 The ID of this swing type. No spaces are allowed. Must be an existing swing type.
 - Valid Values: None, Block, Item, IconBlock, Ramp, Weapon, WeaponTRBL, Spear, Bow, Shield, Eating, Arrow, SwitchArrow, GunHand, GunRifle, Key, Staff
 
-### IsSwingable: [bool](/data-types#bool)
+### IsSwingable: [bool](/xml/data-types#bool)
 
 If false, the item cannot be swung.
 
-### SwingTime: [float](/data-types#float)
+### SwingTime: [float](/xml/data-types#float)
 
 The amount of time, in seconds, the item takes to swing the item. Set this to 0 to use the time specified for the specific item.
 
-### RestPosition: [Vector3](/data-types#vector3)
+### RestPosition: [Vector3](/xml/data-types#vector3)
 
 The local position of the item when resting.
 
-### RestRotation: [Vector3](/data-types#vector3)
+### RestRotation: [Vector3](/xml/data-types#vector3)
 
 The rotation of the item when resting.
 
-### ExtendedPosition: [Vector3](/data-types#vector3)
+### ExtendedPosition: [Vector3](/xml/data-types#vector3)
 
 The local position of the item when fully extended in third person.
 
-### ExtendedPositionFPV: [Vector3](/data-types#vector3)
+### ExtendedPositionFPV: [Vector3](/xml/data-types#vector3)
 
 The local position of the item when fully extended in first person.
 
-### ExtendedRotation: [Vector3](/data-types#vector3)
+### ExtendedRotation: [Vector3](/xml/data-types#vector3)
 
 The rotation of the item when fully extended in third person.
 
-### ExtendedRotationFPV: [Vector3](/data-types#vector3)
+### ExtendedRotationFPV: [Vector3](/xml/data-types#vector3)
 
 The rotation of the item when fully extended in first person.
 
-### CircularY: [float](/data-types#float)
+### CircularY: [float](/xml/data-types#float)
 
 The maximum height of the circular vertical movement of the item while swinging in third person.
 
-### CircularZ: [float](/data-types#float)
+### CircularZ: [float](/xml/data-types#float)
 
 The maximum circular forward movement of the item while swinging in both third and first person.
 
-### CircularYFPV: [float](/data-types#float)
+### CircularYFPV: [float](/xml/data-types#float)
 
 The maximum height circular vertical movement of the item while swinging in first person.
 
@@ -315,7 +316,7 @@ The maximum height circular vertical movement of the item while swinging in firs
 
 Contains information about the sound the item makes.
 
-### ItemID: [Item](/data-types#item)
+### ItemID: [Item](/xml/data-types#item)
 
 The ID of this item. If this is an existing item, that item will be modified.
 
@@ -336,15 +337,15 @@ ItemSoundXML class specifying the sounds this items should make on certain actio
 
 Contains information about the skill types and requirements for the item.
 
-### ItemID: [Item](/data-types#item)
+### ItemID: [Item](/xml/data-types#item)
 
 The ID of this item. If this is an existing item, that item will be modified.
 
-### MineReq: [int](/data-types#int)
+### MineReq: [int](/xml/data-types#int)
 
 If this item is a block, the minimum mining level required to mine it.
 
-### UseReq: [int](/data-types#int)
+### UseReq: [int](/xml/data-types#int)
 
 The minimum skill level required to use this item.
 
@@ -353,7 +354,7 @@ The minimum skill level required to use this item.
 The skill this item uses.
 - Valid Values: Health, Strength, Attack, Defence, Ranged, Mining, Digging, Chopping, Building, Crafting, Smelting, Smithing, Farming, Cooking, Looting
 
-### CraftReq: [int](/data-types#int)
+### CraftReq: [int](/xml/data-types#int)
 
 The minimum skill level reqiured to craft this item.
 
@@ -370,7 +371,7 @@ The skill used to craft this item.
 
 Contains information about how the item is crafted and its Dig Deep Blueprint.
 
-### ItemID: [Item](/data-types#item)
+### ItemID: [Item](/xml/data-types#item)
 
 The ID of this item. Blueprints can only be added this way, not removed.
 
@@ -379,51 +380,51 @@ The ID of this item. Blueprints can only be added this way, not removed.
 The method of which this item is crafted.
 - Valid Values: Crafting, Furnace
 
-### IsDefault: [bool](/data-types#bool)
+### IsDefault: [bool](/xml/data-types#bool)
 
 If true, this recipe will be automatically unlocked in Dig Deep without needing to find the blueprint.
 
-### Depth: [Vector2](/data-types#vector2)
+### Depth: [Vector2](/xml/data-types#vector2)
 
 The minimum and maximum depth percentage of the item's blueprint in Dig Deep. 0 = highest depth, 1 = lowest depth.
 
-### Result: [InventoryItemNDXML](/data-types#inventoryitemndxml)
+### Result: [InventoryItemNDXML](/xml/data-types#inventoryitemndxml)
 
 The item this recipe crafts.
 
-### Material11: [InventoryItemXML](/data-types#inventoryitemxml)
+### Material11: [InventoryItemXML](/xml/data-types#inventoryitemxml)
 
 The item to be placed in the bottom-left of the 3x3 crafting grid.
 
-### Material12: [InventoryItemXML](/data-types#inventoryitemxml)
+### Material12: [InventoryItemXML](/xml/data-types#inventoryitemxml)
 
 The item to be placed in the bottom-middle of the 3x3 crafting grid.
 
-### Material13: [InventoryItemXML](/data-types#inventoryitemxml)
+### Material13: [InventoryItemXML](/xml/data-types#inventoryitemxml)
 
 The item to be placed in the bottom-right of the 3x3 crafting grid.
 
-### Material21: [InventoryItemXML](/data-types#inventoryitemxml)
+### Material21: [InventoryItemXML](/xml/data-types#inventoryitemxml)
 
 The item to be placed in the middle-left of the 3x3 crafting grid.
 
-### Material22: [InventoryItemXML](/data-types#inventoryitemxml)
+### Material22: [InventoryItemXML](/xml/data-types#inventoryitemxml)
 
 The item to be placed in the middle of the 3x3 crafting grid.
 
-### Material23: [InventoryItemXML](/data-types#inventoryitemxml)
+### Material23: [InventoryItemXML](/xml/data-types#inventoryitemxml)
 
 The item to be placed in the middle-right of the 3x3 crafting grid.
 
-### Material31: [InventoryItemXML](/data-types#inventoryitemxml)
+### Material31: [InventoryItemXML](/xml/data-types#inventoryitemxml)
 
 The item to be placed in the top-left of the 3x3 crafting grid.
 
-### Material32: [InventoryItemXML](/data-types#inventoryitemxml)
+### Material32: [InventoryItemXML](/xml/data-types#inventoryitemxml)
 
 The item to be placed in the top-middle of the 3x3 crafting grid.
 
-### Material33: [InventoryItemXML](/data-types#inventoryitemxml)
+### Material33: [InventoryItemXML](/xml/data-types#inventoryitemxml)
 
 The item to be placed in the top-right of the 3x3 crafting grid.
 
@@ -435,6 +436,6 @@ The item to be placed in the top-right of the 3x3 crafting grid.
 
 Contains the order of items in their respective texture atlas image. HD Texture Packs use ItemTextures32.xml while SD Texture Packs use ItemTextures16.xml. Always supply both TexturesXML files and both texture atlas images when adding custom items. The texture atlas image should have every item texture laid out next to one another. Recommended up to 32 items on one line in the texture atlas. Once the 32nd item is reached, move down a line.
 
-### ItemID: [Item](/data-types#item)
+### ItemID: [Item](/xml/data-types#item)
 
 The ID of the item.
