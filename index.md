@@ -1,3 +1,3 @@
 # Total Miner Documentation
 
-- [XML Documentation](/xml/xml-doc)
+- [XML Modding API Documentation](/xml/xml-doc)
