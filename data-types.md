@@ -1,11 +1,11 @@
 # (Unofficial) XML Modding API Documentation
 
 ## Pages
-- [Index](/Index.md)
-- [Data Types](/DataTypes.md)
-- [Adding and Modifying Items](/Items.md)
-- [Modifying Blocks](/Blocks.md)
-- [Adding and Modifying NPCs](/NPCs.md)
+- [Index](/index)
+- [Data Types](/data-types)
+- [Adding and Modifying Items](/items)
+- [Modifying Blocks](/blocks)
+- [Adding and Modifying NPCs](/npcs)
 
 # Data Types
 
@@ -55,8 +55,8 @@
 
 ## InventoryItemXML
 
- An object as { [Item](#Item) Item, [ushort](#ushort) Durability, [int](#int) Count }.
+ An object as { [Item](#item) Item, [ushort](#ushort) Durability, [int](#int) Count }.
 
 ## InventoryItemNDXML
 
- An object as { [Item](#Item) Item, [int](#int) Count }.
+ An object as { [Item](#item) Item, [int](#int) Count }.
