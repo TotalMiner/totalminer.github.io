@@ -146,15 +146,16 @@ The shop tab this item will appear in.
 ### CombatID: [CombatItem](#itemcombatdataxml)
 
 The combat ID for this item. The combat class determines the stat bonuses of this item. This can also be a custom combat class.
+- Valid Values: Any item with stat bonuses
 
 ### Model: ItemModelType
 
-this item's model type. The model type determines how the weapon looks when held.
+This item's model type. The model type determines how this item looks when held.
 - Valid Values: Block, IconBlock, BigIconBlock, Item, MediumItem, MediumItemFront, ItemTLBR, Tool, Hatchet, Weapon, WeaponTLBR, WeaponTRBL, BigWeapon, SteelScimitar, SteelClaymore, Bow, Arrow, Armor, Shield, Key, Jewelry, Door, Torch, GunHand, GunRifle, Clipboard, Staff
 
 ### Swing: [ItemSwingType](#itemswingdataxml)
 
-this item's swing type. The swing type determines how the looks when swung.
+this item's swing type. The swing type determines how this item looks when swung.
 - Valid Values: Block, Item, IconBlock, Ramp, Weapon, WeaponTRBL, Spear, Bow, Shield, Eating, Arrow, SwitchArrow, GunHand, GunRifle, Key, Staff
 
 ### Equip: EquipIndex
@@ -176,11 +177,11 @@ The ID of this class. No spaces are allowed. If this is an existing class, that 
 
 ### Power: [ushort](/xml/data-types#ushort)
 
-The amount of "damage" an item with this class deals to blocks when mining.
+The amount of "damage" that items of this class deal to blocks when mining.
 
 ### MaxResistance: [ushort](/xml/data-types#ushort)
 
-The maximum block resistance that this class can mine. Blocks with a higher resistance will be unmineable
+The maximum block resistance that items of this class can mine. Blocks with a higher resistance will be unmineable
 
 #### [Table of Contents](#adding-and-modifying-items)
 
@@ -196,27 +197,27 @@ The ID of this combat class. No spaces are allowed. If this is an existing comba
 
 ### Health: [short](/xml/data-types#short)
 
-The amount of Health stat points equipping this item adds.
+The amount of Health stat points this item gives when equipped.
 
 ### Attack: [short](/xml/data-types#short)
 
-The amount of Attack stat points equipping this item adds.
+The amount of Attack stat points this item gives when equipped.
 
 ### Strength: [short](/xml/data-types#short)
 
-The amount of Strength stat points equipping this item adds.
+The amount of Strength stat points this item gives when equipped.
 
 ### Defence: [short](/xml/data-types#short)
 
-The amount of Defence stat points equipping this item adds.
+The amount of Defence stat points this item gives when equipped.
 
 ### Ranged: [short](/xml/data-types#short)
 
-The amount of Ranged stat points equipping this item adds.
+The amount of Ranged stat points this item gives when equipped.
 
 ### Looting: [short](/xml/data-types#short)
 
-The amount of Looting stat points equipping this item adds.
+The amount of Looting stat points this item gives when equipped.
 
 #### [Table of Contents](#adding-and-modifying-items)
 
@@ -265,11 +266,11 @@ The ID of this swing type. No spaces are allowed. Must be an existing swing type
 
 ### IsSwingable: [bool](/xml/data-types#bool)
 
-If false, this item cannot be swung.
+If false, items with this swing type cannot be swung.
 
 ### SwingTime: [float](/xml/data-types#float)
 
-The amount of time, in seconds, this item takes to swing this item. Set this to 0 to use the time specified for the specific item.
+The amount of time, in seconds, it takes to swing items with this swing type. Set this to 0 to use the time specified for the specific item.
 
 ### RestPosition: [Vector3](/xml/data-types#vector3)
 
@@ -305,7 +306,7 @@ The maximum circular forward movement of this item while swinging in both third 
 
 ### CircularYFPV: [float](/xml/data-types#float)
 
-The maximum height circular vertical movement of this item while swinging in first person.
+The maximum height of the circular vertical movement of this item while swinging in first person.
 
 #### [Table of Contents](#adding-and-modifying-items)
 
@@ -342,7 +343,7 @@ The ID of this item. If this is an existing item, that item will be modified.
 
 ### MineReq: [int](/xml/data-types#int)
 
-If this item is a block, the minimum mining level required to mine it.
+If this item is a block, the minimum skill level required to mine it.
 
 ### UseReq: [int](/xml/data-types#int)
 

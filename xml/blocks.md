@@ -45,7 +45,7 @@ How opaque this block is. Affects how much light passes through this block.
 ### Luminance: [byte](/xml/data-types#byte)
 
 How much light this block emits.
-- Valid Values: 1-15
+- Valid Values: 0-15
 
 ### Friction: [float](/xml/data-types#float)
 
