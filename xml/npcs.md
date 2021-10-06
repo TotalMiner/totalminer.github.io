@@ -43,7 +43,7 @@ The AI type of this NPC.
 
 The name of the component this NPC uses for its model.
 
-### ComNameWalk: [string](/xml/data-types/#string)\[\]
+### ComNameWalk: [string](/xml/data-types#string)\[\]
 
 (Experimental) An array of components this NPC switches between when walking.
 
@@ -87,7 +87,7 @@ The time, in seconds, between spawns of this NPC. If this is 0, this NPC cannot 
 
 The behavior this NPC has when naturally spawned.
 
-### LootTable: [LootItem](/xml/data-types/#lootitem)[]
+### LootTable: [LootItem](/xml/data-types#lootitem)\[\]
 
 An array of items that this NPC can drop when killed.
 
