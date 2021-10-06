@@ -10,7 +10,7 @@
 
 # Adding And Modifying Items
 
-Items can be added and modified with XML mods. Items can be added and given properties, stat bonuses, item classes, and so on. If the ID supplied already exists, that item will be modified. Below is the documentation for each file used to add or modify items. Any file or field can be omitted for this item to use default values.
+Items can be added and modified with XML mods. If an Item ID supplied already exists, that item will be modified. Below is the documentation for each file used to add and modify items. Any file or field can be omitted to use default values.
 - [ItemData.xml](#itemdataxml)
 - [ItemTypeData.xml](#itemtypedataxml)
 - [ItemTypeClassData.xml](#itemtypeclassdataxml)
