@@ -1,12 +1,13 @@
 # (Unofficial) XML Modding API Documentation
 
 ## Pages
-- [Home](/index)
-- [XML Documentation](/xml/xml-doc)
-- [Data Types](/xml/data-types)
-- [Adding and Modifying Items](/xml/items)
-- [Modifying Blocks](/xml/blocks)
-- [Adding and Modifying NPCs](/xml/npcs)
+- [Home](../index)
+- [XML Documentation](xml-doc)
+- [Data Types](data-types)
+- [Adding and Modifying Items](items)
+- [Modifying Blocks](blocks)
+- [Adding and Modifying NPCs](npcs)
+- [Adding Particle Templates](particles)
 
 # Data Types
 
@@ -44,19 +45,43 @@
 
  An object representing two points.
 
-#### [float](float) X
+#### [float](#float) X
 
-#### [float](float) Y
+#### [float](#float) Y
 
 ## Vector3
 
  An object representing three points.
 
-#### [float](float) X
+#### [float](#float) X
 
-#### [float](float) Y
+#### [float](#float) Y
 
-#### [float](float) Z
+#### [float](#float) Z
+
+## Vector4
+
+ An object representing four points.
+
+#### [float](#float) X
+
+#### [float](#float) Y
+
+#### [float](#float) Z
+
+#### [float](#float) W
+
+## Color
+
+ An object representing an RGBA color.
+
+#### [byte](#byte) R
+
+#### [byte](#byte) G
+
+#### [byte](#byte) B
+
+#### [byte](#byte) A
 
 ## Item
 
@@ -70,25 +95,25 @@
 
  An object representing an item, amount, and durability.
 
-#### [Item](item) ItemID
+#### [Item](#item) ItemID
 
-#### [ushort](ushort) Durability
+#### [ushort](#ushort) Durability
 
-#### [int](int) Count
+#### [int](#int) Count
 
 ## InventoryItemNDXML
 
  An object representing an item and amount.
 
-#### [Item](item) ItemID
+#### [Item](#item) ItemID
 
-#### [int](int) Count
+#### [int](#int) Count
 
 ## LootItem
 
  An object representing an item in a loot table.
 
-#### [Item](item) Item
+#### [Item](#item) Item
 
 The item of this loot drop.
 
@@ -97,14 +122,14 @@ The item of this loot drop.
 The damage type required to make this item drop.
 - Valid Values: Unknown, Combat, Drowning, Burning, ItemUse, Blast, BlockFallingOnHead, BlockCollision, Hail, ShieldDeflect, Effect
 
-#### [int](int) Percent
+#### [int](#int) Percent
 
 The percent chance of this item dropping.
 
-#### [int](int) Count1
+#### [int](#int) Count1
 
 The minimum amount of this item dropped.
 
-#### [int](int) Count2
+#### [int](#int) Count2
 
 The maximum amount of this item dropped.

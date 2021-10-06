@@ -1,12 +1,13 @@
 # (Unofficial) XML Modding API Documentation
 
 ## Pages
-- [Home](/index)
-- [XML Documentation](/xml/xml-doc)
-- [Data Types](/xml/data-types)
-- [Adding and Modifying Items](/xml/items)
-- [Modifying Blocks](/xml/blocks)
-- [Adding and Modifying NPCs](/xml/npcs)
+- [Home](../index)
+- [XML Documentation](xml-doc)
+- [Data Types](data-types)
+- [Adding and Modifying Items](items)
+- [Modifying Blocks](blocks)
+- [Adding and Modifying NPCs](npcs)
+- [Adding Particle Templates](particles)
 
 # Adding And Modifying NPCs
 
@@ -39,55 +40,55 @@ The physics type of this NPC.
 
 The AI type of this NPC.
 
-### ComName: [string](/xml/data-types#string)
+### ComName: [string](data-types#string)
 
 The name of the component this NPC uses for its model.
 
-### ComNameWalk: [string](/xml/data-types#string)\[\]
+### ComNameWalk: [string](data-types#string)\[\]
 
 (Experimental) An array of components this NPC switches between when walking.
 
-### ModelHeight: [float](/xml/data-types#float)
+### ModelHeight: [float](data-types#float)
 
 The height of NPC, in blocks. The width of the NPC will stretch to accomodate to this height.
 
-### ModelYRotation: [float](/xml/data-types#float)
+### ModelYRotation: [float](data-types#float)
 
 The rotation of the NPC's model along the Y axis. 3.1416 (Pi) = 180 degrees
 
-### IsValid: [bool](/xml/data-types#bool)
+### IsValid: [bool](data-types#bool)
 
 If false, this NPC cannot be spawned, effectively removing the NPC.
 
-### IsFemale: [bool](/xml/data-types#bool)
+### IsFemale: [bool](data-types#bool)
 
 If true, this NPC should be considered female.
 
-### IsPassive: [bool](/xml/data-types#bool)
+### IsPassive: [bool](data-types#bool)
 
 If true, this NPC will only spawn if passive mob spawns are enabled. If false, this NPC will only spawn if hostile mob spawns are enabled.
 
-### IsImmuneToFire: [bool](/xml/data-types#bool)
+### IsImmuneToFire: [bool](data-types#bool)
 
 If true, this NPC will not take damage from fire or lava.
 
-### HasNameplate: [bool](/xml/data-types#bool)
+### HasNameplate: [bool](data-types#bool)
 
 If false, this NPC will never have a visible nameplate.
 
-### HandMaxHit: [int](/xml/data-types#int)
+### HandMaxHit: [int](data-types#int)
 
 The maximum damage this NPC can deal without a weapon.
 
-### NaturalSpawnFreq: [float](/xml/data-types#float)
+### NaturalSpawnFreq: [float](data-types#float)
 
 The time, in seconds, between spawns of this NPC. If this is 0, this NPC cannot spawn naturally.
 
-### NaturalBehavior: [string](/xml/data-types#string)
+### NaturalBehavior: [string](data-types#string)
 
 The behavior this NPC has when naturally spawned.
 
-### LootTable: [LootItem](/xml/data-types#lootitem)\[\]
+### LootTable: [LootItem](/data-types#lootitem)\[\]
 
 An array of items that this NPC can drop when killed.
 
@@ -103,27 +104,27 @@ Contains information about this NPC's AI.
 
 The ID of this AI Type. If this is an existing AI Types, that AI Type will be modified, otherwise this AI Type will be added.
 
-### StrikeDelay: [float](/xml/data-types#float)
+### StrikeDelay: [float](data-types#float)
 
 The time, in seconds, between attacks of an NPC with this AI Type.
 
-### StrikeRange: [float](/xml/data-types#float)
+### StrikeRange: [float](data-types#float)
 
 The distance, in blocks, of this attacks of an NPC with this AI Type.
 
-### RegardRange: [int](/xml/data-types#int)
+### RegardRange: [int](data-types#int)
 
 The distance, in blocks, that an NPC with this AI Type will notice a target.
 
-### HearingRange: [int](/xml/data-types#int)
+### HearingRange: [int](data-types#int)
 
 The distance, in blocks, that an NPC with this AI Type will hear a target.
 
-### AttackRange: [int](/xml/data-types#int)
+### AttackRange: [int](data-types#int)
 
 The distance, in blocks, that an NPC with this AI Type will try attacking and moving to attack a target.
 
-### InactiveRange: [int](/xml/data-types#int)
+### InactiveRange: [int](data-types#int)
 
 The distance, in blocks, that all players must be from an NPC with this AI Type for it to despawn.
 
@@ -139,19 +140,19 @@ Contains information about the sounds this NPC makes.
 
 The ID of this NPC. If this is an existing NPC, that NPC will be modified, otherwise this NPC will be added.
 
-### AudioPain: [string](/xml/data-types#string)
+### AudioPain: [string](data-types#string)
 
 The sound this NPC makes when attacked.
 
-### AudioStrike: [string](/xml/data-types#string)
+### AudioStrike: [string](data-types#string)
 
 Currently unused.
 
-### AudioWarning: [string](/xml/data-types#string)
+### AudioWarning: [string](data-types#string)
 
 The sound this NPC makes when warning a target. Currently only used when milking a cow.
 
-### AudioDeath: [string](/xml/data-types#string)
+### AudioDeath: [string](data-types#string)
 
 The sound this NPC makes when killed.
 
@@ -167,23 +168,23 @@ Contains information about this NPC's skill levels.
 
 The ID of this Level Type. If this is an existing Level Type, that Level Type will be modified, otherwise this Level Type will be added.
 
-### HealthLevel: [int](/xml/data-types#int)
+### HealthLevel: [int](data-types#int)
 
 The default health level of an NPC with this Level Type. NPCs have a base health of 10 at health level 1, and every health level under level 100 adds 3 health. Every health level at level 100 or above adds 1 health.
 
-### AttackLevel: [int](/xml/data-types#int)
+### AttackLevel: [int](data-types#int)
 
 The default attack level of an NPC with this Level Type.
 
-### StrengthLevel: [int](/xml/data-types#int)
+### StrengthLevel: [int](data-types#int)
 
 The default strength level of an NPC with this Level Type.
 
-### DefenceLevel: [int](/xml/data-types#int)
+### DefenceLevel: [int](data-types#int)
 
 The default defence level of an NPC with this Level Type.
 
-### RangedLevel: [int](/xml/data-types#int)
+### RangedLevel: [int](data-types#int)
 
 The default ranged level of an NPC with this Level Type.
 
@@ -199,19 +200,19 @@ Contains information about this NPC's movement.
 
 The ID of this Physics Type. If this is an existing Physics Type, that Physics Type will be modified, otherwise this Physics Type will be added.
 
-### Acceleration: [float](/xml/data-types#float)
+### Acceleration: [float](data-types#float)
 
 The speed an NPC of this Physics Type moves at when walking. Blocks/s = Acceleration * 60
 
-### MoveSpeed: [float](/xml/data-types#float)
+### MoveSpeed: [float](data-types#float)
 
 The maximum speed an NPC with this Physics Type can move at.
 
-### JumpSpeed: [float](/xml/data-types#float)
+### JumpSpeed: [float](data-types#float)
 
 The strength of an NPC with this Physics Type's jump.
 
-### RotateSpeed: [float](/xml/data-types#float)
+### RotateSpeed: [float](data-types#float)
 
 The speed an NPC with this Physics Type rotates at when turning and looking around.
 
