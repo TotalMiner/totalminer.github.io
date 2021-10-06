@@ -10,6 +10,8 @@
 
 # Data Types
 
+
+
 ## string
 
  A string of characters. Can be anything.
@@ -40,24 +42,69 @@
 
 ## Vector2
 
- An object as { [float](#float) X, [float](#float) Y }.
+ An object representing two points.
+
+#### [float](float) X
+
+#### [float](float) Y
 
 ## Vector3
 
- An object as { [float](#float) X, [float](#float) Y, [float](#float) Z }.
+ An object representing three points.
+
+#### [float](float) X
+
+#### [float](float) Y
+
+#### [float](float) Z
 
 ## Item
 
- A Total Miner item ID. No spaces are allowed. Can usually be either an existing item or a custom item. In some rare situations, custom item IDs do not work here.
+ A Total Miner Item ID. No spaces are allowed. Can usually be either an existing item or a custom item. In some rare situations, custom item IDs do not work here.
 
 ## Block
 
- A Total Miner block ID. No spaces are allowed. Must be an existing block.
+ A Total Miner Block ID. No spaces are allowed. Must be an existing block.
 
 ## InventoryItemXML
 
- An object as { [Item](#item) Item, [ushort](#ushort) Durability, [int](#int) Count }.
+ An object representing an item, amount, and durability.
+
+#### [Item](item) ItemID
+
+#### [ushort](ushort) Durability
+
+#### [int](int) Count
 
 ## InventoryItemNDXML
 
- An object as { [Item](#item) Item, [int](#int) Count }.
+ An object representing an item and amount.
+
+#### [Item](item) ItemID
+
+#### [int](int) Count
+
+## LootItem
+
+ An object representing an item in a loot table.
+
+#### [Item](item) Item
+
+The item of this loot drop.
+
+#### DamageType Damage
+
+The damage type required to make this item drop.
+- Valid Values: Unknown, Combat, Drowning, Burning, ItemUse, Blast, BlockFallingOnHead, BlockCollision, Hail, ShieldDeflect, Effect
+
+#### [int](int) Percent
+
+The percent chance of this item dropping.
+
+#### [int](int) Count1
+
+The minimum amount of this item dropped.
+
+#### [int](int) Count2
+
+The maximum amount of this item dropped.
