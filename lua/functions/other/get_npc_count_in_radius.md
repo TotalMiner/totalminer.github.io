@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## get_npc_count_in_radius
-#
+
 ### Function undefined.
-#
+
 Spec:
 ```lua
 get_npc_count_in_radius(
@@ -14,16 +14,12 @@ get_npc_count_in_radius(
 	radius,
 	npc_type)
 ```
-#
 ## Parameters:
 - `x:` The x component of the center of the sphere.
 - `y:` The y component of the center of the sphere.
 - `z:` The z component of the center of the sphere.
 - `radius:` 
 - `npc_type:` 
-#  
-
 ## Returns:
 - `:` 
-#
 ### [back](../other)

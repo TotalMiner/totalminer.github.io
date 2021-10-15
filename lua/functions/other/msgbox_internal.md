@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## msgbox_internal
-#
+
 ### Function undefined.
-#
+
 Spec:
 ```lua
 msgbox_internal(
@@ -16,7 +16,6 @@ msgbox_internal(
 	b_text,
 	vertical)
 ```
-#
 ## Parameters:
 - `heading:` 
 - `body:` 
@@ -25,6 +24,4 @@ msgbox_internal(
 - `y_text:` 
 - `b_text:` 
 - `vertical:` 
-#  
-
 ### [back](../other)

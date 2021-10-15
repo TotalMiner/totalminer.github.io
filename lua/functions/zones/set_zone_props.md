@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## set_zone_props
-#
+
 ### Set a zone's properties.
-#
+
 Spec:
 ```lua
 set_zone_props(
@@ -15,7 +15,6 @@ set_zone_props(
 	gravity_multiplier,
 	health_multiplier)
 ```
-#
 ## Parameters:
 - `name:` 
 - `combat_diff:` The combat level difference for the zone. Combat cannot be engaged by players or mobs if the difference between their combat levels is greater than this number
@@ -23,6 +22,4 @@ set_zone_props(
 - `speed_multiplier:` This number is multiplied by the players base speed to calculate the players final speed. Default is one
 - `gravity_multiplier:` This number is multiplied by the players base gravity to calculate the players final gravity. Default is one
 - `health_multiplier:` This number is multiplied by the players base health regeneration speed to calculate the players final health regeneration speed. Default is one
-#  
-
 ### [back](../zones)

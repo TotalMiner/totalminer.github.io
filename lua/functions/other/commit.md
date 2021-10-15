@@ -2,15 +2,13 @@
 # (Official) LUA Scripting Documentation
 
 ## commit
-#
+
 ### Force a chunk mesh update.
-#
+
 Spec:
 ```lua
 commit()
 ```
-#  
-
 Chunk meshes define the graphics (triangles, textures and lighting) of the voxel blocks in the world.
 When a block is added or removed from the world, the mesh must be updated to visually show that change.
 Mesh updating is a relatively expensive operation so the game does not automatically update the mesh everytime
@@ -21,5 +19,4 @@ A commit command is only required if you want to update the mesh while the scrip
 By default, if a script changes voxel data, the mesh is automatically updated when a script ends execution,
 so you don't need to issue the command in every script that edits voxel data, as mentioned above,
 you only need to use this command if you want the mesh updated before the script ends.
-#
 ### [back](../other)

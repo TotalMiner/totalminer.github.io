@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## set_nameplate
-#
+
 ### Function undefined.
-#
+
 Spec:
 ```lua
 set_nameplate(
@@ -12,11 +12,8 @@ set_nameplate(
 	setting,
 	npc)
 ```
-#
 ## Parameters:
 - `target:` 
 - `setting:` 
 - `npc:` 
-#  
-
 ### [back](../other)

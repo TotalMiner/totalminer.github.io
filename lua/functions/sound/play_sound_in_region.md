@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## play_sound_in_region
-#
+
 ### Play a sound in a cubic region.
-#
+
 Spec:
 ```lua
 play_sound_in_region(
@@ -17,7 +17,6 @@ play_sound_in_region(
 	z2,
 	volume)
 ```
-#
 ## Parameters:
 - `name:` 
 - `x1:` The x component of the regions min position
@@ -27,6 +26,4 @@ play_sound_in_region(
 - `y2:` The y component of the regions max position
 - `z2:` The z component of the regions max position
 - `volume:` 
-#  
-
 ### [back](../sound)

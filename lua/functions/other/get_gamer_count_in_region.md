@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## get_gamer_count_in_region
-#
+
 ### Function undefined.
-#
+
 Spec:
 ```lua
 get_gamer_count_in_region(
@@ -15,7 +15,6 @@ get_gamer_count_in_region(
 	y2,
 	z2)
 ```
-#
 ## Parameters:
 - `x1:` 
 - `y1:` 
@@ -23,9 +22,6 @@ get_gamer_count_in_region(
 - `x2:` 
 - `y2:` 
 - `z2:` 
-#  
-
 ## Returns:
 - `:` 
-#
 ### [back](../other)

@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## get_block_info_internal
-#
+
 ### Get various world data of a block.
-#
+
 Spec:
 ```lua
 get_block_info_internal(
@@ -22,7 +22,6 @@ get_block_info_internal(
 	tex_id,
 	resistance)
 ```
-#
 ## Parameters:
 - `x:` The x component of the position of the block.
 - `y:` The y component of the position of the block.
@@ -37,6 +36,4 @@ get_block_info_internal(
 - `is_solid:` 
 - `tex_id:` 
 - `resistance:` 
-#  
-
 ### [back](../other)

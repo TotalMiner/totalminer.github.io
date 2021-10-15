@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## move_inventory_region
-#
+
 ### Move (transfer) all block inventories in a cubic region to another region.
-#
+
 Spec:
 ```lua
 move_inventory_region(
@@ -20,7 +20,6 @@ move_inventory_region(
 	item_id,
 	qty)
 ```
-#
 ## Parameters:
 - `x1:` The x component of the source regions min position
 - `y1:` The y component of the source regions min position
@@ -33,6 +32,4 @@ move_inventory_region(
 - `z3:` The z component of the destination regions min position
 - `item_id:` The item_id to move. If omitted, all items will be moved
 - `qty:` The quantity of the item to move. If omitted, all of the item will be moved
-#  
-
 ### [back](../inventory)

@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## set_region
-#
+
 ### Set block id in a cubic region.
-#
+
 Spec:
 ```lua
 set_region(
@@ -18,7 +18,6 @@ set_region(
 	percent,
 	seed)
 ```
-#
 ## Parameters:
 - `x1:` The x component of the regions min position
 - `y1:` The y component of the regions min position
@@ -29,6 +28,4 @@ set_region(
 - `block_id:` 
 - `percent:` The percentage of the region to set. Default = 100%
 - `seed:` The seed of the prng used when percent is < 100
-#  
-
 ### [back](../blocks)

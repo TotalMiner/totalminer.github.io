@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## get_point
-#
+
 ### Function undefined.
-#
+
 Spec:
 ```lua
 get_point(
@@ -12,11 +12,8 @@ get_point(
 	y,
 	z)
 ```
-#
 ## Parameters:
 - `x:` 
 - `y:` 
 - `z:` 
-#  
-
 ### [back](../other)

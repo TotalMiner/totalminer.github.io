@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## replace_region
-#
+
 ### Replace a block id with another block id in a cubic region.
-#
+
 Spec:
 ```lua
 replace_region(
@@ -19,7 +19,6 @@ replace_region(
 	percent,
 	seed)
 ```
-#
 ## Parameters:
 - `x1:` The x component of the regions min position
 - `y1:` The y component of the regions min position
@@ -31,6 +30,4 @@ replace_region(
 - `block_id2:` The block id to replace with (the new block id)
 - `percent:` The percentage of the region to replace. Default = 100%
 - `seed:` The seed of the prng used when percent is < 100
-#  
-
 ### [back](../blocks)

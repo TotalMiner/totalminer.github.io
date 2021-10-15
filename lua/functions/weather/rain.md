@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## rain
-#
+
 ### Add rain.
-#
+
 Spec:
 ```lua
 rain(
@@ -18,7 +18,6 @@ rain(
 	g,
 	b)
 ```
-#
 ## Parameters:
 - `x:` The x component of the position of the center of the rainfall.
 - `y:` The y component of the position of the center of the rainfall.
@@ -29,6 +28,4 @@ rain(
 - `r:` 
 - `g:` 
 - `b:` 
-#  
-
 ### [back](../weather)

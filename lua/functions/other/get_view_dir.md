@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## get_view_dir
-#
+
 ### Function undefined.
-#
+
 Spec:
 ```lua
 get_view_dir(
@@ -12,11 +12,8 @@ get_view_dir(
 	y,
 	z)
 ```
-#
 ## Parameters:
 - `x:` 
 - `y:` 
 - `z:` 
-#  
-
 ### [back](../other)

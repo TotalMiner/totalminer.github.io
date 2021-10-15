@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## play_sound_loop_in_region
-#
+
 ### Play a looped sound in a cubic region.
-#
+
 Spec:
 ```lua
 play_sound_loop_in_region(
@@ -20,7 +20,6 @@ play_sound_loop_in_region(
 	count,
 	volume)
 ```
-#
 ## Parameters:
 - `name:` 
 - `x1:` The x component of the regions min position
@@ -33,6 +32,4 @@ play_sound_loop_in_region(
 - `delay:` 
 - `count:` 
 - `volume:` 
-#  
-
 ### [back](../sound)

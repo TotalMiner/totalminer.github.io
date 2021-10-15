@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## hud_bar
-#
+
 ### Add a hud bar. Hud bars are a form of progress bar.
-#
+
 Spec:
 ```lua
 hud_bar(
@@ -23,7 +23,6 @@ hud_bar(
 	a,
 	props)
 ```
-#
 ## Parameters:
 - `name:` The name of the element. This name must be unique and is also used to remove the element
 - `is_player:` True or False. If True this element is only shown on the context player's screen. If False, it is shown on all players screens
@@ -39,6 +38,4 @@ hud_bar(
 - `b:` The b (blue) component of the elements color
 - `a:` The a (alpha) component of the elements color
 - `props:` Properties that define how the hud element is drawn
-#  
-
 ### [back](../hud)

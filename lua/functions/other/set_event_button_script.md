@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## set_event_button_script
-#
+
 ### Function undefined.
-#
+
 Spec:
 ```lua
 set_event_button_script(
@@ -15,7 +15,6 @@ set_event_button_script(
 	y,
 	scale)
 ```
-#
 ## Parameters:
 - `event_type:` 
 - `script_name:` 
@@ -23,6 +22,4 @@ set_event_button_script(
 - `x:` 
 - `y:` 
 - `scale:` 
-#  
-
 ### [back](../other)

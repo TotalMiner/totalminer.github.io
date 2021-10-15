@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## play_sound
-#
+
 ### Play a sound at a voxel position.
-#
+
 Spec:
 ```lua
 play_sound(
@@ -15,7 +15,6 @@ play_sound(
 	volume,
 	range)
 ```
-#
 ## Parameters:
 - `name:` 
 - `x:` The x component of the position.
@@ -23,6 +22,4 @@ play_sound(
 - `z:` The z component of the position.
 - `volume:` 
 - `range:` 
-#  
-
 ### [back](../sound)

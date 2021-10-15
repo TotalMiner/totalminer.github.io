@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## fog
-#
+
 ### Add fog.
-#
+
 Spec:
 ```lua
 fog(
@@ -19,7 +19,6 @@ fog(
 	b,
 	visibility)
 ```
-#
 ## Parameters:
 - `x:` The x component of the position of the center of the fog.
 - `y:` The y component of the position of the center of the fog.
@@ -31,6 +30,4 @@ fog(
 - `g:` 
 - `b:` 
 - `visibility:` 
-#  
-
 ### [back](../weather)

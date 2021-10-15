@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## set_permissions_all
-#
+
 ### Function undefined.
-#
+
 Spec:
 ```lua
 set_permissions_all(
@@ -22,7 +22,6 @@ set_permissions_all(
 	grief,
 	admin)
 ```
-#
 ## Parameters:
 - `on:` 
 - `adventure:` 
@@ -37,6 +36,4 @@ set_permissions_all(
 - `systemshops:` 
 - `grief:` 
 - `admin:` 
-#  
-
 ### [back](../other)

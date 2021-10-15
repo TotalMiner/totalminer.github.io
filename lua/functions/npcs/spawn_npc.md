@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## spawn_npc
-#
+
 ### Spawn an NPC (Non Player Character).
-#
+
 Spec:
 ```lua
 spawn_npc(
@@ -17,7 +17,6 @@ spawn_npc(
 	dialog,
 	kill_script)
 ```
-#
 ## Parameters:
 - `type:` The type of the NPC
 - `x:` The x component of the position to spawn the NPC.
@@ -27,6 +26,4 @@ spawn_npc(
 - `ai:` The name of the ai behaviour tree for the NPC
 - `dialog:` The name of the dialog tree for the NPC
 - `kill_script:` The name of the script to execute if/when the NPC is killed
-#  
-
 ### [back](../npcs)

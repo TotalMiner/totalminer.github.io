@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## copy_inventory_region
-#
+
 ### Copy all block inventories in a cubic region to another region.
-#
+
 Spec:
 ```lua
 copy_inventory_region(
@@ -20,7 +20,6 @@ copy_inventory_region(
 	item_id,
 	qty)
 ```
-#
 ## Parameters:
 - `x1:` The x component of the source regions min position
 - `y1:` The y component of the source regions min position
@@ -33,6 +32,4 @@ copy_inventory_region(
 - `z3:` The z component of the destination regions min position
 - `item_id:` The item_id to copy. If omitted, all items will be copied
 - `qty:` The quantity of the item to copy. If omitted, all of the item will be copied
-#  
-
 ### [back](../inventory)

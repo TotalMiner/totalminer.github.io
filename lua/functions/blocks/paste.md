@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## paste
-#
+
 ### Paste a component.
-#
+
 Spec:
 ```lua
 paste(
@@ -16,7 +16,6 @@ paste(
 	dir,
 	paste_type)
 ```
-#
 ## Parameters:
 - `pack_name:` The name of the component pack in which the component is stored
 - `component_name:` The name of the component
@@ -25,6 +24,4 @@ paste(
 - `z:` The z component of the position to paste the component
 - `dir:` The direction to face the component for pasting
 - `paste_type:` The type of paste - Overwrite, Merge, NoOverwrite
-#  
-
 ### [back](../blocks)

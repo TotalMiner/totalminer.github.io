@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## tint_color
-#
+
 ### Function undefined.
-#
+
 Spec:
 ```lua
 tint_color(
@@ -13,12 +13,9 @@ tint_color(
 	b,
 	transition)
 ```
-#
 ## Parameters:
 - `r:` 
 - `g:` 
 - `b:` 
 - `transition:` 
-#  
-
 ### [back](../other)

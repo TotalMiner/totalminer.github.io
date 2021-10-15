@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## hud_shape
-#
+
 ### Add a hud shape.
-#
+
 Spec:
 ```lua
 hud_shape(
@@ -27,7 +27,6 @@ hud_shape(
 	ba,
 	props)
 ```
-#
 ## Parameters:
 - `name:` The name of the element. This name must be unique and is also used to remove the element
 - `is_player:` True or False. If True this element is only shown on the context player's screen. If False, it is shown on all players screens
@@ -47,6 +46,4 @@ hud_shape(
 - `bb:` The b (blue) component of the elements border color
 - `ba:` The a (alpha) component of the elements border color
 - `props:` Properties that define how the hud element is drawn
-#  
-
 ### [back](../hud)

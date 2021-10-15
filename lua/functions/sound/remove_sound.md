@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## remove_sound
-#
+
 ### Remove a sound from a voxel position.
-#
+
 Spec:
 ```lua
 remove_sound(
@@ -12,11 +12,8 @@ remove_sound(
 	y,
 	z)
 ```
-#
 ## Parameters:
 - `x:` The x component of the position.
 - `y:` The y component of the position.
 - `z:` The z component of the position.
-#  
-
 ### [back](../sound)

@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## intersect_ray
-#
+
 ### Ray intersection query.
-#
+
 Spec:
 ```lua
 intersect_ray(
@@ -18,7 +18,6 @@ intersect_ray(
 	npcs,
 	display)
 ```
-#
 ## Parameters:
 - `x1:` The x component of the (position) origin of the ray
 - `y1:` The y component of the (position) origin of the ray
@@ -29,11 +28,7 @@ intersect_ray(
 - `players:` true = test for players, false = do not test for players. If omitted, the default is true
 - `npcs:` true = test for NPCs, false = do not test for NPCs. If omitted, the default is true
 - `display:` true = display an outline showing the ray of the test. If omitted, the default is false
-#  
-
 ## Returns:
 - `bool:` True if the ray intersects at least one players/NPC
-#
 The context target is set as the closest actor hit by the ray
-#
 ### [back](../other)

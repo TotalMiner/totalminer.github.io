@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## hail
-#
+
 ### Add hail.
-#
+
 Spec:
 ```lua
 hail(
@@ -20,7 +20,6 @@ hail(
 	size_x,
 	size_z)
 ```
-#
 ## Parameters:
 - `x:` The x component of the position of the center of the hail storm.
 - `y:` The y component of the position of the center of the hail storm.
@@ -33,6 +32,4 @@ hail(
 - `b:` 
 - `size_x:` 
 - `size_z:` 
-#  
-
 ### [back](../weather)

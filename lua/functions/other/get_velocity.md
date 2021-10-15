@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## get_velocity
-#
+
 ### Function undefined.
-#
+
 Spec:
 ```lua
 get_velocity(
@@ -12,11 +12,8 @@ get_velocity(
 	y,
 	z)
 ```
-#
 ## Parameters:
 - `x:` 
 - `y:` 
 - `z:` 
-#  
-
 ### [back](../other)

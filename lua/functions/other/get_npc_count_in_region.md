@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## get_npc_count_in_region
-#
+
 ### Function undefined.
-#
+
 Spec:
 ```lua
 get_npc_count_in_region(
@@ -16,7 +16,6 @@ get_npc_count_in_region(
 	z2,
 	npc_type)
 ```
-#
 ## Parameters:
 - `x1:` 
 - `y1:` 
@@ -25,9 +24,6 @@ get_npc_count_in_region(
 - `y2:` 
 - `z2:` 
 - `npc_type:` 
-#  
-
 ## Returns:
 - `:` 
-#
 ### [back](../other)

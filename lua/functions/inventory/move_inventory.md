@@ -2,9 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## move_inventory
-#
+
 ### Move (transfer) a block inventory to another voxel position.
-#
+
 Spec:
 ```lua
 move_inventory(
@@ -17,7 +17,6 @@ move_inventory(
 	item_id,
 	qty)
 ```
-#
 ## Parameters:
 - `x1:` The x component of the source block position
 - `y1:` The y component of the source block position
@@ -27,6 +26,4 @@ move_inventory(
 - `z2:` The z component of the destination block position
 - `item_id:` The item_id to move. If omitted, all items will be moved
 - `qty:` The quantity of the item to move. If omitted, all of the item will be moved
-#  
-
 ### [back](../inventory)
