@@ -8,20 +8,20 @@
 ## Functions to manipulate weather
 
 ### [fog](weather/fog)
-> Add fog.<
+> Add fog.
 
 ### [fog_delete](weather/fog_delete)
-> Delete fog.<
+> Delete fog.
 
 ### [hail](weather/hail)
-> Add hail.<
+> Add hail.
 
 ### [hail_delete](weather/hail_delete)
-> Delete hail.<
+> Delete hail.
 
 ### [rain](weather/rain)
-> Add rain.<
+> Add rain.
 
 ### [rain_delete](weather/rain_delete)
-> Delete rain.<
+> Delete rain.
 
