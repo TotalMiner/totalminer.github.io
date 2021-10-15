@@ -4,7 +4,7 @@
 ## set_power
 
 ### Set a block's power state (on or off).
-
+___
 Spec:
 ```lua
 set_power(
@@ -19,4 +19,5 @@ set_power(
 - `z:` The z component of the position of the block.
 - `power:` 
 
+___
 ### [back](../other)

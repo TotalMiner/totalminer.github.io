@@ -4,7 +4,7 @@
 ## get_stat_bonus
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_stat_bonus(
@@ -16,4 +16,5 @@ get_stat_bonus(
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

@@ -4,7 +4,7 @@
 ## cave_in
 
 ### Start a cave in.
-
+___
 Spec:
 ```lua
 cave_in(
@@ -19,4 +19,5 @@ cave_in(
 - `z:` The z component of the position of the center of the cave in.
 - `seed:` The seed to use for the prng. Omit for default of zero
 
+___
 ### [back](../other)

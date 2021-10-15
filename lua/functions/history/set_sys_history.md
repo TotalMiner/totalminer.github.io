@@ -4,7 +4,7 @@
 ## set_sys_history
 
 ### Set a value in system history.
-
+___
 Spec:
 ```lua
 set_sys_history(
@@ -15,4 +15,5 @@ set_sys_history(
 - `key:` The key/name of the history record
 - `value:` The value to set the history record to. Negative values are supported
 
+___
 ### [back](../history)

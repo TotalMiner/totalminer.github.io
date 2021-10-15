@@ -4,7 +4,7 @@
 ## clear_history
 
 ### Clear (remove) a key from the context player's history.
-
+___
 Spec:
 ```lua
 clear_history(
@@ -13,4 +13,5 @@ clear_history(
 ## Parameters:
 - `key:` The key/name of the history record
 
+___
 ### [back](../history)

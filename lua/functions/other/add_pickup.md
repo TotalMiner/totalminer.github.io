@@ -4,7 +4,7 @@
 ## add_pickup
 
 ### Spawn a pickup item.
-
+___
 Spec:
 ```lua
 add_pickup(
@@ -21,9 +21,11 @@ add_pickup(
 - `item_id:` The item of the pickup.
 - `qty:` The qty of units gained if the pickup is picked up
 
+___
 ## Example
 ```lua
 add_pickup(100,220,140,item.wood,2)
 ```
 
+___
 ### [back](../other)

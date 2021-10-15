@@ -4,7 +4,7 @@
 ## get_eye_pos
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_eye_pos(
@@ -17,4 +17,5 @@ get_eye_pos(
 - `y:` 
 - `z:` 
 
+___
 ### [back](../other)

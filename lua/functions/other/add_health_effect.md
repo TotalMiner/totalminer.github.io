@@ -4,7 +4,7 @@
 ## add_health_effect
 
 ### Add an effect which increases or decreases the context actor's health over time.
-
+___
 Spec:
 ```lua
 add_health_effect(
@@ -19,8 +19,10 @@ add_health_effect(
 - `duration:` The time in milliseconds for the effect to last
 - `name:` 
 
+___
 If duration and millisecs are omitted, the effect is applied only once
 
+___
 ## Examples
 ```lua
 add_health_effect(2,3000,4000)
@@ -31,4 +33,5 @@ add_health_effect(-5)
 ```
 This example decreases the actors health by 5 hitpoints (once only)
 
+___
 ### [back](../other)

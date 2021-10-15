@@ -4,7 +4,7 @@
 ## set_npc_state_region
 
 ### Set the state of all NPCs in a cubic region.
-
+___
 Spec:
 ```lua
 set_npc_state_region(
@@ -27,4 +27,5 @@ set_npc_state_region(
 - `z2:` The z component of the regions max position
 - `npc_type:` Only apply to these types of NPCs. Omit to apply to all types of NPCs
 
+___
 ### [back](../npcs)

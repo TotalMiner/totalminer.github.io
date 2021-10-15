@@ -4,7 +4,7 @@
 ## play_sound_loop_in_zone
 
 ### Play a looped sound in a zone.
-
+___
 Spec:
 ```lua
 play_sound_loop_in_zone(
@@ -23,4 +23,5 @@ play_sound_loop_in_zone(
 - `count:` 
 - `volume:` 
 
+___
 ### [back](../sound)

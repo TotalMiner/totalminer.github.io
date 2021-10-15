@@ -4,7 +4,7 @@
 ## add_npc_health_target
 
 ### Add or subtract to/from the target NPCs health.
-
+___
 Spec:
 ```lua
 add_npc_health_target(
@@ -17,4 +17,5 @@ add_npc_health_target(
 - `millisecs:` 
 - `duration:` 
 
+___
 ### [back](../npcs)

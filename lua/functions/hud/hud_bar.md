@@ -4,7 +4,7 @@
 ## hud_bar
 
 ### Add a hud bar. Hud bars are a form of progress bar.
-
+___
 Spec:
 ```lua
 hud_bar(
@@ -39,4 +39,5 @@ hud_bar(
 - `a:` The a (alpha) component of the elements color
 - `props:` Properties that define how the hud element is drawn
 
+___
 ### [back](../hud)

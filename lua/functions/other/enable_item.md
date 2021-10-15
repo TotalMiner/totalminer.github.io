@@ -4,7 +4,7 @@
 ## enable_item
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 enable_item(
@@ -15,4 +15,5 @@ enable_item(
 - `item_id:` 
 - `is_enabled:` 
 
+___
 ### [back](../other)

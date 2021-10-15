@@ -4,7 +4,7 @@
 ## get_gamer_count_in_radius
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_gamer_count_in_radius(
@@ -22,4 +22,5 @@ get_gamer_count_in_radius(
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

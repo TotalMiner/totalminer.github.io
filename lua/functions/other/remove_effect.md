@@ -4,7 +4,7 @@
 ## remove_effect
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 remove_effect(
@@ -13,4 +13,5 @@ remove_effect(
 ## Parameters:
 - `name:` 
 
+___
 ### [back](../other)

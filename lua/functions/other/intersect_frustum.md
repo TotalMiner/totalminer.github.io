@@ -4,7 +4,7 @@
 ## intersect_frustum
 
 ### Frustum intersection query.
-
+___
 Spec:
 ```lua
 intersect_frustum(
@@ -34,6 +34,8 @@ intersect_frustum(
 ## Returns:
 - `bool:` True if there is at least one players/NPC positioned within the frustum
 
+___
 The context target is set as the closest actor inside the frustum
 
+___
 ### [back](../other)

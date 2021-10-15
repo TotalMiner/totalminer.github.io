@@ -4,7 +4,7 @@
 ## notify
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 notify(
@@ -13,4 +13,5 @@ notify(
 ## Parameters:
 - `args:` 
 
+___
 ### [back](../other)

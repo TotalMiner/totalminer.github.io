@@ -4,7 +4,7 @@
 ## set_history
 
 ### Set a value in the context player's history.
-
+___
 Spec:
 ```lua
 set_history(
@@ -15,4 +15,5 @@ set_history(
 - `key:` The key/name of the history record
 - `value:` The value to set the history record to. Negative values are supported
 
+___
 ### [back](../history)

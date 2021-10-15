@@ -4,7 +4,7 @@
 ## intersect_ray
 
 ### Ray intersection query.
-
+___
 Spec:
 ```lua
 intersect_ray(
@@ -32,6 +32,8 @@ intersect_ray(
 ## Returns:
 - `bool:` True if the ray intersects at least one players/NPC
 
+___
 The context target is set as the closest actor hit by the ray
 
+___
 ### [back](../other)

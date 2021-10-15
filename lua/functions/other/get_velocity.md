@@ -4,7 +4,7 @@
 ## get_velocity
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_velocity(
@@ -17,4 +17,5 @@ get_velocity(
 - `y:` 
 - `z:` 
 
+___
 ### [back](../other)

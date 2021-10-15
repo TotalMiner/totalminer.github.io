@@ -4,7 +4,7 @@
 ## get_hash_code
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_hash_code(
@@ -16,4 +16,5 @@ get_hash_code(
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

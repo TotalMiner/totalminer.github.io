@@ -4,7 +4,7 @@
 ## play_sound_in_region
 
 ### Play a sound in a cubic region.
-
+___
 Spec:
 ```lua
 play_sound_in_region(
@@ -27,4 +27,5 @@ play_sound_in_region(
 - `z2:` The z component of the regions max position
 - `volume:` 
 
+___
 ### [back](../sound)

@@ -4,7 +4,7 @@
 ## blueprint_material
 
 ### Define the material for a blueprint (crafting recipe) slot.
-
+___
 Spec:
 ```lua
 blueprint_material(
@@ -21,4 +21,5 @@ blueprint_material(
 - `slot_qty:` The qty needed of the slot item for a single craft
 - `slot_durability:` The durability subtracted from the slot item on a single craft
 
+___
 ### [back](../other)

@@ -4,7 +4,7 @@
 ## unequip
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 unequip(
@@ -15,4 +15,5 @@ unequip(
 - `item_id:` 
 - `slot:` 
 
+___
 ### [back](../other)

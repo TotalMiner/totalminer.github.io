@@ -4,7 +4,7 @@
 ## move_inventory_to
 
 ### Move (transfer) the context actors inventory to a block's inventory.
-
+___
 Spec:
 ```lua
 move_inventory_to(
@@ -21,4 +21,5 @@ move_inventory_to(
 - `item_id:` The item_id to move. If omitted, all items will be moved
 - `qty:` The quantity of the item to move. If omitted, all of the item will be moved
 
+___
 ### [back](../inventory)

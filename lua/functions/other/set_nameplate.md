@@ -4,7 +4,7 @@
 ## set_nameplate
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 set_nameplate(
@@ -17,4 +17,5 @@ set_nameplate(
 - `setting:` 
 - `npc:` 
 
+___
 ### [back](../other)

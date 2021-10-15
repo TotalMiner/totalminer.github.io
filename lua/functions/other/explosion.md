@@ -4,7 +4,7 @@
 ## explosion
 
 ### Create an explosion.
-
+___
 Spec:
 ```lua
 explosion(
@@ -21,11 +21,14 @@ explosion(
 - `radius:` The radius of the explosion specified in blocks
 - `strength:` The strength of the explosion (some blocks are resistant to low strength explosions
 
+___
 Players and NPCs in the vicinity of the explosions can also be damaged
 
+___
 ## Example
 ```lua
 explosion(100,200,300,30,5)
 ```
 
+___
 ### [back](../other)

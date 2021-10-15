@@ -4,7 +4,7 @@
 ## set_temp_zone_props
 
 ### Set a temp zone's properties.
-
+___
 Spec:
 ```lua
 set_temp_zone_props(
@@ -23,4 +23,5 @@ set_temp_zone_props(
 - `gravity_multiplier:` This number is multiplied by the players base gravity to calculate the players final gravity. Default is one
 - `health_multiplier:` This number is multiplied by the players base health regeneration speed to calculate the players final health regeneration speed. Default is one
 
+___
 ### [back](../zones)

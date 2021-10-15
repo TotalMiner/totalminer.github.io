@@ -4,7 +4,7 @@
 ## remove_hud
 
 ### Remove a hud element.
-
+___
 Spec:
 ```lua
 remove_hud(
@@ -15,4 +15,5 @@ remove_hud(
 - `name:` The name of the element to remove
 - `is_player:` True or False
 
+___
 ### [back](../hud)

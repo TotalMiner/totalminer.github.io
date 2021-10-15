@@ -4,7 +4,7 @@
 ## tint_color
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 tint_color(
@@ -19,4 +19,5 @@ tint_color(
 - `b:` 
 - `transition:` 
 
+___
 ### [back](../other)

@@ -4,7 +4,7 @@
 ## intersect_box
 
 ### Box (cubic region) intersection query.
-
+___
 Spec:
 ```lua
 intersect_box(
@@ -32,6 +32,8 @@ intersect_box(
 ## Returns:
 - `bool:` True if there is at least one players/NPC positioned within the box region
 
+___
 The context target is set as the closest actor inside the box
 
+___
 ### [back](../other)

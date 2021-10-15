@@ -4,7 +4,7 @@
 ## has_permission
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 has_permission(
@@ -16,4 +16,5 @@ has_permission(
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

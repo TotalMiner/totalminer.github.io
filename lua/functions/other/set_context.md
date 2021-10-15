@@ -4,7 +4,7 @@
 ## set_context
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 set_context(
@@ -13,4 +13,5 @@ set_context(
 ## Parameters:
 - `context:` 
 
+___
 ### [back](../other)

@@ -4,7 +4,7 @@
 ## get_cursor_point
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_cursor_point(
@@ -17,4 +17,5 @@ get_cursor_point(
 - `y:` 
 - `z:` 
 
+___
 ### [back](../other)

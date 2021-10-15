@@ -4,7 +4,7 @@
 ## has_marker
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 has_marker(
@@ -16,4 +16,5 @@ has_marker(
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

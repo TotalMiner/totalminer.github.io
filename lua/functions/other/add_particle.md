@@ -4,7 +4,7 @@
 ## add_particle
 
 ### Add (emit) a single particle.
-
+___
 Spec:
 ```lua
 add_particle(
@@ -71,12 +71,14 @@ add_particle(
 - `emit_pos_offset_y:` The y component of the start position offset of the particle
 - `emit_pos_offset_z:` The z component of the start position offset of the particle
 
+___
 - Particles have a max duration (lifetime) of 8 seconds.
 - The particles color is interpolated from start color to end color evenly across it's lifetime.
 - emit_pos_var is randomized every emit. A value of 4 means any value between -4 to +4 could be added to the emit position
 - `emit_pos_offset` and `emit_pos_var` are added to the particles start position to calculate the final start position
 
 
+___
 ## Examples
 ```lua
 add_particle(100,200,300,6,0.2,6,-0.8,1,2,0.5)
@@ -85,4 +87,5 @@ add_particle(100,200,300,6,0.2,6,-0.8,1,2,0.5)
 add_particle(100,200,300,6,0.2,6,-0.8,1,2,0.5,2,200,200,200,200,0.1,0.5,0.1,0.2,0.3,100,100,100,100,0.5,0.5,0.5,1,2,3)
 ```
 
+___
 ### [back](../other)

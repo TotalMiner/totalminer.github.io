@@ -4,7 +4,7 @@
 ## get_npc_count
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_npc_count(
@@ -16,4 +16,5 @@ get_npc_count(
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

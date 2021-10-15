@@ -4,7 +4,7 @@
 ## get_item
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_item(
@@ -16,4 +16,5 @@ get_item(
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

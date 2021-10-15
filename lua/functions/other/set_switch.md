@@ -4,7 +4,7 @@
 ## set_switch
 
 ### Set a switches position (on or off).
-
+___
 Spec:
 ```lua
 set_switch(
@@ -19,4 +19,5 @@ set_switch(
 - `z:` The z component of the position of the switch.
 - `power:` 
 
+___
 ### [back](../other)

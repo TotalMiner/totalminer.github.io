@@ -4,7 +4,7 @@
 ## set_skill_level
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 set_skill_level(
@@ -15,4 +15,5 @@ set_skill_level(
 - `skill:` 
 - `level:` 
 
+___
 ### [back](../other)

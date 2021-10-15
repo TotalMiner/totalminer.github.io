@@ -4,7 +4,7 @@
 ## get_skill_level
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_skill_level(
@@ -16,4 +16,5 @@ get_skill_level(
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

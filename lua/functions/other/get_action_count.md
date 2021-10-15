@@ -4,7 +4,7 @@
 ## get_action_count
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_action_count(
@@ -18,4 +18,5 @@ get_action_count(
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

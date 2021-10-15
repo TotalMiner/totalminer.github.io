@@ -4,7 +4,7 @@
 ## remove_sound_in_region
 
 ### Remove all sound in a cubic region.
-
+___
 Spec:
 ```lua
 remove_sound_in_region(
@@ -23,4 +23,5 @@ remove_sound_in_region(
 - `y2:` The y component of the regions max position
 - `z2:` The z component of the regions max position
 
+___
 ### [back](../sound)

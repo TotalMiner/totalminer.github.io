@@ -4,7 +4,7 @@
 ## get_texture
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_texture(
@@ -20,4 +20,5 @@ get_texture(
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

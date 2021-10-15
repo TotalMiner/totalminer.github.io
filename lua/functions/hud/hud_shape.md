@@ -4,7 +4,7 @@
 ## hud_shape
 
 ### Add a hud shape.
-
+___
 Spec:
 ```lua
 hud_shape(
@@ -47,4 +47,5 @@ hud_shape(
 - `ba:` The a (alpha) component of the elements border color
 - `props:` Properties that define how the hud element is drawn
 
+___
 ### [back](../hud)

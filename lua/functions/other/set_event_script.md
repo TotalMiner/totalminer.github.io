@@ -4,7 +4,7 @@
 ## set_event_script
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 set_event_script(
@@ -17,4 +17,5 @@ set_event_script(
 - `script_name:` 
 - `item_id:` 
 
+___
 ### [back](../other)

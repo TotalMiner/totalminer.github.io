@@ -4,7 +4,7 @@
 ## menu_internal
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 menu_internal(
@@ -13,4 +13,5 @@ menu_internal(
 ## Parameters:
 - `args:` 
 
+___
 ### [back](../other)

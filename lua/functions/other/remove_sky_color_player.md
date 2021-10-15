@@ -4,7 +4,7 @@
 ## remove_sky_color_player
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 remove_sky_color_player(
@@ -13,4 +13,5 @@ remove_sky_color_player(
 ## Parameters:
 - `transition:` 
 
+___
 ### [back](../other)

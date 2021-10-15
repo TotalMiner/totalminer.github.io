@@ -4,7 +4,7 @@
 ## paste
 
 ### Paste a component.
-
+___
 Spec:
 ```lua
 paste(
@@ -25,4 +25,5 @@ paste(
 - `dir:` The direction to face the component for pasting
 - `paste_type:` The type of paste - Overwrite, Merge, NoOverwrite
 
+___
 ### [back](../blocks)

@@ -4,7 +4,7 @@
 ## hud_text
 
 ### Add hud text.
-
+___
 Spec:
 ```lua
 hud_text(
@@ -35,4 +35,5 @@ hud_text(
 - `rot:` The rotation of the element in radians
 - `props:` Properties that define how the hud element is drawn
 
+___
 ### [back](../hud)

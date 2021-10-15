@@ -4,7 +4,7 @@
 ## set_zone_region
 
 ### Change the region of an existing zone.
-
+___
 Spec:
 ```lua
 set_zone_region(
@@ -25,4 +25,5 @@ set_zone_region(
 - `y2:` The new y component of the regions max position
 - `z2:` The new z component of the regions max position
 
+___
 ### [back](../zones)

@@ -4,7 +4,7 @@
 ## msgbox_internal
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 msgbox_internal(
@@ -25,4 +25,5 @@ msgbox_internal(
 - `b_text:` 
 - `vertical:` 
 
+___
 ### [back](../other)

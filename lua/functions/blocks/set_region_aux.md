@@ -4,7 +4,7 @@
 ## set_region_aux
 
 ### Set aux data in a cubic region.
-
+___
 Spec:
 ```lua
 set_region_aux(
@@ -31,4 +31,5 @@ set_region_aux(
 - `percent:` The percentage of the region to set. Default = 100%
 - `seed:` The seed of the prng used when percent is < 100
 
+___
 ### [back](../blocks)

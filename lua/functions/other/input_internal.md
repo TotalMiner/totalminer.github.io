@@ -4,7 +4,7 @@
 ## input_internal
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 input_internal(
@@ -13,4 +13,5 @@ input_internal(
 ## Parameters:
 - `header:` 
 
+___
 ### [back](../other)

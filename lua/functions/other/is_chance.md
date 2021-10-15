@@ -4,7 +4,7 @@
 ## is_chance
 
 ### A dice query (same as is_random).
-
+___
 Spec:
 ```lua
 is_chance(
@@ -18,6 +18,7 @@ is_chance(
 ## Returns:
 - `bool:` True if the dice throw was won
 
+___
 ## Examples
 ```lua
 is_chance(1,6)
@@ -28,4 +29,5 @@ is_chance(2,20)
 ```
 Won if 1 or 2 is thrown on an 20 sided dice (10% chance)
 
+___
 ### [back](../other)

@@ -4,7 +4,7 @@
 ## fog
 
 ### Add fog.
-
+___
 Spec:
 ```lua
 fog(
@@ -31,4 +31,5 @@ fog(
 - `b:` 
 - `visibility:` 
 
+___
 ### [back](../weather)

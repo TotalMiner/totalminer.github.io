@@ -4,7 +4,7 @@
 ## play_sound_loop_in_region
 
 ### Play a looped sound in a cubic region.
-
+___
 Spec:
 ```lua
 play_sound_loop_in_region(
@@ -33,4 +33,5 @@ play_sound_loop_in_region(
 - `count:` 
 - `volume:` 
 
+___
 ### [back](../sound)

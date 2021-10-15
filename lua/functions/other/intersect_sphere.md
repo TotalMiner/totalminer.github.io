@@ -4,7 +4,7 @@
 ## intersect_sphere
 
 ### Sphere intersection query.
-
+___
 Spec:
 ```lua
 intersect_sphere(
@@ -28,6 +28,8 @@ intersect_sphere(
 ## Returns:
 - `bool:` True if there is at least one players/NPC positioned within the sphere
 
+___
 The context target is set as the closest actor inside the sphere
 
+___
 ### [back](../other)

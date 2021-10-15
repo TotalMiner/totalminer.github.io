@@ -4,7 +4,7 @@
 ## get_max_oxygen
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_max_oxygen()
@@ -13,4 +13,5 @@ get_max_oxygen()
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

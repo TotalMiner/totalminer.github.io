@@ -4,7 +4,7 @@
 ## get_sun_light
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_sun_light(
@@ -20,4 +20,5 @@ get_sun_light(
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

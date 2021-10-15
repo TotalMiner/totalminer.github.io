@@ -4,7 +4,7 @@
 ## get_view_dir
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_view_dir(
@@ -17,4 +17,5 @@ get_view_dir(
 - `y:` 
 - `z:` 
 
+___
 ### [back](../other)

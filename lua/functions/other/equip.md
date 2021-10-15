@@ -4,7 +4,7 @@
 ## equip
 
 ### Cause the context actor to equip an item.
-
+___
 Spec:
 ```lua
 equip(
@@ -15,6 +15,7 @@ equip(
 - `item_id:` The item to equip
 - `slot:` The slot to equip to: left, right or body
 
+___
 ## Examples
 ```lua
 equip(item.woodsword,"right")
@@ -25,4 +26,5 @@ equip(item.leatherhelmet,"body")
 ```
 This example equips a leather helmet (if the actor has one) to the appropriate body slot
 
+___
 ### [back](../other)

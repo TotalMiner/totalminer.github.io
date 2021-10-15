@@ -4,7 +4,7 @@
 ## get_npc_count_in_radius
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_npc_count_in_radius(
@@ -24,4 +24,5 @@ get_npc_count_in_radius(
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

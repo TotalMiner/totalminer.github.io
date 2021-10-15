@@ -4,7 +4,7 @@
 ## replace_region
 
 ### Replace a block id with another block id in a cubic region.
-
+___
 Spec:
 ```lua
 replace_region(
@@ -31,4 +31,5 @@ replace_region(
 - `percent:` The percentage of the region to replace. Default = 100%
 - `seed:` The seed of the prng used when percent is < 100
 
+___
 ### [back](../blocks)

@@ -4,7 +4,7 @@
 ## get_aux
 
 ### Get the aux data at a voxel position.
-
+___
 Spec:
 ```lua
 get_aux(
@@ -20,6 +20,7 @@ get_aux(
 ## Returns:
 - `long:` The aux data. Currently only the first 8 bits of aux data is used
 
+___
 ## Example
 ```lua
 local x,y,z = get_script_point()
@@ -27,4 +28,5 @@ local aux = get_aux(x,y,z)
 ```
 This example gets the aux data of the script block that executed this script.
 
+___
 ### [back](../blocks)

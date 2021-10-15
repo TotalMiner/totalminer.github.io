@@ -4,7 +4,7 @@
 ## get_pos
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_pos(
@@ -17,4 +17,5 @@ get_pos(
 - `y:` 
 - `z:` 
 
+___
 ### [back](../other)

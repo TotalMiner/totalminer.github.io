@@ -4,7 +4,7 @@
 ## clear_block_inventory
 
 ### Clear (remove) an item from a blocks inventory.
-
+___
 Spec:
 ```lua
 clear_block_inventory(
@@ -19,4 +19,5 @@ clear_block_inventory(
 - `z:` The z component of the position of the block.
 - `item_id:` The item to clear. If omitted, all items will be cleared
 
+___
 ### [back](../inventory)

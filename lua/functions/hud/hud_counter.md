@@ -4,7 +4,7 @@
 ## hud_counter
 
 ### Add a hud counter. A hud counter is a form of text progress counter.
-
+___
 Spec:
 ```lua
 hud_counter(
@@ -33,4 +33,5 @@ hud_counter(
 - `a:` The a (alpha) component of the elements color
 - `props:` Properties that define how the hud element is drawn
 
+___
 ### [back](../hud)

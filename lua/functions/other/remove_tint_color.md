@@ -4,7 +4,7 @@
 ## remove_tint_color
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 remove_tint_color(
@@ -13,4 +13,5 @@ remove_tint_color(
 ## Parameters:
 - `transition:` 
 
+___
 ### [back](../other)

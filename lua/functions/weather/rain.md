@@ -4,7 +4,7 @@
 ## rain
 
 ### Add rain.
-
+___
 Spec:
 ```lua
 rain(
@@ -29,4 +29,5 @@ rain(
 - `g:` 
 - `b:` 
 
+___
 ### [back](../weather)

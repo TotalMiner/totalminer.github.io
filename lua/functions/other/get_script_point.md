@@ -4,7 +4,7 @@
 ## get_script_point
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_script_point(
@@ -17,4 +17,5 @@ get_script_point(
 - `y:` 
 - `z:` 
 
+___
 ### [back](../other)

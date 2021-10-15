@@ -4,7 +4,7 @@
 ## set_permission
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 set_permission(
@@ -15,4 +15,5 @@ set_permission(
 - `name:` 
 - `on:` 
 
+___
 ### [back](../other)

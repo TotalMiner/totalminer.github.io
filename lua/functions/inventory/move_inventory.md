@@ -4,7 +4,7 @@
 ## move_inventory
 
 ### Move (transfer) a block inventory to another voxel position.
-
+___
 Spec:
 ```lua
 move_inventory(
@@ -27,4 +27,5 @@ move_inventory(
 - `item_id:` The item_id to move. If omitted, all items will be moved
 - `qty:` The quantity of the item to move. If omitted, all of the item will be moved
 
+___
 ### [back](../inventory)

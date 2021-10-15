@@ -4,7 +4,7 @@
 ## set_dialog
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 set_dialog(
@@ -13,4 +13,5 @@ set_dialog(
 ## Parameters:
 - `name:` 
 
+___
 ### [back](../other)

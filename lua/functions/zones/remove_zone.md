@@ -4,7 +4,7 @@
 ## remove_zone
 
 ### Remove a zone.
-
+___
 Spec:
 ```lua
 remove_zone(
@@ -13,4 +13,5 @@ remove_zone(
 ## Parameters:
 - `name:` 
 
+___
 ### [back](../zones)

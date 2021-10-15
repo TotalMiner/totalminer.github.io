@@ -4,7 +4,7 @@
 ## set_permissions_all
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 set_permissions_all(
@@ -37,4 +37,5 @@ set_permissions_all(
 - `grief:` 
 - `admin:` 
 
+___
 ### [back](../other)

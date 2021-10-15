@@ -4,7 +4,7 @@
 ## add_npc_health_region
 
 ### Add or subtract to/from the health of all NPCs in a cubic region.
-
+___
 Spec:
 ```lua
 add_npc_health_region(
@@ -31,4 +31,5 @@ add_npc_health_region(
 - `millisecs:` 
 - `duration:` 
 
+___
 ### [back](../npcs)

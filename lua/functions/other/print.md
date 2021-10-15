@@ -4,7 +4,7 @@
 ## print
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 print(
@@ -13,4 +13,5 @@ print(
 ## Parameters:
 - `args:` 
 
+___
 ### [back](../other)

@@ -4,7 +4,7 @@
 ## get_block_inventory
 
 ### Get the total count of an item in a block's inventory.
-
+___
 Spec:
 ```lua
 get_block_inventory(
@@ -22,4 +22,5 @@ get_block_inventory(
 ## Returns:
 - `long:` The total number of item_id's in the block's inventory
 
+___
 ### [back](../inventory)

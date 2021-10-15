@@ -4,7 +4,7 @@
 ## set_text
 
 ### Set the text of a block (Sign, Book etc).
-
+___
 Spec:
 ```lua
 set_text(
@@ -21,4 +21,5 @@ set_text(
 - `text:` 
 - `page:` 
 
+___
 ### [back](../other)

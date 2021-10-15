@@ -4,7 +4,7 @@
 ## sky_color_player
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 sky_color_player(
@@ -21,4 +21,5 @@ sky_color_player(
 - `intensity:` 
 - `transition:` 
 
+___
 ### [back](../other)

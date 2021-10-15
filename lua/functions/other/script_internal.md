@@ -4,7 +4,7 @@
 ## script_internal
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 script_internal(
@@ -13,4 +13,5 @@ script_internal(
 ## Parameters:
 - `name:` 
 
+___
 ### [back](../other)

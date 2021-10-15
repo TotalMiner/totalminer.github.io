@@ -4,7 +4,7 @@
 ## can_equip
 
 ### Query whether or not the context actor can equip an item.
-
+___
 Spec:
 ```lua
 can_equip(
@@ -16,4 +16,5 @@ can_equip(
 ## Returns:
 - `bool:` True if the context actor can equip this item, false if not
 
+___
 ### [back](../other)

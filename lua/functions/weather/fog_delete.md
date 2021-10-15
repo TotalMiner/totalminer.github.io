@@ -4,7 +4,7 @@
 ## fog_delete
 
 ### Delete fog.
-
+___
 Spec:
 ```lua
 fog_delete(
@@ -17,6 +17,8 @@ fog_delete(
 - `y:` The y component of the position.
 - `z:` The z component of the position.
 
+___
 The position `x,y,z` must be the same position used when the fog was created using [Fog](fog)
 
+___
 ### [back](../weather)

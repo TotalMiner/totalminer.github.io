@@ -4,7 +4,7 @@
 ## get_random
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_random(
@@ -16,4 +16,5 @@ get_random(
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

@@ -4,7 +4,7 @@
 ## add_block_inventory
 
 ### Add or subtract a quantity of an item to/from a blocks inventory.
-
+___
 Spec:
 ```lua
 add_block_inventory(
@@ -21,4 +21,5 @@ add_block_inventory(
 - `item_id:` 
 - `qty:` The quantity to add. If ommitted, 1 item will be added. Use a negative number to remove items from inventory
 
+___
 ### [back](../inventory)

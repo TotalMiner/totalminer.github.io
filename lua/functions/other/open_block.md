@@ -4,7 +4,7 @@
 ## open_block
 
 ### Open a block's interface screen.
-
+___
 Spec:
 ```lua
 open_block(
@@ -17,4 +17,5 @@ open_block(
 - `y:` The y component of the position of the block.
 - `z:` The z component of the position of the block.
 
+___
 ### [back](../other)

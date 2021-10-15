@@ -4,7 +4,7 @@
 ## copy_inventory_region
 
 ### Copy all block inventories in a cubic region to another region.
-
+___
 Spec:
 ```lua
 copy_inventory_region(
@@ -33,4 +33,5 @@ copy_inventory_region(
 - `item_id:` The item_id to copy. If omitted, all items will be copied
 - `qty:` The quantity of the item to copy. If omitted, all of the item will be copied
 
+___
 ### [back](../inventory)

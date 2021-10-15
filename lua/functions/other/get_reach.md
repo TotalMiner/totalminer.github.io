@@ -4,7 +4,7 @@
 ## get_reach
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_reach()
@@ -13,4 +13,5 @@ get_reach()
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

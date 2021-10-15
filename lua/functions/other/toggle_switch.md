@@ -4,7 +4,7 @@
 ## toggle_switch
 
 ### Toggle a switch's position.
-
+___
 Spec:
 ```lua
 toggle_switch(
@@ -17,4 +17,5 @@ toggle_switch(
 - `y:` The y component of the position of the switch.
 - `z:` The z component of the position of the switch.
 
+___
 ### [back](../other)

@@ -4,7 +4,7 @@
 ## get_skill_xp
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_skill_xp(
@@ -16,4 +16,5 @@ get_skill_xp(
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

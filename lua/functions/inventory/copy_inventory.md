@@ -4,7 +4,7 @@
 ## copy_inventory
 
 ### Copy a block's inventory to another voxel position.
-
+___
 Spec:
 ```lua
 copy_inventory(
@@ -27,4 +27,5 @@ copy_inventory(
 - `item_id:` The item_id to copy. If omitted, all items will be copied
 - `qty:` The quantity of the item to copy. If omitted, all of the item will be copied
 
+___
 ### [back](../inventory)

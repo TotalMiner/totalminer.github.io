@@ -4,7 +4,7 @@
 ## get_npc_count_in_zone
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_npc_count_in_zone(
@@ -18,4 +18,5 @@ get_npc_count_in_zone(
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

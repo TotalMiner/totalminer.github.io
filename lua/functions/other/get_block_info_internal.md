@@ -4,7 +4,7 @@
 ## get_block_info_internal
 
 ### Get various world data of a block.
-
+___
 Spec:
 ```lua
 get_block_info_internal(
@@ -37,4 +37,5 @@ get_block_info_internal(
 - `tex_id:` 
 - `resistance:` 
 
+___
 ### [back](../other)

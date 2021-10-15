@@ -4,7 +4,7 @@
 ## clear_region_inventory
 
 ### Clear (remove) an item from all blocks inventories in a cubic region.
-
+___
 Spec:
 ```lua
 clear_region_inventory(
@@ -25,4 +25,5 @@ clear_region_inventory(
 - `z2:` The z component of the regions max position
 - `item_id:` The item to clear. If omitted, all items will be cleared
 
+___
 ### [back](../inventory)

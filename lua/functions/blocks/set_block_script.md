@@ -4,7 +4,7 @@
 ## set_block_script
 
 ### Assign a script to a block at a voxel position.
-
+___
 Spec:
 ```lua
 set_block_script(
@@ -21,4 +21,5 @@ set_block_script(
 - `name:` 
 - `type:` 
 
+___
 ### [back](../blocks)

@@ -4,7 +4,7 @@
 ## cctv
 
 ### Open a CCTV (directional) for the context player.
-
+___
 Spec:
 ```lua
 cctv(
@@ -27,4 +27,5 @@ cctv(
 - `swivel_speed:` The speed at which the camera can be swivelled as a percentage. If omitted the default speed is 50%
 - `fov:` The field of view of the camera specified in degrees. If omitted the default value is 80
 
+___
 ### [back](../other)

@@ -4,7 +4,7 @@
 ## add_npc_health_zone
 
 ### Add or subtract to/from the health of all NPCs in a zone.
-
+___
 Spec:
 ```lua
 add_npc_health_zone(
@@ -23,4 +23,5 @@ add_npc_health_zone(
 - `millisecs:` 
 - `duration:` 
 
+___
 ### [back](../npcs)

@@ -4,7 +4,7 @@
 ## get_gamer_count_in_zone
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_gamer_count_in_zone(
@@ -16,4 +16,5 @@ get_gamer_count_in_zone(
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

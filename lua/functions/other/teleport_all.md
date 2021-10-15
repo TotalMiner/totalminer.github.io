@@ -4,7 +4,7 @@
 ## teleport_all
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 teleport_all(
@@ -31,4 +31,5 @@ teleport_all(
 - `z3:` 
 - `is_rel:` 
 
+___
 ### [back](../other)

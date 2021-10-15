@@ -4,7 +4,7 @@
 ## set_zone_types
 
 ### Set a zone's types.
-
+___
 Spec:
 ```lua
 set_zone_types(
@@ -25,6 +25,7 @@ set_zone_types(
 - `no_mobs:` true or false. If true, mobs cannot spawn inside the zone
 - `no_escape:` true or false. If true, players cannot use the Escape option inside the zone
 
+___
 
 - Players with the admin permission are not affected by zone types.
 - If more than one spawn zone exists, the player will pick a spawn zone randomly to spawn into.
@@ -32,4 +33,5 @@ set_zone_types(
 - Spawn zones are not editable by default.
 
 
+___
 ### [back](../zones)

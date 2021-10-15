@@ -4,7 +4,7 @@
 ## play_sound
 
 ### Play a sound at a voxel position.
-
+___
 Spec:
 ```lua
 play_sound(
@@ -23,4 +23,5 @@ play_sound(
 - `volume:` 
 - `range:` 
 
+___
 ### [back](../sound)

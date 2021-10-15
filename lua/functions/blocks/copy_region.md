@@ -4,7 +4,7 @@
 ## copy_region
 
 ### Copy block data (block id, aux, light) from one cubic region to another.
-
+___
 Spec:
 ```lua
 copy_region(
@@ -29,10 +29,12 @@ copy_region(
 - `y3:` The y component of the destination regions min position
 - `z3:` The z component of the destination regions min position
 
+___
 ## Example
 ```lua
 copy_region(100,10,200,120,20,240,400,50,200)
 ```
 This example copies the block id, aux data and light data of all the blocks in the region 100,10,200 to 120,20,240 to a region of the same size starting at 400,50,200.
 
+___
 ### [back](../blocks)

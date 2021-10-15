@@ -4,7 +4,7 @@
 ## hail
 
 ### Add hail.
-
+___
 Spec:
 ```lua
 hail(
@@ -33,4 +33,5 @@ hail(
 - `size_x:` 
 - `size_z:` 
 
+___
 ### [back](../weather)

@@ -4,7 +4,7 @@
 ## set_waypoint
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 set_waypoint(
@@ -15,4 +15,5 @@ set_waypoint(
 - `x:` 
 - `z:` 
 
+___
 ### [back](../other)

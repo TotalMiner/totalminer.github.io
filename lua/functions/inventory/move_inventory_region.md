@@ -4,7 +4,7 @@
 ## move_inventory_region
 
 ### Move (transfer) all block inventories in a cubic region to another region.
-
+___
 Spec:
 ```lua
 move_inventory_region(
@@ -33,4 +33,5 @@ move_inventory_region(
 - `item_id:` The item_id to move. If omitted, all items will be moved
 - `qty:` The quantity of the item to move. If omitted, all of the item will be moved
 
+___
 ### [back](../inventory)

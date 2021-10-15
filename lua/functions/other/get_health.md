@@ -4,7 +4,7 @@
 ## get_health
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_health()
@@ -13,4 +13,5 @@ get_health()
 ## Returns:
 - `:` 
 
+___
 ### [back](../other)

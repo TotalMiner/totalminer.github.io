@@ -4,7 +4,7 @@
 ## get_script_offset
 
 ### Function undefined.
-
+___
 Spec:
 ```lua
 get_script_offset(
@@ -17,4 +17,5 @@ get_script_offset(
 - `y:` 
 - `z:` 
 
+___
 ### [back](../other)
