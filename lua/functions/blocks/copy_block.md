@@ -30,5 +30,6 @@ local x,y,z = get_script_point()
 copy_block(x,y,z,x,y+1,z)
 ```
 This example copies the block id, aux data and light data of the script block that executed this script to the position directly above it.
+
 ___
 ### [back](../blocks)

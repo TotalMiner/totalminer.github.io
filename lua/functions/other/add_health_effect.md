@@ -28,10 +28,12 @@ ___
 add_health_effect(2,3000,4000)
 ```
 This example increases the actors health by 2 hitpoints every 3 seconds over a time period of 4 seconds
+
 ___
 ```lua
 add_health_effect(-5)
 ```
 This example decreases the actors health by 5 hitpoints (once only)
+
 ___
 ### [back](../other)

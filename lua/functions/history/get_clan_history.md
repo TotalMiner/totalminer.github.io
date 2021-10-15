@@ -22,5 +22,6 @@ ___
 local member_count = get_clan_history("member count")
 ```
 This example gets the value of the clan history record with the key "member count"
+
 ___
 ### [back](../history)

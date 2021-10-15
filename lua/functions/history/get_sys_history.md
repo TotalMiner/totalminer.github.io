@@ -22,5 +22,6 @@ ___
 local temp = get_sys_history("temperature")
 ```
 This example gets the value of the system history record with the key "temperature"
+
 ___
 ### [back](../history)

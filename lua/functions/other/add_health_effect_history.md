@@ -25,5 +25,6 @@ ___
 add_health_effect(2,"poison",3000)
 ```
 This example increases the actors health by 2 hitpoints every 3 seconds as long as `get_history("poison") ~= 0`
+
 ___
 ### [back](../other)
