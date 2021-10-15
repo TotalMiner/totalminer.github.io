@@ -2,8 +2,9 @@
 # (Official) LUA Scripting Documentation
 
 ## Pages
-- [Home](.. / index)
-- [Data Types](data - types)
+
+- [Home](../index)
+- [Data Types](data-types)
 
 # Function Groups
 
