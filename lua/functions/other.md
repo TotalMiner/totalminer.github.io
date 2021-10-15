@@ -9,333 +9,333 @@
 #
 ## Functions to manipulate other
 #
-### [add_health_effect](Other/add_health_effect)
+### [add_health_effect](other/add_health_effect)
 > Add an effect which increases or decreases the context actor's health over time.
 #
-### [add_health_effect_history](Other/add_health_effect_history)
+### [add_health_effect_history](other/add_health_effect_history)
 > Add an effect which increases or decreases the context actor's health over time.
 #
-### [add_marker](Other/add_marker)
+### [add_marker](other/add_marker)
 > Add a marker to the top down map.
 #
-### [add_particle](Other/add_particle)
+### [add_particle](other/add_particle)
 > Add (emit) a single particle.
 #
-### [add_particle_emitter](Other/add_particle_emitter)
+### [add_particle_emitter](other/add_particle_emitter)
 > Add a Particle Emitter.
 #
-### [add_pickup](Other/add_pickup)
+### [add_pickup](other/add_pickup)
 > Spawn a pickup item.
 #
-### [add_skill_level](Other/add_skill_level)
+### [add_skill_level](other/add_skill_level)
 > Raise or lower a skill level of the context actor.
 #
-### [add_skill_xp](Other/add_skill_xp)
+### [add_skill_xp](other/add_skill_xp)
 > Increase or decrease skill xp of the context actor.
 #
-### [blueprint](Other/blueprint)
+### [blueprint](other/blueprint)
 > Define a blueprint (crafting recipe) for an item.
 #
-### [blueprint_material](Other/blueprint_material)
+### [blueprint_material](other/blueprint_material)
 > Define the material for a blueprint (crafting recipe) slot.
 #
-### [cancel_script](Other/cancel_script)
+### [cancel_script](other/cancel_script)
 > Cancel a running script.
 #
-### [can_equip](Other/can_equip)
+### [can_equip](other/can_equip)
 > Query whether or not the context actor can equip an item.
 #
-### [cave_in](Other/cave_in)
+### [cave_in](other/cave_in)
 > Start a cave in.
 #
-### [cctv](Other/cctv)
+### [cctv](other/cctv)
 > Open a CCTV (directional) for the context player.
 #
-### [cctv_at](Other/cctv_at)
+### [cctv_at](other/cctv_at)
 > Open a CCTV (targeted) for the context player.
 #
-### [cctv_exit](Other/cctv_exit)
+### [cctv_exit](other/cctv_exit)
 > Close the CCTV for the context player.
 #
-### [commit](Other/commit)
+### [commit](other/commit)
 > Force a chunk mesh update.
 #
-### [equip](Other/equip)
+### [equip](other/equip)
 > Cause the context actor to equip an item.
 #
-### [explosion](Other/explosion)
+### [explosion](other/explosion)
 > Create an explosion.
 #
-### [input_internal](Other/input_internal)
+### [input_internal](other/input_internal)
 > Function undefined.
 #
-### [intersect_box](Other/intersect_box)
+### [intersect_box](other/intersect_box)
 > Box (cubic region) intersection query.
 #
-### [intersect_frustum](Other/intersect_frustum)
+### [intersect_frustum](other/intersect_frustum)
 > Frustum intersection query.
 #
-### [intersect_ray](Other/intersect_ray)
+### [intersect_ray](other/intersect_ray)
 > Ray intersection query.
 #
-### [intersect_sphere](Other/intersect_sphere)
+### [intersect_sphere](other/intersect_sphere)
 > Sphere intersection query.
 #
-### [is_chance](Other/is_chance)
+### [is_chance](other/is_chance)
 > A dice query (same as is_random).
 #
-### [is_random](Other/is_random)
+### [is_random](other/is_random)
 > A dice query (same as is_chance).
 #
-### [menu_internal](Other/menu_internal)
+### [menu_internal](other/menu_internal)
 > Function undefined.
 #
-### [msgbox_internal](Other/msgbox_internal)
+### [msgbox_internal](other/msgbox_internal)
 > Function undefined.
 #
-### [mod_callback](Other/mod_callback)
+### [mod_callback](other/mod_callback)
 > Function undefined.
 #
-### [notify](Other/notify)
+### [notify](other/notify)
 > Function undefined.
 #
-### [open_block](Other/open_block)
+### [open_block](other/open_block)
 > Open a block's interface screen.
 #
-### [print](Other/print)
+### [print](other/print)
 > Function undefined.
 #
-### [remove_effect](Other/remove_effect)
+### [remove_effect](other/remove_effect)
 > Function undefined.
 #
-### [remove_event_script](Other/remove_event_script)
+### [remove_event_script](other/remove_event_script)
 > Function undefined.
 #
-### [remove_marker](Other/remove_marker)
+### [remove_marker](other/remove_marker)
 > Function undefined.
 #
-### [remove_pickups](Other/remove_pickups)
+### [remove_pickups](other/remove_pickups)
 > Function undefined.
 #
-### [remove_sky_color](Other/remove_sky_color)
+### [remove_sky_color](other/remove_sky_color)
 > Function undefined.
 #
-### [remove_sky_color_player](Other/remove_sky_color_player)
+### [remove_sky_color_player](other/remove_sky_color_player)
 > Function undefined.
 #
-### [remove_tint_color](Other/remove_tint_color)
+### [remove_tint_color](other/remove_tint_color)
 > Function undefined.
 #
-### [remove_tint_color_player](Other/remove_tint_color_player)
+### [remove_tint_color_player](other/remove_tint_color_player)
 > Function undefined.
 #
-### [remove_waypoint](Other/remove_waypoint)
+### [remove_waypoint](other/remove_waypoint)
 > Function undefined.
 #
-### [script_internal](Other/script_internal)
+### [script_internal](other/script_internal)
 > Function undefined.
 #
-### [set_behaviour](Other/set_behaviour)
+### [set_behaviour](other/set_behaviour)
 > Function undefined.
 #
-### [set_clan](Other/set_clan)
+### [set_clan](other/set_clan)
 > Function undefined.
 #
-### [set_context](Other/set_context)
+### [set_context](other/set_context)
 > Function undefined.
 #
-### [set_dialog](Other/set_dialog)
+### [set_dialog](other/set_dialog)
 > Function undefined.
 #
-### [set_event_script](Other/set_event_script)
+### [set_event_script](other/set_event_script)
 > Function undefined.
 #
-### [set_event_button_script](Other/set_event_button_script)
+### [set_event_button_script](other/set_event_button_script)
 > Function undefined.
 #
-### [set_health_modifier](Other/set_health_modifier)
+### [set_health_modifier](other/set_health_modifier)
 > Function undefined.
 #
-### [enable_item](Other/enable_item)
+### [enable_item](other/enable_item)
 > Function undefined.
 #
-### [set_item](Other/set_item)
+### [set_item](other/set_item)
 > Function undefined.
 #
-### [set_nameplate](Other/set_nameplate)
+### [set_nameplate](other/set_nameplate)
 > Function undefined.
 #
-### [set_permission](Other/set_permission)
+### [set_permission](other/set_permission)
 > Function undefined.
 #
-### [set_permissions_all](Other/set_permissions_all)
+### [set_permissions_all](other/set_permissions_all)
 > Function undefined.
 #
-### [set_power](Other/set_power)
+### [set_power](other/set_power)
 > Set a block's power state (on or off).
 #
-### [set_reach](Other/set_reach)
+### [set_reach](other/set_reach)
 > Function undefined.
 #
-### [set_switch](Other/set_switch)
+### [set_switch](other/set_switch)
 > Set a switches position (on or off).
 #
-### [set_skill_level](Other/set_skill_level)
+### [set_skill_level](other/set_skill_level)
 > Function undefined.
 #
-### [set_skill_xp](Other/set_skill_xp)
+### [set_skill_xp](other/set_skill_xp)
 > Function undefined.
 #
-### [set_text](Other/set_text)
+### [set_text](other/set_text)
 > Set the text of a block (Sign, Book etc).
 #
-### [set_texture](Other/set_texture)
+### [set_texture](other/set_texture)
 > Set a block's visible texture.
 #
-### [set_waypoint](Other/set_waypoint)
+### [set_waypoint](other/set_waypoint)
 > Function undefined.
 #
-### [sky_color](Other/sky_color)
+### [sky_color](other/sky_color)
 > Function undefined.
 #
-### [sky_color_player](Other/sky_color_player)
+### [sky_color_player](other/sky_color_player)
 > Function undefined.
 #
-### [teleport](Other/teleport)
+### [teleport](other/teleport)
 > Teleport the player.
 #
-### [teleport_all](Other/teleport_all)
+### [teleport_all](other/teleport_all)
 > Function undefined.
 #
-### [tint_color](Other/tint_color)
+### [tint_color](other/tint_color)
 > Function undefined.
 #
-### [tint_color_player](Other/tint_color_player)
+### [tint_color_player](other/tint_color_player)
 > Function undefined.
 #
-### [toggle_switch](Other/toggle_switch)
+### [toggle_switch](other/toggle_switch)
 > Toggle a switch's position.
 #
-### [unequip](Other/unequip)
+### [unequip](other/unequip)
 > Function undefined.
 #
-### [get_action_count](Other/get_action_count)
+### [get_action_count](other/get_action_count)
 > Function undefined.
 #
-### [get_block_info_internal](Other/get_block_info_internal)
+### [get_block_info_internal](other/get_block_info_internal)
 > Get various world data of a block.
 #
-### [get_block_light](Other/get_block_light)
+### [get_block_light](other/get_block_light)
 > Function undefined.
 #
-### [get_clan](Other/get_clan)
+### [get_clan](other/get_clan)
 > Function undefined.
 #
-### [get_cursor_point](Other/get_cursor_point)
+### [get_cursor_point](other/get_cursor_point)
 > Function undefined.
 #
-### [get_eye_pos](Other/get_eye_pos)
+### [get_eye_pos](other/get_eye_pos)
 > Function undefined.
 #
-### [get_gamer_count](Other/get_gamer_count)
+### [get_gamer_count](other/get_gamer_count)
 > Function undefined.
 #
-### [get_gamer_count_in_radius](Other/get_gamer_count_in_radius)
+### [get_gamer_count_in_radius](other/get_gamer_count_in_radius)
 > Function undefined.
 #
-### [get_gamer_count_in_region](Other/get_gamer_count_in_region)
+### [get_gamer_count_in_region](other/get_gamer_count_in_region)
 > Function undefined.
 #
-### [get_gamer_count_in_zone](Other/get_gamer_count_in_zone)
+### [get_gamer_count_in_zone](other/get_gamer_count_in_zone)
 > Function undefined.
 #
-### [get_hash_code](Other/get_hash_code)
+### [get_hash_code](other/get_hash_code)
 > Function undefined.
 #
-### [get_health](Other/get_health)
+### [get_health](other/get_health)
 > Function undefined.
 #
-### [get_health_as_percent](Other/get_health_as_percent)
+### [get_health_as_percent](other/get_health_as_percent)
 > Function undefined.
 #
-### [get_hour](Other/get_hour)
+### [get_hour](other/get_hour)
 > Function undefined.
 #
-### [get_item](Other/get_item)
+### [get_item](other/get_item)
 > Function undefined.
 #
-### [get_light](Other/get_light)
+### [get_light](other/get_light)
 > Function undefined.
 #
-### [get_max_health](Other/get_max_health)
+### [get_max_health](other/get_max_health)
 > Function undefined.
 #
-### [get_max_oxygen](Other/get_max_oxygen)
+### [get_max_oxygen](other/get_max_oxygen)
 > Function undefined.
 #
-### [get_npc_count](Other/get_npc_count)
+### [get_npc_count](other/get_npc_count)
 > Function undefined.
 #
-### [get_npc_count_in_radius](Other/get_npc_count_in_radius)
+### [get_npc_count_in_radius](other/get_npc_count_in_radius)
 > Function undefined.
 #
-### [get_npc_count_in_region](Other/get_npc_count_in_region)
+### [get_npc_count_in_region](other/get_npc_count_in_region)
 > Function undefined.
 #
-### [get_npc_count_in_zone](Other/get_npc_count_in_zone)
+### [get_npc_count_in_zone](other/get_npc_count_in_zone)
 > Function undefined.
 #
-### [get_oxygen](Other/get_oxygen)
+### [get_oxygen](other/get_oxygen)
 > Function undefined.
 #
-### [get_oxygen_as_percent](Other/get_oxygen_as_percent)
+### [get_oxygen_as_percent](other/get_oxygen_as_percent)
 > Function undefined.
 #
-### [get_permission](Other/get_permission)
+### [get_permission](other/get_permission)
 > Function undefined.
 #
-### [get_point](Other/get_point)
+### [get_point](other/get_point)
 > Function undefined.
 #
-### [get_pos](Other/get_pos)
+### [get_pos](other/get_pos)
 > Function undefined.
 #
-### [get_random](Other/get_random)
+### [get_random](other/get_random)
 > Function undefined.
 #
-### [get_reach](Other/get_reach)
+### [get_reach](other/get_reach)
 > Function undefined.
 #
-### [get_script_offset](Other/get_script_offset)
+### [get_script_offset](other/get_script_offset)
 > Function undefined.
 #
-### [get_script_point](Other/get_script_point)
+### [get_script_point](other/get_script_point)
 > Function undefined.
 #
-### [get_skill_level](Other/get_skill_level)
+### [get_skill_level](other/get_skill_level)
 > Function undefined.
 #
-### [get_skill_xp](Other/get_skill_xp)
+### [get_skill_xp](other/get_skill_xp)
 > Function undefined.
 #
-### [get_stat_bonus](Other/get_stat_bonus)
+### [get_stat_bonus](other/get_stat_bonus)
 > Function undefined.
 #
-### [get_sun_light](Other/get_sun_light)
+### [get_sun_light](other/get_sun_light)
 > Function undefined.
 #
-### [get_texture](Other/get_texture)
+### [get_texture](other/get_texture)
 > Function undefined.
 #
-### [get_velocity](Other/get_velocity)
+### [get_velocity](other/get_velocity)
 > Function undefined.
 #
-### [get_view_dir](Other/get_view_dir)
+### [get_view_dir](other/get_view_dir)
 > Function undefined.
 #
-### [has_marker](Other/has_marker)
+### [has_marker](other/has_marker)
 > Function undefined.
 #
-### [has_permission](Other/has_permission)
+### [has_permission](other/has_permission)
 > Function undefined.
 #

@@ -9,21 +9,21 @@
 #
 ## Functions to manipulate weather
 #
-### [fog](Weather/fog)
+### [fog](weather/fog)
 > Add fog.
 #
-### [fog_delete](Weather/fog_delete)
+### [fog_delete](weather/fog_delete)
 > Delete fog.
 #
-### [hail](Weather/hail)
+### [hail](weather/hail)
 > Add hail.
 #
-### [hail_delete](Weather/hail_delete)
+### [hail_delete](weather/hail_delete)
 > Delete hail.
 #
-### [rain](Weather/rain)
+### [rain](weather/rain)
 > Add rain.
 #
-### [rain_delete](Weather/rain_delete)
+### [rain_delete](weather/rain_delete)
 > Delete rain.
 #

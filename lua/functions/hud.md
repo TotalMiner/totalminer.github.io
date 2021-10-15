@@ -9,18 +9,18 @@
 #
 ## Functions to manipulate hud
 #
-### [hud_bar](HUD/hud_bar)
+### [hud_bar](hud/hud_bar)
 > Add a hud bar. Hud bars are a form of progress bar.
 #
-### [hud_counter](HUD/hud_counter)
+### [hud_counter](hud/hud_counter)
 > Add a hud counter. A hud counter is a form of text progress counter.
 #
-### [hud_shape](HUD/hud_shape)
+### [hud_shape](hud/hud_shape)
 > Add a hud shape.
 #
-### [hud_text](HUD/hud_text)
+### [hud_text](hud/hud_text)
 > Add hud text.
 #
-### [remove_hud](HUD/remove_hud)
+### [remove_hud](hud/remove_hud)
 > Remove a hud element.
 #

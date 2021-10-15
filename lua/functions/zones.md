@@ -9,33 +9,33 @@
 #
 ## Functions to manipulate zones
 #
-### [add_zone](Zones/add_zone)
+### [add_zone](zones/add_zone)
 > Add a new zone. Use zones to control the properties of cubic regions of the world.
 #
-### [set_zone_region](Zones/set_zone_region)
+### [set_zone_region](zones/set_zone_region)
 > Change the region of an existing zone.
 #
-### [set_zone_types](Zones/set_zone_types)
+### [set_zone_types](zones/set_zone_types)
 > Set a zone's types.
 #
-### [set_zone_props](Zones/set_zone_props)
+### [set_zone_props](zones/set_zone_props)
 > Set a zone's properties.
 #
-### [set_zone_scripts](Zones/set_zone_scripts)
+### [set_zone_scripts](zones/set_zone_scripts)
 > Set a zone's scripts.
 #
-### [set_temp_zone_region](Zones/set_temp_zone_region)
+### [set_temp_zone_region](zones/set_temp_zone_region)
 > Change the region of an existing temp zone.
 #
-### [set_temp_zone_types](Zones/set_temp_zone_types)
+### [set_temp_zone_types](zones/set_temp_zone_types)
 > Set a temp zone's types.
 #
-### [set_temp_zone_props](Zones/set_temp_zone_props)
+### [set_temp_zone_props](zones/set_temp_zone_props)
 > Set a temp zone's properties.
 #
-### [remove_zone](Zones/remove_zone)
+### [remove_zone](zones/remove_zone)
 > Remove a zone.
 #
-### [remove_temp_zone](Zones/remove_temp_zone)
+### [remove_temp_zone](zones/remove_temp_zone)
 > Remove a temp zone.
 #

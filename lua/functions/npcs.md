@@ -9,24 +9,24 @@
 #
 ## Functions to manipulate npcs
 #
-### [spawn_npc](NPCs/spawn_npc)
+### [spawn_npc](npcs/spawn_npc)
 > Spawn an NPC (Non Player Character).
 #
-### [set_npc_state_target](NPCs/set_npc_state_target)
+### [set_npc_state_target](npcs/set_npc_state_target)
 > Set the state of the target NPC.
 #
-### [set_npc_state_zone](NPCs/set_npc_state_zone)
+### [set_npc_state_zone](npcs/set_npc_state_zone)
 > Set the state of all NPCs in a zone.
 #
-### [set_npc_state_region](NPCs/set_npc_state_region)
+### [set_npc_state_region](npcs/set_npc_state_region)
 > Set the state of all NPCs in a cubic region.
 #
-### [add_npc_health_target](NPCs/add_npc_health_target)
+### [add_npc_health_target](npcs/add_npc_health_target)
 > Add or subtract to/from the target NPCs health.
 #
-### [add_npc_health_zone](NPCs/add_npc_health_zone)
+### [add_npc_health_zone](npcs/add_npc_health_zone)
 > Add or subtract to/from the health of all NPCs in a zone.
 #
-### [add_npc_health_region](NPCs/add_npc_health_region)
+### [add_npc_health_region](npcs/add_npc_health_region)
 > Add or subtract to/from the health of all NPCs in a cubic region.
 #
