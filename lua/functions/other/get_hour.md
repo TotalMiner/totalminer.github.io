@@ -9,7 +9,8 @@ Spec:
 ```lua
 get_hour()
 ```
-#
+#  
+
 ## Returns:
 - `:` 
 #

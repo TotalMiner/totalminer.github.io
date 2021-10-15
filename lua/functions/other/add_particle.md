@@ -71,7 +71,8 @@ add_particle(
 - `emit_pos_offset_x:` The x component of the start position offset of the particle
 - `emit_pos_offset_y:` The y component of the start position offset of the particle
 - `emit_pos_offset_z:` The z component of the start position offset of the particle
-#
+#  
+
 - Particles have a max duration (lifetime) of 8 seconds.
 - The particles color is interpolated from start color to end color evenly across it's lifetime.
 - emit_pos_var is randomized every emit. A value of 4 means any value between -4 to +4 could be added to the emit position

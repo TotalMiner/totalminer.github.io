@@ -23,7 +23,8 @@ copy_block(
 - `x2:` The x component of the destination position
 - `y2:` The y component of the destination position
 - `z2:` The z component of the destination position
-#
+#  
+
 ## Example
 ```lua
 local x,y,z = get_script_point()

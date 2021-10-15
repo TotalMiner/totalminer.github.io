@@ -25,5 +25,6 @@ clear_region_inventory(
 - `y2:` The y component of the regions max position
 - `z2:` The z component of the regions max position
 - `item_id:` The item to clear. If omitted, all items will be cleared
-#
+#  
+
 ### [back](../inventory)

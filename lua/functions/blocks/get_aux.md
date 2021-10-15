@@ -17,7 +17,8 @@ get_aux(
 - `x:` The x component of the position
 - `y:` The y component of the position
 - `z:` The z component of the position
-#
+#  
+
 ## Returns:
 - `long:` The aux data. Currently only the first 8 bits of aux data is used
 #

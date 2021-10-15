@@ -19,7 +19,8 @@ add_health_effect_history(
 - `history_key:` The effect is only applied if this history record exists
 - `millisecs:` The time in milliseconds between each effect
 - `name:` 
-#
+#  
+
 ## Example
 ```lua
 add_health_effect(2,"poison",3000)

@@ -27,5 +27,6 @@ spawn_npc(
 - `ai:` The name of the ai behaviour tree for the NPC
 - `dialog:` The name of the dialog tree for the NPC
 - `kill_script:` The name of the script to execute if/when the NPC is killed
-#
+#  
+
 ### [back](../npcs)

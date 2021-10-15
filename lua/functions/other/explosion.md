@@ -21,7 +21,8 @@ explosion(
 - `z:` The z component of the position of the explosion.
 - `radius:` The radius of the explosion specified in blocks
 - `strength:` The strength of the explosion (some blocks are resistant to low strength explosions
-#
+#  
+
 Players and NPCs in the vicinity of the explosions can also be damaged
 #
 ## Example

@@ -15,5 +15,6 @@ remove_event_script(
 ## Parameters:
 - `event_type:` 
 - `item_id:` 
-#
+#  
+
 ### [back](../other)

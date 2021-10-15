@@ -13,7 +13,8 @@ get_npc_count(
 #
 ## Parameters:
 - `npc_type:` 
-#
+#  
+
 ## Returns:
 - `:` 
 #

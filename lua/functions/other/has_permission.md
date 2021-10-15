@@ -13,7 +13,8 @@ has_permission(
 #
 ## Parameters:
 - `name:` 
-#
+#  
+
 ## Returns:
 - `:` 
 #

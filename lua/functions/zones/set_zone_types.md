@@ -25,7 +25,8 @@ set_zone_types(
 - `no_fly:` true or false. If true, players cannot fly inside the zone
 - `no_mobs:` true or false. If true, mobs cannot spawn inside the zone
 - `no_escape:` true or false. If true, players cannot use the Escape option inside the zone
-#
+#  
+
 
 - Players with the admin permission are not affected by zone types.
 - If more than one spawn zone exists, the player will pick a spawn zone randomly to spawn into.

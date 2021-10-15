@@ -75,7 +75,8 @@ add_particle_emitter(
 - `emit_pos_offset_x:` The x component of the start position offset of the particle
 - `emit_pos_offset_y:` The y component of the start position offset of the particle
 - `emit_pos_offset_z:` The z component of the start position offset of the particle
-#
+#  
+
 - The emitter is removed after `duration` seconds.
 - Particles have a max duration (lifetime) of 8 seconds.
 - The particles color is interpolated from start color to end color evenly across it's lifetime.

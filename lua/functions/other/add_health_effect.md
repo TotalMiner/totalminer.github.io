@@ -19,7 +19,8 @@ add_health_effect(
 - `millisecs:` The time in milliseconds between each effect
 - `duration:` The time in milliseconds for the effect to last
 - `name:` 
-#
+#  
+
 If duration and millisecs are omitted, the effect is applied only once
 #
 ## Examples

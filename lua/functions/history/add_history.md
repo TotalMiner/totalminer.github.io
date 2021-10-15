@@ -15,5 +15,6 @@ add_history(
 ## Parameters:
 - `key:` The key/name of the history record
 - `value:` The number to add to the history record. Use a negative number for subtraction
-#
+#  
+
 ### [back](../history)

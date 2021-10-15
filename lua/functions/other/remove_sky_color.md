@@ -13,5 +13,6 @@ remove_sky_color(
 #
 ## Parameters:
 - `transition:` 
-#
+#  
+
 ### [back](../other)

@@ -25,7 +25,8 @@ intersect_sphere(
 - `players:` true = test for players, false = do not test for players. If omitted, the default is true
 - `npcs:` true = test for NPCs, false = do not test for NPCs. If omitted, the default is true
 - `display:` true = display an outline showing the sphere of the test. If omitted, the default is false
-#
+#  
+
 ## Returns:
 - `bool:` True if there is at least one players/NPC positioned within the sphere
 #

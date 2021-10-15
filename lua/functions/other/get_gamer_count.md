@@ -9,7 +9,8 @@ Spec:
 ```lua
 get_gamer_count()
 ```
-#
+#  
+
 ## Returns:
 - `:` 
 #

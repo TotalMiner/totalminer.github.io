@@ -9,7 +9,8 @@ Spec:
 ```lua
 commit()
 ```
-#
+#  
+
 Chunk meshes define the graphics (triangles, textures and lighting) of the voxel blocks in the world.
 When a block is added or removed from the world, the mesh must be updated to visually show that change.
 Mesh updating is a relatively expensive operation so the game does not automatically update the mesh everytime

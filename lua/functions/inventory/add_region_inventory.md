@@ -27,5 +27,6 @@ add_region_inventory(
 - `z2:` The z component of the regions max position
 - `item_id:` 
 - `qty:` The quantity to add. If ommitted, 1 item will be added. Use a negative number to remove items from inventory
-#
+#  
+
 ### [back](../inventory)

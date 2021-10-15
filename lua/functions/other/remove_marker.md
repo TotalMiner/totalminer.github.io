@@ -13,5 +13,6 @@ remove_marker(
 #
 ## Parameters:
 - `name:` 
-#
+#  
+
 ### [back](../other)

@@ -15,5 +15,6 @@ unequip(
 ## Parameters:
 - `item_id:` 
 - `slot:` 
-#
+#  
+
 ### [back](../other)

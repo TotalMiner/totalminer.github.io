@@ -13,5 +13,6 @@ remove_sky_color_player(
 #
 ## Parameters:
 - `transition:` 
-#
+#  
+
 ### [back](../other)

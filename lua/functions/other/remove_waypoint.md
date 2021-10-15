@@ -9,5 +9,6 @@ Spec:
 ```lua
 remove_waypoint()
 ```
-#
+#  
+
 ### [back](../other)

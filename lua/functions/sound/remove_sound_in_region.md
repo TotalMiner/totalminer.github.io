@@ -23,5 +23,6 @@ remove_sound_in_region(
 - `x2:` The x component of the regions max position
 - `y2:` The y component of the regions max position
 - `z2:` The z component of the regions max position
-#
+#  
+
 ### [back](../sound)

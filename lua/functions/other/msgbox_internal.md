@@ -25,5 +25,6 @@ msgbox_internal(
 - `y_text:` 
 - `b_text:` 
 - `vertical:` 
-#
+#  
+
 ### [back](../other)

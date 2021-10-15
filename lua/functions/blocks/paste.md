@@ -25,5 +25,6 @@ paste(
 - `z:` The z component of the position to paste the component
 - `dir:` The direction to face the component for pasting
 - `paste_type:` The type of paste - Overwrite, Merge, NoOverwrite
-#
+#  
+
 ### [back](../blocks)

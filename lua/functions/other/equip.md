@@ -15,7 +15,8 @@ equip(
 ## Parameters:
 - `item_id:` The item to equip
 - `slot:` The slot to equip to: left, right or body
-#
+#  
+
 ## Examples
 ```lua
 equip(item.woodsword,"right")

@@ -9,7 +9,8 @@ Spec:
 ```lua
 get_health_as_percent()
 ```
-#
+#  
+
 ## Returns:
 - `:` 
 #
