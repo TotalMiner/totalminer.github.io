@@ -3,18 +3,25 @@
 
 ## get_inventory
 
-### Get the total count of an item in the context actors inventory.
+Get the total count of an item in the context actors inventory.
+
 ___
+
 Spec:
+
 ```lua
 get_inventory(
 	item_id)
 ```
-## Parameters:
+
+## Parameters
+
 - `item_id:` A valid item_id is required
 
-## Returns:
+## Returns
+
 - `long:` The total number of item_id's in inventory
 
 ___
+
 ### [back](../inventory)

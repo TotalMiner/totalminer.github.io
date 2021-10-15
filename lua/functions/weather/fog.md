@@ -3,9 +3,12 @@
 
 ## fog
 
-### Add fog.
+Add fog.
+
 ___
+
 Spec:
+
 ```lua
 fog(
 	x,
@@ -19,7 +22,9 @@ fog(
 	b,
 	visibility)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` The x component of the position of the center of the fog.
 - `y:` The y component of the position of the center of the fog.
 - `z:` The z component of the position of the center of the fog.
@@ -32,4 +37,5 @@ fog(
 - `visibility:` 
 
 ___
+
 ### [back](../weather)

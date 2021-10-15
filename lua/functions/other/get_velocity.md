@@ -3,19 +3,25 @@
 
 ## get_velocity
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_velocity(
 	x,
 	y,
 	z)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` 
 - `y:` 
 - `z:` 
 
 ___
+
 ### [back](../other)

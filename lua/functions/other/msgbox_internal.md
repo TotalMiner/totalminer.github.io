@@ -3,9 +3,12 @@
 
 ## msgbox_internal
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 msgbox_internal(
 	heading,
@@ -16,7 +19,9 @@ msgbox_internal(
 	b_text,
 	vertical)
 ```
-## Parameters:
+
+## Parameters
+
 - `heading:` 
 - `body:` 
 - `a_text:` 
@@ -26,4 +31,5 @@ msgbox_internal(
 - `vertical:` 
 
 ___
+
 ### [back](../other)

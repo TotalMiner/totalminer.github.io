@@ -3,9 +3,12 @@
 
 ## add_npc_health_region
 
-### Add or subtract to/from the health of all NPCs in a cubic region.
+Add or subtract to/from the health of all NPCs in a cubic region.
+
 ___
+
 Spec:
+
 ```lua
 add_npc_health_region(
 	points,
@@ -19,7 +22,9 @@ add_npc_health_region(
 	millisecs,
 	duration)
 ```
-## Parameters:
+
+## Parameters
+
 - `points:` How many hitpoints to add. Use a negative number to subtract from (damage) the NPCs health
 - `x1:` The x component of the regions min position
 - `y1:` The y component of the regions min position
@@ -32,4 +37,5 @@ add_npc_health_region(
 - `duration:` 
 
 ___
+
 ### [back](../npcs)

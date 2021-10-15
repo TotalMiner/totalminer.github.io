@@ -3,15 +3,20 @@
 
 ## get_oxygen
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_oxygen()
 ```
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

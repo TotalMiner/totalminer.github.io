@@ -3,12 +3,16 @@
 
 ## cctv_exit
 
-### Close the CCTV for the context player.
+Close the CCTV for the context player.
+
 ___
+
 Spec:
+
 ```lua
 cctv_exit()
 ```
 
 ___
+
 ### [back](../other)

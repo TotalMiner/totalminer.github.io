@@ -3,19 +3,25 @@
 
 ## get_point
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_point(
 	x,
 	y,
 	z)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` 
 - `y:` 
 - `z:` 
 
 ___
+
 ### [back](../other)

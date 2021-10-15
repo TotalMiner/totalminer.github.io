@@ -3,15 +3,21 @@
 
 ## set_health_modifier
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 set_health_modifier(
 	modifier)
 ```
-## Parameters:
+
+## Parameters
+
 - `modifier:` 
 
 ___
+
 ### [back](../other)

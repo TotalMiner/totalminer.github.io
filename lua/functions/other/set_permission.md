@@ -3,17 +3,23 @@
 
 ## set_permission
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 set_permission(
 	name,
 	on)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` 
 - `on:` 
 
 ___
+
 ### [back](../other)

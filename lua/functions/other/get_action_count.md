@@ -3,20 +3,27 @@
 
 ## get_action_count
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_action_count(
 	action,
 	item_id)
 ```
-## Parameters:
+
+## Parameters
+
 - `action:` 
 - `item_id:` 
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

@@ -3,18 +3,25 @@
 
 ## has_permission
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 has_permission(
 	name)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` 
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

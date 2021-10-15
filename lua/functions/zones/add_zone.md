@@ -3,9 +3,12 @@
 
 ## add_zone
 
-### Add a new zone. Use zones to control the properties of cubic regions of the world.
+Add a new zone. Use zones to control the properties of cubic regions of the world.
+
 ___
+
 Spec:
+
 ```lua
 add_zone(
 	name,
@@ -17,7 +20,9 @@ add_zone(
 	z2,
 	is_temp)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` The name of the zone
 - `x1:` The x component of the regions min position
 - `y1:` The y component of the regions min position
@@ -28,4 +33,5 @@ add_zone(
 - `is_temp:` 
 
 ___
+
 ### [back](../zones)

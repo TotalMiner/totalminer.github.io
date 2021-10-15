@@ -3,15 +3,21 @@
 
 ## set_dialog
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 set_dialog(
 	name)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` 
 
 ___
+
 ### [back](../other)

@@ -3,15 +3,20 @@
 
 ## get_clan
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_clan()
 ```
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

@@ -3,9 +3,12 @@
 
 ## set_sphere
 
-### Set block id in a spherical region.
+Set block id in a spherical region.
+
 ___
+
 Spec:
+
 ```lua
 set_sphere(
 	x,
@@ -16,7 +19,9 @@ set_sphere(
 	percent,
 	seed)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` The x component of the center of the sphere
 - `y:` The y component of the center of the sphere
 - `z:` The z component of the center of the sphere
@@ -26,11 +31,15 @@ set_sphere(
 - `seed:` The seed of the prng used when percent is < 100
 
 ___
+
 ## Example
+
 ```lua
 move_region(100,200,300,50,block.basalt,75)
 ```
+
 This example creates a sphere with a radius of 50 blocks at postion 100,200,300 using basalt as the block id and filling it 75%.
 
 ___
+
 ### [back](../blocks)

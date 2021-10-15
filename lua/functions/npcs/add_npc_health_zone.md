@@ -3,9 +3,12 @@
 
 ## add_npc_health_zone
 
-### Add or subtract to/from the health of all NPCs in a zone.
+Add or subtract to/from the health of all NPCs in a zone.
+
 ___
+
 Spec:
+
 ```lua
 add_npc_health_zone(
 	points,
@@ -15,7 +18,9 @@ add_npc_health_zone(
 	millisecs,
 	duration)
 ```
-## Parameters:
+
+## Parameters
+
 - `points:` How many hitpoints to add. Use a negative number to subtract from (damage) the NPCs health
 - `zone:` 
 - `is_temp_zone:` 
@@ -24,4 +29,5 @@ add_npc_health_zone(
 - `duration:` 
 
 ___
+
 ### [back](../npcs)

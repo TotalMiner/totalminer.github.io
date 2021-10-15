@@ -3,18 +3,25 @@
 
 ## get_gamer_count_in_zone
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_gamer_count_in_zone(
 	zone_name)
 ```
-## Parameters:
+
+## Parameters
+
 - `zone_name:` 
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

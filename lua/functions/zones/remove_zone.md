@@ -3,15 +3,21 @@
 
 ## remove_zone
 
-### Remove a zone.
+Remove a zone.
+
 ___
+
 Spec:
+
 ```lua
 remove_zone(
 	name)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` 
 
 ___
+
 ### [back](../zones)

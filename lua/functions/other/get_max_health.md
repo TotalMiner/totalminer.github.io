@@ -3,15 +3,20 @@
 
 ## get_max_health
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_max_health()
 ```
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

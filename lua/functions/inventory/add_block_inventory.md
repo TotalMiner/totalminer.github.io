@@ -3,9 +3,12 @@
 
 ## add_block_inventory
 
-### Add or subtract a quantity of an item to/from a blocks inventory.
+Add or subtract a quantity of an item to/from a blocks inventory.
+
 ___
+
 Spec:
+
 ```lua
 add_block_inventory(
 	x,
@@ -14,7 +17,9 @@ add_block_inventory(
 	item_id,
 	qty)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` The x component of the position of the block.
 - `y:` The y component of the position of the block.
 - `z:` The z component of the position of the block.
@@ -22,4 +27,5 @@ add_block_inventory(
 - `qty:` The quantity to add. If ommitted, 1 item will be added. Use a negative number to remove items from inventory
 
 ___
+
 ### [back](../inventory)

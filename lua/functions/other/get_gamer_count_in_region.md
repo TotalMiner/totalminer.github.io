@@ -3,9 +3,12 @@
 
 ## get_gamer_count_in_region
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_gamer_count_in_region(
 	x1,
@@ -15,7 +18,9 @@ get_gamer_count_in_region(
 	y2,
 	z2)
 ```
-## Parameters:
+
+## Parameters
+
 - `x1:` 
 - `y1:` 
 - `z1:` 
@@ -23,8 +28,10 @@ get_gamer_count_in_region(
 - `y2:` 
 - `z2:` 
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

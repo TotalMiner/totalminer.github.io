@@ -3,15 +3,21 @@
 
 ## clear_sys_history
 
-### Clear (remove) a key from system history.
+Clear (remove) a key from system history.
+
 ___
+
 Spec:
+
 ```lua
 clear_sys_history(
 	key)
 ```
-## Parameters:
+
+## Parameters
+
 - `key:` The key/name of the history record
 
 ___
+
 ### [back](../history)

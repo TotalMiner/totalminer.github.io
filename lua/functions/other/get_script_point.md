@@ -3,19 +3,25 @@
 
 ## get_script_point
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_script_point(
 	x,
 	y,
 	z)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` 
 - `y:` 
 - `z:` 
 
 ___
+
 ### [back](../other)

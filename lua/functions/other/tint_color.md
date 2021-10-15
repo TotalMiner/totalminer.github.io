@@ -3,9 +3,12 @@
 
 ## tint_color
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 tint_color(
 	r,
@@ -13,11 +16,14 @@ tint_color(
 	b,
 	transition)
 ```
-## Parameters:
+
+## Parameters
+
 - `r:` 
 - `g:` 
 - `b:` 
 - `transition:` 
 
 ___
+
 ### [back](../other)

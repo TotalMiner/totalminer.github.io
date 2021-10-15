@@ -3,15 +3,21 @@
 
 ## clear_clan_history
 
-### Clear (remove) a key from the context player's clan's history.
+Clear (remove) a key from the context player's clan's history.
+
 ___
+
 Spec:
+
 ```lua
 clear_clan_history(
 	key)
 ```
-## Parameters:
+
+## Parameters
+
 - `key:` The key/name of the history record
 
 ___
+
 ### [back](../history)

@@ -3,19 +3,25 @@
 
 ## set_nameplate
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 set_nameplate(
 	target,
 	setting,
 	npc)
 ```
-## Parameters:
+
+## Parameters
+
 - `target:` 
 - `setting:` 
 - `npc:` 
 
 ___
+
 ### [back](../other)

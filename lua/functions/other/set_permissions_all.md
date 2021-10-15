@@ -3,9 +3,12 @@
 
 ## set_permissions_all
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 set_permissions_all(
 	on,
@@ -22,7 +25,9 @@ set_permissions_all(
 	grief,
 	admin)
 ```
-## Parameters:
+
+## Parameters
+
 - `on:` 
 - `adventure:` 
 - `edit:` 
@@ -38,4 +43,5 @@ set_permissions_all(
 - `admin:` 
 
 ___
+
 ### [back](../other)

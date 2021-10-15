@@ -3,9 +3,12 @@
 
 ## set_temp_zone_props
 
-### Set a temp zone's properties.
+Set a temp zone's properties.
+
 ___
+
 Spec:
+
 ```lua
 set_temp_zone_props(
 	name,
@@ -15,7 +18,9 @@ set_temp_zone_props(
 	gravity_multiplier,
 	health_multiplier)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` 
 - `combat_diff:` The combat level difference for the zone. Combat cannot be engaged by players or mobs if the difference between their combat levels is greater than this number
 - `jump_count:` The number of times a player can jump while still in the air. The default is two.
@@ -24,4 +29,5 @@ set_temp_zone_props(
 - `health_multiplier:` This number is multiplied by the players base health regeneration speed to calculate the players final health regeneration speed. Default is one
 
 ___
+
 ### [back](../zones)

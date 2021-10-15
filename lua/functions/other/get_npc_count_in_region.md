@@ -3,9 +3,12 @@
 
 ## get_npc_count_in_region
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_npc_count_in_region(
 	x1,
@@ -16,7 +19,9 @@ get_npc_count_in_region(
 	z2,
 	npc_type)
 ```
-## Parameters:
+
+## Parameters
+
 - `x1:` 
 - `y1:` 
 - `z1:` 
@@ -25,8 +30,10 @@ get_npc_count_in_region(
 - `z2:` 
 - `npc_type:` 
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

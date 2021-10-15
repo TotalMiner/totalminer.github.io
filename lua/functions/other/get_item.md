@@ -3,18 +3,25 @@
 
 ## get_item
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_item(
 	src)
 ```
-## Parameters:
+
+## Parameters
+
 - `src:` 
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

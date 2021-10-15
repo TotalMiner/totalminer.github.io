@@ -3,9 +3,12 @@
 
 ## hud_counter
 
-### Add a hud counter. A hud counter is a form of text progress counter.
+Add a hud counter. A hud counter is a form of text progress counter.
+
 ___
+
 Spec:
+
 ```lua
 hud_counter(
 	name,
@@ -20,7 +23,9 @@ hud_counter(
 	a,
 	props)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` The name of the element. This name must be unique and is also used to remove the element
 - `is_player:` True or False. If True this element is only shown on the context player's screen. If False, it is shown on all players screens
 - `history:` The key/name of the history record to use as the counter value
@@ -34,4 +39,5 @@ hud_counter(
 - `props:` Properties that define how the hud element is drawn
 
 ___
+
 ### [back](../hud)

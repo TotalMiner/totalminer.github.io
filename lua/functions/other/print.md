@@ -3,15 +3,21 @@
 
 ## print
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 print(
 	args)
 ```
-## Parameters:
+
+## Parameters
+
 - `args:` 
 
 ___
+
 ### [back](../other)

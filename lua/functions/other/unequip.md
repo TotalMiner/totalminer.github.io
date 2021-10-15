@@ -3,17 +3,23 @@
 
 ## unequip
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 unequip(
 	item_id,
 	slot)
 ```
-## Parameters:
+
+## Parameters
+
 - `item_id:` 
 - `slot:` 
 
 ___
+
 ### [back](../other)

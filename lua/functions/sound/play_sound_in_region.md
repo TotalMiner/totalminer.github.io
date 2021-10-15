@@ -3,9 +3,12 @@
 
 ## play_sound_in_region
 
-### Play a sound in a cubic region.
+Play a sound in a cubic region.
+
 ___
+
 Spec:
+
 ```lua
 play_sound_in_region(
 	name,
@@ -17,7 +20,9 @@ play_sound_in_region(
 	z2,
 	volume)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` 
 - `x1:` The x component of the regions min position
 - `y1:` The y component of the regions min position
@@ -28,4 +33,5 @@ play_sound_in_region(
 - `volume:` 
 
 ___
+
 ### [back](../sound)

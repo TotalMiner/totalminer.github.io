@@ -3,15 +3,21 @@
 
 ## input_internal
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 input_internal(
 	header)
 ```
-## Parameters:
+
+## Parameters
+
 - `header:` 
 
 ___
+
 ### [back](../other)

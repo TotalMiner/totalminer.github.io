@@ -3,9 +3,12 @@
 
 ## set_texture
 
-### Set a block's visible texture.
+Set a block's visible texture.
+
 ___
+
 Spec:
+
 ```lua
 set_texture(
 	x,
@@ -13,11 +16,14 @@ set_texture(
 	z,
 	tex_id)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` The x component of the position of the block.
 - `y:` The y component of the position of the block.
 - `z:` The z component of the position of the block.
 - `tex_id:` 
 
 ___
+
 ### [back](../other)

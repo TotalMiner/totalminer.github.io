@@ -3,9 +3,12 @@
 
 ## hud_bar
 
-### Add a hud bar. Hud bars are a form of progress bar.
+Add a hud bar. Hud bars are a form of progress bar.
+
 ___
+
 Spec:
+
 ```lua
 hud_bar(
 	name,
@@ -23,7 +26,9 @@ hud_bar(
 	a,
 	props)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` The name of the element. This name must be unique and is also used to remove the element
 - `is_player:` True or False. If True this element is only shown on the context player's screen. If False, it is shown on all players screens
 - `history:` The key/name of the history record to use as the progress value
@@ -40,4 +45,5 @@ hud_bar(
 - `props:` Properties that define how the hud element is drawn
 
 ___
+
 ### [back](../hud)

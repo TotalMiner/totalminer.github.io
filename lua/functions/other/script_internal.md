@@ -3,15 +3,21 @@
 
 ## script_internal
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 script_internal(
 	name)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` 
 
 ___
+
 ### [back](../other)

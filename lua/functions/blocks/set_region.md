@@ -3,9 +3,12 @@
 
 ## set_region
 
-### Set block id in a cubic region.
+Set block id in a cubic region.
+
 ___
+
 Spec:
+
 ```lua
 set_region(
 	x1,
@@ -18,7 +21,9 @@ set_region(
 	percent,
 	seed)
 ```
-## Parameters:
+
+## Parameters
+
 - `x1:` The x component of the regions min position
 - `y1:` The y component of the regions min position
 - `z1:` The z component of the regions min position
@@ -30,4 +35,5 @@ set_region(
 - `seed:` The seed of the prng used when percent is < 100
 
 ___
+
 ### [back](../blocks)

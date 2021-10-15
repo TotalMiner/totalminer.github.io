@@ -3,9 +3,12 @@
 
 ## spawn_npc
 
-### Spawn an NPC (Non Player Character).
+Spawn an NPC (Non Player Character).
+
 ___
+
 Spec:
+
 ```lua
 spawn_npc(
 	type,
@@ -17,7 +20,9 @@ spawn_npc(
 	dialog,
 	kill_script)
 ```
-## Parameters:
+
+## Parameters
+
 - `type:` The type of the NPC
 - `x:` The x component of the position to spawn the NPC.
 - `y:` The y component of the position to spawn the NPC.
@@ -28,4 +33,5 @@ spawn_npc(
 - `kill_script:` The name of the script to execute if/when the NPC is killed
 
 ___
+
 ### [back](../npcs)

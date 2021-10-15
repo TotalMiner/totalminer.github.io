@@ -3,15 +3,21 @@
 
 ## set_npc_state_target
 
-### Set the state of the target NPC.
+Set the state of the target NPC.
+
 ___
+
 Spec:
+
 ```lua
 set_npc_state_target(
 	state)
 ```
-## Parameters:
+
+## Parameters
+
 - `state:` 
 
 ___
+
 ### [back](../npcs)

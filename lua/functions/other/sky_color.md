@@ -3,9 +3,12 @@
 
 ## sky_color
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 sky_color(
 	r,
@@ -14,7 +17,9 @@ sky_color(
 	intensity,
 	transition)
 ```
-## Parameters:
+
+## Parameters
+
 - `r:` 
 - `g:` 
 - `b:` 
@@ -22,4 +27,5 @@ sky_color(
 - `transition:` 
 
 ___
+
 ### [back](../other)

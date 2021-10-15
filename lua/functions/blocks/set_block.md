@@ -3,9 +3,12 @@
 
 ## set_block
 
-### Set block id and aux data at a voxel position.
+Set block id and aux data at a voxel position.
+
 ___
+
 Spec:
+
 ```lua
 set_block(
 	x,
@@ -14,7 +17,9 @@ set_block(
 	block_id,
 	aux)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` The x component of the position
 - `y:` The y component of the position
 - `z:` The z component of the position
@@ -22,4 +27,5 @@ set_block(
 - `aux:` 
 
 ___
+
 ### [back](../blocks)

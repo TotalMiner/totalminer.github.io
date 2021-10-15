@@ -3,15 +3,20 @@
 
 ## get_max_oxygen
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_max_oxygen()
 ```
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

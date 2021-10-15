@@ -3,30 +3,40 @@
 
 ## get_block
 
-### Get the block id at a voxel position.
+Get the block id at a voxel position.
+
 ___
+
 Spec:
+
 ```lua
 get_block(
 	x,
 	y,
 	z)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` The x component of the position
 - `y:` The y component of the position
 - `z:` The z component of the position
 
-## Returns:
+## Returns
+
 - `long:` The block id. Currently block ids are 8 bit integers
 
 ___
+
 ## Example
+
 ```lua
 local x,y,z = get_script_point()
 local block_id = get_block(x,y+1,z)
 ```
+
 This example gets the block id of the block directly above the script block that executed this script.
 
 ___
+
 ### [back](../blocks)

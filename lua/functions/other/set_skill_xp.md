@@ -3,17 +3,23 @@
 
 ## set_skill_xp
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 set_skill_xp(
 	skill,
 	xp)
 ```
-## Parameters:
+
+## Parameters
+
 - `skill:` 
 - `xp:` 
 
 ___
+
 ### [back](../other)

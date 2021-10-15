@@ -3,17 +3,23 @@
 
 ## enable_item
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 enable_item(
 	item_id,
 	is_enabled)
 ```
-## Parameters:
+
+## Parameters
+
 - `item_id:` 
 - `is_enabled:` 
 
 ___
+
 ### [back](../other)

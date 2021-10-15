@@ -3,15 +3,20 @@
 
 ## get_oxygen_as_percent
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_oxygen_as_percent()
 ```
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

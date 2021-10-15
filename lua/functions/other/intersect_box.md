@@ -3,9 +3,12 @@
 
 ## intersect_box
 
-### Box (cubic region) intersection query.
+Box (cubic region) intersection query.
+
 ___
+
 Spec:
+
 ```lua
 intersect_box(
 	x1,
@@ -18,7 +21,9 @@ intersect_box(
 	npcs,
 	display)
 ```
-## Parameters:
+
+## Parameters
+
 - `x1:` The x component of the box (region) min position
 - `y1:` The y component of the box (region) min position
 - `z1:` The z component of the box (region) min position
@@ -29,11 +34,14 @@ intersect_box(
 - `npcs:` true = test for NPCs, false = do not test for NPCs. If omitted, the default is true
 - `display:` true = display an outline showing the box region of the test. If omitted, the default is false
 
-## Returns:
+## Returns
+
 - `bool:` True if there is at least one players/NPC positioned within the box region
 
 ___
+
 The context target is set as the closest actor inside the box
 
 ___
+
 ### [back](../other)

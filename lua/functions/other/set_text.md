@@ -3,9 +3,12 @@
 
 ## set_text
 
-### Set the text of a block (Sign, Book etc).
+Set the text of a block (Sign, Book etc).
+
 ___
+
 Spec:
+
 ```lua
 set_text(
 	x,
@@ -14,7 +17,9 @@ set_text(
 	text,
 	page)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` The x component of the position of the block.
 - `y:` The y component of the position of the block.
 - `z:` The z component of the position of the block.
@@ -22,4 +27,5 @@ set_text(
 - `page:` 
 
 ___
+
 ### [back](../other)

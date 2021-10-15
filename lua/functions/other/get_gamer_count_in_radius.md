@@ -3,9 +3,12 @@
 
 ## get_gamer_count_in_radius
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_gamer_count_in_radius(
 	x,
@@ -13,14 +16,18 @@ get_gamer_count_in_radius(
 	z,
 	radius)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` The x component of the center of the sphere.
 - `y:` The y component of the center of the sphere.
 - `z:` The z component of the center of the sphere.
 - `radius:` 
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

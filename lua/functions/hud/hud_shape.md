@@ -3,9 +3,12 @@
 
 ## hud_shape
 
-### Add a hud shape.
+Add a hud shape.
+
 ___
+
 Spec:
+
 ```lua
 hud_shape(
 	name,
@@ -27,7 +30,9 @@ hud_shape(
 	ba,
 	props)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` The name of the element. This name must be unique and is also used to remove the element
 - `is_player:` True or False. If True this element is only shown on the context player's screen. If False, it is shown on all players screens
 - `shape:` The type of shape. Currently only "rect" is supported
@@ -48,4 +53,5 @@ hud_shape(
 - `props:` Properties that define how the hud element is drawn
 
 ___
+
 ### [back](../hud)

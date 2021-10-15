@@ -3,9 +3,12 @@
 
 ## get_block_info_internal
 
-### Get various world data of a block.
+Get various world data of a block.
+
 ___
+
 Spec:
+
 ```lua
 get_block_info_internal(
 	x,
@@ -22,7 +25,9 @@ get_block_info_internal(
 	tex_id,
 	resistance)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` The x component of the position of the block.
 - `y:` The y component of the position of the block.
 - `z:` The z component of the position of the block.
@@ -38,4 +43,5 @@ get_block_info_internal(
 - `resistance:` 
 
 ___
+
 ### [back](../other)

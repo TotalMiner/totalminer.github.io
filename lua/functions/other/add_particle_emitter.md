@@ -3,9 +3,12 @@
 
 ## add_particle_emitter
 
-### Add a Particle Emitter.
+Add a Particle Emitter.
+
 ___
+
 Spec:
+
 ```lua
 add_particle_emitter(
 	x,
@@ -41,7 +44,9 @@ add_particle_emitter(
 	emit_pos_offset_y,
 	emit_pos_offset_z)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` The x component of the position of the emitter. This is also the base start position of all emitted particles.
 - `y:` The y component of the position of the emitter. This is also the base start position of all emitted particles.
 - `z:` The z component of the position of the emitter. This is also the base start position of all emitted particles.
@@ -76,6 +81,7 @@ add_particle_emitter(
 - `emit_pos_offset_z:` The z component of the start position offset of the particle
 
 ___
+
 - The emitter is removed after `duration` seconds.
 - Particles have a max duration (lifetime) of 8 seconds.
 - The particles color is interpolated from start color to end color evenly across it's lifetime.
@@ -84,10 +90,13 @@ ___
 
 
 ___
+
 ## Example
+
 ```lua
 add_particle_emitter(100,200,300,60,1,6,0.2,6,-0.8,1,2,0.5,2,200,200,200,200,0.1,0.5,0.1,0.2,0.3,100,100,100,100,0.5,0.5,0.5,1,2,3)
 ```
 
 ___
+
 ### [back](../other)

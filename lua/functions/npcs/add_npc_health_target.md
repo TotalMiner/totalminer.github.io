@@ -3,19 +3,25 @@
 
 ## add_npc_health_target
 
-### Add or subtract to/from the target NPCs health.
+Add or subtract to/from the target NPCs health.
+
 ___
+
 Spec:
+
 ```lua
 add_npc_health_target(
 	points,
 	millisecs,
 	duration)
 ```
-## Parameters:
+
+## Parameters
+
 - `points:` How many hitpoints to add. Use a negative number to subtract from (damage) the NPCs health
 - `millisecs:` 
 - `duration:` 
 
 ___
+
 ### [back](../npcs)

@@ -3,17 +3,23 @@
 
 ## remove_event_script
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 remove_event_script(
 	event_type,
 	item_id)
 ```
-## Parameters:
+
+## Parameters
+
 - `event_type:` 
 - `item_id:` 
 
 ___
+
 ### [back](../other)

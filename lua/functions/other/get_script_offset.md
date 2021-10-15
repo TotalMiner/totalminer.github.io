@@ -3,19 +3,25 @@
 
 ## get_script_offset
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_script_offset(
 	x,
 	y,
 	z)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` 
 - `y:` 
 - `z:` 
 
 ___
+
 ### [back](../other)

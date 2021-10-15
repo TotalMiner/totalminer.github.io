@@ -3,15 +3,21 @@
 
 ## remove_sky_color
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 remove_sky_color(
 	transition)
 ```
-## Parameters:
+
+## Parameters
+
 - `transition:` 
 
 ___
+
 ### [back](../other)

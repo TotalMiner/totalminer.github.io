@@ -3,18 +3,25 @@
 
 ## get_random
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_random(
 	max)
 ```
-## Parameters:
+
+## Parameters
+
 - `max:` 
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

@@ -3,9 +3,12 @@
 
 ## move_inventory
 
-### Move (transfer) a block inventory to another voxel position.
+Move (transfer) a block inventory to another voxel position.
+
 ___
+
 Spec:
+
 ```lua
 move_inventory(
 	x1,
@@ -17,7 +20,9 @@ move_inventory(
 	item_id,
 	qty)
 ```
-## Parameters:
+
+## Parameters
+
 - `x1:` The x component of the source block position
 - `y1:` The y component of the source block position
 - `z1:` The z component of the source block position
@@ -28,4 +33,5 @@ move_inventory(
 - `qty:` The quantity of the item to move. If omitted, all of the item will be moved
 
 ___
+
 ### [back](../inventory)

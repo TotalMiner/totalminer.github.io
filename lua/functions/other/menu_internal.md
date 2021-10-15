@@ -3,15 +3,21 @@
 
 ## menu_internal
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 menu_internal(
 	args)
 ```
-## Parameters:
+
+## Parameters
+
 - `args:` 
 
 ___
+
 ### [back](../other)

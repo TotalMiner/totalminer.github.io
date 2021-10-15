@@ -3,9 +3,12 @@
 
 ## intersect_ray
 
-### Ray intersection query.
+Ray intersection query.
+
 ___
+
 Spec:
+
 ```lua
 intersect_ray(
 	x1,
@@ -18,7 +21,9 @@ intersect_ray(
 	npcs,
 	display)
 ```
-## Parameters:
+
+## Parameters
+
 - `x1:` The x component of the (position) origin of the ray
 - `y1:` The y component of the (position) origin of the ray
 - `z1:` The z component of the (position) origin of the ray
@@ -29,11 +34,14 @@ intersect_ray(
 - `npcs:` true = test for NPCs, false = do not test for NPCs. If omitted, the default is true
 - `display:` true = display an outline showing the ray of the test. If omitted, the default is false
 
-## Returns:
+## Returns
+
 - `bool:` True if the ray intersects at least one players/NPC
 
 ___
+
 The context target is set as the closest actor hit by the ray
 
 ___
+
 ### [back](../other)

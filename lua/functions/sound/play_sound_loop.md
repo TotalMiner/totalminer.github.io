@@ -3,9 +3,12 @@
 
 ## play_sound_loop
 
-### Play a looped sound at a voxel position.
+Play a looped sound at a voxel position.
+
 ___
+
 Spec:
+
 ```lua
 play_sound_loop(
 	name,
@@ -18,7 +21,9 @@ play_sound_loop(
 	volume,
 	range)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` 
 - `x:` The x component of the position.
 - `y:` The y component of the position.
@@ -30,4 +35,5 @@ play_sound_loop(
 - `range:` 
 
 ___
+
 ### [back](../sound)

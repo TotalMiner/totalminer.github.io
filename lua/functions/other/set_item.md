@@ -3,19 +3,25 @@
 
 ## set_item
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 set_item(
 	item_id,
 	name,
 	desc)
 ```
-## Parameters:
+
+## Parameters
+
 - `item_id:` 
 - `name:` 
 - `desc:` 
 
 ___
+
 ### [back](../other)

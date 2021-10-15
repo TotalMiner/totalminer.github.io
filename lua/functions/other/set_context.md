@@ -3,15 +3,21 @@
 
 ## set_context
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 set_context(
 	context)
 ```
-## Parameters:
+
+## Parameters
+
 - `context:` 
 
 ___
+
 ### [back](../other)

@@ -3,12 +3,16 @@
 
 ## remove_waypoint
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 remove_waypoint()
 ```
 
 ___
+
 ### [back](../other)

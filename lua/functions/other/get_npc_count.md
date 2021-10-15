@@ -3,18 +3,25 @@
 
 ## get_npc_count
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_npc_count(
 	npc_type)
 ```
-## Parameters:
+
+## Parameters
+
 - `npc_type:` 
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

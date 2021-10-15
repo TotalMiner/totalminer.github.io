@@ -3,18 +3,25 @@
 
 ## get_skill_xp
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_skill_xp(
 	skill)
 ```
-## Parameters:
+
+## Parameters
+
 - `skill:` 
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

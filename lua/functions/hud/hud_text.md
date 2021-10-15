@@ -3,9 +3,12 @@
 
 ## hud_text
 
-### Add hud text.
+Add hud text.
+
 ___
+
 Spec:
+
 ```lua
 hud_text(
 	name,
@@ -21,7 +24,9 @@ hud_text(
 	rot,
 	props)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` The name of the element. This name must be unique and is also used to remove the element
 - `is_player:` True or False. If True this element is only shown on the context player's screen. If False, it is shown on all players screens
 - `text:` 
@@ -36,4 +41,5 @@ hud_text(
 - `props:` Properties that define how the hud element is drawn
 
 ___
+
 ### [back](../hud)

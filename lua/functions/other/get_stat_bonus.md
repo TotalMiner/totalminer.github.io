@@ -3,18 +3,25 @@
 
 ## get_stat_bonus
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_stat_bonus(
 	skill)
 ```
-## Parameters:
+
+## Parameters
+
 - `skill:` 
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

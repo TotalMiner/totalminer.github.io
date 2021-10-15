@@ -3,19 +3,25 @@
 
 ## get_view_dir
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_view_dir(
 	x,
 	y,
 	z)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` 
 - `y:` 
 - `z:` 
 
 ___
+
 ### [back](../other)

@@ -3,9 +3,12 @@
 
 ## move_inventory_from
 
-### Move (transfer) a blocks inventory to the context actors inventory.
+Move (transfer) a blocks inventory to the context actors inventory.
+
 ___
+
 Spec:
+
 ```lua
 move_inventory_from(
 	x,
@@ -14,7 +17,9 @@ move_inventory_from(
 	item_id,
 	qty)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` The x component of the position of the block.
 - `y:` The y component of the position of the block.
 - `z:` The z component of the position of the block.
@@ -22,4 +27,5 @@ move_inventory_from(
 - `qty:` The quantity of the item to move. If omitted, all of the item will be moved
 
 ___
+
 ### [back](../inventory)

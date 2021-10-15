@@ -3,9 +3,12 @@
 
 ## cctv
 
-### Open a CCTV (directional) for the context player.
+Open a CCTV (directional) for the context player.
+
 ___
+
 Spec:
+
 ```lua
 cctv(
 	is_admin,
@@ -17,7 +20,9 @@ cctv(
 	swivel_speed,
 	fov)
 ```
-## Parameters:
+
+## Parameters
+
 - `is_admin:` true = only admins can use this CCTV, false = all players can use it
 - `x:` The x component of the position of the camera.
 - `y:` The y component of the position of the camera.
@@ -28,4 +33,5 @@ cctv(
 - `fov:` The field of view of the camera specified in degrees. If omitted the default value is 80
 
 ___
+
 ### [back](../other)

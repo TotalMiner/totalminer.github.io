@@ -3,9 +3,12 @@
 
 ## paste
 
-### Paste a component.
+Paste a component.
+
 ___
+
 Spec:
+
 ```lua
 paste(
 	pack_name,
@@ -16,7 +19,9 @@ paste(
 	dir,
 	paste_type)
 ```
-## Parameters:
+
+## Parameters
+
 - `pack_name:` The name of the component pack in which the component is stored
 - `component_name:` The name of the component
 - `x:` The x component of the position to paste the component
@@ -26,4 +31,5 @@ paste(
 - `paste_type:` The type of paste - Overwrite, Merge, NoOverwrite
 
 ___
+
 ### [back](../blocks)

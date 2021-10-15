@@ -3,22 +3,29 @@
 
 ## get_texture
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_texture(
 	x,
 	y,
 	z)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` The x component of the position.
 - `y:` The y component of the position.
 - `z:` The z component of the position.
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

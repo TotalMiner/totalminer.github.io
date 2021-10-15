@@ -3,15 +3,21 @@
 
 ## remove_marker
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 remove_marker(
 	name)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` 
 
 ___
+
 ### [back](../other)

@@ -3,9 +3,12 @@
 
 ## teleport_all
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 teleport_all(
 	x1,
@@ -19,7 +22,9 @@ teleport_all(
 	z3,
 	is_rel)
 ```
-## Parameters:
+
+## Parameters
+
 - `x1:` 
 - `y1:` 
 - `z1:` 
@@ -32,4 +37,5 @@ teleport_all(
 - `is_rel:` 
 
 ___
+
 ### [back](../other)

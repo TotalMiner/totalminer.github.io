@@ -3,18 +3,25 @@
 
 ## get_hash_code
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_hash_code(
 	s)
 ```
-## Parameters:
+
+## Parameters
+
 - `s:` 
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

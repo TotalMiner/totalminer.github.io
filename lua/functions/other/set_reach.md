@@ -3,17 +3,23 @@
 
 ## set_reach
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 set_reach(
 	distance,
 	target)
 ```
-## Parameters:
+
+## Parameters
+
 - `distance:` 
 - `target:` 
 
 ___
+
 ### [back](../other)

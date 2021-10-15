@@ -3,15 +3,21 @@
 
 ## set_behaviour
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 set_behaviour(
 	name)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` 
 
 ___
+
 ### [back](../other)

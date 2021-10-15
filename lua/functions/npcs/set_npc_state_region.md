@@ -3,9 +3,12 @@
 
 ## set_npc_state_region
 
-### Set the state of all NPCs in a cubic region.
+Set the state of all NPCs in a cubic region.
+
 ___
+
 Spec:
+
 ```lua
 set_npc_state_region(
 	state,
@@ -17,7 +20,9 @@ set_npc_state_region(
 	z2,
 	npc_type)
 ```
-## Parameters:
+
+## Parameters
+
 - `state:` 
 - `x1:` The x component of the regions min position
 - `y1:` The y component of the regions min position
@@ -28,4 +33,5 @@ set_npc_state_region(
 - `npc_type:` Only apply to these types of NPCs. Omit to apply to all types of NPCs
 
 ___
+
 ### [back](../npcs)

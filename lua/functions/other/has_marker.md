@@ -3,18 +3,25 @@
 
 ## has_marker
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 has_marker(
 	name)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` 
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

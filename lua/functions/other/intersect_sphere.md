@@ -3,9 +3,12 @@
 
 ## intersect_sphere
 
-### Sphere intersection query.
+Sphere intersection query.
+
 ___
+
 Spec:
+
 ```lua
 intersect_sphere(
 	x,
@@ -16,7 +19,9 @@ intersect_sphere(
 	npcs,
 	display)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` The x component of the position of the center of the sphere.
 - `y:` The y component of the position of the center of the sphere.
 - `z:` The z component of the position of the center of the sphere.
@@ -25,11 +30,14 @@ intersect_sphere(
 - `npcs:` true = test for NPCs, false = do not test for NPCs. If omitted, the default is true
 - `display:` true = display an outline showing the sphere of the test. If omitted, the default is false
 
-## Returns:
+## Returns
+
 - `bool:` True if there is at least one players/NPC positioned within the sphere
 
 ___
+
 The context target is set as the closest actor inside the sphere
 
 ___
+
 ### [back](../other)

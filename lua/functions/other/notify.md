@@ -3,15 +3,21 @@
 
 ## notify
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 notify(
 	args)
 ```
-## Parameters:
+
+## Parameters
+
 - `args:` 
 
 ___
+
 ### [back](../other)

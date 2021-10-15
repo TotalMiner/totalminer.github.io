@@ -3,9 +3,12 @@
 
 ## set_zone_types
 
-### Set a zone's types.
+Set a zone's types.
+
 ___
+
 Spec:
+
 ```lua
 set_zone_types(
 	name,
@@ -16,7 +19,9 @@ set_zone_types(
 	no_mobs,
 	no_escape)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` 
 - `spawn:` true or false. If true, a player will spawn to a random location within this zone.
 - `no_edit:` true or false. If true, players cannot add or remove blocks from inside the zone
@@ -27,6 +32,7 @@ set_zone_types(
 
 ___
 
+
 - Players with the admin permission are not affected by zone types.
 - If more than one spawn zone exists, the player will pick a spawn zone randomly to spawn into.
 - Spawn zones must be at least 2 x 2 x 2 blocks in size and must not have any blocks inside them (they must be empty space).
@@ -34,4 +40,5 @@ ___
 
 
 ___
+
 ### [back](../zones)

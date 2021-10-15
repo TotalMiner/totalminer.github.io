@@ -3,9 +3,12 @@
 
 ## intersect_frustum
 
-### Frustum intersection query.
+Frustum intersection query.
+
 ___
+
 Spec:
+
 ```lua
 intersect_frustum(
 	x1,
@@ -19,7 +22,9 @@ intersect_frustum(
 	npcs,
 	display)
 ```
-## Parameters:
+
+## Parameters
+
 - `x1:` The x component of the (position) center of the frustum near plane
 - `y1:` The y component of the (position) center of the frustum near plane
 - `z1:` The z component of the (position) center of the frustum near plane
@@ -31,11 +36,14 @@ intersect_frustum(
 - `npcs:` true = test for NPCs, false = do not test for NPCs. If omitted, the default is true
 - `display:` true = display an outline showing the frustum of the test. If omitted, the default is false
 
-## Returns:
+## Returns
+
 - `bool:` True if there is at least one players/NPC positioned within the frustum
 
 ___
+
 The context target is set as the closest actor inside the frustum
 
 ___
+
 ### [back](../other)

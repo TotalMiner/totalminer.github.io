@@ -3,9 +3,12 @@
 
 ## set_temp_zone_region
 
-### Change the region of an existing temp zone.
+Change the region of an existing temp zone.
+
 ___
+
 Spec:
+
 ```lua
 set_temp_zone_region(
 	name,
@@ -16,7 +19,9 @@ set_temp_zone_region(
 	y2,
 	z2)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` 
 - `x1:` The new x component of the regions min position
 - `y1:` The new y component of the regions min position
@@ -26,4 +31,5 @@ set_temp_zone_region(
 - `z2:` The new z component of the regions max position
 
 ___
+
 ### [back](../zones)

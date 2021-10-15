@@ -3,9 +3,12 @@
 
 ## hail
 
-### Add hail.
+Add hail.
+
 ___
+
 Spec:
+
 ```lua
 hail(
 	x,
@@ -20,7 +23,9 @@ hail(
 	size_x,
 	size_z)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` The x component of the position of the center of the hail storm.
 - `y:` The y component of the position of the center of the hail storm.
 - `z:` The z component of the position of the center of the hail storm.
@@ -34,4 +39,5 @@ hail(
 - `size_z:` 
 
 ___
+
 ### [back](../weather)

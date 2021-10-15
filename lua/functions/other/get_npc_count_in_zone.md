@@ -3,20 +3,27 @@
 
 ## get_npc_count_in_zone
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_npc_count_in_zone(
 	zone_name,
 	npc_type)
 ```
-## Parameters:
+
+## Parameters
+
 - `zone_name:` 
 - `npc_type:` 
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

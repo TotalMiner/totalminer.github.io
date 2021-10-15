@@ -3,9 +3,12 @@
 
 ## set_event_button_script
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 set_event_button_script(
 	event_type,
@@ -15,7 +18,9 @@ set_event_button_script(
 	y,
 	scale)
 ```
-## Parameters:
+
+## Parameters
+
 - `event_type:` 
 - `script_name:` 
 - `text:` 
@@ -24,4 +29,5 @@ set_event_button_script(
 - `scale:` 
 
 ___
+
 ### [back](../other)

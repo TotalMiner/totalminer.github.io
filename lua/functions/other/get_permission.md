@@ -3,18 +3,25 @@
 
 ## get_permission
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 get_permission(
 	name)
 ```
-## Parameters:
+
+## Parameters
+
 - `name:` 
 
-## Returns:
+## Returns
+
 - `:` 
 
 ___
+
 ### [back](../other)

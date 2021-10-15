@@ -3,17 +3,23 @@
 
 ## set_waypoint
 
-### Function undefined.
+Function undefined.
+
 ___
+
 Spec:
+
 ```lua
 set_waypoint(
 	x,
 	z)
 ```
-## Parameters:
+
+## Parameters
+
 - `x:` 
 - `z:` 
 
 ___
+
 ### [back](../other)
