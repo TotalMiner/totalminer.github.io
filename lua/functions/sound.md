@@ -7,7 +7,7 @@
 - [Functions](../functions)
 
 #
-## Functions to manipulate Sound
+## Functions to manipulate sound
 #
 ### [play_sound](Sound/play_sound)
 > Play a sound at a voxel position.

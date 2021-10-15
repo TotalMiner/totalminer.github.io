@@ -7,7 +7,7 @@
 - [Functions](../functions)
 
 #
-## Functions to manipulate NPCs
+## Functions to manipulate npcs
 #
 ### [spawn_npc](NPCs/spawn_npc)
 > Spawn an NPC (Non Player Character).

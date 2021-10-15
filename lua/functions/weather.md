@@ -7,7 +7,7 @@
 - [Functions](../functions)
 
 #
-## Functions to manipulate Weather
+## Functions to manipulate weather
 #
 ### [fog](Weather/fog)
 > Add fog.

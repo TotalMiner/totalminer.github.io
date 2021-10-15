@@ -7,7 +7,7 @@
 - [Functions](../functions)
 
 #
-## Functions to manipulate Zones
+## Functions to manipulate zones
 #
 ### [add_zone](Zones/add_zone)
 > Add a new zone. Use zones to control the properties of cubic regions of the world.

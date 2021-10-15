@@ -7,7 +7,7 @@
 - [Functions](../functions)
 
 #
-## Functions to manipulate HUD
+## Functions to manipulate hud
 #
 ### [hud_bar](HUD/hud_bar)
 > Add a hud bar. Hud bars are a form of progress bar.

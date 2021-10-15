@@ -7,7 +7,7 @@
 - [Functions](../functions)
 
 #
-## Functions to manipulate History
+## Functions to manipulate history
 #
 ### [get_history](History/get_history)
 > Get a value from the context players history.

@@ -7,7 +7,7 @@
 - [Functions](../functions)
 
 #
-## Functions to manipulate Inventory
+## Functions to manipulate inventory
 #
 ### [get_inventory](Inventory/get_inventory)
 > Get the total count of an item in the context actors inventory.

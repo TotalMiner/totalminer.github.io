@@ -7,7 +7,7 @@
 - [Functions](../functions)
 
 #
-## Functions to manipulate Blocks
+## Functions to manipulate blocks
 #
 ### [get_aux](Blocks/get_aux)
 > Get the aux data at a voxel position.

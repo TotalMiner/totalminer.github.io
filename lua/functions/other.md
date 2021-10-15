@@ -7,7 +7,7 @@
 - [Functions](../functions)
 
 #
-## Functions to manipulate Other
+## Functions to manipulate other
 #
 ### [add_health_effect](Other/add_health_effect)
 > Add an effect which increases or decreases the context actor's health over time.
