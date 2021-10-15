@@ -21,10 +21,10 @@ ___
 equip(item.woodsword,"right")
 ```
 This example equips a wood sword (if the actor has one) to their right hand
+___
 ```lua
 equip(item.leatherhelmet,"body")
 ```
 This example equips a leather helmet (if the actor has one) to the appropriate body slot
-
 ___
 ### [back](../other)

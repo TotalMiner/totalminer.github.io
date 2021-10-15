@@ -22,9 +22,9 @@ ___
 local started = get_history("myquest/started")
 ```
 This example gets the value of the history record with the key "myquest/started"
+___
 ```lua
 local temp = get_history("temp")
 ```
-
 ___
 ### [back](../history)

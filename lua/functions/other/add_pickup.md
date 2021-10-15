@@ -26,6 +26,5 @@ ___
 ```lua
 add_pickup(100,220,140,item.wood,2)
 ```
-
 ___
 ### [back](../other)
