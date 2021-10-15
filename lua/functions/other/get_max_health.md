@@ -9,6 +9,8 @@ Spec:
 ```lua
 get_max_health()
 ```
+
 ## Returns:
 - `:` 
+
 ### [back](../other)

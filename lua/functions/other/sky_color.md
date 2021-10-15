@@ -20,4 +20,5 @@ sky_color(
 - `b:` 
 - `intensity:` 
 - `transition:` 
+
 ### [back](../other)

@@ -12,5 +12,7 @@ cancel_script(
 ```
 ## Parameters:
 - `name:` The name of the script to cancel
+
 The name must include the full path
+
 ### [back](../other)

@@ -28,7 +28,10 @@ intersect_ray(
 - `players:` true = test for players, false = do not test for players. If omitted, the default is true
 - `npcs:` true = test for NPCs, false = do not test for NPCs. If omitted, the default is true
 - `display:` true = display an outline showing the ray of the test. If omitted, the default is false
+
 ## Returns:
 - `bool:` True if the ray intersects at least one players/NPC
+
 The context target is set as the closest actor hit by the ray
+
 ### [back](../other)

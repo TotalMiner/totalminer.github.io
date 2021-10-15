@@ -9,4 +9,5 @@ Spec:
 ```lua
 remove_pickups()
 ```
+
 ### [back](../other)

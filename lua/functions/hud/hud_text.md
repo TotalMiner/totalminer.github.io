@@ -34,4 +34,5 @@ hud_text(
 - `a:` The a (alpha) component of the elements color
 - `rot:` The rotation of the element in radians
 - `props:` Properties that define how the hud element is drawn
+
 ### [back](../hud)

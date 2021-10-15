@@ -12,6 +12,8 @@ has_permission(
 ```
 ## Parameters:
 - `name:` 
+
 ## Returns:
 - `:` 
+
 ### [back](../other)

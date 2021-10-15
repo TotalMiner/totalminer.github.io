@@ -24,6 +24,8 @@ get_npc_count_in_region(
 - `y2:` 
 - `z2:` 
 - `npc_type:` 
+
 ## Returns:
 - `:` 
+
 ### [back](../other)

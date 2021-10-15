@@ -16,4 +16,5 @@ add_npc_health_target(
 - `points:` How many hitpoints to add. Use a negative number to subtract from (damage) the NPCs health
 - `millisecs:` 
 - `duration:` 
+
 ### [back](../npcs)

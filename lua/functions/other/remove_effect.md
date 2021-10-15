@@ -12,4 +12,5 @@ remove_effect(
 ```
 ## Parameters:
 - `name:` 
+
 ### [back](../other)

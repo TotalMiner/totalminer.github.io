@@ -26,4 +26,5 @@ copy_inventory(
 - `z2:` The z component of the destination block position
 - `item_id:` The item_id to copy. If omitted, all items will be copied
 - `qty:` The quantity of the item to copy. If omitted, all of the item will be copied
+
 ### [back](../inventory)

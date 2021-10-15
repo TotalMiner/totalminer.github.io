@@ -32,4 +32,5 @@ hud_counter(
 - `b:` The b (blue) component of the elements color
 - `a:` The a (alpha) component of the elements color
 - `props:` Properties that define how the hud element is drawn
+
 ### [back](../hud)

@@ -12,6 +12,8 @@ get_stat_bonus(
 ```
 ## Parameters:
 - `skill:` 
+
 ## Returns:
 - `:` 
+
 ### [back](../other)

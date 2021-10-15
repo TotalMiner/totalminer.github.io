@@ -16,4 +16,5 @@ set_nameplate(
 - `target:` 
 - `setting:` 
 - `npc:` 
+
 ### [back](../other)

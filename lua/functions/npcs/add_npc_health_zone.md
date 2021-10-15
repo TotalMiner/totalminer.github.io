@@ -22,4 +22,5 @@ add_npc_health_zone(
 - `npc_type:` Only apply to these types of NPCs. Omit to apply to all types of NPCs
 - `millisecs:` 
 - `duration:` 
+
 ### [back](../npcs)

@@ -18,4 +18,5 @@ set_texture(
 - `y:` The y component of the position of the block.
 - `z:` The z component of the position of the block.
 - `tex_id:` 
+
 ### [back](../other)

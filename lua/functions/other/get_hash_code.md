@@ -12,6 +12,8 @@ get_hash_code(
 ```
 ## Parameters:
 - `s:` 
+
 ## Returns:
 - `:` 
+
 ### [back](../other)

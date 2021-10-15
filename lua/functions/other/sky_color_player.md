@@ -20,4 +20,5 @@ sky_color_player(
 - `b:` 
 - `intensity:` 
 - `transition:` 
+
 ### [back](../other)

@@ -14,4 +14,5 @@ add_skill_xp(
 ## Parameters:
 - `skill:` The skill to change
 - `xp:` The amount of xp to add (positive number) or subtract (negative number)
+
 ### [back](../other)

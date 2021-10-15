@@ -18,4 +18,5 @@ clear_block_inventory(
 - `y:` The y component of the position of the block.
 - `z:` The z component of the position of the block.
 - `item_id:` The item to clear. If omitted, all items will be cleared
+
 ### [back](../inventory)

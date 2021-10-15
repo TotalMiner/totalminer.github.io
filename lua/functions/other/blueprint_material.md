@@ -20,4 +20,5 @@ blueprint_material(
 - `slot_item_id:` The material item for this slot
 - `slot_qty:` The qty needed of the slot item for a single craft
 - `slot_durability:` The durability subtracted from the slot item on a single craft
+
 ### [back](../other)

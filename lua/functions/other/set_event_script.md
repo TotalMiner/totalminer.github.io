@@ -16,4 +16,5 @@ set_event_script(
 - `event_type:` 
 - `script_name:` 
 - `item_id:` 
+
 ### [back](../other)

@@ -30,4 +30,5 @@ fog(
 - `g:` 
 - `b:` 
 - `visibility:` 
+
 ### [back](../weather)

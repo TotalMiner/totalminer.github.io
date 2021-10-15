@@ -9,6 +9,8 @@ Spec:
 ```lua
 get_clan()
 ```
+
 ## Returns:
 - `:` 
+
 ### [back](../other)

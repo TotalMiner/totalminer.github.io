@@ -22,6 +22,8 @@ get_gamer_count_in_region(
 - `x2:` 
 - `y2:` 
 - `z2:` 
+
 ## Returns:
 - `:` 
+
 ### [back](../other)

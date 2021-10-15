@@ -9,6 +9,8 @@ Spec:
 ```lua
 get_max_oxygen()
 ```
+
 ## Returns:
 - `:` 
+
 ### [back](../other)

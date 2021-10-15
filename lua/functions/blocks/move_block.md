@@ -22,10 +22,12 @@ move_block(
 - `x2:` The x component of the destination position
 - `y2:` The y component of the destination position
 - `z2:` The z component of the destination position
+
 ## Example
 ```lua
 local x,y,z = get_script_point()
 move_block(x,y,z,x,y+1,z)
 ```
 This example moves the block id, aux data and light data of the script block that executed this script to the position directly above it.
+
 ### [back](../blocks)

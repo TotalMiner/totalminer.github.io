@@ -14,4 +14,5 @@ add_skill_level(
 ## Parameters:
 - `skill:` The skill to change
 - `level:` The number of levels to add (positive number) or subtract (negative number). If omitted, one level will be added
+
 ### [back](../other)

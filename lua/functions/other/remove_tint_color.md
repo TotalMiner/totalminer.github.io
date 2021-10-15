@@ -12,4 +12,5 @@ remove_tint_color(
 ```
 ## Parameters:
 - `transition:` 
+
 ### [back](../other)

@@ -46,4 +46,5 @@ hud_shape(
 - `bb:` The b (blue) component of the elements border color
 - `ba:` The a (alpha) component of the elements border color
 - `props:` Properties that define how the hud element is drawn
+
 ### [back](../hud)

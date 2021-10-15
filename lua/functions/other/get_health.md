@@ -9,6 +9,8 @@ Spec:
 ```lua
 get_health()
 ```
+
 ## Returns:
 - `:` 
+
 ### [back](../other)

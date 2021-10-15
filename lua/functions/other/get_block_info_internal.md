@@ -36,4 +36,5 @@ get_block_info_internal(
 - `is_solid:` 
 - `tex_id:` 
 - `resistance:` 
+
 ### [back](../other)

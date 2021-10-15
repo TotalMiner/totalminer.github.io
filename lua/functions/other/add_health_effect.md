@@ -18,7 +18,9 @@ add_health_effect(
 - `millisecs:` The time in milliseconds between each effect
 - `duration:` The time in milliseconds for the effect to last
 - `name:` 
+
 If duration and millisecs are omitted, the effect is applied only once
+
 ## Examples
 ```lua
 add_health_effect(2,3000,4000)
@@ -28,4 +30,5 @@ This example increases the actors health by 2 hitpoints every 3 seconds over a t
 add_health_effect(-5)
 ```
 This example decreases the actors health by 5 hitpoints (once only)
+
 ### [back](../other)

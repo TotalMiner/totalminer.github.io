@@ -18,4 +18,5 @@ tint_color_player(
 - `g:` 
 - `b:` 
 - `transition:` 
+
 ### [back](../other)

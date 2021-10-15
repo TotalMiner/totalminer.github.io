@@ -12,4 +12,5 @@ remove_tint_color_player(
 ```
 ## Parameters:
 - `transition:` 
+
 ### [back](../other)

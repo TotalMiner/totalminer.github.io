@@ -20,6 +20,8 @@ get_npc_count_in_radius(
 - `z:` The z component of the center of the sphere.
 - `radius:` 
 - `npc_type:` 
+
 ## Returns:
 - `:` 
+
 ### [back](../other)

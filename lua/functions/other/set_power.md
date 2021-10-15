@@ -18,4 +18,5 @@ set_power(
 - `y:` The y component of the position of the block.
 - `z:` The z component of the position of the block.
 - `power:` 
+
 ### [back](../other)

@@ -12,4 +12,5 @@ set_npc_state_target(
 ```
 ## Parameters:
 - `state:` 
+
 ### [back](../npcs)

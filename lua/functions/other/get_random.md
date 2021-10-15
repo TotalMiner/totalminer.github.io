@@ -12,6 +12,8 @@ get_random(
 ```
 ## Parameters:
 - `max:` 
+
 ## Returns:
 - `:` 
+
 ### [back](../other)
