@@ -17,3 +17,4 @@
 - [Weather](functions/weather)
 - [Zones](functions/zones)
 - [Other](functions/other)
+- [Getters](functions/getters)
