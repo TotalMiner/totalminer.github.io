@@ -296,4 +296,3 @@
 ### [has_permission](other/has_permission)
 
 > Function undefined.
-

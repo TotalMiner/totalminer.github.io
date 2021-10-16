@@ -160,4 +160,3 @@
 ### [get_view_dir](getters/get_view_dir)
 
 > Function undefined.
-

@@ -28,4 +28,3 @@
 ### [remove_hud](hud/remove_hud)
 
 > Remove a hud element.
-

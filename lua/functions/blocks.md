@@ -60,4 +60,3 @@
 ### [set_sphere](blocks/set_sphere)
 
 > Set block id in a spherical region.
-

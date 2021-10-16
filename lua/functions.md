@@ -6,7 +6,9 @@
 - [Home](../index)
 - [Data Types](data-types)
 
-# Function Groups
+___
+
+## Function Groups
 
 - [Blocks](functions/blocks)
 - [History](functions/history)
@@ -18,3 +20,5 @@
 - [Zones](functions/zones)
 - [Other](functions/other)
 - [Getters](functions/getters)
+
+___

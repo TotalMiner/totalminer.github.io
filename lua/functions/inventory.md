@@ -64,4 +64,3 @@
 ### [move_inventory_region](inventory/move_inventory_region)
 
 > Move (transfer) all block inventories in a cubic region to another region.
-

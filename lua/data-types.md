@@ -3,19 +3,19 @@
 ## Pages
 
 - [Home](../../index)
-- [Functions](../functions)
+- [Functions](functions)
 
 ___
 
-## LUA Data Types
+## Data Types
 
 TM Lua scripting primarily uses three data types.
 
-- string: These data types store text, e.g. "Hello", "Body"
-- integer (64bit): These data types store whole numbers, e.g. 1024, 10
-- floating point number (64bit): These data types store numbers that have fractions, e.g. 10.25, 52.34553
+- string: These data types store text, e.g. "Hello", "Body", "Left"
+- integer (64bit): These data types store whole numbers only, e.g. 1024, 10, 123
+- floating point number (64bit): These data types store numbers that can have fractions, e.g. 10.25, 52.34553, 100.0
 
-Almost all TM Lua script commands will either accept or return one or more arguments of these three data types.
+Almost all TM Lua script functions/commands will accept and/or return one or more arguments of these three data types.
 
 e.g:
 
@@ -25,6 +25,22 @@ set_block(x,y+2,z,block.wood)
 ```
 
 In the example above, x,y,z and block.wood are integers.
+
+___
+
+```lua
+equip(item.woodsword,"right")
+```
+
+In the example above, item.woodsword is an integer and "right" is a string.
+
+___
+
+```lua
+local x,y,z = get_pos()
+```
+
+In the example above, x,y,z are floating point numbers.
 
 ___
 

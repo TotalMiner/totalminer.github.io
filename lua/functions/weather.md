@@ -32,4 +32,3 @@
 ### [rain_delete](weather/rain_delete)
 
 > Delete rain.
-

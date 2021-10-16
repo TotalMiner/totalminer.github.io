@@ -36,4 +36,3 @@
 ### [add_npc_health_region](npcs/add_npc_health_region)
 
 > Add or subtract to/from the health of all NPCs in a cubic region.
-

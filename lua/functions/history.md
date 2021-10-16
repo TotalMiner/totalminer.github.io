@@ -56,4 +56,3 @@
 ### [set_sys_history](history/set_sys_history)
 
 > Set a value in system history.
-
