@@ -16,11 +16,11 @@ get_skill_xp(
 
 ## Parameters
 
-- `skill:` 
+- `skill`: 
 
 ## Returns
 
-- `:` 
+- ``: 
 
 ___
 

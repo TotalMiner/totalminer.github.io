@@ -16,11 +16,11 @@ can_equip(
 
 ## Parameters
 
-- `item_id:` 
+- `item_id`: 
 
 ## Returns
 
-- `bool:` True if the context actor can equip this item, false if not
+- `bool`: True if the context actor can equip this item, false if not
 
 ___
 

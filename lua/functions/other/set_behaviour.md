@@ -16,7 +16,7 @@ set_behaviour(
 
 ## Parameters
 
-- `name:` 
+- `name`: 
 
 ___
 

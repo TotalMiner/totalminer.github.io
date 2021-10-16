@@ -21,12 +21,12 @@ set_event_button_script(
 
 ## Parameters
 
-- `event_type:` 
-- `script_name:` 
-- `text:` 
-- `x:` 
-- `y:` 
-- `scale:` 
+- `event_type`: 
+- `script_name`: 
+- `text`: 
+- `x`: 
+- `y`: 
+- `scale`: 
 
 ___
 

@@ -16,7 +16,7 @@ set_health_modifier(
 
 ## Parameters
 
-- `modifier:` 
+- `modifier`: 
 
 ___
 

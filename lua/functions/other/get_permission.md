@@ -16,11 +16,11 @@ get_permission(
 
 ## Parameters
 
-- `name:` 
+- `name`: 
 
 ## Returns
 
-- `:` 
+- ``: 
 
 ___
 

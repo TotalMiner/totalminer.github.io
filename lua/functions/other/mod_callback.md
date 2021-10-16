@@ -17,8 +17,8 @@ mod_callback(
 
 ## Parameters
 
-- `mod_name:` 
-- `data:` 
+- `mod_name`: 
+- `data`: 
 
 ___
 

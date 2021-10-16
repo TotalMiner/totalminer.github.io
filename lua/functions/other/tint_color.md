@@ -19,10 +19,10 @@ tint_color(
 
 ## Parameters
 
-- `r:` 
-- `g:` 
-- `b:` 
-- `transition:` 
+- `r`: 
+- `g`: 
+- `b`: 
+- `transition`: 
 
 ___
 

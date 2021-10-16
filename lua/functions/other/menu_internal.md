@@ -16,7 +16,7 @@ menu_internal(
 
 ## Parameters
 
-- `args:` 
+- `args`: 
 
 ___
 

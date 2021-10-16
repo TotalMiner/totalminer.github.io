@@ -22,17 +22,17 @@ intersect_sphere(
 
 ## Parameters
 
-- `x:` The x component of the position of the center of the sphere.
-- `y:` The y component of the position of the center of the sphere.
-- `z:` The z component of the position of the center of the sphere.
-- `radius:` The radius of the sphere specified in blocks
-- `players:` true = test for players, false = do not test for players. If omitted, the default is true
-- `npcs:` true = test for NPCs, false = do not test for NPCs. If omitted, the default is true
-- `display:` true = display an outline showing the sphere of the test. If omitted, the default is false
+- `x`: The x component of the position of the center of the sphere.
+- `y`: The y component of the position of the center of the sphere.
+- `z`: The z component of the position of the center of the sphere.
+- `radius`: The radius of the sphere specified in blocks
+- `players`: true = test for players, false = do not test for players. If omitted, the default is true
+- `npcs`: true = test for NPCs, false = do not test for NPCs. If omitted, the default is true
+- `display`: true = display an outline showing the sphere of the test. If omitted, the default is false
 
 ## Returns
 
-- `bool:` True if there is at least one players/NPC positioned within the sphere
+- `bool`: True if there is at least one players/NPC positioned within the sphere
 
 ___
 

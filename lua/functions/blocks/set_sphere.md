@@ -22,13 +22,13 @@ set_sphere(
 
 ## Parameters
 
-- `x:` The x component of the center of the sphere
-- `y:` The y component of the center of the sphere
-- `z:` The z component of the center of the sphere
-- `radius:` The radius of the sphere (in blocks)
-- `block_id:` The block id of the spehere
-- `percent:` The percentage of the sphere to fill. Default = 100%
-- `seed:` The seed of the prng used when percent is < 100
+- `x`: The x component of the center of the sphere
+- `y`: The y component of the center of the sphere
+- `z`: The z component of the center of the sphere
+- `radius`: The radius of the sphere (in blocks)
+- `block_id`: The block id of the spehere
+- `percent`: The percentage of the sphere to fill. Default = 100%
+- `seed`: The seed of the prng used when percent is < 100
 
 ___
 

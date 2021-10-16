@@ -19,10 +19,10 @@ tint_color_player(
 
 ## Parameters
 
-- `r:` 
-- `g:` 
-- `b:` 
-- `transition:` 
+- `r`: 
+- `g`: 
+- `b`: 
+- `transition`: 
 
 ___
 

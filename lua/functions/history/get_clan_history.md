@@ -16,11 +16,11 @@ get_clan_history(
 
 ## Parameters
 
-- `key:` The key/name of the history record
+- `key`: The key/name of the history record
 
 ## Returns
 
-- `long:` The history value
+- `long`: The history value
 
 ___
 

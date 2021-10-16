@@ -23,14 +23,14 @@ add_region_inventory(
 
 ## Parameters
 
-- `x1:` The x component of the regions min position
-- `y1:` The y component of the regions min position
-- `z1:` The z component of the regions min position
-- `x2:` The x component of the regions max position
-- `y2:` The y component of the regions max position
-- `z2:` The z component of the regions max position
-- `item_id:` 
-- `qty:` The quantity to add. If ommitted, 1 item will be added. Use a negative number to remove items from inventory
+- `x1`: The x component of the regions min position
+- `y1`: The y component of the regions min position
+- `z1`: The z component of the regions min position
+- `x2`: The x component of the regions max position
+- `y2`: The y component of the regions max position
+- `z2`: The z component of the regions max position
+- `item_id`: 
+- `qty`: The quantity to add. If ommitted, 1 item will be added. Use a negative number to remove items from inventory
 
 ___
 

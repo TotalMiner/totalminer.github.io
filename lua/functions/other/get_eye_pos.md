@@ -18,9 +18,9 @@ get_eye_pos(
 
 ## Parameters
 
-- `x:` 
-- `y:` 
-- `z:` 
+- `x`: 
+- `y`: 
+- `z`: 
 
 ___
 

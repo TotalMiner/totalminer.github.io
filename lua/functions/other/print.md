@@ -16,7 +16,7 @@ print(
 
 ## Parameters
 
-- `args:` 
+- `args`: 
 
 ___
 

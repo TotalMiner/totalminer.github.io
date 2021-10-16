@@ -17,8 +17,8 @@ remove_hud(
 
 ## Parameters
 
-- `name:` The name of the element to remove
-- `is_player:` True or False
+- `name`: The name of the element to remove
+- `is_player`: True or False
 
 ___
 

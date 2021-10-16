@@ -16,7 +16,7 @@ cancel_script(
 
 ## Parameters
 
-- `name:` The name of the script to cancel
+- `name`: The name of the script to cancel
 
 ___
 

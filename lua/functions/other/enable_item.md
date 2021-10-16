@@ -17,8 +17,8 @@ enable_item(
 
 ## Parameters
 
-- `item_id:` 
-- `is_enabled:` 
+- `item_id`: 
+- `is_enabled`: 
 
 ___
 

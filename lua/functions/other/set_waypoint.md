@@ -17,8 +17,8 @@ set_waypoint(
 
 ## Parameters
 
-- `x:` 
-- `z:` 
+- `x`: 
+- `z`: 
 
 ___
 

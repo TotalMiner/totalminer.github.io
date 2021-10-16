@@ -16,7 +16,7 @@ remove_effect(
 
 ## Parameters
 
-- `name:` 
+- `name`: 
 
 ___
 

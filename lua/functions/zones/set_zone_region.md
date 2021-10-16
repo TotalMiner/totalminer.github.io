@@ -22,13 +22,13 @@ set_zone_region(
 
 ## Parameters
 
-- `name:` 
-- `x1:` The new x component of the regions min position
-- `y1:` The new y component of the regions min position
-- `z1:` The new z component of the regions min position
-- `x2:` The new x component of the regions max position
-- `y2:` The new y component of the regions max position
-- `z2:` The new z component of the regions max position
+- `name`: 
+- `x1`: The new x component of the regions min position
+- `y1`: The new y component of the regions min position
+- `z1`: The new z component of the regions min position
+- `x2`: The new x component of the regions max position
+- `y2`: The new y component of the regions max position
+- `z2`: The new z component of the regions max position
 
 ___
 

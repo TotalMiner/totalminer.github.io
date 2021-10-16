@@ -25,16 +25,16 @@ set_region_aux(
 
 ## Parameters
 
-- `x1:` The x component of the regions min position
-- `y1:` The y component of the regions min position
-- `z1:` The z component of the regions min position
-- `x2:` The x component of the regions max position
-- `y2:` The y component of the regions max position
-- `z2:` The z component of the regions max position
-- `_aux:` 
-- `high:` 
-- `percent:` The percentage of the region to set. Default = 100%
-- `seed:` The seed of the prng used when percent is < 100
+- `x1`: The x component of the regions min position
+- `y1`: The y component of the regions min position
+- `z1`: The z component of the regions min position
+- `x2`: The x component of the regions max position
+- `y2`: The y component of the regions max position
+- `z2`: The z component of the regions max position
+- `_aux`: 
+- `high`: 
+- `percent`: The percentage of the region to set. Default = 100%
+- `seed`: The seed of the prng used when percent is < 100
 
 ___
 

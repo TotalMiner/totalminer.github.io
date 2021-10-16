@@ -16,11 +16,11 @@ get_hash_code(
 
 ## Parameters
 
-- `s:` 
+- `s`: 
 
 ## Returns
 
-- `:` 
+- ``: 
 
 ___
 

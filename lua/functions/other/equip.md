@@ -17,8 +17,8 @@ equip(
 
 ## Parameters
 
-- `item_id:` The item to equip
-- `slot:` The slot to equip to: left, right or body
+- `item_id`: The item to equip
+- `slot`: The slot to equip to: left, right or body
 
 ___
 

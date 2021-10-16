@@ -28,19 +28,19 @@ set_permissions_all(
 
 ## Parameters
 
-- `on:` 
-- `adventure:` 
-- `edit:` 
-- `creative:` 
-- `viewscripts:` 
-- `fly:` 
-- `map:` 
-- `voicechat:` 
-- `textchat:` 
-- `spectate:` 
-- `systemshops:` 
-- `grief:` 
-- `admin:` 
+- `on`: 
+- `adventure`: 
+- `edit`: 
+- `creative`: 
+- `viewscripts`: 
+- `fly`: 
+- `map`: 
+- `voicechat`: 
+- `textchat`: 
+- `spectate`: 
+- `systemshops`: 
+- `grief`: 
+- `admin`: 
 
 ___
 

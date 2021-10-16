@@ -16,7 +16,7 @@ remove_sky_color(
 
 ## Parameters
 
-- `transition:` 
+- `transition`: 
 
 ___
 

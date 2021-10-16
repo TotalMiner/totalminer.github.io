@@ -17,8 +17,8 @@ set_clan(
 
 ## Parameters
 
-- `name:` 
-- `banner_id:` 
+- `name`: 
+- `banner_id`: 
 
 ___
 

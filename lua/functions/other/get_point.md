@@ -18,9 +18,9 @@ get_point(
 
 ## Parameters
 
-- `x:` 
-- `y:` 
-- `z:` 
+- `x`: 
+- `y`: 
+- `z`: 
 
 ___
 

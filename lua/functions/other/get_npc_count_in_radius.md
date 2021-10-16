@@ -20,15 +20,15 @@ get_npc_count_in_radius(
 
 ## Parameters
 
-- `x:` The x component of the center of the sphere.
-- `y:` The y component of the center of the sphere.
-- `z:` The z component of the center of the sphere.
-- `radius:` 
-- `npc_type:` 
+- `x`: The x component of the center of the sphere.
+- `y`: The y component of the center of the sphere.
+- `z`: The z component of the center of the sphere.
+- `radius`: 
+- `npc_type`: 
 
 ## Returns
 
-- `:` 
+- ``: 
 
 ___
 

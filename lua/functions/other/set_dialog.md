@@ -16,7 +16,7 @@ set_dialog(
 
 ## Parameters
 
-- `name:` 
+- `name`: 
 
 ___
 

@@ -18,9 +18,9 @@ get_velocity(
 
 ## Parameters
 
-- `x:` 
-- `y:` 
-- `z:` 
+- `x`: 
+- `y`: 
+- `z`: 
 
 ___
 

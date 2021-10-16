@@ -21,12 +21,12 @@ move_block(
 
 ## Parameters
 
-- `x1:` The x component of the source position
-- `y1:` The y component of the source position
-- `z1:` The z component of the source position
-- `x2:` The x component of the destination position
-- `y2:` The y component of the destination position
-- `z2:` The z component of the destination position
+- `x1`: The x component of the source position
+- `y1`: The y component of the source position
+- `z1`: The z component of the source position
+- `x2`: The x component of the destination position
+- `y2`: The y component of the destination position
+- `z2`: The z component of the destination position
 
 ___
 

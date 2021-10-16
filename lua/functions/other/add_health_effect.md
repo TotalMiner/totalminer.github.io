@@ -19,10 +19,10 @@ add_health_effect(
 
 ## Parameters
 
-- `points:` The number of hitpoints per effect. A positive number increases health, a negative number decreases health
-- `millisecs:` The time in milliseconds between each effect
-- `duration:` The time in milliseconds for the effect to last
-- `name:` 
+- `points`: The number of hitpoints per effect. A positive number increases health, a negative number decreases health
+- `millisecs`: The time in milliseconds between each effect
+- `duration`: The time in milliseconds for the effect to last
+- `name`: 
 
 ___
 

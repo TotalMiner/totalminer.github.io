@@ -18,9 +18,9 @@ get_view_dir(
 
 ## Parameters
 
-- `x:` 
-- `y:` 
-- `z:` 
+- `x`: 
+- `y`: 
+- `z`: 
 
 ___
 

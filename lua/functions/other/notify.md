@@ -16,7 +16,7 @@ notify(
 
 ## Parameters
 
-- `args:` 
+- `args`: 
 
 ___
 

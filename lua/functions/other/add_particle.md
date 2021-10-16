@@ -45,36 +45,36 @@ add_particle(
 
 ## Parameters
 
-- `x:` The x component of the base start position of the particle
-- `y:` The y component of the base start position of the particle
-- `z:` The z component of the base start position of the particle
-- `duration:` The duration (lifetime) of the particle in seconds.
-- `velocity_x:` The x component of the base start velocity of the particle
-- `velocity_y:` The y component of the base start velocity of the particle
-- `velocity_z:` The z component of the base start velocity of the particle
-- `size_x:` The x component of the start size of the particle (width)
-- `size_y:` The y component of the start size of the particle (height)
-- `size_z:` The z component of the start size of the particle (breadth)
-- `size_end:` The size multiplier. The particles size at the end of it's lifetime will be it's start size multiplied by this value
-- `start_color_r:` The r (red) component of the start color of the particle
-- `start_color_g:` The g (green) component of the start color of the particle
-- `start_color_b:` The b (blue) component of the start color of the particle
-- `start_color_a:` The a (alpha) component of the start color of the particle
-- `gravity:` The (vertical) gravity applied to the particle
-- `rotation:` The rotation applied to the particle. Rotation is only applied to the Y axis and it is specified in radians per second
-- `velocity_var_x:` The x component of the start velocity variance of the particle
-- `velocity_var_y:` The y component of the start velocity variance of the particle
-- `velocity_var_z:` The z component of the start velocity variance of the particle
-- `end_color_r:` The r (red) component of the end color of the particle
-- `end_color_g:` The g (green) component of the end color of the particle
-- `end_color_b:` The b (blue) component of the end color of the particle
-- `end_color_a:` The a (alpha) component of the end color of the particle
-- `emit_pos_var_x:` The x component of the start position variance of the particle
-- `emit_pos_var_y:` The y component of the start position variance of the particle
-- `emit_pos_var_z:` The z component of the start position variance of the particle
-- `emit_pos_offset_x:` The x component of the start position offset of the particle
-- `emit_pos_offset_y:` The y component of the start position offset of the particle
-- `emit_pos_offset_z:` The z component of the start position offset of the particle
+- `x`: The x component of the base start position of the particle
+- `y`: The y component of the base start position of the particle
+- `z`: The z component of the base start position of the particle
+- `duration`: The duration (lifetime) of the particle in seconds.
+- `velocity_x`: The x component of the base start velocity of the particle
+- `velocity_y`: The y component of the base start velocity of the particle
+- `velocity_z`: The z component of the base start velocity of the particle
+- `size_x`: The x component of the start size of the particle (width)
+- `size_y`: The y component of the start size of the particle (height)
+- `size_z`: The z component of the start size of the particle (breadth)
+- `size_end`: The size multiplier. The particles size at the end of it's lifetime will be it's start size multiplied by this value
+- `start_color_r`: The r (red) component of the start color of the particle
+- `start_color_g`: The g (green) component of the start color of the particle
+- `start_color_b`: The b (blue) component of the start color of the particle
+- `start_color_a`: The a (alpha) component of the start color of the particle
+- `gravity`: The (vertical) gravity applied to the particle
+- `rotation`: The rotation applied to the particle. Rotation is only applied to the Y axis and it is specified in radians per second
+- `velocity_var_x`: The x component of the start velocity variance of the particle
+- `velocity_var_y`: The y component of the start velocity variance of the particle
+- `velocity_var_z`: The z component of the start velocity variance of the particle
+- `end_color_r`: The r (red) component of the end color of the particle
+- `end_color_g`: The g (green) component of the end color of the particle
+- `end_color_b`: The b (blue) component of the end color of the particle
+- `end_color_a`: The a (alpha) component of the end color of the particle
+- `emit_pos_var_x`: The x component of the start position variance of the particle
+- `emit_pos_var_y`: The y component of the start position variance of the particle
+- `emit_pos_var_z`: The z component of the start position variance of the particle
+- `emit_pos_offset_x`: The x component of the start position offset of the particle
+- `emit_pos_offset_y`: The y component of the start position offset of the particle
+- `emit_pos_offset_z`: The z component of the start position offset of the particle
 
 ___
 

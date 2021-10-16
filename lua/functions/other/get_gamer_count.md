@@ -15,7 +15,7 @@ get_gamer_count()
 
 ## Returns
 
-- `:` 
+- ``: 
 
 ___
 

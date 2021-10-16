@@ -29,20 +29,20 @@ hud_bar(
 
 ## Parameters
 
-- `name:` The name of the element. This name must be unique and is also used to remove the element
-- `is_player:` True or False. If True this element is only shown on the context player's screen. If False, it is shown on all players screens
-- `history:` The key/name of the history record to use as the progress value
-- `max_value:` The progress value will be clamped to this maximum value
-- `x:` The x screen coordinate of the element
-- `y:` The y screen coordinate of the element
-- `w:` The width of the element
-- `h:` The height of the element
-- `scale:` The scale of the text. Default = 1
-- `r:` The r (red) component of the elements color
-- `g:` The g (green) component of the elements color
-- `b:` The b (blue) component of the elements color
-- `a:` The a (alpha) component of the elements color
-- `props:` Properties that define how the hud element is drawn
+- `name`: The name of the element. This name must be unique and is also used to remove the element
+- `is_player`: True or False. If True this element is only shown on the context player's screen. If False, it is shown on all players screens
+- `history`: The key/name of the history record to use as the progress value
+- `max_value`: The progress value will be clamped to this maximum value
+- `x`: The x screen coordinate of the element
+- `y`: The y screen coordinate of the element
+- `w`: The width of the element
+- `h`: The height of the element
+- `scale`: The scale of the text. Default = 1
+- `r`: The r (red) component of the elements color
+- `g`: The g (green) component of the elements color
+- `b`: The b (blue) component of the elements color
+- `a`: The a (alpha) component of the elements color
+- `props`: Properties that define how the hud element is drawn
 
 ___
 

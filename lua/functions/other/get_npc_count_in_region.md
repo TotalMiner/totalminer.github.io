@@ -22,17 +22,17 @@ get_npc_count_in_region(
 
 ## Parameters
 
-- `x1:` 
-- `y1:` 
-- `z1:` 
-- `x2:` 
-- `y2:` 
-- `z2:` 
-- `npc_type:` 
+- `x1`: 
+- `y1`: 
+- `z1`: 
+- `x2`: 
+- `y2`: 
+- `z2`: 
+- `npc_type`: 
 
 ## Returns
 
-- `:` 
+- ``: 
 
 ___
 

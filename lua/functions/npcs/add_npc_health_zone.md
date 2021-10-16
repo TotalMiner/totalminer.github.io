@@ -21,12 +21,12 @@ add_npc_health_zone(
 
 ## Parameters
 
-- `points:` How many hitpoints to add. Use a negative number to subtract from (damage) the NPCs health
-- `zone:` 
-- `is_temp_zone:` 
-- `npc_type:` Only apply to these types of NPCs. Omit to apply to all types of NPCs
-- `millisecs:` 
-- `duration:` 
+- `points`: How many hitpoints to add. Use a negative number to subtract from (damage) the NPCs health
+- `zone`: 
+- `is_temp_zone`: 
+- `npc_type`: Only apply to these types of NPCs. Omit to apply to all types of NPCs
+- `millisecs`: 
+- `duration`: 
 
 ___
 

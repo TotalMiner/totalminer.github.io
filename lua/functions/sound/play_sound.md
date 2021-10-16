@@ -21,12 +21,12 @@ play_sound(
 
 ## Parameters
 
-- `name:` 
-- `x:` The x component of the position.
-- `y:` The y component of the position.
-- `z:` The z component of the position.
-- `volume:` 
-- `range:` 
+- `name`: 
+- `x`: The x component of the position.
+- `y`: The y component of the position.
+- `z`: The z component of the position.
+- `volume`: 
+- `range`: 
 
 ___
 

@@ -19,10 +19,10 @@ set_switch(
 
 ## Parameters
 
-- `x:` The x component of the position of the switch.
-- `y:` The y component of the position of the switch.
-- `z:` The z component of the position of the switch.
-- `power:` 
+- `x`: The x component of the position of the switch.
+- `y`: The y component of the position of the switch.
+- `z`: The z component of the position of the switch.
+- `power`: 
 
 ___
 

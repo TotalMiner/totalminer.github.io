@@ -18,9 +18,9 @@ set_item(
 
 ## Parameters
 
-- `item_id:` 
-- `name:` 
-- `desc:` 
+- `item_id`: 
+- `name`: 
+- `desc`: 
 
 ___
 

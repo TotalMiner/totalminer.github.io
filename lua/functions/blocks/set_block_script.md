@@ -20,11 +20,11 @@ set_block_script(
 
 ## Parameters
 
-- `x:` The x component of the position
-- `y:` The y component of the position
-- `z:` The z component of the position
-- `name:` 
-- `type:` 
+- `x`: The x component of the position
+- `y`: The y component of the position
+- `z`: The z component of the position
+- `name`: 
+- `type`: 
 
 ___
 

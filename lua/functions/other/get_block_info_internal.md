@@ -28,19 +28,19 @@ get_block_info_internal(
 
 ## Parameters
 
-- `x:` The x component of the position of the block.
-- `y:` The y component of the position of the block.
-- `z:` The z component of the position of the block.
-- `is_edited:` 
-- `is_light_source:` 
-- `is_open:` 
-- `is_ore:` 
-- `is_passable:` 
-- `is_delivering_power:` 
-- `is_receiving_power:` 
-- `is_solid:` 
-- `tex_id:` 
-- `resistance:` 
+- `x`: The x component of the position of the block.
+- `y`: The y component of the position of the block.
+- `z`: The z component of the position of the block.
+- `is_edited`: 
+- `is_light_source`: 
+- `is_open`: 
+- `is_ore`: 
+- `is_passable`: 
+- `is_delivering_power`: 
+- `is_receiving_power`: 
+- `is_solid`: 
+- `tex_id`: 
+- `resistance`: 
 
 ___
 

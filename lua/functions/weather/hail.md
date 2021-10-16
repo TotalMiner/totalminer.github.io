@@ -26,17 +26,17 @@ hail(
 
 ## Parameters
 
-- `x:` The x component of the position of the center of the hail storm.
-- `y:` The y component of the position of the center of the hail storm.
-- `z:` The z component of the position of the center of the hail storm.
-- `radius:` 
-- `duration:` 
-- `intensity:` 
-- `r:` 
-- `g:` 
-- `b:` 
-- `size_x:` 
-- `size_z:` 
+- `x`: The x component of the position of the center of the hail storm.
+- `y`: The y component of the position of the center of the hail storm.
+- `z`: The z component of the position of the center of the hail storm.
+- `radius`: 
+- `duration`: 
+- `intensity`: 
+- `r`: 
+- `g`: 
+- `b`: 
+- `size_x`: 
+- `size_z`: 
 
 ___
 

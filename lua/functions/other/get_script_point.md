@@ -18,9 +18,9 @@ get_script_point(
 
 ## Parameters
 
-- `x:` 
-- `y:` 
-- `z:` 
+- `x`: 
+- `y`: 
+- `z`: 
 
 ___
 

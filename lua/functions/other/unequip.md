@@ -17,8 +17,8 @@ unequip(
 
 ## Parameters
 
-- `item_id:` 
-- `slot:` 
+- `item_id`: 
+- `slot`: 
 
 ___
 

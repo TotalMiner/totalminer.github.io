@@ -17,12 +17,12 @@ get_npc_count_in_zone(
 
 ## Parameters
 
-- `zone_name:` 
-- `npc_type:` 
+- `zone_name`: 
+- `npc_type`: 
 
 ## Returns
 
-- `:` 
+- ``: 
 
 ___
 

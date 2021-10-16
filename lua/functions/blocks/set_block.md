@@ -20,11 +20,11 @@ set_block(
 
 ## Parameters
 
-- `x:` The x component of the position
-- `y:` The y component of the position
-- `z:` The z component of the position
-- `block_id:` 
-- `aux:` 
+- `x`: The x component of the position
+- `y`: The y component of the position
+- `z`: The z component of the position
+- `block_id`: 
+- `aux`: 
 
 ___
 

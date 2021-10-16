@@ -26,17 +26,17 @@ play_sound_loop_in_region(
 
 ## Parameters
 
-- `name:` 
-- `x1:` The x component of the regions min position
-- `y1:` The y component of the regions min position
-- `z1:` The z component of the regions min position
-- `x2:` The x component of the regions max position
-- `y2:` The y component of the regions max position
-- `z2:` The z component of the regions max position
-- `loop:` 
-- `delay:` 
-- `count:` 
-- `volume:` 
+- `name`: 
+- `x1`: The x component of the regions min position
+- `y1`: The y component of the regions min position
+- `z1`: The z component of the regions min position
+- `x2`: The x component of the regions max position
+- `y2`: The y component of the regions max position
+- `z2`: The z component of the regions max position
+- `loop`: 
+- `delay`: 
+- `count`: 
+- `volume`: 
 
 ___
 

@@ -16,7 +16,7 @@ script_internal(
 
 ## Parameters
 
-- `name:` 
+- `name`: 
 
 ___
 

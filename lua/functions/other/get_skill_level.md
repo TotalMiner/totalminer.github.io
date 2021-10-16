@@ -16,11 +16,11 @@ get_skill_level(
 
 ## Parameters
 
-- `skill:` 
+- `skill`: 
 
 ## Returns
 
-- `:` 
+- ``: 
 
 ___
 

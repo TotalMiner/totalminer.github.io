@@ -17,8 +17,8 @@ set_skill_xp(
 
 ## Parameters
 
-- `skill:` 
-- `xp:` 
+- `skill`: 
+- `xp`: 
 
 ___
 

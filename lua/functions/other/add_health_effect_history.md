@@ -19,10 +19,10 @@ add_health_effect_history(
 
 ## Parameters
 
-- `points:` The number of hitpoints per effect. A positive number increases health, a negative number decreases health
-- `history_key:` The effect is only applied if this history record exists
-- `millisecs:` The time in milliseconds between each effect
-- `name:` 
+- `points`: The number of hitpoints per effect. A positive number increases health, a negative number decreases health
+- `history_key`: The effect is only applied if this history record exists
+- `millisecs`: The time in milliseconds between each effect
+- `name`: 
 
 ___
 

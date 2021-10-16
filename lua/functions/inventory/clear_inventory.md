@@ -16,7 +16,7 @@ clear_inventory(
 
 ## Parameters
 
-- `item_id:` The item to clear. If omitted, all items will be cleared
+- `item_id`: The item to clear. If omitted, all items will be cleared
 
 ___
 

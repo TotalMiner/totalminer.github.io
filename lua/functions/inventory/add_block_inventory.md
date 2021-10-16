@@ -20,11 +20,11 @@ add_block_inventory(
 
 ## Parameters
 
-- `x:` The x component of the position of the block.
-- `y:` The y component of the position of the block.
-- `z:` The z component of the position of the block.
-- `item_id:` 
-- `qty:` The quantity to add. If ommitted, 1 item will be added. Use a negative number to remove items from inventory
+- `x`: The x component of the position of the block.
+- `y`: The y component of the position of the block.
+- `z`: The z component of the position of the block.
+- `item_id`: 
+- `qty`: The quantity to add. If ommitted, 1 item will be added. Use a negative number to remove items from inventory
 
 ___
 

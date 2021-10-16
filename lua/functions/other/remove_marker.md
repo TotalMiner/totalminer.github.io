@@ -16,7 +16,7 @@ remove_marker(
 
 ## Parameters
 
-- `name:` 
+- `name`: 
 
 ___
 

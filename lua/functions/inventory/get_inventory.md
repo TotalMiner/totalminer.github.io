@@ -16,11 +16,11 @@ get_inventory(
 
 ## Parameters
 
-- `item_id:` A valid item_id is required
+- `item_id`: A valid item_id is required
 
 ## Returns
 
-- `long:` The total number of item_id's in inventory
+- `long`: The total number of item_id's in inventory
 
 ___
 

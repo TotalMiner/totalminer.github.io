@@ -18,9 +18,9 @@ play_sound_in_zone(
 
 ## Parameters
 
-- `name:` 
-- `zone_name:` 
-- `volume:` 
+- `name`: 
+- `zone_name`: 
+- `volume`: 
 
 ___
 

@@ -15,7 +15,7 @@ get_health_as_percent()
 
 ## Returns
 
-- `:` 
+- ``: 
 
 ___
 

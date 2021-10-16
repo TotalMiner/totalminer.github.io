@@ -17,8 +17,8 @@ set_permission(
 
 ## Parameters
 
-- `name:` 
-- `on:` 
+- `name`: 
+- `on`: 
 
 ___
 

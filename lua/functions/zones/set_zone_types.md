@@ -22,13 +22,13 @@ set_zone_types(
 
 ## Parameters
 
-- `name:` 
-- `spawn:` true or false. If true, a player will spawn to a random location within this zone.
-- `no_edit:` true or false. If true, players cannot add or remove blocks from inside the zone
-- `no_combat:` true or false. If true, players cannot engage in combat while inside the zone
-- `no_fly:` true or false. If true, players cannot fly inside the zone
-- `no_mobs:` true or false. If true, mobs cannot spawn inside the zone
-- `no_escape:` true or false. If true, players cannot use the Escape option inside the zone
+- `name`: 
+- `spawn`: true or false. If true, a player will spawn to a random location within this zone.
+- `no_edit`: true or false. If true, players cannot add or remove blocks from inside the zone
+- `no_combat`: true or false. If true, players cannot engage in combat while inside the zone
+- `no_fly`: true or false. If true, players cannot fly inside the zone
+- `no_mobs`: true or false. If true, mobs cannot spawn inside the zone
+- `no_escape`: true or false. If true, players cannot use the Escape option inside the zone
 
 ___
 

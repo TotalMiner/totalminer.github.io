@@ -16,11 +16,11 @@ get_gamer_count_in_zone(
 
 ## Parameters
 
-- `zone_name:` 
+- `zone_name`: 
 
 ## Returns
 
-- `:` 
+- ``: 
 
 ___
 

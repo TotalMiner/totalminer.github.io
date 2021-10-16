@@ -22,13 +22,13 @@ msgbox_internal(
 
 ## Parameters
 
-- `heading:` 
-- `body:` 
-- `a_text:` 
-- `x_text:` 
-- `y_text:` 
-- `b_text:` 
-- `vertical:` 
+- `heading`: 
+- `body`: 
+- `a_text`: 
+- `x_text`: 
+- `y_text`: 
+- `b_text`: 
+- `vertical`: 
 
 ___
 

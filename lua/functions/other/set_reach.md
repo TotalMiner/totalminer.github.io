@@ -17,8 +17,8 @@ set_reach(
 
 ## Parameters
 
-- `distance:` 
-- `target:` 
+- `distance`: 
+- `target`: 
 
 ___
 

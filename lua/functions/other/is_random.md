@@ -17,12 +17,12 @@ is_random(
 
 ## Parameters
 
-- `chance:` Numbers for a win
-- `chances:` Number of sides on the dice
+- `chance`: Numbers for a win
+- `chances`: Number of sides on the dice
 
 ## Returns
 
-- `bool:` True if the dice throw was won
+- `bool`: True if the dice throw was won
 
 ___
 

@@ -16,11 +16,11 @@ get_stat_bonus(
 
 ## Parameters
 
-- `skill:` 
+- `skill`: 
 
 ## Returns
 
-- `:` 
+- ``: 
 
 ___
 

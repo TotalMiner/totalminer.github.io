@@ -16,7 +16,7 @@ clear_sys_history(
 
 ## Parameters
 
-- `key:` The key/name of the history record
+- `key`: The key/name of the history record
 
 ___
 

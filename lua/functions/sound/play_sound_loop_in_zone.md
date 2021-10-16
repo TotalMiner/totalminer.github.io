@@ -21,12 +21,12 @@ play_sound_loop_in_zone(
 
 ## Parameters
 
-- `name:` 
-- `zone_name:` 
-- `loop:` 
-- `delay:` 
-- `count:` 
-- `volume:` 
+- `name`: 
+- `zone_name`: 
+- `loop`: 
+- `delay`: 
+- `count`: 
+- `volume`: 
 
 ___
 

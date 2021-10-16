@@ -18,9 +18,9 @@ set_nameplate(
 
 ## Parameters
 
-- `target:` 
-- `setting:` 
-- `npc:` 
+- `target`: 
+- `setting`: 
+- `npc`: 
 
 ___
 

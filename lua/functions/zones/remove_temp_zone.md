@@ -16,7 +16,7 @@ remove_temp_zone(
 
 ## Parameters
 
-- `name:` desc
+- `name`: desc
 
 ___
 

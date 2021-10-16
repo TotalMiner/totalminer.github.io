@@ -16,7 +16,7 @@ remove_tint_color(
 
 ## Parameters
 
-- `transition:` 
+- `transition`: 
 
 ___
 

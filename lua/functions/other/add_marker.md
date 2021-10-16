@@ -19,10 +19,10 @@ add_marker(
 
 ## Parameters
 
-- `name:` The name (and text) of the marker
-- `x:` The x component of the world position of the marker
-- `z:` The z component of the world position of the marker
-- `is_admin:` true or false. If true, only admins can see the marker
+- `name`: The name (and text) of the marker
+- `x`: The x component of the world position of the marker
+- `z`: The z component of the world position of the marker
+- `is_admin`: true or false. If true, only admins can see the marker
 
 ___
 

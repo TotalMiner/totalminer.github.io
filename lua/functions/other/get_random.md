@@ -16,11 +16,11 @@ get_random(
 
 ## Parameters
 
-- `max:` 
+- `max`: 
 
 ## Returns
 
-- `:` 
+- ``: 
 
 ___
 

@@ -20,11 +20,11 @@ sky_color(
 
 ## Parameters
 
-- `r:` 
-- `g:` 
-- `b:` 
-- `intensity:` 
-- `transition:` 
+- `r`: 
+- `g`: 
+- `b`: 
+- `intensity`: 
+- `transition`: 
 
 ___
 

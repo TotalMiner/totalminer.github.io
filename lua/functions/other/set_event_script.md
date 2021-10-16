@@ -18,9 +18,9 @@ set_event_script(
 
 ## Parameters
 
-- `event_type:` 
-- `script_name:` 
-- `item_id:` 
+- `event_type`: 
+- `script_name`: 
+- `item_id`: 
 
 ___
 

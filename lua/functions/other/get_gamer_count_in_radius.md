@@ -19,14 +19,14 @@ get_gamer_count_in_radius(
 
 ## Parameters
 
-- `x:` The x component of the center of the sphere.
-- `y:` The y component of the center of the sphere.
-- `z:` The z component of the center of the sphere.
-- `radius:` 
+- `x`: The x component of the center of the sphere.
+- `y`: The y component of the center of the sphere.
+- `z`: The z component of the center of the sphere.
+- `radius`: 
 
 ## Returns
 
-- `:` 
+- ``: 
 
 ___
 

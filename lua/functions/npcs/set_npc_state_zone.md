@@ -19,10 +19,10 @@ set_npc_state_zone(
 
 ## Parameters
 
-- `state:` 
-- `zone:` 
-- `is_temp_zone:` 
-- `npc_type:` Only apply to these types of NPCs. Omit to apply to all types of NPCs
+- `state`: 
+- `zone`: 
+- `is_temp_zone`: 
+- `npc_type`: Only apply to these types of NPCs. Omit to apply to all types of NPCs
 
 ___
 

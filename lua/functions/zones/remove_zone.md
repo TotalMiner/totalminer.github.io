@@ -16,7 +16,7 @@ remove_zone(
 
 ## Parameters
 
-- `name:` 
+- `name`: 
 
 ___
 

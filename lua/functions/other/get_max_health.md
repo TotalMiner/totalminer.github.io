@@ -15,7 +15,7 @@ get_max_health()
 
 ## Returns
 
-- `:` 
+- ``: 
 
 ___
 

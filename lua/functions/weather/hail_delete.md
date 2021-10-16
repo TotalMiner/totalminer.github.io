@@ -18,9 +18,9 @@ hail_delete(
 
 ## Parameters
 
-- `x:` The x component of the position.
-- `y:` The y component of the position.
-- `z:` The z component of the position.
+- `x`: The x component of the position.
+- `y`: The y component of the position.
+- `z`: The z component of the position.
 
 ___
 

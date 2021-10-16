@@ -17,8 +17,8 @@ add_clan_history(
 
 ## Parameters
 
-- `key:` The key/name of the history record
-- `value:` The number to add to the history record. Use a negative number for subtraction
+- `key`: The key/name of the history record
+- `value`: The number to add to the history record. Use a negative number for subtraction
 
 ___
 

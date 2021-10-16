@@ -15,7 +15,7 @@ get_health()
 
 ## Returns
 
-- `:` 
+- ``: 
 
 ___
 

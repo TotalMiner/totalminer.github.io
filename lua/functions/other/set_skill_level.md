@@ -17,8 +17,8 @@ set_skill_level(
 
 ## Parameters
 
-- `skill:` 
-- `level:` 
+- `skill`: 
+- `level`: 
 
 ___
 

@@ -16,11 +16,11 @@ has_marker(
 
 ## Parameters
 
-- `name:` 
+- `name`: 
 
 ## Returns
 
-- `:` 
+- ``: 
 
 ___
 
