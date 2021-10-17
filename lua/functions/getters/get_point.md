@@ -26,7 +26,7 @@ ___
 
 ### Incomplete
 
-documentation incomplete
+This documentation is incomplete
 
 ___
 

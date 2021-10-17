@@ -63,11 +63,15 @@
 
 ### [get_hour](getters/get_hour)*
 
-> Get the current hour (0-23) of the 24 hour day clock.
+> Get the current game hour from the 24 hour day clock.
 
 ### [get_item](getters/get_item)*
 
 > Function undefined.
+
+### [get_light](getters/get_light)*
+
+> Get full light data of a map point.
 
 ### [get_max_health](getters/get_max_health)*
 
@@ -129,9 +133,21 @@
 
 > Get the map point of the script block that executed the current script.
 
+### [get_skill_level](getters/get_skill_level)*
+
+> Get the current level of a specified skill of the context actor.
+
+### [get_skill_xp](getters/get_skill_xp)*
+
+> Get the current xp of a specified skill of the context actor.
+
 ### [get_stat_bonus](getters/get_stat_bonus)*
 
 > Function undefined.
+
+### [get_sun_light](getters/get_sun_light)*
+
+> Get the amount of sunlight at a world point.
 
 ### [get_texture](getters/get_texture)*
 

@@ -19,6 +19,6 @@ ___
 - [Weather](functions/weather) (6,6)
 - [Zones](functions/zones) (10,10)
 - [Other](functions/other) (72,72)
-- [Getters](functions/getters) (34,34)
+- [Getters](functions/getters) (38,38)
 
 ___
