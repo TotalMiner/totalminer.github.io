@@ -20,7 +20,7 @@ remove_tint_color(
 
 ___
 
-### Incomplete
+#### Incomplete
 
 This documentation is incomplete
 

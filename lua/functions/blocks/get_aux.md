@@ -24,7 +24,7 @@ get_aux(
 
 ## Returns
 
-- `long`: The aux data. Currently only the first 8 bits of aux data is used
+- `long`: The aux data. See [Aux Data](../../data-types#aux)
 
 ___
 
@@ -37,7 +37,7 @@ local aux = get_aux(x,y,z)
 
 ___
 
-### Incomplete
+#### Incomplete
 
 This documentation is incomplete
 

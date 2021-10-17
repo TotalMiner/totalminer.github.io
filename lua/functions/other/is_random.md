@@ -40,7 +40,7 @@ is_chance(2,20)
 
 ___
 
-### Incomplete
+#### Incomplete
 
 This documentation is incomplete
 

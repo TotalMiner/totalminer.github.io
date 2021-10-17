@@ -24,7 +24,7 @@ can_equip(
 
 ___
 
-### Incomplete
+#### Incomplete
 
 This documentation is incomplete
 

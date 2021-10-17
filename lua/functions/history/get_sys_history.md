@@ -32,7 +32,7 @@ local temp = get_sys_history("temperature")
 
 ___
 
-### Incomplete
+#### Incomplete
 
 This documentation is incomplete
 

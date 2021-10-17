@@ -32,7 +32,7 @@ local member_count = get_clan_history("member count")
 
 ___
 
-### Incomplete
+#### Incomplete
 
 This documentation is incomplete
 

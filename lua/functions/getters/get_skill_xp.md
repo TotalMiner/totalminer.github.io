@@ -32,7 +32,7 @@ local xp = get_skill_xp("mining")
 
 ___
 
-### Incomplete
+#### Incomplete
 
 This documentation is incomplete
 

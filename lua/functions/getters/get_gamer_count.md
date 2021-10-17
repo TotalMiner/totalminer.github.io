@@ -27,7 +27,7 @@ local total_gamer_count = get_gamer_count()
 
 ___
 
-### Incomplete
+#### Incomplete
 
 This documentation is incomplete
 

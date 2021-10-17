@@ -38,7 +38,7 @@ local temp = get_history("temp")
 
 ___
 
-### Incomplete
+#### Incomplete
 
 This documentation is incomplete
 
