@@ -3,24 +3,25 @@
 
 ## get_pos
 
-Function undefined.
+Get the current world position of the context actor.
 
 ___
 
 Spec:
 
 ```lua
-get_pos(
-	System.Double& x,
-	System.Double& y,
-	System.Double& z)
+get_pos()
 ```
 
-## Parameters
+## Returns
 
-- `x`: 
-- `y`: 
-- `z`: 
+- `double`: The x component of the position
+- `double`: The y component of the position
+- `double`: The z component of the position
+
+___
+
+The world position components are world space coordinates so they are floating point numbers. The position is the actors foot position
 
 ___
 

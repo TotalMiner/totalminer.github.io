@@ -3,7 +3,7 @@
 
 ## notify
 
-Function undefined.
+Post a notification to the screen.
 
 ___
 
@@ -16,7 +16,15 @@ notify(
 
 ## Parameters
 
-- `args`: 
+- `args`: The message text to notify. Multiple arguments can be passed, including numbers (which are converted to text).
+
+___
+
+## Example
+
+```lua
+notify("The players clan id is: ", get_clan())
+```
 
 ___
 

@@ -127,7 +127,7 @@
 
 ### [notify](other/notify)*
 
-> Function undefined.
+> Post a notification to the screen.
 
 ### [open_block](other/open_block)*
 
@@ -291,8 +291,8 @@
 
 ### [has_marker](other/has_marker)*
 
-> Function undefined.
+> Query if a marker exists.
 
 ### [has_permission](other/has_permission)*
 
-> Function undefined.
+> Same has get_permission.

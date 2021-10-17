@@ -3,7 +3,7 @@
 
 ## get_permission
 
-Function undefined.
+Query if the context player has a particular permission.
 
 ___
 
@@ -16,11 +16,29 @@ get_permission(
 
 ## Parameters
 
-- `name`: 
+- `name`: The permission being queried
 
 ## Returns
 
-- ``: 
+- `bool`: True if the player has the permission
+
+___
+
+Name can be one of the following:
+- Adventure
+- Edit
+- Creative
+- Fly
+- Map
+- Save
+- Admin
+- Grief
+- VoiceChat
+- Spectate
+- SystemShops
+- ViewScripts
+- TextChat
+
 
 ___
 

@@ -3,7 +3,7 @@
 
 ## get_npc_count_in_zone
 
-Function undefined.
+Get the total number of NPCs currently positioned inside a zone.
 
 ___
 
@@ -18,11 +18,11 @@ get_npc_count_in_zone(
 ## Parameters
 
 - `zone_name`: 
-- `npc_type`: 
+- `npc_type`: The type of NPC to count. Omit to count all NPCs
 
 ## Returns
 
-- ``: 
+- `long`: The count of NPCs
 
 ___
 

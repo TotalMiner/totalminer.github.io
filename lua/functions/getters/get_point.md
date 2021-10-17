@@ -3,24 +3,25 @@
 
 ## get_point
 
-Function undefined.
+Get the current world point of the context actor.
 
 ___
 
 Spec:
 
 ```lua
-get_point(
-	System.Int64& x,
-	System.Int64& y,
-	System.Int64& z)
+get_point()
 ```
 
-## Parameters
+## Returns
 
-- `x`: 
-- `y`: 
-- `z`: 
+- `long`: The x component of the point
+- `long`: The y component of the point
+- `long`: The z component of the point
+
+___
+
+The world point components are voxel coordinates so they are integers. The point is taken from the actors foot position
 
 ___
 

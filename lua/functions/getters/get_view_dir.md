@@ -3,24 +3,21 @@
 
 ## get_view_dir
 
-Function undefined.
+Get the current view direction of the context actor.
 
 ___
 
 Spec:
 
 ```lua
-get_view_dir(
-	System.Double& x,
-	System.Double& y,
-	System.Double& z)
+get_view_dir()
 ```
 
-## Parameters
+## Returns
 
-- `x`: 
-- `y`: 
-- `z`: 
+- `double`: The x component of the view direction
+- `double`: The y component of the view direction
+- `double`: The z component of the view direction
 
 ___
 

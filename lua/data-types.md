@@ -14,6 +14,7 @@ TM Lua scripting primarily uses three data types.
 - string: These data types store text, e.g. \"Hello\", \"Body\", \"Left\"
 - integer(64bit): These data types store whole numbers only, e.g. 1024, 10, 123
 - floating point number(64bit): These data types store numbers that can have fractions, e.g. 10.25, 52.34553, 100.0
+- bool: These data types store only two possible values, either `true` or `false`. They are typically used to indicate if something is true or not.
 
 Almost all TM Lua script functions / commands will accept and / or return one or more arguments of these three data types.
 

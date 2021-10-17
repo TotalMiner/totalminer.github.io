@@ -3,7 +3,7 @@
 
 ## get_oxygen
 
-Function undefined.
+Get the current oxygen of the context actor.
 
 ___
 
@@ -15,7 +15,7 @@ get_oxygen()
 
 ## Returns
 
-- ``: 
+- `double`: The context actor's current oxygen
 
 ___
 

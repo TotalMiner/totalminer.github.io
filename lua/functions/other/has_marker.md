@@ -3,7 +3,7 @@
 
 ## has_marker
 
-Function undefined.
+Query if a marker exists.
 
 ___
 
@@ -16,11 +16,11 @@ has_marker(
 
 ## Parameters
 
-- `name`: 
+- `name`: The name (text) of the marker
 
 ## Returns
 
-- ``: 
+- `bool`: True if the marker exists
 
 ___
 

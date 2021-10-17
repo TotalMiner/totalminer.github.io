@@ -13,17 +13,7 @@ Spec:
 get_block_info_internal(
 	long x,
 	long y,
-	long z,
-	System.Boolean& is_edited,
-	System.Boolean& is_light_source,
-	System.Boolean& is_open,
-	System.Boolean& is_ore,
-	System.Boolean& is_passable,
-	System.Boolean& is_delivering_power,
-	System.Boolean& is_receiving_power,
-	System.Boolean& is_solid,
-	System.Int64& tex_id,
-	System.Int64& resistance)
+	long z)
 ```
 
 ## Parameters
@@ -31,16 +21,19 @@ get_block_info_internal(
 - `x`: The x component of the map point of the block.
 - `y`: The y component of the map point of the block.
 - `z`: The z component of the map point of the block.
-- `is_edited`: 
-- `is_light_source`: 
-- `is_open`: 
-- `is_ore`: 
-- `is_passable`: 
-- `is_delivering_power`: 
-- `is_receiving_power`: 
-- `is_solid`: 
-- `tex_id`: 
-- `resistance`: 
+
+## Returns
+
+- `bool`: is_edited. True if the block has been edited (is not naturally generated)
+- `bool`: is_light_source. True if the block emits light
+- `bool`: is_open. True if the blocks interface screen is open
+- `bool`: is_ore. True if the block is a naturally generated ore
+- `bool`: is_passable. True if actors can pass through the block
+- `bool`: is_delivering_power. True if the block is currently delivering power (to surrounding blocks)
+- `bool`: is_receiving_power. True if the block is currently receiving power
+- `bool`: is_solid. True if the block has solid geometry (no gaps to see though)
+- `long`: tex_id. The current texture id (for blocks who's texture can be reassigned)
+- `long`: resistance. The blocks resistance to mining
 
 ___
 

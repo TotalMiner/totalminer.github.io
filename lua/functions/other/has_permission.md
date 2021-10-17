@@ -3,24 +3,15 @@
 
 ## has_permission
 
-Function undefined.
+Same has get_permission.
 
 ___
 
 Spec:
 
 ```lua
-has_permission(
-	string name)
+has_permission()
 ```
-
-## Parameters
-
-- `name`: 
-
-## Returns
-
-- ``: 
 
 ___
 

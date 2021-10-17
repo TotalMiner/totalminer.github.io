@@ -3,24 +3,21 @@
 
 ## get_velocity
 
-Function undefined.
+Get the current world velocity of the context actor.
 
 ___
 
 Spec:
 
 ```lua
-get_velocity(
-	System.Double& x,
-	System.Double& y,
-	System.Double& z)
+get_velocity()
 ```
 
-## Parameters
+## Returns
 
-- `x`: 
-- `y`: 
-- `z`: 
+- `double`: The x component of the velocity
+- `double`: The y component of the velocity
+- `double`: The z component of the velocity
 
 ___
 

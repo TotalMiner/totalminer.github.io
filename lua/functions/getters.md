@@ -11,7 +11,7 @@
 
 ### [get_action_count](getters/get_action_count)*
 
-> Function undefined.
+> Get the number of actions the context actor has performed.
 
 ### [get_block_info_internal](getters/get_block_info_internal)*
 
@@ -19,23 +19,23 @@
 
 ### [get_block_light](getters/get_block_light)*
 
-> Function undefined.
+> Get the amount of block emitted light at a map point.
 
-### [get_clan](getters/get_clan)*
+### [get_clan_name](getters/get_clan_name)*
 
-> Function undefined.
+> Get the clan name of the context actor.
 
 ### [get_cursor_point](getters/get_cursor_point)*
 
-> Function undefined.
+> Get the world point of the players block cursor.
 
 ### [get_eye_pos](getters/get_eye_pos)*
 
-> Get the world eye position of the context actor (camera position).
+> Get the current world eye position of the context actor (camera position).
 
 ### [get_gamer_count](getters/get_gamer_count)*
 
-> The the total number of valid gamers in the session.
+> Get the total number of valid gamers in the session.
 
 ### [get_gamer_count_in_radius](getters/get_gamer_count_in_radius)*
 
@@ -67,7 +67,7 @@
 
 ### [get_item](getters/get_item)*
 
-> Function undefined.
+> Get an equipped or event raising item.
 
 ### [get_light](getters/get_light)*
 
@@ -95,31 +95,31 @@
 
 ### [get_npc_count_in_zone](getters/get_npc_count_in_zone)*
 
-> Function undefined.
+> Get the total number of NPCs currently positioned inside a zone.
 
 ### [get_oxygen](getters/get_oxygen)*
 
-> Function undefined.
+> Get the current oxygen of the context actor.
 
 ### [get_oxygen_as_percent](getters/get_oxygen_as_percent)*
 
-> Function undefined.
+> Get the current oxygen of the context actor as a percentage (0-100%) of it's maximum oxygen.
 
 ### [get_permission](getters/get_permission)*
 
-> Function undefined.
+> Query if the context player has a particular permission.
 
 ### [get_point](getters/get_point)*
 
-> Function undefined.
+> Get the current world point of the context actor.
 
 ### [get_pos](getters/get_pos)*
 
-> Function undefined.
+> Get the current world position of the context actor.
 
 ### [get_random](getters/get_random)*
 
-> Function undefined.
+> Get a random number.
 
 ### [get_reach](getters/get_reach)*
 
@@ -155,8 +155,8 @@
 
 ### [get_velocity](getters/get_velocity)*
 
-> Function undefined.
+> Get the current world velocity of the context actor.
 
 ### [get_view_dir](getters/get_view_dir)*
 
-> Function undefined.
+> Get the current view direction of the context actor.

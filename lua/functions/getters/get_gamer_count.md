@@ -3,7 +3,7 @@
 
 ## get_gamer_count
 
-The the total number of valid gamers in the session.
+Get the total number of valid gamers in the session.
 
 ___
 

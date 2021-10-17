@@ -3,7 +3,7 @@
 
 ## get_item
 
-Function undefined.
+Get an equipped or event raising item.
 
 ___
 
@@ -16,11 +16,11 @@ get_item(
 
 ## Parameters
 
-- `src`: 
+- `src`: The item source. Omit to get the item that caused the script to be executed (via ItemSwing event)
 
 ## Returns
 
-- ``: 
+- `long`: The item id
 
 ___
 

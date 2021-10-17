@@ -3,24 +3,25 @@
 
 ## get_eye_pos
 
-Get the world eye position of the context actor (camera position).
+Get the current world eye position of the context actor (camera position).
 
 ___
 
 Spec:
 
 ```lua
-get_eye_pos(
-	System.Double& x,
-	System.Double& y,
-	System.Double& z)
+get_eye_pos()
 ```
 
-## Parameters
+## Returns
 
-- `x`: 
-- `y`: 
-- `z`: 
+- `double`: The x component of the position
+- `double`: The y component of the position
+- `double`: The z component of the position
+
+___
+
+The world position components are world space coordinates so they are floating point numbers. The position is the actors eye position. If the actor is a player, then this is equivalent to the players camera position
 
 ___
 
