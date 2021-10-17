@@ -37,8 +37,6 @@ local x,y,z = get_pos()
 local gamer_count = get_gamer_count_in_radius(x,y,z,100)
 ```
 
-This example gets the number of gamers within a 100 block radius of the context actors world position
-
 ___
 
 ### Incomplete

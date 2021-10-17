@@ -3,7 +3,7 @@
 
 ## mod_callback
 
-Function undefined.
+A Mod callback. Call this function to pass string data to a mod.
 
 ___
 
@@ -17,8 +17,8 @@ mod_callback(
 
 ## Parameters
 
-- `mod_name`: 
-- `data`: 
+- `mod_name`: The name of the mod to call
+- `data`: The string data to pass to the mod. This string can contain any data the mod requires
 
 ___
 

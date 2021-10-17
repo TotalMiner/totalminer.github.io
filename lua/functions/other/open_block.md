@@ -31,8 +31,6 @@ local x,y,z = get_script_point()
 open_block(x,y,z)
 ```
 
-This example opens the interface screen of the script block that executed the script
-
 ___
 
 ### Incomplete

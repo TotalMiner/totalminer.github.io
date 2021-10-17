@@ -35,8 +35,6 @@ local x,y,z = get_script_point()
 local aux = get_aux(x,y,z)
 ```
 
-This example gets the aux data of the script block that executed this script.
-
 ___
 
 ### Incomplete

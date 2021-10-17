@@ -42,8 +42,6 @@ ___
 move_region(100,10,200,120,20,240,400,50,200)
 ```
 
-This example moves the block id, aux data and light data of all the blocks in the region 100,10,200 to 120,20,240 to a region of the same size starting at 400,50,200.
-
 ___
 
 ### Incomplete

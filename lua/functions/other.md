@@ -123,7 +123,7 @@
 
 ### [mod_callback](other/mod_callback)*
 
-> Function undefined.
+> A Mod callback. Call this function to pass string data to a mod.
 
 ### [notify](other/notify)*
 

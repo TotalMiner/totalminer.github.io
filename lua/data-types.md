@@ -26,7 +26,7 @@ set_block(x, y + 2, z, block.wood)
 
 In the example above, x, y, z and block.wood are integers.
 
-  ___
+___
 
 ```lua
 equip(item.woodsword, \"right\")
