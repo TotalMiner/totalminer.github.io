@@ -19,4 +19,10 @@ get_clan()
 
 ___
 
+### Incomplete
+
+documentation incomplete
+
+___
+
 ### [back](../getters)

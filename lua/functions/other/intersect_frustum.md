@@ -11,26 +11,26 @@ Spec:
 
 ```lua
 intersect_frustum(
-	x1,
-	y1,
-	z1,
-	x2,
-	y2,
-	z2,
-	fov,
-	players,
-	npcs,
-	display)
+	double x1,
+	double y1,
+	double z1,
+	double x2,
+	double y2,
+	double z2,
+	long fov,
+	bool players,
+	bool npcs,
+	bool display)
 ```
 
 ## Parameters
 
-- `x1`: The x component of the (position) center of the frustum near plane
-- `y1`: The y component of the (position) center of the frustum near plane
-- `z1`: The z component of the (position) center of the frustum near plane
-- `x2`: The x component of the (position) center of the frustum far plane
-- `y2`: The y component of the (position) center of the frustum far plane
-- `z2`: The z component of the (position) center of the frustum far plane
+- `x1`: The x component of the world position at the center of the frustum near plane
+- `y1`: The y component of the world position at the center of the frustum near plane
+- `z1`: The z component of the world position at the center of the frustum near plane
+- `x2`: The x component of the world position at the center of the frustum far plane
+- `y2`: The y component of the world position at the center of the frustum far plane
+- `z2`: The z component of the world position at the center of the frustum far plane
 - `fov`: The field of view of the frustum specified in degrees. If omitted, the default is 60
 - `players`: true = test for players, false = do not test for players. If omitted, the default is true
 - `npcs`: true = test for NPCs, false = do not test for NPCs. If omitted, the default is true
@@ -43,6 +43,12 @@ intersect_frustum(
 ___
 
 The context target is set as the closest actor inside the frustum
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

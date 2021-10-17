@@ -11,18 +11,24 @@ Spec:
 
 ```lua
 set_texture(
-	x,
-	y,
-	z,
-	tex_id)
+	long x,
+	long y,
+	long z,
+	long tex_id)
 ```
 
 ## Parameters
 
-- `x`: The x component of the position of the block.
-- `y`: The y component of the position of the block.
-- `z`: The z component of the position of the block.
+- `x`: The x component of the map point of the block.
+- `y`: The y component of the map point of the block.
+- `z`: The z component of the map point of the block.
 - `tex_id`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

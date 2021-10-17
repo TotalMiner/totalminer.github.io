@@ -3,7 +3,7 @@
 
 ## get_eye_pos
 
-Function undefined.
+Get the world eye position of the context actor (camera position).
 
 ___
 
@@ -11,9 +11,9 @@ Spec:
 
 ```lua
 get_eye_pos(
-	x,
-	y,
-	z)
+	System.Double& x,
+	System.Double& y,
+	System.Double& z)
 ```
 
 ## Parameters
@@ -21,6 +21,12 @@ get_eye_pos(
 - `x`: 
 - `y`: 
 - `z`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

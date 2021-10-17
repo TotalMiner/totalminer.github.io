@@ -11,9 +11,9 @@ Spec:
 
 ```lua
 set_zone_scripts(
-	name,
-	entry,
-	exit)
+	string name,
+	string entry,
+	string exit)
 ```
 
 ## Parameters
@@ -21,6 +21,12 @@ set_zone_scripts(
 - `name`: 
 - `entry`: The name of the script to execute when a player enters the zone's region.
 - `exit`: The name of the script to execute when a player exits the zone's region.
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

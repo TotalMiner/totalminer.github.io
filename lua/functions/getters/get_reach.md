@@ -3,7 +3,7 @@
 
 ## get_reach
 
-Function undefined.
+Get the reach of the context actor.
 
 ___
 
@@ -15,7 +15,21 @@ get_reach()
 
 ## Returns
 
-- ``: 
+- `long`: The reach
+
+___
+
+## Example
+
+```lua
+local r = get_reach()
+```
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

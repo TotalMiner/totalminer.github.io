@@ -11,18 +11,18 @@ Spec:
 
 ```lua
 explosion(
-	x,
-	y,
-	z,
-	radius,
-	strength)
+	long x,
+	long y,
+	long z,
+	long radius,
+	long strength)
 ```
 
 ## Parameters
 
-- `x`: The x component of the position of the explosion.
-- `y`: The y component of the position of the explosion.
-- `z`: The z component of the position of the explosion.
+- `x`: The x component of the map point of the explosion.
+- `y`: The y component of the map point of the explosion.
+- `z`: The z component of the map point of the explosion.
 - `radius`: The radius of the explosion specified in blocks
 - `strength`: The strength of the explosion (some blocks are resistant to low strength explosions
 
@@ -37,6 +37,12 @@ ___
 ```lua
 explosion(100,200,300,30,5)
 ```
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

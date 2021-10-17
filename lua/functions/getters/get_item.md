@@ -11,7 +11,7 @@ Spec:
 
 ```lua
 get_item(
-	src)
+	string src)
 ```
 
 ## Parameters
@@ -21,6 +21,12 @@ get_item(
 ## Returns
 
 - ``: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

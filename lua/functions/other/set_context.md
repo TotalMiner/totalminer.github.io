@@ -11,12 +11,18 @@ Spec:
 
 ```lua
 set_context(
-	context)
+	string context)
 ```
 
 ## Parameters
 
 - `context`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

@@ -11,20 +11,26 @@ Spec:
 
 ```lua
 add_block_inventory(
-	x,
-	y,
-	z,
-	item_id,
-	qty)
+	long x,
+	long y,
+	long z,
+	long item_id,
+	long qty)
 ```
 
 ## Parameters
 
-- `x`: The x component of the position of the block.
-- `y`: The y component of the position of the block.
-- `z`: The z component of the position of the block.
+- `x`: The x component of the map point of the block.
+- `y`: The y component of the map point of the block.
+- `z`: The z component of the map point of the block.
 - `item_id`: 
 - `qty`: The quantity to add. If ommitted, 1 item will be added. Use a negative number to remove items from inventory
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

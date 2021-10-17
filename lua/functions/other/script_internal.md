@@ -11,12 +11,18 @@ Spec:
 
 ```lua
 script_internal(
-	name)
+	string name)
 ```
 
 ## Parameters
 
 - `name`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

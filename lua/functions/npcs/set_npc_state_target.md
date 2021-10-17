@@ -11,12 +11,18 @@ Spec:
 
 ```lua
 set_npc_state_target(
-	state)
+	string state)
 ```
 
 ## Parameters
 
 - `state`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

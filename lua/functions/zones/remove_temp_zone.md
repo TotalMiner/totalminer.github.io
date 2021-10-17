@@ -11,12 +11,18 @@ Spec:
 
 ```lua
 remove_temp_zone(
-	name)
+	string name)
 ```
 
 ## Parameters
 
 - `name`: desc
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

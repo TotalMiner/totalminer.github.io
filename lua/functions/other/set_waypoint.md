@@ -11,14 +11,20 @@ Spec:
 
 ```lua
 set_waypoint(
-	x,
-	z)
+	long x,
+	long z)
 ```
 
 ## Parameters
 
 - `x`: 
 - `z`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

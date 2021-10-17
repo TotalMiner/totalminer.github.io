@@ -3,7 +3,7 @@
 
 ## get_light
 
-Function undefined.
+Get full light data of a map point.
 
 ___
 
@@ -11,20 +11,26 @@ Spec:
 
 ```lua
 get_light(
-	x,
-	y,
-	z)
+	long x,
+	long y,
+	long z)
 ```
 
 ## Parameters
 
-- `x`: The x component of the position.
-- `y`: The y component of the position.
-- `z`: The z component of the position.
+- `x`: The x component of the map point.
+- `y`: The y component of the map point.
+- `z`: The z component of the map point.
 
 ## Returns
 
-- ``: 
+- `long`: Light data is currently 8 bits. The first 4 bits are the sunlight, the 2nd 4 bits are the block light
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

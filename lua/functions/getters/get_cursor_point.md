@@ -11,9 +11,9 @@ Spec:
 
 ```lua
 get_cursor_point(
-	x,
-	y,
-	z)
+	System.Int64& x,
+	System.Int64& y,
+	System.Int64& z)
 ```
 
 ## Parameters
@@ -21,6 +21,12 @@ get_cursor_point(
 - `x`: 
 - `y`: 
 - `z`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

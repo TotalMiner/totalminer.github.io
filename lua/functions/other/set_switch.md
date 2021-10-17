@@ -3,7 +3,7 @@
 
 ## set_switch
 
-Set a switches position (on or off).
+Set a switches on/off position.
 
 ___
 
@@ -11,18 +11,24 @@ Spec:
 
 ```lua
 set_switch(
-	x,
-	y,
-	z,
-	power)
+	long x,
+	long y,
+	long z,
+	bool power)
 ```
 
 ## Parameters
 
-- `x`: The x component of the position of the switch.
-- `y`: The y component of the position of the switch.
-- `z`: The z component of the position of the switch.
+- `x`: The x component of the map point of the switch.
+- `y`: The y component of the map point of the switch.
+- `z`: The z component of the map point of the switch.
 - `power`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

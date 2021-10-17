@@ -9,290 +9,290 @@
 
 ## Miscellaneous Functions
 
-### [add_health_effect](other/add_health_effect)
+### [add_health_effect](other/add_health_effect)*
 
 > Add an effect which increases or decreases the context actor's health over time.
 
-### [add_health_effect_history](other/add_health_effect_history)
+### [add_health_effect_history](other/add_health_effect_history)*
 
 > Add an effect which increases or decreases the context actor's health over time.
 
-### [add_marker](other/add_marker)
+### [add_marker](other/add_marker)*
 
 > Add a marker to the top down map.
 
-### [add_particle](other/add_particle)
+### [add_particle](other/add_particle)*
 
 > Add (emit) a single particle.
 
-### [add_particle_emitter](other/add_particle_emitter)
+### [add_particle_emitter](other/add_particle_emitter)*
 
 > Add a Particle Emitter.
 
-### [add_pickup](other/add_pickup)
+### [add_pickup](other/add_pickup)*
 
 > Spawn a pickup item.
 
-### [add_skill_level](other/add_skill_level)
+### [add_skill_level](other/add_skill_level)*
 
 > Raise or lower a skill level of the context actor.
 
-### [add_skill_xp](other/add_skill_xp)
+### [add_skill_xp](other/add_skill_xp)*
 
 > Increase or decrease skill xp of the context actor.
 
-### [blueprint](other/blueprint)
+### [blueprint](other/blueprint)*
 
 > Define a blueprint (crafting recipe) for an item.
 
-### [blueprint_material](other/blueprint_material)
+### [blueprint_material](other/blueprint_material)*
 
 > Define the material for a blueprint (crafting recipe) slot.
 
-### [cancel_script](other/cancel_script)
+### [cancel_script](other/cancel_script)*
 
 > Cancel a running script.
 
-### [can_equip](other/can_equip)
+### [can_equip](other/can_equip)*
 
 > Query whether or not the context actor can equip an item.
 
-### [cave_in](other/cave_in)
+### [cave_in](other/cave_in)*
 
 > Start a cave in.
 
-### [cctv](other/cctv)
+### [cctv](other/cctv)*
 
 > Open a CCTV (directional) for the context player.
 
-### [cctv_at](other/cctv_at)
+### [cctv_at](other/cctv_at)*
 
 > Open a CCTV (targeted) for the context player.
 
-### [cctv_exit](other/cctv_exit)
+### [cctv_exit](other/cctv_exit)*
 
 > Close the CCTV for the context player.
 
-### [commit](other/commit)
+### [commit](other/commit)*
 
 > Force a chunk mesh update.
 
-### [equip](other/equip)
+### [equip](other/equip)*
 
 > Cause the context actor to equip an item.
 
-### [explosion](other/explosion)
+### [explosion](other/explosion)*
 
 > Create an explosion.
 
-### [input_internal](other/input_internal)
+### [input_internal](other/input_internal)*
 
 > Function undefined.
 
-### [intersect_box](other/intersect_box)
+### [intersect_box](other/intersect_box)*
 
 > Box (cubic region) intersection query.
 
-### [intersect_frustum](other/intersect_frustum)
+### [intersect_frustum](other/intersect_frustum)*
 
 > Frustum intersection query.
 
-### [intersect_ray](other/intersect_ray)
+### [intersect_ray](other/intersect_ray)*
 
 > Ray intersection query.
 
-### [intersect_sphere](other/intersect_sphere)
+### [intersect_sphere](other/intersect_sphere)*
 
 > Sphere intersection query.
 
-### [is_chance](other/is_chance)
+### [is_chance](other/is_chance)*
 
 > A dice query (same as is_random).
 
-### [is_random](other/is_random)
+### [is_random](other/is_random)*
 
 > A dice query (same as is_chance).
 
-### [menu_internal](other/menu_internal)
+### [menu_internal](other/menu_internal)*
 
 > Function undefined.
 
-### [msgbox_internal](other/msgbox_internal)
+### [msgbox_internal](other/msgbox_internal)*
 
 > Function undefined.
 
-### [mod_callback](other/mod_callback)
+### [mod_callback](other/mod_callback)*
 
 > Function undefined.
 
-### [notify](other/notify)
+### [notify](other/notify)*
 
 > Function undefined.
 
-### [open_block](other/open_block)
+### [open_block](other/open_block)*
 
 > Open a block's interface screen.
 
-### [print](other/print)
+### [print](other/print)*
+
+> Same as notify().
+
+### [remove_effect](other/remove_effect)*
 
 > Function undefined.
 
-### [remove_effect](other/remove_effect)
+### [remove_event_script](other/remove_event_script)*
 
 > Function undefined.
 
-### [remove_event_script](other/remove_event_script)
+### [remove_marker](other/remove_marker)*
 
 > Function undefined.
 
-### [remove_marker](other/remove_marker)
+### [remove_pickups](other/remove_pickups)*
 
 > Function undefined.
 
-### [remove_pickups](other/remove_pickups)
+### [remove_sky_color](other/remove_sky_color)*
 
 > Function undefined.
 
-### [remove_sky_color](other/remove_sky_color)
+### [remove_sky_color_player](other/remove_sky_color_player)*
 
 > Function undefined.
 
-### [remove_sky_color_player](other/remove_sky_color_player)
+### [remove_tint_color](other/remove_tint_color)*
 
 > Function undefined.
 
-### [remove_tint_color](other/remove_tint_color)
+### [remove_tint_color_player](other/remove_tint_color_player)*
 
 > Function undefined.
 
-### [remove_tint_color_player](other/remove_tint_color_player)
+### [remove_waypoint](other/remove_waypoint)*
 
 > Function undefined.
 
-### [remove_waypoint](other/remove_waypoint)
+### [script_internal](other/script_internal)*
 
 > Function undefined.
 
-### [script_internal](other/script_internal)
+### [set_behaviour](other/set_behaviour)*
 
 > Function undefined.
 
-### [set_behaviour](other/set_behaviour)
+### [set_clan](other/set_clan)*
 
 > Function undefined.
 
-### [set_clan](other/set_clan)
+### [set_context](other/set_context)*
 
 > Function undefined.
 
-### [set_context](other/set_context)
+### [set_dialog](other/set_dialog)*
 
 > Function undefined.
 
-### [set_dialog](other/set_dialog)
+### [set_event_script](other/set_event_script)*
 
 > Function undefined.
 
-### [set_event_script](other/set_event_script)
+### [set_event_button_script](other/set_event_button_script)*
 
 > Function undefined.
 
-### [set_event_button_script](other/set_event_button_script)
+### [set_health_modifier](other/set_health_modifier)*
 
 > Function undefined.
 
-### [set_health_modifier](other/set_health_modifier)
+### [enable_item](other/enable_item)*
 
 > Function undefined.
 
-### [enable_item](other/enable_item)
+### [set_item](other/set_item)*
 
 > Function undefined.
 
-### [set_item](other/set_item)
+### [set_nameplate](other/set_nameplate)*
 
 > Function undefined.
 
-### [set_nameplate](other/set_nameplate)
+### [set_permission](other/set_permission)*
 
 > Function undefined.
 
-### [set_permission](other/set_permission)
+### [set_permissions_all](other/set_permissions_all)*
 
 > Function undefined.
 
-### [set_permissions_all](other/set_permissions_all)
-
-> Function undefined.
-
-### [set_power](other/set_power)
+### [set_power](other/set_power)*
 
 > Set a block's power state (on or off).
 
-### [set_reach](other/set_reach)
+### [set_reach](other/set_reach)*
+
+> Set the reach of the context actor.
+
+### [set_switch](other/set_switch)*
+
+> Set a switches on/off position.
+
+### [set_skill_level](other/set_skill_level)*
 
 > Function undefined.
 
-### [set_switch](other/set_switch)
-
-> Set a switches position (on or off).
-
-### [set_skill_level](other/set_skill_level)
+### [set_skill_xp](other/set_skill_xp)*
 
 > Function undefined.
 
-### [set_skill_xp](other/set_skill_xp)
-
-> Function undefined.
-
-### [set_text](other/set_text)
+### [set_text](other/set_text)*
 
 > Set the text of a block (Sign, Book etc).
 
-### [set_texture](other/set_texture)
+### [set_texture](other/set_texture)*
 
 > Set a block's visible texture.
 
-### [set_waypoint](other/set_waypoint)
+### [set_waypoint](other/set_waypoint)*
 
 > Function undefined.
 
-### [sky_color](other/sky_color)
+### [sky_color](other/sky_color)*
 
 > Function undefined.
 
-### [sky_color_player](other/sky_color_player)
+### [sky_color_player](other/sky_color_player)*
 
 > Function undefined.
 
-### [teleport](other/teleport)
+### [teleport](other/teleport)*
 
 > Teleport the player.
 
-### [teleport_all](other/teleport_all)
+### [teleport_all](other/teleport_all)*
 
 > Function undefined.
 
-### [tint_color](other/tint_color)
+### [tint_color](other/tint_color)*
 
 > Function undefined.
 
-### [tint_color_player](other/tint_color_player)
+### [tint_color_player](other/tint_color_player)*
 
 > Function undefined.
 
-### [toggle_switch](other/toggle_switch)
+### [toggle_switch](other/toggle_switch)*
 
-> Toggle a switch's position.
+> Toggle a switch's on/off position.
 
-### [unequip](other/unequip)
-
-> Function undefined.
-
-### [has_marker](other/has_marker)
+### [unequip](other/unequip)*
 
 > Function undefined.
 
-### [has_permission](other/has_permission)
+### [has_marker](other/has_marker)*
+
+> Function undefined.
+
+### [has_permission](other/has_permission)*
 
 > Function undefined.

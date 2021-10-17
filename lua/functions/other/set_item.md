@@ -11,9 +11,9 @@ Spec:
 
 ```lua
 set_item(
-	item_id,
-	name,
-	desc)
+	long item_id,
+	string name,
+	string desc)
 ```
 
 ## Parameters
@@ -21,6 +21,12 @@ set_item(
 - `item_id`: 
 - `name`: 
 - `desc`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

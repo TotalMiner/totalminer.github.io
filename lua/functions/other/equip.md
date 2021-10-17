@@ -11,8 +11,8 @@ Spec:
 
 ```lua
 equip(
-	item_id,
-	slot)
+	long item_id,
+	string slot)
 ```
 
 ## Parameters
@@ -37,6 +37,12 @@ equip(item.leatherhelmet,"body")
 ```
 
 This example equips a leather helmet (if the actor has one) to the appropriate body slot
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

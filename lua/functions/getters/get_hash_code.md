@@ -3,7 +3,7 @@
 
 ## get_hash_code
 
-Function undefined.
+Get the hash code of a string.
 
 ___
 
@@ -11,7 +11,7 @@ Spec:
 
 ```lua
 get_hash_code(
-	s)
+	string s)
 ```
 
 ## Parameters
@@ -20,7 +20,13 @@ get_hash_code(
 
 ## Returns
 
-- ``: 
+- `long`: The hash code of `s`
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

@@ -11,16 +11,33 @@ Spec:
 
 ```lua
 open_block(
-	x,
-	y,
-	z)
+	long x,
+	long y,
+	long z)
 ```
 
 ## Parameters
 
-- `x`: The x component of the position of the block.
-- `y`: The y component of the position of the block.
-- `z`: The z component of the position of the block.
+- `x`: The x component of the map point of the block.
+- `y`: The y component of the map point of the block.
+- `z`: The z component of the map point of the block.
+
+___
+
+## Example
+
+```lua
+local x,y,z = get_script_point()
+open_block(x,y,z)
+```
+
+This example opens the interface screen of the script block that executed the script
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

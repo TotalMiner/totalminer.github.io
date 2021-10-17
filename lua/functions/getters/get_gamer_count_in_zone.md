@@ -3,7 +3,7 @@
 
 ## get_gamer_count_in_zone
 
-Function undefined.
+Get the total number of enabled gamers currently positioned inside a zone.
 
 ___
 
@@ -11,7 +11,7 @@ Spec:
 
 ```lua
 get_gamer_count_in_zone(
-	zone_name)
+	string zone_name)
 ```
 
 ## Parameters
@@ -20,7 +20,21 @@ get_gamer_count_in_zone(
 
 ## Returns
 
-- ``: 
+- `long`: The number of gamers currently inside the `habitat` zone
+
+___
+
+## Example
+
+```lua
+local gamer_count = get_gamer_count_in_zone("habitat")
+```
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

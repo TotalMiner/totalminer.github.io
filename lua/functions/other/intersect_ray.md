@@ -11,22 +11,22 @@ Spec:
 
 ```lua
 intersect_ray(
-	x1,
-	y1,
-	z1,
-	x2,
-	y2,
-	z2,
-	players,
-	npcs,
-	display)
+	double x1,
+	double y1,
+	double z1,
+	double x2,
+	double y2,
+	double z2,
+	bool players,
+	bool npcs,
+	bool display)
 ```
 
 ## Parameters
 
-- `x1`: The x component of the (position) origin of the ray
-- `y1`: The y component of the (position) origin of the ray
-- `z1`: The z component of the (position) origin of the ray
+- `x1`: The x component of the world position of the origin of the ray
+- `y1`: The y component of the world position of the origin of the ray
+- `z1`: The z component of the world position of the origin of the ray
 - `x2`: The x component of the direction of the ray
 - `y2`: The y component of the direction of the ray
 - `z2`: The z component of the direction of the ray
@@ -41,6 +41,12 @@ intersect_ray(
 ___
 
 The context target is set as the closest actor hit by the ray
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

@@ -3,7 +3,7 @@
 
 ## get_npc_count
 
-Function undefined.
+Get the total number of NPCs in the world.
 
 ___
 
@@ -11,16 +11,22 @@ Spec:
 
 ```lua
 get_npc_count(
-	npc_type)
+	string npc_type)
 ```
 
 ## Parameters
 
-- `npc_type`: 
+- `npc_type`: The type of NPC to count. Omit to count all NPCs
 
 ## Returns
 
-- ``: 
+- `long`: The count of NPCs
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

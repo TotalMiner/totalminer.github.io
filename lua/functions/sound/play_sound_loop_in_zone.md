@@ -11,12 +11,12 @@ Spec:
 
 ```lua
 play_sound_loop_in_zone(
-	name,
-	zone_name,
-	loop,
-	delay,
-	count,
-	volume)
+	string name,
+	string zone_name,
+	bool loop,
+	long delay,
+	long count,
+	long volume)
 ```
 
 ## Parameters
@@ -27,6 +27,12 @@ play_sound_loop_in_zone(
 - `delay`: 
 - `count`: 
 - `volume`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

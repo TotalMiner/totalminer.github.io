@@ -11,18 +11,24 @@ Spec:
 
 ```lua
 set_power(
-	x,
-	y,
-	z,
-	power)
+	long x,
+	long y,
+	long z,
+	bool power)
 ```
 
 ## Parameters
 
-- `x`: The x component of the position of the block.
-- `y`: The y component of the position of the block.
-- `z`: The z component of the position of the block.
+- `x`: The x component of the map point of the block.
+- `y`: The y component of the map point of the block.
+- `z`: The z component of the map point of the block.
 - `power`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

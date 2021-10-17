@@ -11,10 +11,10 @@ Spec:
 
 ```lua
 add_health_effect(
-	points,
-	millisecs,
-	duration,
-	name)
+	long points,
+	long millisecs,
+	long duration,
+	string name)
 ```
 
 ## Parameters
@@ -45,6 +45,12 @@ add_health_effect(-5)
 ```
 
 This example decreases the actors health by 5 hitpoints (once only)
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

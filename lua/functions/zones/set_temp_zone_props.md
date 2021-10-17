@@ -11,12 +11,12 @@ Spec:
 
 ```lua
 set_temp_zone_props(
-	name,
-	combat_diff,
-	jump_count,
-	speed_multiplier,
-	gravity_multiplier,
-	health_multiplier)
+	string name,
+	long combat_diff,
+	long jump_count,
+	double speed_multiplier,
+	double gravity_multiplier,
+	double health_multiplier)
 ```
 
 ## Parameters
@@ -27,6 +27,12 @@ set_temp_zone_props(
 - `speed_multiplier`: This number is multiplied by the players base speed to calculate the players final speed. Default is one
 - `gravity_multiplier`: This number is multiplied by the players base gravity to calculate the players final gravity. Default is one
 - `health_multiplier`: This number is multiplied by the players base health regeneration speed to calculate the players final health regeneration speed. Default is one
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

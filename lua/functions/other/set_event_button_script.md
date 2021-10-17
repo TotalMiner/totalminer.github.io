@@ -11,12 +11,12 @@ Spec:
 
 ```lua
 set_event_button_script(
-	event_type,
-	script_name,
-	text,
-	x,
-	y,
-	scale)
+	string event_type,
+	string script_name,
+	string text,
+	long x,
+	long y,
+	double scale)
 ```
 
 ## Parameters
@@ -27,6 +27,12 @@ set_event_button_script(
 - `x`: 
 - `y`: 
 - `scale`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

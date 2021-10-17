@@ -11,8 +11,8 @@ Spec:
 
 ```lua
 get_npc_count_in_zone(
-	zone_name,
-	npc_type)
+	string zone_name,
+	string npc_type)
 ```
 
 ## Parameters
@@ -23,6 +23,12 @@ get_npc_count_in_zone(
 ## Returns
 
 - ``: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

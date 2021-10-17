@@ -11,13 +11,13 @@ Spec:
 
 ```lua
 msgbox_internal(
-	heading,
-	body,
-	a_text,
-	x_text,
-	y_text,
-	b_text,
-	vertical)
+	string heading,
+	string body,
+	string a_text,
+	string x_text,
+	string y_text,
+	string b_text,
+	bool vertical)
 ```
 
 ## Parameters
@@ -29,6 +29,12 @@ msgbox_internal(
 - `y_text`: 
 - `b_text`: 
 - `vertical`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

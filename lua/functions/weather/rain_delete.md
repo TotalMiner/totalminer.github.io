@@ -11,20 +11,26 @@ Spec:
 
 ```lua
 rain_delete(
-	x,
-	y,
-	z)
+	long x,
+	long y,
+	long z)
 ```
 
 ## Parameters
 
-- `x`: The x component of the position.
-- `y`: The y component of the position.
-- `z`: The z component of the position.
+- `x`: The x component of the map point at the center of the rainfall.
+- `y`: The y component of the map point at the center of the rainfall.
+- `z`: The z component of the map point at the center of the rainfall.
 
 ___
 
-The position `x,y,z` must be the same position used when the rain was created using [Rain](rain)
+The point `x,y,z` must be the same point used when the rain was created using [Rain](rain)
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

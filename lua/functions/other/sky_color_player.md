@@ -11,11 +11,11 @@ Spec:
 
 ```lua
 sky_color_player(
-	r,
-	g,
-	b,
-	intensity,
-	transition)
+	long r,
+	long g,
+	long b,
+	double intensity,
+	double transition)
 ```
 
 ## Parameters
@@ -25,6 +25,12 @@ sky_color_player(
 - `b`: 
 - `intensity`: 
 - `transition`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

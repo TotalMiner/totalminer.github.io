@@ -3,7 +3,7 @@
 
 ## get_skill_xp
 
-Function undefined.
+Get the current xp of a specified skill of the context actor.
 
 ___
 
@@ -11,7 +11,7 @@ Spec:
 
 ```lua
 get_skill_xp(
-	skill)
+	string skill)
 ```
 
 ## Parameters
@@ -20,7 +20,21 @@ get_skill_xp(
 
 ## Returns
 
-- ``: 
+- `double`: The skill xp (experience points)
+
+___
+
+## Example
+
+```lua
+local xp = get_skill_xp("mining")
+```
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

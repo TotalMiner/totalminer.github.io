@@ -11,20 +11,20 @@ Spec:
 
 ```lua
 hud_bar(
-	name,
-	is_player,
-	history,
-	max_value,
-	x,
-	y,
-	w,
-	h,
-	scale,
-	r,
-	g,
-	b,
-	a,
-	props)
+	string name,
+	bool is_player,
+	string history,
+	long max_value,
+	double x,
+	double y,
+	double w,
+	double h,
+	double scale,
+	long r,
+	long g,
+	long b,
+	long a,
+	string props)
 ```
 
 ## Parameters
@@ -43,6 +43,12 @@ hud_bar(
 - `b`: The b (blue) component of the elements color
 - `a`: The a (alpha) component of the elements color
 - `props`: Properties that define how the hud element is drawn
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

@@ -11,24 +11,24 @@ Spec:
 
 ```lua
 hud_shape(
-	name,
-	is_player,
-	shape,
-	item_id,
-	x,
-	y,
-	w,
-	h,
-	bw,
-	r,
-	g,
-	b,
-	a,
-	br,
-	bg,
-	bb,
-	ba,
-	props)
+	string name,
+	bool is_player,
+	string shape,
+	long item_id,
+	double x,
+	double y,
+	double w,
+	double h,
+	long bw,
+	long r,
+	long g,
+	long b,
+	long a,
+	long br,
+	long bg,
+	long bb,
+	long ba,
+	string props)
 ```
 
 ## Parameters
@@ -51,6 +51,12 @@ hud_shape(
 - `bb`: The b (blue) component of the elements border color
 - `ba`: The a (alpha) component of the elements border color
 - `props`: Properties that define how the hud element is drawn
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

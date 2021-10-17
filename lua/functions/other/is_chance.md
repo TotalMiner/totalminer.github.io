@@ -11,8 +11,8 @@ Spec:
 
 ```lua
 is_chance(
-	chance,
-	chances)
+	long chance,
+	long chances)
 ```
 
 ## Parameters
@@ -41,6 +41,12 @@ is_chance(2,20)
 ```
 
 Won if 1 or 2 is thrown on an 20 sided dice (10% chance)
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

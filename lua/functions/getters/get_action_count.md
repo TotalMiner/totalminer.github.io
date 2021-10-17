@@ -11,8 +11,8 @@ Spec:
 
 ```lua
 get_action_count(
-	action,
-	item_id)
+	string action,
+	long item_id)
 ```
 
 ## Parameters
@@ -23,6 +23,12 @@ get_action_count(
 ## Returns
 
 - ``: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

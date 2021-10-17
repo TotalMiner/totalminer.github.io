@@ -11,23 +11,23 @@ Spec:
 
 ```lua
 fog(
-	x,
-	y,
-	z,
-	radius,
-	duration,
-	intensity,
-	r,
-	g,
-	b,
-	visibility)
+	long x,
+	long y,
+	long z,
+	double radius,
+	double duration,
+	double intensity,
+	long r,
+	long g,
+	long b,
+	long visibility)
 ```
 
 ## Parameters
 
-- `x`: The x component of the position of the center of the fog.
-- `y`: The y component of the position of the center of the fog.
-- `z`: The z component of the position of the center of the fog.
+- `x`: The x component of the map point at the center of the fog.
+- `y`: The y component of the map point at the center of the fog.
+- `z`: The z component of the map point at the center of the fog.
 - `radius`: 
 - `duration`: 
 - `intensity`: 
@@ -35,6 +35,12 @@ fog(
 - `g`: 
 - `b`: 
 - `visibility`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

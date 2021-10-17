@@ -11,12 +11,18 @@ Spec:
 
 ```lua
 set_dialog(
-	name)
+	string name)
 ```
 
 ## Parameters
 
 - `name`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

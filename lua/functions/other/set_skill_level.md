@@ -11,14 +11,20 @@ Spec:
 
 ```lua
 set_skill_level(
-	skill,
-	level)
+	string skill,
+	long level)
 ```
 
 ## Parameters
 
 - `skill`: 
 - `level`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

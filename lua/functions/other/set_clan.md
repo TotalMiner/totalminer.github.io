@@ -11,14 +11,20 @@ Spec:
 
 ```lua
 set_clan(
-	name,
-	banner_id)
+	string name,
+	int banner_id)
 ```
 
 ## Parameters
 
 - `name`: 
 - `banner_id`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

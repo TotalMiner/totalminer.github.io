@@ -11,14 +11,20 @@ Spec:
 
 ```lua
 remove_hud(
-	name,
-	is_player)
+	string name,
+	bool is_player)
 ```
 
 ## Parameters
 
 - `name`: The name of the element to remove
 - `is_player`: True or False
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

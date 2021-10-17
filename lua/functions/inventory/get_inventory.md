@@ -11,7 +11,7 @@ Spec:
 
 ```lua
 get_inventory(
-	item_id)
+	long item_id)
 ```
 
 ## Parameters
@@ -21,6 +21,12 @@ get_inventory(
 ## Returns
 
 - `long`: The total number of item_id's in inventory
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

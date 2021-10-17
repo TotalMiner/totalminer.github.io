@@ -11,9 +11,9 @@ Spec:
 
 ```lua
 set_event_script(
-	event_type,
-	script_name,
-	item_id)
+	string event_type,
+	string script_name,
+	long item_id)
 ```
 
 ## Parameters
@@ -21,6 +21,12 @@ set_event_script(
 - `event_type`: 
 - `script_name`: 
 - `item_id`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

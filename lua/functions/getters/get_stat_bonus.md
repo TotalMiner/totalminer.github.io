@@ -11,7 +11,7 @@ Spec:
 
 ```lua
 get_stat_bonus(
-	skill)
+	string skill)
 ```
 
 ## Parameters
@@ -21,6 +21,12 @@ get_stat_bonus(
 ## Returns
 
 - ``: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

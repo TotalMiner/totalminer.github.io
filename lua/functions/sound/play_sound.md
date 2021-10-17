@@ -3,7 +3,7 @@
 
 ## play_sound
 
-Play a sound at a voxel position.
+Play a sound at a map point.
 
 ___
 
@@ -11,22 +11,28 @@ Spec:
 
 ```lua
 play_sound(
-	name,
-	x,
-	y,
-	z,
-	volume,
-	range)
+	string name,
+	long x,
+	long y,
+	long z,
+	long volume,
+	long range)
 ```
 
 ## Parameters
 
 - `name`: 
-- `x`: The x component of the position.
-- `y`: The y component of the position.
-- `z`: The z component of the position.
+- `x`: The x component of the map point.
+- `y`: The y component of the map point.
+- `z`: The z component of the map point.
 - `volume`: 
 - `range`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

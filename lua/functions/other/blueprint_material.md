@@ -11,11 +11,11 @@ Spec:
 
 ```lua
 blueprint_material(
-	item_id,
-	slot_id,
-	slot_item_id,
-	slot_qty,
-	slot_durability)
+	long item_id,
+	long slot_id,
+	long slot_item_id,
+	long slot_qty,
+	long slot_durability)
 ```
 
 ## Parameters
@@ -25,6 +25,12 @@ blueprint_material(
 - `slot_item_id`: The material item for this slot
 - `slot_qty`: The qty needed of the slot item for a single craft
 - `slot_durability`: The durability subtracted from the slot item on a single craft
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

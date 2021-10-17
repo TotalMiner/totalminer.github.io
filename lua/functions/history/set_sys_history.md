@@ -11,14 +11,20 @@ Spec:
 
 ```lua
 set_sys_history(
-	key,
-	value)
+	string key,
+	long value)
 ```
 
 ## Parameters
 
 - `key`: The key/name of the history record
 - `value`: The value to set the history record to. Negative values are supported
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

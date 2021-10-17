@@ -11,12 +11,18 @@ Spec:
 
 ```lua
 set_behaviour(
-	name)
+	string name)
 ```
 
 ## Parameters
 
 - `name`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

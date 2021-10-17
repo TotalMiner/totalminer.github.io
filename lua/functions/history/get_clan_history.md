@@ -11,7 +11,7 @@ Spec:
 
 ```lua
 get_clan_history(
-	key)
+	string key)
 ```
 
 ## Parameters
@@ -31,6 +31,12 @@ local member_count = get_clan_history("member count")
 ```
 
 This example gets the value of the clan history record with the key "member count"
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

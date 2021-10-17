@@ -3,7 +3,7 @@
 
 ## get_hour
 
-Function undefined.
+Get the current hour (0-23) of the 24 hour day clock.
 
 ___
 
@@ -15,7 +15,13 @@ get_hour()
 
 ## Returns
 
-- ``: 
+- `double`: The current hour
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

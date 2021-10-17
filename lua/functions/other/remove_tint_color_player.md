@@ -11,12 +11,18 @@ Spec:
 
 ```lua
 remove_tint_color_player(
-	transition)
+	long transition)
 ```
 
 ## Parameters
 
 - `transition`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

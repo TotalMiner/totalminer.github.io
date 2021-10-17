@@ -11,14 +11,20 @@ Spec:
 
 ```lua
 mod_callback(
-	mod_name,
-	data)
+	string mod_name,
+	string data)
 ```
 
 ## Parameters
 
 - `mod_name`: 
 - `data`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

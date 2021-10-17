@@ -11,20 +11,20 @@ Spec:
 
 ```lua
 intersect_sphere(
-	x,
-	y,
-	z,
-	radius,
-	players,
-	npcs,
-	display)
+	double x,
+	double y,
+	double z,
+	double radius,
+	bool players,
+	bool npcs,
+	bool display)
 ```
 
 ## Parameters
 
-- `x`: The x component of the position of the center of the sphere.
-- `y`: The y component of the position of the center of the sphere.
-- `z`: The z component of the position of the center of the sphere.
+- `x`: The x component of the world position at the center of the sphere.
+- `y`: The y component of the world position at the center of the sphere.
+- `z`: The z component of the world position at the center of the sphere.
 - `radius`: The radius of the sphere specified in blocks
 - `players`: true = test for players, false = do not test for players. If omitted, the default is true
 - `npcs`: true = test for NPCs, false = do not test for NPCs. If omitted, the default is true
@@ -37,6 +37,12 @@ intersect_sphere(
 ___
 
 The context target is set as the closest actor inside the sphere
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

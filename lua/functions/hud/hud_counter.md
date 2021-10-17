@@ -11,17 +11,17 @@ Spec:
 
 ```lua
 hud_counter(
-	name,
-	is_player,
-	history,
-	x,
-	y,
-	scale,
-	r,
-	g,
-	b,
-	a,
-	props)
+	string name,
+	bool is_player,
+	string history,
+	double x,
+	double y,
+	double scale,
+	long r,
+	long g,
+	long b,
+	long a,
+	string props)
 ```
 
 ## Parameters
@@ -37,6 +37,12 @@ hud_counter(
 - `b`: The b (blue) component of the elements color
 - `a`: The a (alpha) component of the elements color
 - `props`: Properties that define how the hud element is drawn
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

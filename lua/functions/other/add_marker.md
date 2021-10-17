@@ -11,17 +11,17 @@ Spec:
 
 ```lua
 add_marker(
-	name,
-	x,
-	z,
-	is_admin)
+	string name,
+	long x,
+	long z,
+	bool is_admin)
 ```
 
 ## Parameters
 
 - `name`: The name (and text) of the marker
-- `x`: The x component of the world position of the marker
-- `z`: The z component of the world position of the marker
+- `x`: The x component of the world point of the marker
+- `z`: The z component of the world point of the marker
 - `is_admin`: true or false. If true, only admins can see the marker
 
 ___
@@ -36,7 +36,13 @@ ___
 add_marker("Boat Ramp", 220, 400)
 ```
 
-This example adds a marker 'Boat Ramp' to the world at surface position 220, 400. All players can see this marker
+This example adds a marker 'Boat Ramp' to the world at surface point 220, 400. All players can see this marker
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

@@ -11,14 +11,20 @@ Spec:
 
 ```lua
 enable_item(
-	item_id,
-	is_enabled)
+	long item_id,
+	bool is_enabled)
 ```
 
 ## Parameters
 
 - `item_id`: 
 - `is_enabled`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

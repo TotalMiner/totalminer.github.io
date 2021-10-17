@@ -11,7 +11,7 @@ Spec:
 
 ```lua
 get_sys_history(
-	key)
+	string key)
 ```
 
 ## Parameters
@@ -31,6 +31,12 @@ local temp = get_sys_history("temperature")
 ```
 
 This example gets the value of the system history record with the key "temperature"
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

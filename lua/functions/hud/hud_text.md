@@ -11,18 +11,18 @@ Spec:
 
 ```lua
 hud_text(
-	name,
-	is_player,
-	text,
-	x,
-	y,
-	scale,
-	r,
-	g,
-	b,
-	a,
-	rot,
-	props)
+	string name,
+	bool is_player,
+	string text,
+	double x,
+	double y,
+	double scale,
+	long r,
+	long g,
+	long b,
+	long a,
+	double rot,
+	string props)
 ```
 
 ## Parameters
@@ -39,6 +39,12 @@ hud_text(
 - `a`: The a (alpha) component of the elements color
 - `rot`: The rotation of the element in radians
 - `props`: Properties that define how the hud element is drawn
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

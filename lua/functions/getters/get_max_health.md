@@ -3,7 +3,7 @@
 
 ## get_max_health
 
-Function undefined.
+Get the maximum health of the context actor.
 
 ___
 
@@ -15,7 +15,13 @@ get_max_health()
 
 ## Returns
 
-- ``: 
+- `double`: The context actor's maximum health
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

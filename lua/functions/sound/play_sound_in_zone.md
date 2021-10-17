@@ -11,9 +11,9 @@ Spec:
 
 ```lua
 play_sound_in_zone(
-	name,
-	zone_name,
-	volume)
+	string name,
+	string zone_name,
+	long volume)
 ```
 
 ## Parameters
@@ -21,6 +21,12 @@ play_sound_in_zone(
 - `name`: 
 - `zone_name`: 
 - `volume`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

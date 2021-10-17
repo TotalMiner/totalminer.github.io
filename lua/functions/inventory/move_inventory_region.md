@@ -11,32 +11,38 @@ Spec:
 
 ```lua
 move_inventory_region(
-	x1,
-	y1,
-	z1,
-	x2,
-	y2,
-	z2,
-	x3,
-	y3,
-	z3,
-	item_id,
-	qty)
+	long x1,
+	long y1,
+	long z1,
+	long x2,
+	long y2,
+	long z2,
+	long x3,
+	long y3,
+	long z3,
+	long item_id,
+	long qty)
 ```
 
 ## Parameters
 
-- `x1`: The x component of the source regions min position
-- `y1`: The y component of the source regions min position
-- `z1`: The z component of the source regions min position
-- `x2`: The x component of the source regions max position
-- `y2`: The y component of the source regions max position
-- `z2`: The z component of the source regions max position
-- `x3`: The x component of the destination regions min position
-- `y3`: The y component of the destination regions min position
-- `z3`: The z component of the destination regions min position
+- `x1`: The x component of the source regions min map point
+- `y1`: The y component of the source regions min map point
+- `z1`: The z component of the source regions min map point
+- `x2`: The x component of the source regions max map point
+- `y2`: The y component of the source regions max map point
+- `z2`: The z component of the source regions max map point
+- `x3`: The x component of the destination regions min map point
+- `y3`: The y component of the destination regions min map point
+- `z3`: The z component of the destination regions min map point
 - `item_id`: The item_id to move. If omitted, all items will be moved
 - `qty`: The quantity of the item to move. If omitted, all of the item will be moved
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

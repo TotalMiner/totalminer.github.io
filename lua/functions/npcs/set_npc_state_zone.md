@@ -11,10 +11,10 @@ Spec:
 
 ```lua
 set_npc_state_zone(
-	state,
-	zone,
-	is_temp_zone,
-	npc_type)
+	string state,
+	string zone,
+	bool is_temp_zone,
+	string npc_type)
 ```
 
 ## Parameters
@@ -23,6 +23,12 @@ set_npc_state_zone(
 - `zone`: 
 - `is_temp_zone`: 
 - `npc_type`: Only apply to these types of NPCs. Omit to apply to all types of NPCs
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

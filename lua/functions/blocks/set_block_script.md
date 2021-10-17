@@ -3,7 +3,7 @@
 
 ## set_block_script
 
-Assign a script to a block at a voxel position.
+Assign a script to a block at a map point.
 
 ___
 
@@ -11,20 +11,26 @@ Spec:
 
 ```lua
 set_block_script(
-	x,
-	y,
-	z,
-	name,
-	type)
+	long x,
+	long y,
+	long z,
+	string name,
+	string type)
 ```
 
 ## Parameters
 
-- `x`: The x component of the position
-- `y`: The y component of the position
-- `z`: The z component of the position
+- `x`: The x component of the map point
+- `y`: The y component of the map point
+- `z`: The z component of the map point
 - `name`: 
 - `type`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

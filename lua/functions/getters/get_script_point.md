@@ -3,24 +3,35 @@
 
 ## get_script_point
 
-Function undefined.
+Get the map point of the script block that executed the current script.
 
 ___
 
 Spec:
 
 ```lua
-get_script_point(
-	x,
-	y,
-	z)
+get_script_point()
 ```
 
-## Parameters
+## Returns
 
-- `x`: 
-- `y`: 
-- `z`: 
+- `long`: The x component of the map point
+- `long`: The y component of the map point
+- `long`: The z component of the map point
+
+___
+
+## Example
+
+```lua
+local x,y,z = get_script_point()
+```
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

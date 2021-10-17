@@ -3,7 +3,7 @@
 
 ## get_aux
 
-Get the aux data at a voxel position.
+Get the aux data at a map point.
 
 ___
 
@@ -11,16 +11,16 @@ Spec:
 
 ```lua
 get_aux(
-	x,
-	y,
-	z)
+	long x,
+	long y,
+	long z)
 ```
 
 ## Parameters
 
-- `x`: The x component of the position
-- `y`: The y component of the position
-- `z`: The z component of the position
+- `x`: The x component of the map point
+- `y`: The y component of the map point
+- `z`: The z component of the map point
 
 ## Returns
 
@@ -36,6 +36,12 @@ local aux = get_aux(x,y,z)
 ```
 
 This example gets the aux data of the script block that executed this script.
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

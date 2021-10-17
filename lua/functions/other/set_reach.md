@@ -3,7 +3,7 @@
 
 ## set_reach
 
-Function undefined.
+Set the reach of the context actor.
 
 ___
 
@@ -11,14 +11,20 @@ Spec:
 
 ```lua
 set_reach(
-	distance,
-	target)
+	long distance,
+	string target)
 ```
 
 ## Parameters
 
 - `distance`: 
 - `target`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

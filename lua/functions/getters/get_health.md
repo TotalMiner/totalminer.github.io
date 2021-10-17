@@ -3,7 +3,7 @@
 
 ## get_health
 
-Function undefined.
+Get the current health of the context actor.
 
 ___
 
@@ -15,7 +15,13 @@ get_health()
 
 ## Returns
 
-- ``: 
+- `double`: The context actor's current health
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

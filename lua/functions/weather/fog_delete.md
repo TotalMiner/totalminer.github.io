@@ -11,20 +11,26 @@ Spec:
 
 ```lua
 fog_delete(
-	x,
-	y,
-	z)
+	long x,
+	long y,
+	long z)
 ```
 
 ## Parameters
 
-- `x`: The x component of the position.
-- `y`: The y component of the position.
-- `z`: The z component of the position.
+- `x`: The x component of the map point at the center of the fog.
+- `y`: The y component of the map point at the center of the fog.
+- `z`: The z component of the map point at the center of the fog.
 
 ___
 
-The position `x,y,z` must be the same position used when the fog was created using [Fog](fog)
+The point `x,y,z` must be the same point used when the fog was created using [Fog](fog)
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

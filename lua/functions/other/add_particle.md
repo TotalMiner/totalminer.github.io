@@ -11,43 +11,43 @@ Spec:
 
 ```lua
 add_particle(
-	x,
-	y,
-	z,
-	duration,
-	velocity_x,
-	velocity_y,
-	velocity_z,
-	size_x,
-	size_y,
-	size_z,
-	size_end,
-	start_color_r,
-	start_color_g,
-	start_color_b,
-	start_color_a,
-	gravity,
-	rotation,
-	velocity_var_x,
-	velocity_var_y,
-	velocity_var_z,
-	end_color_r,
-	end_color_g,
-	end_color_b,
-	end_color_a,
-	emit_pos_var_x,
-	emit_pos_var_y,
-	emit_pos_var_z,
-	emit_pos_offset_x,
-	emit_pos_offset_y,
-	emit_pos_offset_z)
+	double x,
+	double y,
+	double z,
+	double duration,
+	double velocity_x,
+	double velocity_y,
+	double velocity_z,
+	double size_x,
+	double size_y,
+	double size_z,
+	double size_end,
+	long start_color_r,
+	long start_color_g,
+	long start_color_b,
+	long start_color_a,
+	double gravity,
+	double rotation,
+	double velocity_var_x,
+	double velocity_var_y,
+	double velocity_var_z,
+	long end_color_r,
+	long end_color_g,
+	long end_color_b,
+	long end_color_a,
+	double emit_pos_var_x,
+	double emit_pos_var_y,
+	double emit_pos_var_z,
+	double emit_pos_offset_x,
+	double emit_pos_offset_y,
+	double emit_pos_offset_z)
 ```
 
 ## Parameters
 
-- `x`: The x component of the base start position of the particle
-- `y`: The y component of the base start position of the particle
-- `z`: The z component of the base start position of the particle
+- `x`: The x component of the base start world position of the particle
+- `y`: The y component of the base start world position of the particle
+- `z`: The z component of the base start world position of the particle
 - `duration`: The duration (lifetime) of the particle in seconds.
 - `velocity_x`: The x component of the base start velocity of the particle
 - `velocity_y`: The y component of the base start velocity of the particle
@@ -97,6 +97,12 @@ ___
 ```lua
 add_particle(100,200,300,6,0.2,6,-0.8,1,2,0.5,2,200,200,200,200,0.1,0.5,0.1,0.2,0.3,100,100,100,100,0.5,0.5,0.5,1,2,3)
 ```
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

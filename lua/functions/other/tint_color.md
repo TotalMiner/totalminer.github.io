@@ -11,10 +11,10 @@ Spec:
 
 ```lua
 tint_color(
-	r,
-	g,
-	b,
-	transition)
+	long r,
+	long g,
+	long b,
+	double transition)
 ```
 
 ## Parameters
@@ -23,6 +23,12 @@ tint_color(
 - `g`: 
 - `b`: 
 - `transition`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

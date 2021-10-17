@@ -11,12 +11,18 @@ Spec:
 
 ```lua
 set_health_modifier(
-	modifier)
+	double modifier)
 ```
 
 ## Parameters
 
 - `modifier`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

@@ -11,12 +11,18 @@ Spec:
 
 ```lua
 remove_sound_in_zone(
-	zone_name)
+	string zone_name)
 ```
 
 ## Parameters
 
 - `zone_name`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

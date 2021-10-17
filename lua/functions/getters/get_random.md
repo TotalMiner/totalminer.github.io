@@ -11,7 +11,7 @@ Spec:
 
 ```lua
 get_random(
-	max)
+	long max)
 ```
 
 ## Parameters
@@ -21,6 +21,12 @@ get_random(
 ## Returns
 
 - ``: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

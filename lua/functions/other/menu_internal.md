@@ -11,12 +11,18 @@ Spec:
 
 ```lua
 menu_internal(
-	args)
+	object[] args)
 ```
 
 ## Parameters
 
 - `args`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

@@ -3,7 +3,7 @@
 
 ## get_skill_level
 
-Function undefined.
+Get the current level of a specified skill of the context actor.
 
 ___
 
@@ -11,7 +11,7 @@ Spec:
 
 ```lua
 get_skill_level(
-	skill)
+	string skill)
 ```
 
 ## Parameters
@@ -20,7 +20,21 @@ get_skill_level(
 
 ## Returns
 
-- ``: 
+- `long`: The skill level
+
+___
+
+## Example
+
+```lua
+local lvl = get_skill_level("attack")
+```
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

@@ -3,7 +3,7 @@
 
 ## get_max_oxygen
 
-Function undefined.
+Get the maximum oxygen of the context actor.
 
 ___
 
@@ -15,7 +15,13 @@ get_max_oxygen()
 
 ## Returns
 
-- ``: 
+- `double`: The context actor's maximum oxygen
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

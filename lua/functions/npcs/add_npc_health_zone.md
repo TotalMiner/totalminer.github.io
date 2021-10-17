@@ -11,12 +11,12 @@ Spec:
 
 ```lua
 add_npc_health_zone(
-	points,
-	zone,
-	is_temp_zone,
-	npc_type,
-	millisecs,
-	duration)
+	long points,
+	string zone,
+	bool is_temp_zone,
+	string npc_type,
+	long millisecs,
+	long duration)
 ```
 
 ## Parameters
@@ -27,6 +27,12 @@ add_npc_health_zone(
 - `npc_type`: Only apply to these types of NPCs. Omit to apply to all types of NPCs
 - `millisecs`: 
 - `duration`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

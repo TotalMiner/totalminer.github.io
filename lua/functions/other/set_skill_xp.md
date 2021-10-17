@@ -11,14 +11,20 @@ Spec:
 
 ```lua
 set_skill_xp(
-	skill,
-	xp)
+	string skill,
+	double xp)
 ```
 
 ## Parameters
 
 - `skill`: 
 - `xp`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

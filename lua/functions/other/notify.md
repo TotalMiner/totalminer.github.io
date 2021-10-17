@@ -11,12 +11,18 @@ Spec:
 
 ```lua
 notify(
-	args)
+	object[] args)
 ```
 
 ## Parameters
 
 - `args`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

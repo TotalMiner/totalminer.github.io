@@ -11,7 +11,7 @@ Spec:
 
 ```lua
 get_permission(
-	name)
+	string name)
 ```
 
 ## Parameters
@@ -21,6 +21,12 @@ get_permission(
 ## Returns
 
 - ``: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

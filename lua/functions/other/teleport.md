@@ -11,16 +11,22 @@ Spec:
 
 ```lua
 teleport(
-	x,
-	y,
-	z)
+	long x,
+	long y,
+	long z)
 ```
 
 ## Parameters
 
-- `x`: The x component of the teleport destination.
-- `y`: The y component of the teleport destination.
-- `z`: The z component of the teleport destination.
+- `x`: The x component of the map point of the teleport destination.
+- `y`: The y component of the map point of the teleport destination.
+- `z`: The z component of the map point of the teleport destination.
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

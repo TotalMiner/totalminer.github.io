@@ -11,7 +11,7 @@ Spec:
 
 ```lua
 can_equip(
-	item_id)
+	long item_id)
 ```
 
 ## Parameters
@@ -21,6 +21,12 @@ can_equip(
 ## Returns
 
 - `bool`: True if the context actor can equip this item, false if not
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

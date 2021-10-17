@@ -11,12 +11,18 @@ Spec:
 
 ```lua
 input_internal(
-	header)
+	string header)
 ```
 
 ## Parameters
 
 - `header`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

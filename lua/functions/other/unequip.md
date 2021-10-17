@@ -11,14 +11,20 @@ Spec:
 
 ```lua
 unequip(
-	item_id,
-	slot)
+	long item_id,
+	string slot)
 ```
 
 ## Parameters
 
 - `item_id`: 
 - `slot`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

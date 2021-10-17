@@ -11,13 +11,13 @@ Spec:
 
 ```lua
 set_temp_zone_types(
-	name,
-	spawn,
-	no_edit,
-	no_combat,
-	no_fly,
-	no_mobs,
-	no_escape)
+	string name,
+	bool spawn,
+	bool no_edit,
+	bool no_combat,
+	bool no_fly,
+	bool no_mobs,
+	bool no_escape)
 ```
 
 ## Parameters
@@ -37,6 +37,12 @@ ___
 - Spawn zones must be at least 2 x 2 x 2 blocks in size and must not have any blocks inside them (they must be empty space).
 - Spawn zones are not editable by default.
 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

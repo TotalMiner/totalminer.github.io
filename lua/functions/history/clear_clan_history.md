@@ -11,12 +11,18 @@ Spec:
 
 ```lua
 clear_clan_history(
-	key)
+	string key)
 ```
 
 ## Parameters
 
 - `key`: The key/name of the history record
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

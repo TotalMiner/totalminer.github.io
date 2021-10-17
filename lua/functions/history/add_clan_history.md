@@ -11,14 +11,20 @@ Spec:
 
 ```lua
 add_clan_history(
-	key,
-	value)
+	string key,
+	long value)
 ```
 
 ## Parameters
 
 - `key`: The key/name of the history record
 - `value`: The number to add to the history record. Use a negative number for subtraction
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

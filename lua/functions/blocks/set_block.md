@@ -3,7 +3,7 @@
 
 ## set_block
 
-Set block id and aux data at a voxel position.
+Set block id and aux data at a map point.
 
 ___
 
@@ -11,20 +11,26 @@ Spec:
 
 ```lua
 set_block(
-	x,
-	y,
-	z,
-	block_id,
-	aux)
+	long x,
+	long y,
+	long z,
+	long block_id,
+	long aux)
 ```
 
 ## Parameters
 
-- `x`: The x component of the position
-- `y`: The y component of the position
-- `z`: The z component of the position
+- `x`: The x component of the map point
+- `y`: The y component of the map point
+- `z`: The z component of the map point
 - `block_id`: 
 - `aux`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

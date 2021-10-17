@@ -3,7 +3,7 @@
 
 ## get_gamer_count
 
-Function undefined.
+The the total number of valid gamers in the session.
 
 ___
 
@@ -15,7 +15,21 @@ get_gamer_count()
 
 ## Returns
 
-- ``: 
+- `long`: The number of gamers
+
+___
+
+## Example
+
+```lua
+local total_gamer_count = get_gamer_count()
+```
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

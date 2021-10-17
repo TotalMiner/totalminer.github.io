@@ -11,12 +11,18 @@ Spec:
 
 ```lua
 clear_inventory(
-	item_id)
+	long item_id)
 ```
 
 ## Parameters
 
 - `item_id`: The item to clear. If omitted, all items will be cleared
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

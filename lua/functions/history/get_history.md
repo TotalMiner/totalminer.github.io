@@ -11,7 +11,7 @@ Spec:
 
 ```lua
 get_history(
-	key)
+	string key)
 ```
 
 ## Parameters
@@ -37,6 +37,12 @@ ___
 ```lua
 local temp = get_history("temp")
 ```
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

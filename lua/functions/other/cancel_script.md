@@ -11,7 +11,7 @@ Spec:
 
 ```lua
 cancel_script(
-	name)
+	string name)
 ```
 
 ## Parameters
@@ -21,6 +21,12 @@ cancel_script(
 ___
 
 The name must include the full path
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

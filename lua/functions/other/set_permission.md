@@ -11,14 +11,20 @@ Spec:
 
 ```lua
 set_permission(
-	name,
-	on)
+	string name,
+	bool on)
 ```
 
 ## Parameters
 
 - `name`: 
 - `on`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

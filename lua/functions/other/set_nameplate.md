@@ -11,9 +11,9 @@ Spec:
 
 ```lua
 set_nameplate(
-	target,
-	setting,
-	npc)
+	string target,
+	string setting,
+	bool npc)
 ```
 
 ## Parameters
@@ -21,6 +21,12 @@ set_nameplate(
 - `target`: 
 - `setting`: 
 - `npc`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

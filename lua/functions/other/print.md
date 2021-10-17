@@ -3,7 +3,7 @@
 
 ## print
 
-Function undefined.
+Same as notify().
 
 ___
 
@@ -11,12 +11,18 @@ Spec:
 
 ```lua
 print(
-	args)
+	object[] args)
 ```
 
 ## Parameters
 
 - `args`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

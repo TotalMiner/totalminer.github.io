@@ -11,12 +11,18 @@ Spec:
 
 ```lua
 remove_marker(
-	name)
+	string name)
 ```
 
 ## Parameters
 
 - `name`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

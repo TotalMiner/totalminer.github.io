@@ -11,9 +11,9 @@ Spec:
 
 ```lua
 get_velocity(
-	x,
-	y,
-	z)
+	System.Double& x,
+	System.Double& y,
+	System.Double& z)
 ```
 
 ## Parameters
@@ -21,6 +21,12 @@ get_velocity(
 - `x`: 
 - `y`: 
 - `z`: 
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 

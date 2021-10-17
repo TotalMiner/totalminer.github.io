@@ -11,12 +11,12 @@ Spec:
 
 ```lua
 blueprint(
-	item_id,
-	qty,
-	craft_type,
-	craft_skill_type,
-	craft_skill_level,
-	smelt_time)
+	long item_id,
+	long qty,
+	string craft_type,
+	string craft_skill_type,
+	long craft_skill_level,
+	double smelt_time)
 ```
 
 ## Parameters
@@ -27,6 +27,12 @@ blueprint(
 - `craft_skill_type`: The skill type required to craft the item
 - `craft_skill_level`: The skill level (of the skill type) required to craft the item
 - `smelt_time`: If the item is smelted, this is the time it takes to smelt the item in milliseconds
+
+___
+
+### Incomplete
+
+documentation incomplete
 
 ___
 
