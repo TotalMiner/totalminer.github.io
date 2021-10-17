@@ -3,7 +3,7 @@
 
 ## tint_color_player
 
-Function undefined.
+Set the context tint color.
 
 ___
 

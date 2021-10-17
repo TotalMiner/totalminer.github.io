@@ -3,7 +3,7 @@
 
 ## set_dialog
 
-Function undefined.
+Set a dialog tree for the context actor.
 
 ___
 

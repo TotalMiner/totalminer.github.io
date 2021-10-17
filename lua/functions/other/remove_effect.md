@@ -3,7 +3,7 @@
 
 ## remove_effect
 
-Function undefined.
+Remove a character effect.
 
 ___
 
@@ -16,7 +16,11 @@ remove_effect(
 
 ## Parameters
 
-- `name`: 
+- `name`: The name used to create the effect
+
+___
+
+See add_health_effect()
 
 ___
 

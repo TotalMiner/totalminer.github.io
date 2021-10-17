@@ -3,7 +3,7 @@
 
 ## teleport_all
 
-Function undefined.
+Teleport all actors in a cubic region.
 
 ___
 

@@ -3,7 +3,7 @@
 
 ## get_texture
 
-Function undefined.
+Get the currently assigned texture id for a block.
 
 ___
 
@@ -24,7 +24,7 @@ get_texture(
 
 ## Returns
 
-- ``: 
+- `long`: The texture id. 0 = default texture
 
 ___
 

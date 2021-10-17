@@ -3,7 +3,7 @@
 
 ## set_health_modifier
 
-Function undefined.
+Set the health regeneration rate for the context actor.
 
 ___
 
@@ -16,7 +16,7 @@ set_health_modifier(
 
 ## Parameters
 
-- `modifier`: 
+- `modifier`: The rate of regneration. Omit for default (1)
 
 ___
 

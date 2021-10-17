@@ -3,7 +3,7 @@
 
 ## get_stat_bonus
 
-Function undefined.
+Get the stat bonus for a skill.
 
 ___
 
@@ -20,7 +20,7 @@ get_stat_bonus(
 
 ## Returns
 
-- ``: 
+- `long`: The stat bonus
 
 ___
 

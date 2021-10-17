@@ -3,7 +3,7 @@
 
 ## set_waypoint
 
-Function undefined.
+Set a waypoint for the context player.
 
 ___
 

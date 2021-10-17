@@ -3,7 +3,7 @@
 
 ## enable_item
 
-Function undefined.
+Enable or disable an item.
 
 ___
 
@@ -17,8 +17,16 @@ enable_item(
 
 ## Parameters
 
-- `item_id`: 
-- `is_enabled`: 
+- `item_id`: The item to enable/disable
+- `is_enabled`: true = enable, false = disable
+
+___
+
+## Example
+
+```lua
+enable_item(item.minigun)
+```
 
 ___
 

@@ -3,7 +3,7 @@
 
 ## set_behaviour
 
-Function undefined.
+Set a behaviour tree for the context actor.
 
 ___
 

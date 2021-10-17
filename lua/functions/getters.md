@@ -127,7 +127,7 @@
 
 ### [get_script_offset](getters/get_script_offset)*
 
-> Function undefined.
+> Get the map point offset of the script block that executed the current script.
 
 ### [get_script_point](getters/get_script_point)*
 
@@ -143,7 +143,7 @@
 
 ### [get_stat_bonus](getters/get_stat_bonus)*
 
-> Function undefined.
+> Get the stat bonus for a skill.
 
 ### [get_sun_light](getters/get_sun_light)*
 
@@ -151,7 +151,7 @@
 
 ### [get_texture](getters/get_texture)*
 
-> Function undefined.
+> Get the currently assigned texture id for a block.
 
 ### [get_velocity](getters/get_velocity)*
 

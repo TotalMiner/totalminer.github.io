@@ -3,7 +3,7 @@
 
 ## set_skill_level
 
-Function undefined.
+Set a skill level for the context actor.
 
 ___
 

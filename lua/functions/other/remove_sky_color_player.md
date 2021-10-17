@@ -3,7 +3,7 @@
 
 ## remove_sky_color_player
 
-Function undefined.
+Remove the current context sky color.
 
 ___
 

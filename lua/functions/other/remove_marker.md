@@ -3,7 +3,7 @@
 
 ## remove_marker
 
-Function undefined.
+Remove a marker from the top down map.
 
 ___
 
@@ -16,7 +16,7 @@ remove_marker(
 
 ## Parameters
 
-- `name`: 
+- `name`: The name of the marker
 
 ___
 

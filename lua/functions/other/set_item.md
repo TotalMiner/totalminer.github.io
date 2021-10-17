@@ -3,7 +3,7 @@
 
 ## set_item
 
-Function undefined.
+Set the name and descrption for an item.
 
 ___
 

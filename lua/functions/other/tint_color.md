@@ -3,7 +3,7 @@
 
 ## tint_color
 
-Function undefined.
+Set the global tint color.
 
 ___
 

@@ -3,7 +3,7 @@
 
 ## sky_color_player
 
-Function undefined.
+Set the context sky color.
 
 ___
 

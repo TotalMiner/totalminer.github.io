@@ -139,7 +139,7 @@
 
 ### [remove_effect](other/remove_effect)*
 
-> Function undefined.
+> Remove a character effect.
 
 ### [remove_event_script](other/remove_event_script)*
 
@@ -147,31 +147,31 @@
 
 ### [remove_marker](other/remove_marker)*
 
-> Function undefined.
+> Remove a marker from the top down map.
 
 ### [remove_pickups](other/remove_pickups)*
 
-> Function undefined.
+> Remove all pickups from the world.
 
 ### [remove_sky_color](other/remove_sky_color)*
 
-> Function undefined.
+> Remove the current global sky color.
 
 ### [remove_sky_color_player](other/remove_sky_color_player)*
 
-> Function undefined.
+> Remove the current context sky color.
 
 ### [remove_tint_color](other/remove_tint_color)*
 
-> Function undefined.
+> Remove the current global tint color.
 
 ### [remove_tint_color_player](other/remove_tint_color_player)*
 
-> Function undefined.
+> Remove the current context tint color.
 
 ### [remove_waypoint](other/remove_waypoint)*
 
-> Function undefined.
+> Remove the current waypoint.
 
 ### [script_internal](other/script_internal)*
 
@@ -179,51 +179,51 @@
 
 ### [set_behaviour](other/set_behaviour)*
 
-> Function undefined.
+> Set a behaviour tree for the context actor.
 
 ### [set_clan](other/set_clan)*
 
-> Function undefined.
+> Assign the context players clan.
 
 ### [set_context](other/set_context)*
 
-> Function undefined.
+> Set the script context.
 
 ### [set_dialog](other/set_dialog)*
 
-> Function undefined.
+> Set a dialog tree for the context actor.
 
 ### [set_event_script](other/set_event_script)*
 
-> Function undefined.
+> Set a script to execute on an event.
 
 ### [set_event_button_script](other/set_event_button_script)*
 
-> Function undefined.
+> Set a script to execute on a button press event.
 
 ### [set_health_modifier](other/set_health_modifier)*
 
-> Function undefined.
+> Set the health regeneration rate for the context actor.
 
 ### [enable_item](other/enable_item)*
 
-> Function undefined.
+> Enable or disable an item.
 
 ### [set_item](other/set_item)*
 
-> Function undefined.
+> Set the name and descrption for an item.
 
 ### [set_nameplate](other/set_nameplate)*
 
-> Function undefined.
+> Set nameplate options.
 
 ### [set_permission](other/set_permission)*
 
-> Function undefined.
+> Set a single permission for the context player.
 
 ### [set_permissions_all](other/set_permissions_all)*
 
-> Function undefined.
+> Set permissions for the context player.
 
 ### [set_power](other/set_power)*
 
@@ -239,11 +239,11 @@
 
 ### [set_skill_level](other/set_skill_level)*
 
-> Function undefined.
+> Set a skill level for the context actor.
 
 ### [set_skill_xp](other/set_skill_xp)*
 
-> Function undefined.
+> Set xp for a skill for the context actor.
 
 ### [set_text](other/set_text)*
 
@@ -255,15 +255,15 @@
 
 ### [set_waypoint](other/set_waypoint)*
 
-> Function undefined.
+> Set a waypoint for the context player.
 
 ### [sky_color](other/sky_color)*
 
-> Function undefined.
+> Set the global sky color.
 
 ### [sky_color_player](other/sky_color_player)*
 
-> Function undefined.
+> Set the context sky color.
 
 ### [teleport](other/teleport)*
 
@@ -271,15 +271,15 @@
 
 ### [teleport_all](other/teleport_all)*
 
-> Function undefined.
+> Teleport all actors in a cubic region.
 
 ### [tint_color](other/tint_color)*
 
-> Function undefined.
+> Set the global tint color.
 
 ### [tint_color_player](other/tint_color_player)*
 
-> Function undefined.
+> Set the context tint color.
 
 ### [toggle_switch](other/toggle_switch)*
 
@@ -287,7 +287,7 @@
 
 ### [unequip](other/unequip)*
 
-> Function undefined.
+> Unequip an item.
 
 ### [has_marker](other/has_marker)*
 

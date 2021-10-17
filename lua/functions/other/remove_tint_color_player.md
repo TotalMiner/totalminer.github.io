@@ -3,7 +3,7 @@
 
 ## remove_tint_color_player
 
-Function undefined.
+Remove the current context tint color.
 
 ___
 

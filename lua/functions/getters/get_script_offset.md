@@ -3,24 +3,21 @@
 
 ## get_script_offset
 
-Function undefined.
+Get the map point offset of the script block that executed the current script.
 
 ___
 
 Spec:
 
 ```lua
-get_script_offset(
-	System.Int64& x,
-	System.Int64& y,
-	System.Int64& z)
+get_script_offset()
 ```
 
-## Parameters
+## Returns
 
-- `x`: 
-- `y`: 
-- `z`: 
+- `long`: The x component of the offset
+- `long`: The y component of the offset
+- `long`: The z component of the offset
 
 ___
 

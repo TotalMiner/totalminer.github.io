@@ -3,7 +3,7 @@
 
 ## set_permissions_all
 
-Function undefined.
+Set permissions for the context player.
 
 ___
 

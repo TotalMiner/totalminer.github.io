@@ -3,7 +3,7 @@
 
 ## set_event_script
 
-Function undefined.
+Set a script to execute on an event.
 
 ___
 

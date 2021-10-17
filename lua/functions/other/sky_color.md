@@ -3,7 +3,7 @@
 
 ## sky_color
 
-Function undefined.
+Set the global sky color.
 
 ___
 

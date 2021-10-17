@@ -3,7 +3,7 @@
 
 ## set_skill_xp
 
-Function undefined.
+Set xp for a skill for the context actor.
 
 ___
 

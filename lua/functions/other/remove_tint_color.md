@@ -3,7 +3,7 @@
 
 ## remove_tint_color
 
-Function undefined.
+Remove the current global tint color.
 
 ___
 

@@ -3,7 +3,7 @@
 
 ## set_context
 
-Function undefined.
+Set the script context.
 
 ___
 

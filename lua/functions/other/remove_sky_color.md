@@ -3,7 +3,7 @@
 
 ## remove_sky_color
 
-Function undefined.
+Remove the current global sky color.
 
 ___
 

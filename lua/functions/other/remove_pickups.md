@@ -3,7 +3,7 @@
 
 ## remove_pickups
 
-Function undefined.
+Remove all pickups from the world.
 
 ___
 

@@ -3,7 +3,7 @@
 
 ## set_clan
 
-Function undefined.
+Assign the context players clan.
 
 ___
 

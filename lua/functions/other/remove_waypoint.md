@@ -3,7 +3,7 @@
 
 ## remove_waypoint
 
-Function undefined.
+Remove the current waypoint.
 
 ___
 

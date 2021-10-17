@@ -3,7 +3,7 @@
 
 ## set_event_button_script
 
-Function undefined.
+Set a script to execute on a button press event.
 
 ___
 

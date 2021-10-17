@@ -3,7 +3,7 @@
 
 ## unequip
 
-Function undefined.
+Unequip an item.
 
 ___
 
@@ -17,8 +17,8 @@ unequip(
 
 ## Parameters
 
-- `item_id`: 
-- `slot`: 
+- `item_id`: The item to unequip
+- `slot`: Slot to unequip from. Valid values `left`, `right`, `body`
 
 ___
 

@@ -3,7 +3,7 @@
 
 ## set_nameplate
 
-Function undefined.
+Set nameplate options.
 
 ___
 
