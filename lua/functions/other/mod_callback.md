@@ -22,6 +22,14 @@ mod_callback(
 
 ___
 
+## Example
+
+```lua
+mod_callback("my mod","player has died")
+```
+
+___
+
 ### Incomplete
 
 This documentation is incomplete

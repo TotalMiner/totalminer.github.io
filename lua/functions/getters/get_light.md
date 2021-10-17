@@ -28,6 +28,15 @@ get_light(
 
 ___
 
+## Example
+
+```lua
+local x,y,z = get_script_point()
+if get_light(x,y+1,z) > 0 then notify("The map point above the script block has some light") end
+```
+
+___
+
 ### Incomplete
 
 This documentation is incomplete
