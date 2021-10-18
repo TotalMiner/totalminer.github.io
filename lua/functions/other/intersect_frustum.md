@@ -49,12 +49,9 @@ ___
 ## Example
 
 ```lua
-local x,y,z = get_eye_pos()
-local eye = vector3(x,y,z)
-local vx,vy,vz = get_view_dir()
-local dir = vector3(vx,vy,vz)
-local near = eye + dir * 0.1
-local far = eye + dir * 40
+local dir = vector3(get_view_dir())
+local near = vector3(get_eye_pos()) + (dir * 0.2)
+local far = near + (dir * 50)
 if intersect_frustum(near.x,near.y,near.z,far.x,far.y,far.z,60)
 then
 set_context("target")
