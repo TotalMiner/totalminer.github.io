@@ -1,6 +1,6 @@
 # (Official) Console Documentation
 
-This documentation describes every command provided for the in game console.
+This documentation is a reference for using the in game console in Total Miner.
 
 This documentation is unfinished. Please report any problems.
 

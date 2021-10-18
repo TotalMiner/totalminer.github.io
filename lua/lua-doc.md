@@ -1,6 +1,6 @@
 # (Official) LUA Scripts Documentation
 
-This documentation describes every type and function provided for lua scripting.
+This documentation is a reference for using the LUA programming language to create in game scripts in Total Miner.
 
 This documentation is unfinished. Please report any problems.
 
