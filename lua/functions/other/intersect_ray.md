@@ -44,6 +44,23 @@ The context target is set as the closest actor hit by the ray
 
 ___
 
+## Example
+
+```lua
+local x,y,z = get_eye_pos()
+local eye = vector3(x,y,z)
+local vx,vy,vz = get_view_dir()
+local dir = vector3(vx,vy,vz)
+local origin = eye + dir * 0.1
+if intersect_ray(origin.x,origin.y,origin.z,dir.x,dir.y,dir.z)
+then
+set_context("target")
+add_health_effect(-10)
+end
+```
+
+___
+
 ##### Incomplete
 
 This documentation is incomplete

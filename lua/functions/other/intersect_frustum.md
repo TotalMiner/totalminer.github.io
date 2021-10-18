@@ -46,6 +46,24 @@ The context target is set as the closest actor inside the frustum
 
 ___
 
+## Example
+
+```lua
+local x,y,z = get_eye_pos()
+local eye = vector3(x,y,z)
+local vx,vy,vz = get_view_dir()
+local dir = vector3(vx,vy,vz)
+local near = eye + dir * 0.1
+local far = eye + dir * 40
+if intersect_frustum(near.x,near.y,near.z,far.x,far.y,far.z,60)
+then
+set_context("target")
+add_health_effect(-10)
+end
+```
+
+___
+
 ##### Incomplete
 
 This documentation is incomplete

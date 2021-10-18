@@ -24,6 +24,15 @@ input(
 
 ___
 
+## Example
+
+```lua
+local text = input("Enter your name")
+notify("Your name is: ",text)
+```
+
+___
+
 ##### Incomplete
 
 This documentation is incomplete

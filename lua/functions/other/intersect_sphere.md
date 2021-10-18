@@ -40,6 +40,19 @@ The context target is set as the closest actor inside the sphere
 
 ___
 
+## Example
+
+```lua
+local x,y,z = get_pos()
+if intersect_sphere(x,y,z,40)
+then
+set_context("target")
+add_health_effect(-10)
+end
+```
+
+___
+
 ##### Incomplete
 
 This documentation is incomplete
