@@ -15,9 +15,8 @@ play_sound_loop(
 	long x,
 	long y,
 	long z,
-	bool loop,
-	long delay,
-	long count,
+	long loop_delay,
+	long loop_count,
 	long volume,
 	long range)
 ```
@@ -28,9 +27,8 @@ play_sound_loop(
 - `x`: The x component of the map point.
 - `y`: The y component of the map point.
 - `z`: The z component of the map point.
-- `loop`: 
-- `delay`: 
-- `count`: 
+- `loop_delay`: 
+- `loop_count`: 
 - `volume`: 
 - `range`: 
 

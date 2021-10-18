@@ -1,22 +1,26 @@
 
 # (Official) LUA Scripting Documentation
 
-## script_internal
+## script
 
-Function undefined.
+Call a script.
 
 ___
 
 Spec:
 
 ```lua
-script_internal(
+script(
 	string name)
 ```
 
 ## Parameters
 
-- `name`: 
+- `name`: The full name of the script to call
+
+___
+
+The calling script is suspended until the called script ends execution
 
 ___
 

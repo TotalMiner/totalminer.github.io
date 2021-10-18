@@ -36,6 +36,8 @@ ___
 add_marker("Boat Ramp", 220, 400)
 ```
 
+This example adds a marker 'Boat Ramp' to the world at surface point 220, 400. All players can see this marker
+
 ___
 
 #### Incomplete

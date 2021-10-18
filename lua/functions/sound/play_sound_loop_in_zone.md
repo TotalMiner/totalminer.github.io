@@ -13,9 +13,8 @@ Spec:
 play_sound_loop_in_zone(
 	string name,
 	string zone_name,
-	bool loop,
-	long delay,
-	long count,
+	long loop_delay,
+	long loop_count,
 	long volume)
 ```
 
@@ -23,9 +22,8 @@ play_sound_loop_in_zone(
 
 - `name`: 
 - `zone_name`: 
-- `loop`: 
-- `delay`: 
-- `count`: 
+- `loop_delay`: 
+- `loop_count`: 
 - `volume`: 
 
 ___

@@ -35,6 +35,8 @@ local x,y,z = get_script_pos()
 local sunlight = get_sun_light(x,y+1,z)
 ```
 
+This example gets the amount of sunlight at the point directly above the script block that executed the script
+
 ___
 
 #### Incomplete

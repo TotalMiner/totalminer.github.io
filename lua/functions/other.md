@@ -85,9 +85,9 @@
 
 > Create an explosion.
 
-### [input_internal](other/input_internal)*
+### [input](other/input)*
 
-> Function undefined.
+> Display an input field and wait for user input.
 
 ### [intersect_box](other/intersect_box)*
 
@@ -113,13 +113,13 @@
 
 > A dice query (same as is_chance).
 
-### [menu_internal](other/menu_internal)*
+### [menu](other/menu)*
 
-> Function undefined.
+> Display a menu (list of items) and wait for user input (item selection).
 
-### [msgbox_internal](other/msgbox_internal)*
+### [msgbox](other/msgbox)*
 
-> Function undefined.
+> Display a message box and wait for user input.
 
 ### [mod_callback](other/mod_callback)*
 
@@ -173,9 +173,9 @@
 
 > Remove the current waypoint.
 
-### [script_internal](other/script_internal)*
+### [script](other/script)*
 
-> Function undefined.
+> Call a script.
 
 ### [set_behaviour](other/set_behaviour)*
 

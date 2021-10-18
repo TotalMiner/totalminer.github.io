@@ -3,7 +3,7 @@
 
 ## remove_sound_in_zone
 
-Remove all sound in a zone.
+Remove a sound from a zone.
 
 ___
 
@@ -11,11 +11,13 @@ Spec:
 
 ```lua
 remove_sound_in_zone(
+	string name,
 	string zone_name)
 ```
 
 ## Parameters
 
+- `name`: 
 - `zone_name`: 
 
 ___

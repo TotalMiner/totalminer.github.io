@@ -18,9 +18,8 @@ play_sound_loop_in_region(
 	long x2,
 	long y2,
 	long z2,
-	bool loop,
-	long delay,
-	long count,
+	long loop_delay,
+	long loop_count,
 	long volume)
 ```
 
@@ -33,9 +32,8 @@ play_sound_loop_in_region(
 - `x2`: The x component of the regions max map point
 - `y2`: The y component of the regions max map point
 - `z2`: The z component of the regions max map point
-- `loop`: 
-- `delay`: 
-- `count`: 
+- `loop_delay`: 
+- `loop_count`: 
 - `volume`: 
 
 ___

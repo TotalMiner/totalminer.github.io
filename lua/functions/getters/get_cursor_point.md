@@ -28,6 +28,8 @@ local x,y,z = get_cursor_point()
 set_block(x,y,z,block.clay)
 ```
 
+This example sets the block currently highlighted by the players cursor to clay
+
 ___
 
 #### Incomplete

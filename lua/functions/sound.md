@@ -39,8 +39,8 @@
 
 ### [remove_sound_in_region](sound/remove_sound_in_region)*
 
-> Remove all sound in a cubic region.
+> Remove a sound from a cubic region.
 
 ### [remove_sound_in_zone](sound/remove_sound_in_zone)*
 
-> Remove all sound in a zone.
+> Remove a sound from a zone.

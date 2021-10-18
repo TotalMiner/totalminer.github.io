@@ -11,6 +11,7 @@ Spec:
 
 ```lua
 remove_sound(
+	string name,
 	long x,
 	long y,
 	long z)
@@ -18,6 +19,7 @@ remove_sound(
 
 ## Parameters
 
+- `name`: 
 - `x`: The x component of the map point.
 - `y`: The y component of the map point.
 - `z`: The z component of the map point.

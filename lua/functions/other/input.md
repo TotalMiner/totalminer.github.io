@@ -1,22 +1,26 @@
 
 # (Official) LUA Scripting Documentation
 
-## input_internal
+## input
 
-Function undefined.
+Display an input field and wait for user input.
 
 ___
 
 Spec:
 
 ```lua
-input_internal(
+input(
 	string header)
 ```
 
 ## Parameters
 
-- `header`: 
+- `header`: A descriptive header for the input field
+
+## Returns
+
+- `string`: The user input as text
 
 ___
 

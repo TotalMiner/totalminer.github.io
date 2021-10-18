@@ -3,7 +3,7 @@
 
 ## remove_sound_in_region
 
-Remove all sound in a cubic region.
+Remove a sound from a cubic region.
 
 ___
 
@@ -11,6 +11,7 @@ Spec:
 
 ```lua
 remove_sound_in_region(
+	string name,
 	long x1,
 	long y1,
 	long z1,
@@ -21,6 +22,7 @@ remove_sound_in_region(
 
 ## Parameters
 
+- `name`: 
 - `x1`: The x component of the regions min map point
 - `y1`: The y component of the regions min map point
 - `z1`: The z component of the regions min map point

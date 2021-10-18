@@ -1,7 +1,7 @@
 
 # (Official) LUA Scripting Documentation
 
-## get_block_info_internal
+## get_block_info
 
 Get various world data of a block.
 
@@ -10,7 +10,7 @@ ___
 Spec:
 
 ```lua
-get_block_info_internal(
+get_block_info(
 	long x,
 	long y,
 	long z)
@@ -24,6 +24,7 @@ get_block_info_internal(
 
 ## Returns
 
+- `block_info`: A data type containing fields for the block state
 - `bool`: is_edited. True if the block has been edited (is not naturally generated)
 - `bool`: is_light_source. True if the block emits light
 - `bool`: is_open. True if the blocks interface screen is open

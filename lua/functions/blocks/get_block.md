@@ -35,6 +35,8 @@ local x,y,z = get_script_point()
 local block_id = get_block(x,y+1,z)
 ```
 
+This example gets the block id of the block directly above the script block that executed this script.
+
 ___
 
 #### Incomplete

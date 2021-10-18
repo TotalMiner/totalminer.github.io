@@ -13,7 +13,7 @@
 
 > Get the number of actions the context actor has performed.
 
-### [get_block_info_internal](getters/get_block_info_internal)*
+### [get_block_info](getters/get_block_info)*
 
 > Get various world data of a block.
 
