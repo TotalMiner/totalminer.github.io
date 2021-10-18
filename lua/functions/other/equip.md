@@ -40,7 +40,7 @@ This example equips a leather helmet (if the actor has one) to the appropriate b
 
 ___
 
-#### Incomplete
+##### Incomplete
 
 This documentation is incomplete
 

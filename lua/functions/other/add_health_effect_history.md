@@ -36,7 +36,7 @@ This example increases the actors health by 2 hitpoints every 3 seconds as long 
 
 ___
 
-#### Incomplete
+##### Incomplete
 
 This documentation is incomplete
 

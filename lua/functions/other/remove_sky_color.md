@@ -20,7 +20,7 @@ remove_sky_color(
 
 ___
 
-#### Incomplete
+##### Incomplete
 
 This documentation is incomplete
 
