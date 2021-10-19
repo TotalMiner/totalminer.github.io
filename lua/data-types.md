@@ -62,7 +62,7 @@ A block id is an 8 bit integer and used to specify which block is present at a m
 
 A block id of zero (0) defines empty space (no block).
 
-There is a global enum called `block` which defines the integer value for every block id in the game. You can use this enum to specify a block id, rather than having to know/use the actual integer value;
+There is a global enum called `block` which defines the integer value for every block id in the game. You can use this enum to specify a block id, rather than having to know/use the actual integer value.
 
 ```lua
 local x,y,z = get_point() -- the map point of the players foot position
@@ -90,15 +90,15 @@ ___
 
 Auxillary data is an 8 bit integer and it is used to store extra data about a voxel.
 
-The actual data stored is differs depending on the block id. Many block id's do not use auxillary data.
+The actual data stored differs depending on the block id. Many block id's do not use auxillary data.
 
 There is one use of auxillary data that is common to all block id's. This is a 1 bit flag that indicates if the block at a voxel point is the original block placed there by world generation, or if it has been `changed` since. This is the 4th bit of the aux value. If the 4th bit is zero (0), then the block at that point is the original block from world generation. If the 4th bit is one (1), then that voxel point has been edited after world generation.
 
 Other uses for aux data are `rotation` and `re-texture`.
 
-`Rotation` uses the first 2 or 3 bits.Typically the first 2 bits define the horizontal rotation of the block (around the Y axis), and the 3rd bit defines if the block is upside down.Not all rotatable blocks use the 3rd bit.
+`Rotation` uses the first 2 or 3 bits. Typically the first 2 bits define the horizontal rotation of the block (around the Y axis), and the 3rd bit defines if the block is upside down. Not all rotatable blocks use the 3rd bit.
 
-`Re-texture` uses the last 4 bits (bit 5 - 8). The re-texture value is an integer between 0 and 15 and specifies which of the 16 possible re-texture slots are used for this block/point.
+`Re-texture` uses the last 4 bits of aux data (bit 5 - 8). The re-texture value is an integer between 0 and 15 and specifies which of the 16 possible re-texture slots are used for this block/point.
 
 Aux data is retrieved using the `get_aux` function;
 
@@ -113,12 +113,12 @@ ___
 
 Light data is an 8 bit integer.
 
-Light data is split into two 4 bit integer parts.As each part is 4 bits, it can store a number from 0 to 15. Zero (0) indicates no light, 15 indicates maximum light.
+Light data is split into two 4 bit integer parts. As each part is 4 bits, they can each store a number from 0 to 15. Zero (0) indicates no light, 15 indicates maximum light.
 
 - The first 4 bits are used for `sunlight`
-- The second 4 bits are used for `block light`, or light emitted from blocks, e.g.torches, sunbox, etc.
+- The second 4 bits are used for `block light`, or light emitted from blocks, e.g.`torches`, `sunbox`, etc.
 
-Light data is retrieved by the get_light functions
+Light data is retrieved using the get_light functions
 
 ```lua
 local x,y,z = get_eye_pos()
@@ -142,7 +142,7 @@ There are two `global` enums predefined for use in lua scripts.
 
 These enums can be used in place of the actual integer values for blocks and items.
 
-NB.The `item` enum defines values for both block and items.
+nb. the `item` enum defines values for both block and items.
 
 e.g.
 
@@ -164,16 +164,16 @@ ___
 
 ## Vectors
 
-Vectors are useful data types often used in games.They are typically used to store `positions`, `velocities` and `directions`.
+Vectors are useful data types often used in games. They are typically used to store `positions`, `velocities` and `directions`.
 
 Two vector types are predefined for your convenience.
 
-- `vector2` a two component vector. contains an x and y value.
-- `vector3` a three component vector. contains an x, y and z value.
+- `vector2` a two component vector. contains an x and y value. Used for 2D values.
+- `vector3` a three component vector. contains an x, y and z value. Used for 3D values.
 
-These types are provided because `vector math` for directional calculations is easier to learn and use than `euler` equivalents.
+These types are provided because vector math is easier to learn and use than euler equivalents for directional calculations 
 
-e.g.To calculate a point 50 blocks directly ahead of the players camera
+e.g. to calculate a point 50 blocks directly ahead of the players camera
 
 ```lua
 local eye_pos = vector3(get_eye_pos())
