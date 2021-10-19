@@ -33,7 +33,7 @@ e.g:
 
 ```lua
 local x,y,z = get_script_point()
-set_block(x, y + 2, z, block.wood)
+set_block(x,y+2,z,block.wood)
 ```
 
 In the example above, x, y, z and block.wood are integers.
@@ -41,7 +41,7 @@ In the example above, x, y, z and block.wood are integers.
 ___
 
 ```lua
-equip(item.woodsword, "right")
+equip(item.woodsword,"right")
 ```
 
 In the example above, item.woodsword is an integer and "right" is a string. This example shows how a string parameter defines what to do with another argument, i.e. `"right"` is telling the `equip` function to equip the `wood sword` into the actors `right` hand.
@@ -58,15 +58,15 @@ ___
 
 ## Block ID
 
-A block id is an 8 bit integer and used to specify which block is present at a map point.Because they are 8 bit integers, there are 256 possible block id's (0 - 255).
+A block id is an 8 bit integer and used to specify which block is present at a map point. Because they are 8 bit integers, there are 256 possible block id's (0 - 255).
 
-A block id of zero(0) defines empty space(no block).
+A block id of zero (0) defines empty space (no block).
 
-There is a global enum called `block` which defines the integer value for every block id in the game.You can use this enum to specify a block id, rather than having to know/use the actual integer value;
+There is a global enum called `block` which defines the integer value for every block id in the game. You can use this enum to specify a block id, rather than having to know/use the actual integer value;
 
 ```lua
 local x,y,z = get_point() -- the map point of the players foot position
-local block_id = get_block(x, y - 1, z)-- get the block id immediately below the players feet
+local block_id = get_block(x,y-1,z) -- get the block id immediately below the players feet
 if block_id == block.grass
 then notify("you are standing on grass")
 else notify("you are not standing on grass")
@@ -75,13 +75,13 @@ end
 
 ```lua
 local x,y,z = get_point() -- the map point of the players foot position
-set_block(x, y-1, z, block.marble) -- set the block under foot to marble
+set_block(x,y-1,z,block.marble) -- set the block under foot to marble
 ```
 
 ```lua
 local x,y,z = get_point() -- the map point of the players foot position
-set_block(x, y-1, z,0) -- clear the block under foot
-  set_block(x, y-1, z, block.none) -- exactly the same as line above
+set_block(x,y-1,z,0) -- clear the block under foot
+  set_block(x,y-1,z, block.none) -- exactly the same as line above
 ```
 
 ___
@@ -104,7 +104,7 @@ Aux data is retrieved using the `get_aux` function;
 
 ```lua
 local x,y,z = get_eye_pos()
-local aux = get_aux(x, y, z)-- get the aux data
+local aux = get_aux(x,y,z)-- get the aux data
 ```
 
 ___
@@ -122,9 +122,9 @@ Light data is retrieved by the get_light functions
 
 ```lua
 local x,y,z = get_eye_pos()
-local light = get_light(x, y, z)-- get the full 8 bit light data
- local sun_light = get_sun_light(x, y, z) -- get the 4 bit sun light data
-local block_light = get_block_light(x, y, z)-- get the 4 bit block light data
+local light = get_light(x,y,z)-- get the full 8 bit light data
+local sun_light = get_sun_light(x,y,z) -- get the 4 bit sun light data
+local block_light = get_block_light(x,y,z)-- get the 4 bit block light data
 ```
 
 ___
@@ -147,15 +147,15 @@ NB.The `item` enum defines values for both block and items.
 e.g.
 
 ```lua
-local x, y, z = get_point()-- the map point of the players foot position
-set_block(x, y-1, z, block.marble) -- set the block under foot to marble
+local x,y,z = get_point() -- the map point of the players foot position
+set_block(x,y-1,z,block.marble) -- set the block under foot to marble
 ```
 
 ```lua
 add_inventory(item.woodsword, 1)
 add_inventory(item.leatherhelmet)
-equip(item.woodsword, "right")
-equip(item.leatherhelmet, "body")
+equip(item.woodsword,"right")
+equip(item.leatherhelmet,"body")
 add_inventory(block.basalt)
 add_inventory(item.basalt) -- same as line above
 ```
@@ -185,9 +185,9 @@ and here is the long version of the same thing (for clarity)
 
 ```lua
 local ex,ey,ez = get_eye_pos()
-local eye_pos = vector3(ex, ey, ez)
+local eye_pos = vector3(ex,ey,ez)
 local vx, vy, vz = get_view_dir()
-local view_dir = vector3(vx, vy, vz)
+local view_dir = vector3(vx,vy,vz)
 local target_pos = eye_pos + view_dir * 50
 ```
 
