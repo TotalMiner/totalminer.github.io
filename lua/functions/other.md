@@ -173,6 +173,10 @@
 
 > Remove the current waypoint.
 
+### [require](other/require)*
+
+> Load a library.
+
 ### [script](other/script)*
 
 > Call a script.
