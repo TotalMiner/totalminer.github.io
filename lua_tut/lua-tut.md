@@ -4,7 +4,7 @@ Here you will find in-depth tutorials for Lua Scripting in Total Miner.
 
 **These tutorials will cover:**
 
-- Total Miner, and its scripting interface / editor.
+- Total Miner's scripting interface / editor.
 - The basic interactions of Total Miner and Lua scripting.
 - Common functions (commands), and their usage.
 
