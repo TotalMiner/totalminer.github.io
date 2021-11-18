@@ -1,7 +1,6 @@
 # Total Miner Lua Tutorials
 
 Here you will find in-depth tutorials for Lua Scripting in Total Miner.
-___
 
 **These tutorials will cover:**
 
