@@ -54,7 +54,7 @@ The `Pause Menu` will close, and the script will be executed.
 
 Congratulations, you have written and executed your first script.
 
-The `notify` command is one of many commands at your disposal when writing scripts to enhance your Total Miner world.
+The [notify](../../lua/functions/other/notify.md) function is one of many built in functions at your disposal when writing scripts to enhance your Total Miner worlds. See [here](../../lua/functions.md) for the TM Lua function reference.
 
 It is the main way to communicate information to players.
 
