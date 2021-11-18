@@ -62,4 +62,4 @@ It is also very useful to script writers as a tool for understanding what values
 
 ___
 
-### [Back to Tutorials](../lua_tut)
+### [Back to Tutorials](../lua-tut)
