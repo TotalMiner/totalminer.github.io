@@ -28,6 +28,6 @@ ___
 
 ___
 
-For further learning of the Lua programming language and it's syntax, see [here](https://www.tutorialspoint.com/lua/lua_basic_syntax.htm).
+For further learning of the Lua programming language and its syntax, see [here](https://www.tutorialspoint.com/lua/lua_basic_syntax.htm).
 
 [Home](../index)
