@@ -4,9 +4,24 @@ This tutorial will go through the main features of the script editor.
 
 ### Contents
 
-- [Creating a New script](#creating-a-new-script)
-- [Editing an Existing script](#editing-an-existing-script)
-- [Back to Main Tutorial Page](../lua-tut)
+- [Creating a new script](#creating-a-new-script)
+- [Editing an existing script](#editing-an-existing-script)
+- [Saving a script](#contents)
+- [General text editing](#contents)
+- [Hot keys](#contents)
+- [Code completion](#contents)
+- [Using the built in Help documentation](#contents)
+- [Inserting a new command / function call](#contents)
+- [Deleting text](#contents)
+- [Copying / Pasting text](#contents)
+- [Copying an entire script](#contents)
+- [Goto line or script](#contents)
+- [Find / Replace text](#contents)
+- [Script diagnostics](#contents)
+- [Using an external editor](#contents)
+- [Using the old script editor](#contents)
+- [Back to Main Tutorial page](../lua-tut)
+
 ___
 
 ## Creating a New script
@@ -31,7 +46,7 @@ To edit/change an existing script, ensure the `Mode` button is set to `Mode:Edit
 
 ![New Script](edit_script.png)
 
-The editor will open with the script loaded.
+The editor will open with the script loaded, and you can start editing the script.
 
 ![Editor Loaded](editor_loaded.png)
 
