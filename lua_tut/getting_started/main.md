@@ -40,7 +40,7 @@ Now let's execute your script.
 
 Click the 'Exit' button, or press the `Esc` key.
 
-You should now be back at the Scripts Menu, and you should see your script listed in the main script list.
+You should now be back at the `Scripts` tab, and you should see your script listed in the main script list.
 
 Click the `Mode:Edit` button once and it should now say `Mode:Run`
 
