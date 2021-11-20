@@ -6,18 +6,17 @@ This tutorial will go through the main features of the script editor.
 
 - [Creating a new script](#creating-a-new-script)
 - [Editing an existing script](#editing-an-existing-script)
+- [Editing multiple scripts](#editing-multiple-scripts)
 - [Saving a script](#saving-a-script)
 - [Editor keys](#editor-keys)
 - [Using the old script editor](#using-the-old-script-editor)
 
 To be added:
-- [General text editing](#contents)
+
 - [Code completion](#contents)
 - [Using the built in Help documentation](#contents)
 - [Inserting a new command / function call](#contents)
-- [Deleting text](#contents)
-- [Copying / Pasting text](#contents)
-- [Copying an entire script](#contents)
+- [Multi-line operations](#contents)
 - [Goto line or script](#contents)
 - [Find / Replace text](#contents)
 - [Script diagnostics](#contents)
@@ -56,9 +55,26 @@ The editor will open with the script loaded, and you can start editing the scrip
 
 ___
 
+## Editing Multiple scripts
+
+You can edit multiple scripts at the same time.
+
+Click the `New` button on the `Tool Pane` to edit a new script.
+Click the `Copy Script` button on the `Tool Pane` to edit a copy of the current script.
+
+The current script(s) will remain in the editor.
+
+To switch between scripts, click the arrow at the `Script Name` field and select the script from the drop down.
+
+![Multiple Scripts](multiple_scripts.png)
+
+#### [Back To Top](#contents)
+
+___
+
 ## Saving a script
 
-To save a new script or to save edits to an existing script, either click the `Save` button on the `Tool Pane` or press the `<ctrl-s>` keys.
+To save a new script or to save edits to an existing script, either click the `Save` button on the `Tool Pane` or press the `<Ctrl-S>` keys.
 
 If the `Save` button on the `Tool Pane` is disabled, then there are no edits to save.
 
