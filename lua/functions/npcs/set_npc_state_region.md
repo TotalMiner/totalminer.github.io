@@ -34,6 +34,16 @@ set_npc_state_region(
 
 ___
 
+## Example
+
+```lua
+Valid values for state:
+"alive", "dying", "death", "respawning", "respawn", "despawning",
+"despawn", "sleeping", "sleep", "custom", "inactive", "delete"
+```
+
+___
+
 ##### Incomplete
 
 This documentation is incomplete

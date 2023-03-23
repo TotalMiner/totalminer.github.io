@@ -3,7 +3,7 @@
 
 ## has_permission
 
-Same has get_permission.
+Same as get_permission.
 
 ___
 

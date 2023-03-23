@@ -21,8 +21,18 @@ set_npc_state_zone(
 
 - `state`: 
 - `zone`: 
-- `is_temp_zone`: 
+- `is_temp_zone`: true or false
 - `npc_type`: Only apply to these types of NPCs. Omit to apply to all types of NPCs
+
+___
+
+## Example
+
+```lua
+Valid values for state:
+"alive", "dying", "death", "respawning", "respawn", "despawning",
+"despawn", "sleeping", "sleep", "custom", "inactive", "delete"
+```
 
 ___
 

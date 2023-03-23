@@ -22,7 +22,7 @@ set_power(
 - `x`: The x component of the map point of the block.
 - `y`: The y component of the map point of the block.
 - `z`: The z component of the map point of the block.
-- `power`: 
+- `power`: true or false
 
 ___
 

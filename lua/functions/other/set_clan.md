@@ -17,8 +17,8 @@ set_clan(
 
 ## Parameters
 
-- `name`: 
-- `banner_id`: 
+- `name`: The name of the clan
+- `banner_id`: The ID of the clan banner icon (See Clan Banner Screen on Character Tab)
 
 ___
 

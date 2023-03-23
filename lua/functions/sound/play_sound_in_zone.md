@@ -20,7 +20,7 @@ play_sound_in_zone(
 
 - `name`: 
 - `zone_name`: 
-- `volume`: 
+- `volume`: A value between 0 and 100
 
 ___
 

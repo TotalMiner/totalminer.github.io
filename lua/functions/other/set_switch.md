@@ -22,7 +22,7 @@ set_switch(
 - `x`: The x component of the map point of the switch.
 - `y`: The y component of the map point of the switch.
 - `z`: The z component of the map point of the switch.
-- `power`: 
+- `power`: true or false
 
 ___
 

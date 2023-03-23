@@ -23,8 +23,17 @@ set_block_script(
 - `x`: The x component of the map point
 - `y`: The y component of the map point
 - `z`: The z component of the map point
-- `name`: 
+- `name`: The full name of the script
 - `type`: 
+
+___
+
+## Example
+
+```lua
+Valid values for type:
+"entry", "exit", "poweron", "poweroff"
+```
 
 ___
 

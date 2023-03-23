@@ -34,6 +34,14 @@ cctv(
 
 ___
 
+## Example
+
+```lua
+Valid values for dir: "N", "S", "E", "W"
+```
+
+___
+
 ##### Incomplete
 
 This documentation is incomplete

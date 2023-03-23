@@ -24,6 +24,11 @@ get_stat_bonus(
 
 ___
 
+Valid values for skill:
+"Health", "Strength", "Attack", "Defence", "Ranged", "Looting"
+
+___
+
 ##### Incomplete
 
 This documentation is incomplete

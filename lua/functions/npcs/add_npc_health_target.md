@@ -19,8 +19,8 @@ add_npc_health_target(
 ## Parameters
 
 - `points`: How many hitpoints to add. Use a negative number to subtract from (damage) the NPCs health
-- `millisecs`: 
-- `duration`: 
+- `millisecs`: How often to apply the effect in milliseconds
+- `duration`: How long to apply the effect for in milliseconds
 
 ___
 

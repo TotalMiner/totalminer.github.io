@@ -29,8 +29,8 @@ play_sound_loop(
 - `z`: The z component of the map point.
 - `loop_delay`: 
 - `loop_count`: 
-- `volume`: 
-- `range`: 
+- `volume`: A value between 0 and 100
+- `range`: How far the sound travels in blocks
 
 ___
 

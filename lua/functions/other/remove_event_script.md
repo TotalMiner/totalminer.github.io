@@ -22,6 +22,16 @@ remove_event_script(
 
 ___
 
+## Example
+
+```lua
+Valid values for event_type:
+"PlayerJoin", "PlayerLeave", "PlayerDeath", "PlayerRespawn", "ItemSwing", "ItemEquip"
+"ItemUnequip", "CustomMenu", "ButtonX", "ButtonY", "ButtonB", "BlockPlaced", "BlockCleared"
+```
+
+___
+
 ##### Incomplete
 
 This documentation is incomplete

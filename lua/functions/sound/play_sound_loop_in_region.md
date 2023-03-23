@@ -34,7 +34,7 @@ play_sound_loop_in_region(
 - `z2`: The z component of the regions max map point
 - `loop_delay`: 
 - `loop_count`: 
-- `volume`: 
+- `volume`: A value between 0 and 100
 
 ___
 

@@ -11,11 +11,13 @@ Spec:
 
 ```lua
 menu(
+	string heading,
 	object[] args)
 ```
 
 ## Parameters
 
+- `heading`: Header Text
 - `args`: A list of items
 
 ## Returns

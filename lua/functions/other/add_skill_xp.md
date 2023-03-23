@@ -22,6 +22,16 @@ add_skill_xp(
 
 ___
 
+## Example
+
+```lua
+Valid values for skill:
+"Health", "Strength", "Attack", "Defence", "Ranged", "Mining", "Digging", "Chopping",
+"Building", "Crafting", "Smelting", "Smithing", "Farming", "Cooking", "Looting"
+```
+
+___
+
 ##### Incomplete
 
 This documentation is incomplete

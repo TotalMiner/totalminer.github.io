@@ -16,7 +16,15 @@ set_context(
 
 ## Parameters
 
-- `context`: 
+- `context`: The context defines which entity is used for script commands. Valid values = default, actor, player, target, killer. default, actor and player are the same context.
+
+___
+
+## Example
+
+```lua
+Valid values for context: "actor", "player", "killer", "target", "default"
+```
 
 ___
 

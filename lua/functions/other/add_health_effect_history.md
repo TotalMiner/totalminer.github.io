@@ -22,7 +22,7 @@ add_health_effect_history(
 - `points`: The number of hitpoints per effect. A positive number increases health, a negative number decreases health
 - `history_key`: The effect is only applied if this history record exists
 - `millisecs`: The time in milliseconds between each effect
-- `name`: 
+- `name`: An optional name that can be tagged to the effec
 
 ___
 

@@ -299,4 +299,4 @@
 
 ### [has_permission](other/has_permission)*
 
-> Same has get_permission.
+> Same as get_permission.

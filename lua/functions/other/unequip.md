@@ -18,7 +18,15 @@ unequip(
 ## Parameters
 
 - `item_id`: The item to unequip
-- `slot`: Slot to unequip from. Valid values `left`, `right`, `body`
+- `slot`: Slot to unequip from.
+
+___
+
+## Example
+
+```lua
+Valid values for slot: "left", "right", "body"
+```
 
 ___
 

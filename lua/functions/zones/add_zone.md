@@ -30,7 +30,7 @@ add_zone(
 - `x2`: The x component of the regions max map point
 - `y2`: The y component of the regions max map point
 - `z2`: The z component of the regions max map point
-- `is_temp`: 
+- `is_temp`: true or false
 
 ___
 

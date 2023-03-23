@@ -16,7 +16,7 @@ remove_effect(
 
 ## Parameters
 
-- `name`: The name used to create the effect
+- `name`: The name used to create the effect *tag)
 
 ___
 

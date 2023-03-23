@@ -24,7 +24,7 @@ play_sound_loop_in_zone(
 - `zone_name`: 
 - `loop_delay`: 
 - `loop_count`: 
-- `volume`: 
+- `volume`: A value between 0 and 100
 
 ___
 

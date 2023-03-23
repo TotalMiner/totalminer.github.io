@@ -30,7 +30,7 @@ play_sound_in_region(
 - `x2`: The x component of the regions max map point
 - `y2`: The y component of the regions max map point
 - `z2`: The z component of the regions max map point
-- `volume`: 
+- `volume`: A value between 0 and 100
 
 ___
 

@@ -20,7 +20,12 @@ get_item(
 
 ## Returns
 
-- `long`: The item id
+- `long`: The item id. omit to use current itemID
+
+___
+
+Valid values for source are:
+"left", "right", "head", "neck", "body", "legs", "leftside", "rightside"
 
 ___
 

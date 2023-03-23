@@ -30,6 +30,18 @@ blueprint(
 
 ___
 
+## Example
+
+```lua
+Valid values for craft_type: "craft", "furnace"
+
+Valid values for craft_skill_type:
+"Health", "Strength", "Attack", "Defence", "Ranged", "Mining", "Digging", "Chopping",
+"Building", "Crafting", "Smelting", "Smithing", "Farming", "Cooking", "Looting"
+```
+
+___
+
 ##### Incomplete
 
 This documentation is incomplete

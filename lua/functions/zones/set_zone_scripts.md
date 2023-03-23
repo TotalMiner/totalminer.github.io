@@ -19,8 +19,8 @@ set_zone_scripts(
 ## Parameters
 
 - `name`: 
-- `entry`: The name of the script to execute when a player enters the zone's region.
-- `exit`: The name of the script to execute when a player exits the zone's region.
+- `entry`: The name of the script to execute when a player enters the zone's region
+- `exit`: The name of the script to execute when a player exits the zone's region
 
 ___
 

@@ -24,6 +24,12 @@ get_skill_xp(
 
 ___
 
+Valid values for skill:
+"Health", "Strength", "Attack", "Defence", "Ranged", "Mining", "Digging", "Chopping",
+"Building", "Crafting", "Smelting", "Smithing", "Farming", "Cooking", "Looting"
+
+___
+
 ## Example
 
 ```lua

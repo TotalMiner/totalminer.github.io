@@ -16,7 +16,7 @@ set_dialog(
 
 ## Parameters
 
-- `name`: 
+- `name`: The name of the dialog tree
 
 ___
 

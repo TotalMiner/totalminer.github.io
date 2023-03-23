@@ -40,6 +40,16 @@ hud_counter(
 
 ___
 
+## Example
+
+```lua
+Valid values for props:
+"vertical", "showlabel", "label", "shownumbers", "numbers",
+"rightjustify", "right", "absolute", "abs", "cctv"
+```
+
+___
+
 ##### Incomplete
 
 This documentation is incomplete

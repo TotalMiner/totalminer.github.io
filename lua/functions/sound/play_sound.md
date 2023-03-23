@@ -25,8 +25,8 @@ play_sound(
 - `x`: The x component of the map point.
 - `y`: The y component of the map point.
 - `z`: The z component of the map point.
-- `volume`: 
-- `range`: 
+- `volume`: A value between 0 and 100
+- `range`: How far the sound travels in blocks
 
 ___
 

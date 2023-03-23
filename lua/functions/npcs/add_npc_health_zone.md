@@ -25,8 +25,8 @@ add_npc_health_zone(
 - `zone`: 
 - `is_temp_zone`: 
 - `npc_type`: Only apply to these types of NPCs. Omit to apply to all types of NPCs
-- `millisecs`: 
-- `duration`: 
+- `millisecs`: How often to apply the effect in milliseconds.
+- `duration`: How long to apply the effect for in milliseconds.
 
 ___
 

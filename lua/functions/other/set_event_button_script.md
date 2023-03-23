@@ -21,12 +21,20 @@ set_event_button_script(
 
 ## Parameters
 
-- `event_type`: 
+- `event_type`: values: buttonx, buttony, buttonb
 - `script_name`: 
 - `text`: 
 - `x`: 
 - `y`: 
 - `scale`: 
+
+___
+
+## Example
+
+```lua
+Valid values for event_type: "ButtonX", "ButtonY", "ButtonB"
+```
 
 ___
 

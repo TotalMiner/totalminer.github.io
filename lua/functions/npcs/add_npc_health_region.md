@@ -33,8 +33,8 @@ add_npc_health_region(
 - `y2`: The y component of the regions max map point
 - `z2`: The z component of the regions max map point
 - `npc_type`: Only apply to these types of NPCs. Omit to apply to all types of NPCs
-- `millisecs`: 
-- `duration`: 
+- `millisecs`: How often to apply the effect in milliseconds.
+- `duration`: How long to apply the effect for in milliseconds.
 
 ___
 

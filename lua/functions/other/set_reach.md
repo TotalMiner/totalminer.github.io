@@ -22,6 +22,14 @@ set_reach(
 
 ___
 
+## Example
+
+```lua
+Valid values for target: "actor", "clan", "system"
+```
+
+___
+
 ##### Incomplete
 
 This documentation is incomplete

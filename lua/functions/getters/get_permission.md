@@ -24,21 +24,9 @@ get_permission(
 
 ___
 
-Name can be one of the following:
-- Adventure
-- Edit
-- Creative
-- Fly
-- Map
-- Save
-- Admin
-- Grief
-- VoiceChat
-- Spectate
-- SystemShops
-- ViewScripts
-- TextChat
-
+Valid values for name are:
+"Adventure", "Edit", "Creative", "Fly", "Map", "Save", "Admin", "Grief"
+"VoiceChat", "Spectate", "SystemShops", "ViewScripts", "TextChat"
 
 ___
 
