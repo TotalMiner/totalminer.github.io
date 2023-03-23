@@ -26,13 +26,9 @@ set_npc_state_zone(
 
 ___
 
-## Example
-
-```lua
 Valid values for state:
 "alive", "dying", "death", "respawning", "respawn", "despawning",
 "despawn", "sleeping", "sleep", "custom", "inactive", "delete"
-```
 
 ___
 

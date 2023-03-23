@@ -30,11 +30,7 @@ set_event_button_script(
 
 ___
 
-## Example
-
-```lua
 Valid values for event_type: "ButtonX", "ButtonY", "ButtonB"
-```
 
 ___
 

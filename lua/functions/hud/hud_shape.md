@@ -54,15 +54,11 @@ hud_shape(
 
 ___
 
-## Example
-
-```lua
 Valid values for shape: "rect"
 
 Valid values for props:
 "vertical", "showlabel", "label", "shownumbers", "numbers",
 "rightjustify", "right", "absolute", "abs", "cctv"
-```
 
 ___
 

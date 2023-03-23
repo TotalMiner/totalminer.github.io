@@ -20,11 +20,7 @@ set_context(
 
 ___
 
-## Example
-
-```lua
 Valid values for context: "actor", "player", "killer", "target", "default"
-```
 
 ___
 

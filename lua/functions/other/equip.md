@@ -22,10 +22,14 @@ equip(
 
 ___
 
+Valid values for slot: "left", "right", "body"
+
+___
+
 ## Examples
 
 ```lua
-Valid values for slot: "left", "right", "body"
+equip(item.woodsword,"right")
 ```
 
 This example equips a wood sword (if the actor has one) to their right hand

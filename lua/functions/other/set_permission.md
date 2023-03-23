@@ -22,13 +22,9 @@ set_permission(
 
 ___
 
-## Example
-
-```lua
 Valid values for name:
 "Adventure", "Edit", "Creative", "Fly", "Map", "Save", "Admin", "Grief"
 "VoiceChat", "Spectate", "SystemShops", "ViewScripts", "TextChat"
-```
 
 ___
 

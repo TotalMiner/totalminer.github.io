@@ -27,10 +27,10 @@ get_action_count(
 ___
 
 The possible action types are:
-- "used" => How many times the actor has used the item
-- "crafted" => How many times the actor has crafted the item
-- "collected" => How many times the actor has collected the item (via pickups)
-- "mined" => How many times the actor has mined the item (blocks only)
+- "used" - How many times the actor has used the item
+- "crafted" - How many times the actor has crafted the item
+- "collected" - How many times the actor has collected the item (via pickups)
+- "mined" - How many times the actor has mined the item (blocks only)
 
 
 ___

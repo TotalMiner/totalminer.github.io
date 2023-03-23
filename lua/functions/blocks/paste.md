@@ -32,17 +32,13 @@ paste(
 
 ___
 
-## Example
-
-```lua
 Valid values for dir:
 "left", "forward", "right", "back", "backward", "up", "down", "proxy", "proxydefault"
 
 Valid values for paste_type:
-"Overwrite": All source blocks are pasted (all destination blocks are overwritten).
-"Merge": Only source blocks that are not empty are pasted.
-"NoOverwrite": Only destination blocks that are empty are overwritten.
-```
+- "Overwrite" - All source blocks are pasted (all destination blocks are overwritten).
+- "Merge" - Only source blocks that are not empty are pasted.
+- "NoOverwrite" - Only destination blocks that are empty are overwritten.
 
 ___
 

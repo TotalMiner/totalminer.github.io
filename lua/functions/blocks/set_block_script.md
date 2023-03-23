@@ -28,12 +28,8 @@ set_block_script(
 
 ___
 
-## Example
-
-```lua
 Valid values for type:
 "entry", "exit", "poweron", "poweroff"
-```
 
 ___
 

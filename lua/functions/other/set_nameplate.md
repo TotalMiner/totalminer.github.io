@@ -24,12 +24,8 @@ set_nameplate(
 
 ___
 
-## Example
-
-```lua
 Valid values for target: "actor", "clan"
 Valid values for setting: "short", "far", "none"
-```
 
 ___
 

@@ -22,11 +22,7 @@ unequip(
 
 ___
 
-## Example
-
-```lua
 Valid values for slot: "left", "right", "body"
-```
 
 ___
 
