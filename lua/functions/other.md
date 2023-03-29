@@ -153,22 +153,6 @@
 
 > Remove all pickups from the world.
 
-### [remove_sky_color](other/remove_sky_color)*
-
-> Remove the current global sky color.
-
-### [remove_sky_color_player](other/remove_sky_color_player)*
-
-> Remove the current context sky color.
-
-### [remove_tint_color](other/remove_tint_color)*
-
-> Remove the current global tint color.
-
-### [remove_tint_color_player](other/remove_tint_color_player)*
-
-> Remove the current context tint color.
-
 ### [remove_waypoint](other/remove_waypoint)*
 
 > Remove the current waypoint.
@@ -269,6 +253,14 @@
 
 > Set the context sky color.
 
+### [sky_color_remove](other/sky_color_remove)*
+
+> Remove the current global sky color.
+
+### [sky_color_remove_player](other/sky_color_remove_player)*
+
+> Remove the current context sky color.
+
 ### [teleport](other/teleport)*
 
 > Teleport the player.
@@ -285,6 +277,14 @@
 
 > Set the context tint color.
 
+### [tint_color_remove](other/tint_color_remove)*
+
+> Remove the current global tint color.
+
+### [tint_color_remove_player](other/tint_color_remove_player)*
+
+> Remove the current context tint color.
+
 ### [toggle_switch](other/toggle_switch)*
 
 > Toggle a switch's on/off position.
@@ -292,6 +292,10 @@
 ### [unequip](other/unequip)*
 
 > Unequip an item.
+
+### [add_entity](other/add_entity)*
+
+> Add (emit) a single particle.
 
 ### [has_marker](other/has_marker)*
 
