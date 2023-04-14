@@ -295,7 +295,7 @@
 
 ### [add_entity](other/add_entity)*
 
-> Add (emit) a single particle.
+> Add (spawn) a single entity.
 
 ### [has_marker](other/has_marker)*
 

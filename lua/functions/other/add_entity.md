@@ -3,7 +3,7 @@
 
 ## add_entity
 
-Add (emit) a single particle.
+Add (spawn) a single entity.
 
 ___
 
@@ -41,7 +41,7 @@ add_entity(
 - `scale`: The relative size of the entity blocks. 1 = normal world block size
 - `com_pack`: The name of the component pack
 - `com_name`: The name of the component
-- `is_face_forward`: The component will face the direction of it's movement (velocity)
+- `is_face_forward`: The entity will face the direction of it's movement (velocity)
 - `is_collidable`: The entity will collide with actors (Players and NPCs)
 - `draw_pos_offset_x`: Draw position offset
 - `draw_pos_offset_y`: Draw position offset
