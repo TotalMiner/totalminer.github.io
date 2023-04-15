@@ -34,22 +34,39 @@ spawn_npc(
 - `dialog`: The name of the dialog tree for the NPC
 - `kill_script`: The name of the script to execute if/when the NPC is killed
 - `combat_stats`: Stats to define the NPCs combat level
-- `loot_table`: A Loot Table that defines what an NPC can drop when killed. loot_table is currently not supported
+- `loot_table`: A Loot Table that defines what an NPC can drop when killed
+
+___
+
+The loot table specifies either a chest location, or a drop item list, or both.
+- If no chest location is specified, items are dropped from the drop item list.
+- If a chest location is specified and a drop item list, items are dropped from the drop item list only if they are found in the chest.
+- If a chest location is specified and no drop item list, a random item from the chest is dropped.
+Chance items instruct the game to select a random item.
+Loot Table:
+Point: X, Y, Z: The location of a chest.
+Table of DropItems:
+- Item: The item to drop. Chance item = select a random item.
+- Count: The number of items to drop.
+- Percent: The chance of an item dropping. 100 = the item will always drop. 50 = the item will drop half of the time, etc.
+
 
 ___
 
 ## Example
 
 ```lua
-local x, y, z = get_cursor_point()
-local type = "chef"
 local name, dialog, kill_script
-local ai = "MyChefAI"
-local stats = { health = 100, attack = 25 }
-spawn_npc(type, x, y, z, name, ai, dialog, kill_script, stats)
+local x, y, z = get_cursor_point()
+local type = "zombie"
+local ai = "MyZombieAI"
+local stats = { health = 100, attack = 50 }
+local chest_pos = vector3(1, 201, 2)
+local loot = { point = chest_pos, item.ironsword, item.steelsword, { item.grass, 10, 50 } }
+spawn_npc(type, x, y, z, name, ai, dialog, kill_script, stats, loot)
 ```
 
-This example spawns a Chef NPC at the players cursor, with a custom AI and custom Health+Attack stat. Name is defaulted to "Chef". Dialog and kill_script are empty.
+This example spawns a Chef NPC at the players cursor, with a custom AI, custom Health and Attack stats, and a custom Loot Table. Name is defaulted to "Chef". Dialog and kill_script are empty.
 
 ___
 
