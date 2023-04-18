@@ -137,6 +137,10 @@
 
 > Same as notify().
 
+### [set_random_seed](other/set_random_seed)*
+
+> Change the seed for the random number generator.
+
 ### [remove_effect](other/remove_effect)*
 
 > Remove a character effect.
