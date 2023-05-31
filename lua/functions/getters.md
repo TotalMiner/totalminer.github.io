@@ -9,6 +9,10 @@
 
 ## Functions to manipulate getters
 
+### [get_timer](getters/get_timer)
+
+> Read the current elapsed time in milliseconds from the internal script timer.
+
 ### [get_action_count](getters/get_action_count)*
 
 > Get the number of actions the context actor has performed.
@@ -81,6 +85,10 @@
 
 > Get the maximum oxygen of the context actor.
 
+### [get_max_stamina](getters/get_max_stamina)*
+
+> Get the maximum stamina of the context actor.
+
 ### [get_npc_count](getters/get_npc_count)*
 
 > Get the total number of NPCs in the world.
@@ -141,6 +149,14 @@
 
 > Get the current xp of a specified skill of the context actor.
 
+### [get_stamina](getters/get_stamina)*
+
+> Get the current stamina of the context actor.
+
+### [get_stamina_as_percent](getters/get_stamina_as_percent)*
+
+> Get the current stamina of the context actor as a percentage (0-100%) of it's maximum stamina.
+
 ### [get_stat_bonus](getters/get_stat_bonus)*
 
 > Get the stat bonus for a skill.
@@ -160,3 +176,11 @@
 ### [get_view_dir](getters/get_view_dir)*
 
 > Get the current view direction of the context actor.
+
+### [get_viewport_width](getters/get_viewport_width)*
+
+> Get the viewport width (in pixels).
+
+### [get_viewport_height](getters/get_viewport_height)*
+
+> Get the viewport height (in pixels).

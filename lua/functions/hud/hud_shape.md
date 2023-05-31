@@ -15,19 +15,11 @@ hud_shape(
 	bool is_player,
 	string shape,
 	long item_id,
-	double x,
-	double y,
-	double w,
-	double h,
+	udim2 pos,
+	udim2 size,
 	long bw,
-	long r,
-	long g,
-	long b,
-	long a,
-	long br,
-	long bg,
-	long bb,
-	long ba,
+	color color,
+	color borderColor,
 	string props)
 ```
 
@@ -37,19 +29,11 @@ hud_shape(
 - `is_player`: True or False. If True this element is only shown on the context player's screen. If False, it is shown on all players screens
 - `shape`: The type of shape. Currently only "rect" is supported
 - `item_id`: If an item_id is specified, the texture for that item will be draw inside the element
-- `x`: The x screen coordinate of the element
-- `y`: The y screen coordinate of the element
-- `w`: The width of the element
-- `h`: The height of the element
+- `pos`: The screen coordinate of the element (Top Left udim2)
+- `size`: The size of the element (udim2)
 - `bw`: The size of the elements border. Zero = no border
-- `r`: The r (red) component of the elements color
-- `g`: The g (green) component of the elements color
-- `b`: The b (blue) component of the elements color
-- `a`: The a (alpha) component of the elements color
-- `br`: The r (red) component of the elements border color
-- `bg`: The g (green) component of the elements border color
-- `bb`: The b (blue) component of the elements border color
-- `ba`: The a (alpha) component of the elements border color
+- `color`: The color of the shape (color)
+- `borderColor`: The color of the shape border (color)
 - `props`: Properties that define how the hud element is drawn
 
 ___

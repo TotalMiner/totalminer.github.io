@@ -15,15 +15,10 @@ hud_bar(
 	bool is_player,
 	string history,
 	long max_value,
-	double x,
-	double y,
-	double w,
-	double h,
+	udim2 pos,
+	udim2 size,
 	double scale,
-	long r,
-	long g,
-	long b,
-	long a,
+	color color,
 	string props)
 ```
 
@@ -33,15 +28,10 @@ hud_bar(
 - `is_player`: True or False. If True this element is only shown on the context player's screen. If False, it is shown on all players screens
 - `history`: The key/name of the history record to use as the progress value
 - `max_value`: The progress value will be clamped to this maximum value
-- `x`: The x screen coordinate of the element
-- `y`: The y screen coordinate of the element
-- `w`: The width of the element
-- `h`: The height of the element
+- `pos`: The screen coordinate of the element (Top Left udim2)
+- `size`: The size of the element (udim2)
 - `scale`: The scale of the text. Default = 1
-- `r`: The r (red) component of the elements color
-- `g`: The g (green) component of the elements color
-- `b`: The b (blue) component of the elements color
-- `a`: The a (alpha) component of the elements color
+- `color`: The color of the [progress] bar (color)
 - `props`: Properties that define how the hud element is drawn
 
 ___

@@ -301,6 +301,18 @@
 
 > Add (spawn) a single entity.
 
+### [timer_reset](other/timer_reset)
+
+> Reset the internal script timer to zero.
+
+### [timer_start](other/timer_start)
+
+> Start the internal script timer.
+
+### [timer_stop](other/timer_stop)
+
+> Stop (pause) the internal script timer.
+
 ### [has_marker](other/has_marker)*
 
 > Query if a marker exists.

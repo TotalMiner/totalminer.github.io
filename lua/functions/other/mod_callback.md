@@ -11,13 +11,13 @@ Spec:
 
 ```lua
 mod_callback(
-	string mod_name,
+	string mod_id,
 	string data)
 ```
 
 ## Parameters
 
-- `mod_name`: The name of the mod to call
+- `mod_id`: The ID of the mod to call. This is specified in the mod's ModInfo.xml
 - `data`: The string data to pass to the mod. This string can contain any data the mod requires
 
 ___
@@ -25,7 +25,7 @@ ___
 ## Example
 
 ```lua
-mod_callback("my mod","player has died")
+mod_callback("Example.MyMod", "player has died")
 ```
 
 ___

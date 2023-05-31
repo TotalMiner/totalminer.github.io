@@ -18,7 +18,7 @@ ___
 - [Sound](functions/sound) (9,9)
 - [Weather](functions/weather) (6,6)
 - [Zones](functions/zones) (10,10)
-- [Other](functions/other) (75,75)
-- [Getters](functions/getters) (38,38)
+- [Other](functions/other) (78,75)
+- [Getters](functions/getters) (44,43)
 
 ___

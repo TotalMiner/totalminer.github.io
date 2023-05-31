@@ -88,12 +88,12 @@ spawn_npc(type, x, y, z, name, ai, dialog, kill_script, stats, loot)
 ```
 
 This example spawns a Chef NPC at the players cursor, with a custom AI, custom Health and Attack stats, and a custom Loot Table.
-Name is defaulted to "Chef". Dialog and kill_script are empty.
-
-The loot table consists of a chest location of 1,201,2, and three drop items.
-- First drop item is 1 iron sword, 100 percent drop rate.
-- Second item is 1 steel sword, 100 percent drop rate.
-- Third item is 10 grass blocks, 50 percent drop rate.
+            Name is defaulted to "Chef". Dialog and kill_script are empty.
+            
+            The loot table consists of a chest location of 1,201,2, and three drop items.
+            - First drop item is 1 iron sword, 100 percent drop rate.
+            - Second item is 1 steel sword, 100 percent drop rate.
+            - Third item is 10 grass blocks, 50 percent drop rate.
 
 ___
 

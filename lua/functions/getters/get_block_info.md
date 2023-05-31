@@ -25,6 +25,8 @@ get_block_info(
 ## Returns
 
 - `block_info`: A data type containing fields for the block state
+- `long`: block_id. The block ID of the voxel at location x, y, z
+- `long`: aux. The auxillary data of the voxel at location x, y, z
 - `bool`: is_edited. True if the block has been edited (is not naturally generated)
 - `bool`: is_light_source. True if the block emits light
 - `bool`: is_open. True if the blocks interface screen is open

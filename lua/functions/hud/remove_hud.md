@@ -17,8 +17,8 @@ remove_hud(
 
 ## Parameters
 
-- `name`: The name of the element to remove
-- `is_player`: True or False
+- `name`: The name of the element to remove. Omit or pass and empty string to remove all elements
+- `is_player`: True or False. Omit for default of False
 
 ___
 
