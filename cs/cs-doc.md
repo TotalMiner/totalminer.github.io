@@ -7,3 +7,4 @@ This documentation is unfinished. Please report any problems.
 ## Pages
 
 - [Home](../index)
+- [Terrain Generation](terrain)
