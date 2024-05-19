@@ -5,8 +5,9 @@
 
 - [Home](../index)
 
-#### **Note:** This guide is a work in progress (WIP) and the Terrain Generation Modding API as described in this guide has not yet been released to public versions of the game.
-___
+##### **Note:** This guide is a work in progress (WIP) and the Terrain Generation Modding API as described in this guide has not yet been released to public versions of the game.
+
+
 
 ## Terrain Generation
 
@@ -14,7 +15,7 @@ This guide assumes you already have a mod setup and working with the game.
 
 See this [linked guide](https://github.com/DaveTheMonitor/TMModTutorial/blob/master/README.md) if you do not.
 
-### Overview
+## Overview
 
 There are two main options for modding Total Miner Terrain Generation:
 - Subclassing a base generation helper (easier)
@@ -26,7 +27,7 @@ The second option is harder and gives you complete control of the terrain genera
 
 This guide shows how to setup your mod for both options, and then it will direct you to other guides for the options you want to use.
 
-### Getting Started
+## Getting Started
 
 The first thing you must do is add a plugin for Terrain Generation. This plugin implements `ITMPluginTerrain`.
 
@@ -71,7 +72,7 @@ to
 public ITMPluginTerrain GetPluginTerrain() => new TerrainPlugin();
 ```
 
-### Almost Ready To Go
+## Almost Ready To Go
 
 That's all the code necessary to start modding Total Miner terrain. But there is one more file you must create.
 
@@ -131,7 +132,7 @@ public static Pool<ModNameTerrainGen> Pool = new Pool<ModNameTerrainGen>();
 
 This is telling the Pool allocator to now allocate instances of your terrain generator instead of the games helper generator.
 
-### Next Step
+## Next Step
 
 Now choose the appropriate guide for the terrain modding you want to do:
 
