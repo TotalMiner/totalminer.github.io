@@ -71,33 +71,34 @@ to
 public ITMPluginTerrain GetPluginTerrain() => new TerrainPlugin();
 ```
 
-## Setting Up Some Base Parameters
+## Almost Ready To Go
 
-Now you must add the following method to your `ITMPlugin` implementation. If you used the linked guide above to setup your mod, the implementation class is likely called `{ModName}PluginProvider`
+That's all the code necessary to start modding Total Miner terrain. But there is one more file you must create.
 
-```cs
-        public void InitializeStart(ModHeaderData data)
-        {
-            data.BiomeType = BiomeType.Modded;
-            data.MaxHeight = 50;
-            data.MaxSeaDepth = 10;
-        }
-```
-
-This is just setting up some basic parameters for terrain generation.
-- `BiomeType.Modded` is telling the game that your mod wants to generate the terrain.
-- `MaxHeight` is the maximum number of blocks above sea level that land will generate.
-- `MaxSeaDepth` is the maximum depth (below sea level) of any body of water.
-
-## Ready To Go
-
-And that's it. That's all the code necessary to start modding Total Miner terrain.
 - Compile your mod and run the game.
 - Select a new world.
-- It doesn't matter what terrain/biome type you choose as your mod will be overriding it.
+- Take note of the `Terrain:` field on the Lobby screen.
 - Activate your mod.
 
-Now when you load into the world, it should look something like this:
+You will see the `Terrain:` field has not changed.
+
+Start the world and the terrain will be whatever was shown on the Lobby screen.
+
+Exit the game and go to the mod's folder.
+
+Create a new file in your mod's folder and insert the following:
+
+```xml
+<ModTerrainXML>
+  <Name>ModName</Name>
+</ModTerrainXML>
+```
+
+Save this file and name it `Terrain.xml`
+
+Now run the game and when you activate your mod and return to the Lobby screen, the `Terrain:` field should now show `<ModName>`. This shows the game has selected your mod's terrain generation and will use it to generate the world terrain.
+
+Now start the world and it should look something like this:
 
 ![VanillaTerrain](../Images/vanilla_terrain.png)
 
