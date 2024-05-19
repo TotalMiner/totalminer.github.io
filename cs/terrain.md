@@ -100,7 +100,7 @@ Now run the game and when you activate your mod and return to the Lobby screen, 
 
 Now start the world and it should look something like this:
 
-![VanillaTerrain][/Images/vanilla_terrain.png)
+![VanillaTerrain](../images/vanilla_terrain.png)
 
 This is vanilla terrain generating automatically for you using the `TerrainGenerator` base class provided by the game.
 
