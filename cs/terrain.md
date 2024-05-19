@@ -30,7 +30,7 @@ This guide shows how to setup your mod for both options, and then it will direct
 
 The first thing you must do is add a plugin for Terrain Generation. This plugin implements `ITMPluginTerrain`.
 
-Add a new class file called `TerrainPlugin.cs` and insert the following code:
+Add a new class file called `TerrainPlugin.cs` to your mod and insert the following code:
 ```cs
 using StudioForge.Engine.Core;
 using StudioForge.TotalMiner;
@@ -100,7 +100,7 @@ Now run the game and when you activate your mod and return to the Lobby screen, 
 
 Now start the world and it should look something like this:
 
-![VanillaTerrain](../Images/vanilla_terrain.png)
+![VanillaTerrain][/Images/vanilla_terrain.png)
 
 This is vanilla terrain generating automatically for you using the `TerrainGenerator` base class provided by the game.
 
@@ -135,7 +135,7 @@ This is telling the Pool allocator to now allocate instances of your terrain gen
 
 Now choose the appropriate guide for the terrain modding you want to do:
 
-- [Option 1 (Easier):](terrain1) Sub class the provided `TerrainGenerator` helper to give you basic terrain generation and scaffolding to modify it.
+- [Option 1 (Easier):](terrain1) Sub class the provided `TerrainGenerator` helper to give you basic terrain generation and scaffolding to modify.
 
 - [Option 2 (Harder):](terrain2) Implement `ITMTerrainGenerator` to write your own terrain generator from scratch.
 
