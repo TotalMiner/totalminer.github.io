@@ -5,6 +5,7 @@
 
 - [Home](../index)
 - [Terrain Generation Setup](terrain)
+- [Terrain Generation Option 2](terrain2)
 
 #### **Note:** This guide is a work in progress (WIP) and the Terrain Generation Modding API as described in this guide has not yet been released to public versions of the game.
 ___

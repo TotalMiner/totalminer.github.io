@@ -4,6 +4,8 @@
 ## Pages
 
 - [Home](../index)
+- [Terrain Generation Option 1](terrain1)
+- [Terrain Generation Option 2](terrain1)
 
 ##### **Note:** This guide is a work in progress (WIP) and the Terrain Generation Modding API as described in this guide has not yet been released to public versions of the game.
 
@@ -59,13 +61,13 @@ namespace ModName
 ```
 This is just boilerplate code that allocates terrain generators from a pool. They are allocated from a pool because they are used by multiple threads and used thousands of times per world generation so instantiating a new instance each time would create a lot of garbage and potential performance issues.
 
-This Pool is using the `TerrainGenerator` class provided by the game which gives support for basic terrain generation scaffolding. Later on you will change this to your own `ITMPluginTerrain` implementation which may be either a sub class of `TerrainGenerator` or an entirely new implementation of `ITMTerrainGenerator`.
+This Pool is using the `TerrainGenerator` class provided by the game which gives support/scaffolding for basic terrain generation. Later on you will change this to your own Terrain Generator implementation which may be either a sub class of `TerrainGenerator` or an entirely new implementation of `ITMTerrainGenerator`.
 
 Now change your `ITMPluginProvider` to return an instance of your `TerrainPlugin`:
 
 Change:
 ```cs
-public ITMPluginBiome GetPluginBiome() => null
+public ITMPluginTerrain GetPluginTerrain() => null
 ```
 to 
 ```cs
@@ -130,7 +132,7 @@ to `ModNameTerrainGen`
 public static Pool<ModNameTerrainGen> Pool = new Pool<ModNameTerrainGen>();
 ```
 
-This is telling the Pool allocator to now allocate instances of your terrain generator instead of the games helper generator.
+This is telling the Pool allocator to allocate instances of your terrain generator instead of the games helper generator.
 
 ## Next Step
 
