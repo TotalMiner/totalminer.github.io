@@ -340,11 +340,11 @@ baseMap.ChunkByteCacheManager.AcquireCache(null, null, true, out blockCacheID, o
 byte[] blockCache = baseMap.ChunkByteCacheManager.Cache[blockCacheID];
 ```
 
-The CacheManager manages several large blocks of contiguous RAM. When we acquire a cache, we don't get a reference to a sandboxed array just for that chunk, instead we get two indexes. The first index is to a large block of contiguous RAM, the block is much larger than the space of one chunk, so we also get the second index which is the start element in that block that we must access from. ie. We are using a sub block within a larger block. We must be careful not to write outside our range within the sub block.
+The CacheManager manages several large blocks of contiguous RAM. When we acquire a cache, we don't get a reference to a sandboxed array just for that chunk, instead we get two indexes. The first index is to a large block of contiguous RAM, the block is large enough to store data for many chunks, so we also get a second index which is the start element within the larger block that we must access from. ie. We are using a sub block within a larger block. We must be careful not to write outside our range within the sub block.
 
-So `blockCache` is a refence to a large array, and `blockCache[blockCacheIndex]` is the start element for our use.
+So `blockCache` is a refence to a large array, and `blockCache[blockCacheIndex]` is the start element for our use. We must not access outside the range `blockCache[blockCacheIndex..blockCacheIndex+32*32*32]`.
 
-Now we can write voxel data directly into that array (starting from index `blockCacheIndex`). After we have written the voxel data, we then compress it back to an RLEStream:
+Now we can write voxel data directly into that array (starting from index `blockCacheIndex`). After we have written the voxel data, we must then compress it back to an RLEStream:
 ```cs
 mapChunk.BlockData.SetStream(mapChunk, blockCacheID, blockCacheIndex);`
 ```
