@@ -18,7 +18,7 @@ See this [linked guide](terrain) if you do not.
 
 ## Overview
 
-This guide will show how to implement modded terrain generation by implementing 'ITMTerrainGenerator' from scratch.
+This guide will show how to implement modded terrain generation by implementing `ITMTerrainGenerator` from scratch.
 
 Open `ModNameTerrainGen.cs` that was created in the [Terrain Gen Setup Guide](terrain.md).
 
@@ -91,21 +91,39 @@ class ModNameTerrainGen : ITMTerrainGenerator
 ```
 
 Insert the private member reference
+
 `ITMMap map;`
+
 above 
+
 `public ITMMap Map => throw new System.NotImplementedException();`
 
-Replace
+Replace:
+
 `public ITMMap Map => throw new System.NotImplementedException();`
-with
+
+with:
+
 `public ITMMap Map => map;`
 
-Replace `throw new System.NotImplementedException();` in
+Replace:
+
+`throw new System.NotImplementedException();`
+
+in
+
 `Initialize()`
+
 with
+
 `this.map = map;`
 
-Remove `throw new System.NotImplementedException();` from the following methods:
+Remove
+
+`throw new System.NotImplementedException();`
+
+from the following methods:
+
 ```cs
 public void DecorateChunk(ITMMapChunk chunk)
 public void GenerateChunk(ITMMapChunk chunk)
@@ -114,9 +132,16 @@ public void InitializeForGeneralUse(GlobalPoint3D p)
 public void PreGenerateCaves()
 ```
 
-Replace `throw new System.NotImplementedException();` in
+Replace
+
+`throw new System.NotImplementedException();`
+
+in
+
 `GetGroundHeight()`
+
 with
+
 `return 0;`
 
 The code should now look like this:
@@ -170,11 +195,11 @@ class ModNameTerrainGen : ITMTerrainGenerator
 }
 ```
 
-Build your Mod project. Fix any errors, until it is built and you have an assembly (.dll file).
+Build your Mod project. Fix any errors.
 
-Copy the dll file into the mod's deploy folder (under Saved Games).
+Copy the assembly (dll) file into the mod's deploy folder (under Saved Games).
 
-Open the Terrain.xml file in the deploy folder and change to:
+Open the Terrain.xml file in the deploy folder and change it to:
 ```xml
 <ModTerrainXML>
   <Name>TerrainFromScratch</Name>
@@ -272,7 +297,7 @@ The `ITMChunk` interface does not give many options for writing voxel data. Ther
 
 For this guide we will use a fill method to completely fill chunks with Basalt that are positioned below height 225 (on the Y axis), effectively making the ground level a flat 224.
 
-Add this code to the `Generate` method.
+Add this code to the `GenerateChunk()` method.
 ```cs
 public void GenerateChunk(ITMMapChunk chunk)
 {
@@ -281,7 +306,7 @@ public void GenerateChunk(ITMMapChunk chunk)
 }
 ```
 
-And change the `GetGroundHeight` method to this:
+And change the `GetGroundHeight()` method to this:
 ```cs
 public int GetGroundHeight(int globalX, int globalZ)
 {
@@ -315,7 +340,8 @@ baseMap.ChunkByteCacheManager.AcquireCache(null, null, true, out blockCacheID, o
 byte[] blockCache = baseMap.ChunkByteCacheManager.Cache[blockCacheID];
 ```
 
-The CacheManager manages several large blocks of contiguous RAM. When we acquire a cache, we don't get a reference to a sandboxed array just for the chunk, instead we get two indexes. The first index is to a large block of contiguous RAM, the second index is to the start element in that block that we must access from:
+The CacheManager manages several large blocks of contiguous RAM. When we acquire a cache, we don't get a reference to a sandboxed array just for that chunk, instead we get two indexes. The first index is to a large block of contiguous RAM, the block is much larger than the space of one chunk, so we also get the second index which is the start element in that block that we must access from. ie. We are using a sub block within a larger block. We must be careful not to write outside our range within the sub block.
+
 So `blockCache` is a refence to a large array, and `blockCache[blockCacheIndex]` is the start element for our use.
 
 Now we can write voxel data directly into that array (starting from index `blockCacheIndex`). After we have written the voxel data, we then compress it back to an RLEStream:
@@ -661,6 +687,7 @@ namespace TerrainGuide2
     }
 }
 ```
+
 
 The reason the `GenerateChunkCore()` method returns a bool to signify if it actually wrote voxel data is because if it didn't write any, then `GenerateChunk()` does not have to set the `RLEStream` for the chunk, and not setting the stream can save many CPU cycles, and with terrain generation we must save CPU cycles wherever possible to keep terrain generation fast.
 
