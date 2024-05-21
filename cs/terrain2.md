@@ -31,7 +31,7 @@ to
 public class ModNameTerrainGen : ITMTerrainGenerator
 ```
 
-Use Quick Action to implement the interface:
+Use `Quick Action` to implement the interface:
 
 ![ImplementInterface](../images/implement_interface1.png)
 
@@ -90,39 +90,25 @@ class ModNameTerrainGen : ITMTerrainGenerator
 }
 ```
 
-Insert the private member reference
+Enter the following edits:
 
-`ITMMap map;`
+1. Add a new `map` member field for use in chunk generation later. This map field can be set in the `Initialize(ITMWorld, ITMMap, BiomeParams)` method like so:
+```cs
+ITMMap map;
+ 
+public void Initialize(ITMWorld world, ITMMap map, BiomeParams biomeParams)
+{
+    this.map = map;
+}
+```
 
-above 
+  2. Update the `ITMMap Map` property to return the `map` field:
 
-`public ITMMap Map => throw new System.NotImplementedException();`
+```cs
+public ITMMap Map => map;
+```
 
-Replace:
-
-`public ITMMap Map => throw new System.NotImplementedException();`
-
-with:
-
-`public ITMMap Map => map;`
-
-Replace:
-
-`throw new System.NotImplementedException();`
-
-in
-
-`Initialize()`
-
-with
-
-`this.map = map;`
-
-Remove
-
-`throw new System.NotImplementedException();`
-
-from the following methods:
+3. Next remove `throw new System.NotImplementedException();` from the following methods:
 
 ```cs
 public void DecorateChunk(ITMMapChunk chunk)
@@ -132,17 +118,9 @@ public void InitializeForGeneralUse(GlobalPoint3D p)
 public void PreGenerateCaves()
 ```
 
-Replace
+4. Replace `throw new System.NotImplementedException();` in `GetGroundHeight()` with `return 0;`
 
-`throw new System.NotImplementedException();`
-
-in
-
-`GetGroundHeight()`
-
-with
-
-`return 0;`
+___
 
 The code should now look like this:
 ```cs
@@ -287,7 +265,7 @@ class ModNameTerrainGen : ITMTerrainGenerator
 
 ## Generation
 
-Total Miner generates terrain by chunk. Each chunk contains 32 x 32 x 32 elements of voxel data. A 512 x 512 x 512 world would have 16 x 16 x 16 of these chunks. A 2048 x 512 x 2048 world would have 64 x 16 x 64 of these chunks.
+Total Miner generates terrain chunk by chunk. Each chunk contains a 3D grid of (32 x 32 x 32) voxels. A 512 x 512 x 512 world would have 16 x 16 x 16 of these chunks. A 2048 x 512 x 2048 world would have 64 x 16 x 64 of these chunks.
 
 The game determines the chunks that require generation at any given time and for each it calls the `void GenerateChunk(ITMMapChunk chunk)` method on the current `ITerrainGenerator` implementation. As a terrain generation modder, you write code in the `GenerateChunk()` method to put blocks (voxels) into each chunk as your terrain requires.
 
@@ -418,6 +396,12 @@ bool GenerateChunkCore(ITMMapChunk chunk, byte[] blockCache, int blockCacheIndex
     }
     return false;
 }
+
+int GetChunkIndex(int x, int y, int z)
+{
+    // calculate the index in the chunk array for the voxel at position x, y, z
+    return x + (z * map.ChunkSize.X) + (y * map.ChunkSize.X * map.ChunkSize.Z);
+}
 ```
 
 This code checks the chunks Y position in the world, and if it is 224 then it is the chunk immediately above the top layer of Basalt, so we can populate the Wood blocks there.
@@ -515,15 +499,6 @@ public void GenerateChunk(ITMMapChunk chunk)
         // cache from being released
         baseMap.ChunkByteCacheManager.DecRefCount(blockCacheID, blockCacheIndex);
     }
-}
-```
-
-Add the following method into the #Implementation region, above or below the `GetGroundHeight()` method:
-
-```cs
-int GetChunkIndex(int x, int y, int z)
-{
-    return x + (z * map.ChunkSize.X) + (y * map.ChunkSize.X * map.ChunkSize.Z);
 }
 ```
 
