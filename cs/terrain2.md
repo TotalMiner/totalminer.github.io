@@ -93,7 +93,8 @@ class ModNameTerrainGen : ITMTerrainGenerator
 
 Enter the following edits:
 
-1. Add a new `map` member field. This will be used in chunk generation later. This field can be set in the `Initialize(ITMWorld, ITMMap, BiomeParams)` method like so:
+Add a new `map` member field. This will be used in chunk generation later. This field can be set in the `Initialize(ITMWorld, ITMMap, BiomeParams)` method like so:
+
 ```cs
 ITMMap map;
  
@@ -103,13 +104,13 @@ public void Initialize(ITMWorld world, ITMMap map, BiomeParams biomeParams)
 }
 ```
 
-  2. Update the `ITMMap Map` property to return the `map` field:
+Update the `ITMMap Map` property to return the `map` field:
 
 ```cs
 public ITMMap Map => map;
 ```
 
-3. Next remove `throw new System.NotImplementedException();` from the following methods:
+Next remove `throw new System.NotImplementedException();` from the following methods:
 
 ```cs
 public void DecorateChunk(ITMMapChunk chunk)
@@ -119,7 +120,7 @@ public void InitializeForGeneralUse(GlobalPoint3D p)
 public void PreGenerateCaves()
 ```
 
-4. Replace `throw new System.NotImplementedException();` in `GetGroundHeight()` with `return 0;`
+Replace `throw new System.NotImplementedException();` in `GetGroundHeight()` with `return 0;`
 
 ___
 
@@ -596,6 +597,7 @@ Finally edit `Terrain.xml` in the mods deploy folder and add the SeaLevel proper
 
 Build and run the game/mod. It should now update the lighting appropriately.
 
+___
 
 Here is the full source:
 ```cs
