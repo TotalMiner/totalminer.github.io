@@ -15,7 +15,7 @@ ___
 
 This guide is based on the code in the [Terrain Generation Option 2 Guide](terrain2). You might want to do that guide first, although the concepts presented here are equally valid for Option 1 terrain generation.
 
-Fast terrain generation is vitually important for immersion in Total Miner. With this in mind it is important we take make efforts to ensure our terrain generation is as efficient and optimal as possible.
+Fast terrain generation is vitally important for immersion in Total Miner. With this in mind it is important we make efforts to ensure our terrain generation is as efficient and optimal as possible.
 
 It might help to run the game and your mod at this time and observe how fast your generation executes. 
 
@@ -23,13 +23,13 @@ It might help to run the game and your mod at this time and observe how fast you
 
 To start with, there are two very easy optimizations we can do immediately.
 
-The game has two ChunkFlags that help it to avoid doing costly lighting and mesh updates where they are not necessary.
+The game has two ChunkFlags that help it avoid doing costly lighting and mesh updates where they are not necessary.
 
 They are: 
 - `ChunkFlags.ChunkIsAllAir`
 - `ChunkFlags.ChunkIsAllSolid`
 
-If we know we are not writing any voxels to the chunk, we can flag it as `ChunkIsAllAir` and then the game knows it does not have to update it's lighting or it's mesh.
+If we know we are not writing any voxels to the chunk, we can flag it as `ChunkIsAllAir` and then the game knows it does not have to update it's lighting or its mesh.
 Similarly if we know that every voxel in the chunk is a solid voxel we can flag it as `ChunkIsAllSolid` and the game knows it does not have to update its lighting, and in some cases (such as all neighbours are also AllSolid) then it does not need to update it's mesh.
 
 Setting just these two flags correctly after generation can often enable dramatically faster terrain generation.
@@ -38,7 +38,7 @@ Setting just these two flags correctly after generation can often enable dramati
 
 We will continue the optimization guide based on this [Terrain Generation Option 2](terrain2) guide.
 
-At the top of the `GenerateChunk()` method where we Fill the chunk with Basalt, the Fill call is passing `ChunkFlags.None` as the 2nd parameter. If we change that to `ChunkIsAllSolid` then the game will know it does not have to update lighting or meshes for solid chunks underground.
+At the top of the `GenerateChunk()` method where we Fill the chunk with Basalt, the Fill call is passing `ChunkFlags.None` as the 2nd parameter. If we change that to `ChunkIsAllSolid` then the game will know it does not have to update lighting or meshes for the solid `Basalt` chunks underground.
 
 Change:
 ```cs
