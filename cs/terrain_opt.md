@@ -38,7 +38,7 @@ Setting just these two flags correctly after generation can often enable dramati
 
 We will continue the optimization guide based on this [Terrain Generation Option 2](terrain2) guide.
 
-At the top of the `GenerateChunk()` method where we Fill the chunk with Basalt, the Fill call is passing `ChunkFlags.None` as the 2nd parameter. If we change that to `ChunkFlags.ChunkIsAllSolid` then the game will know it does not have to update lighting or meshes for solid chunks underground.
+At the top of the `GenerateChunk()` method where we Fill the chunk with Basalt, the Fill call is passing `ChunkFlags.None` as the 2nd parameter. If we change that to `ChunkIsAllSolid` then the game will know it does not have to update lighting or meshes for solid chunks underground.
 
 Change:
 ```cs
@@ -51,14 +51,14 @@ chunk.Fill(new MapBlock() { BlockID = (byte)Block.Basalt }, ChunkFlags.ChunkIsAl
 
 Build and run your mod. You should immediately notice a dramatic increase in terrain generation speed.
 
-All chunks above height 224 can be flagged as AllAir because we do not generate any voxels for them.
+All chunks above height 224 can be flagged as `IsAllAir` because we do not generate any voxels for them.
 
 At the bottom of the `GenerateChunk()` method insert:
 ```cs
 chunk.SetChunkFlag(ChunkFlags.ChunkIsAllAir);
 ```
 
-We also need to ensure there is a `return` statement directly afher the `((MapChunk)chunk).DownNeighbour().SetChunkFlag(ChunkFlags.LightDirty);` call so that we don't set IsAllAir for chunks that have voxels.
+We also need to ensure there is a `return` statement directly after the `((MapChunk)chunk).DownNeighbour().SetChunkFlag(ChunkFlags.LightDirty)` call so that we don't set `IsAllAir` for chunks that actually have voxels.
 
 The full method should look like this:
 ```cs
@@ -138,13 +138,13 @@ Again build and run your mod and you should notice even faster generation.
 
 ## More Optimization
 
-Now it starts to become harder to optimize, and we are now getting into general C# optimization techniques. I will present a few techniques here which are relatively easy to implement.
+Now it starts to become harder to optimize, and we must use general C# optimization techniques. I will present a few techniques here which are relatively easy to do.
 
-The main thing to remember is even the smallest improvement can have a big final improvment because the `GenerateChunk()` and `DecorateChunk()` methods are called thousands of times for each world. Eg. If you can improve your chunk Generation speed by just 1 millisecond, that will allow the game to generate a 1024 x 1024 world faster by up to 16 seconds.
-
-All optimization should be done using Release builds to ensure more accurate performance timings.
+The main thing to remember is even the smallest improvement can make a big difference because the `GenerateChunk()` and `DecorateChunk()` methods are called many thousands of times for each world. Eg. If you can improve your chunk Generation speed by just 1 millisecond, that will allow the game to generate a 1024 x 1024 world faster by up to 16 seconds.
 
 The first thing we need to know to optimize is how fast the current code executes. For this we need a `StopWatch` object.
+
+All optimization should be done using Release builds to ensure more accurate performance timings.
 
 Add a StopWatch declaration under your `blockCache` declaration and a static maxTicks field:
 ```cs
@@ -168,7 +168,7 @@ We also want to take the reading before we compress the voxel data or set chunk 
 
 So at the end of a full world generation `TerrainGuideTerrainGen.maxTicks` will equal the maximum ticks spent by a single chunk generation.
 
-We need some way to see MaxTicks, so we will draw it to the screen every frame. Add a `ITMGame game` member variable to your `class TerraTutPlugin : ITMPlugin` and initialize it in the `Initialize()` method:
+We need some way to see MaxTicks, so we will draw it to the screen every frame. Add an `ITMGame game` member variable to your `class TerraTutPlugin : ITMPlugin` and initialize it in the `Initialize()` method:
 ```cs
 ITMGame game;
 
@@ -339,7 +339,7 @@ for (int i = 0; i < count; ++i)
 
 ## Help I'm Desperate
 
-If you are absolutely desperate to shave off a few more cycles, you can make some last ditch changes. These changes will depend on the very specific nature of your code and won't always be useful.
+If you are absolutely desperate to shave off a few more cycles, you can make some last ditch changes. These changes will depend on the very specific nature of your code and your data and won't always be applicable.
 
 Our `GenerateChunk()` method is performing several addition and subtraction operations with constant data that never changes. We can save cycles by caching the results of those operations.
 
