@@ -9,6 +9,14 @@
 
 ## Miscellaneous Functions
 
+### [has_marker](other/has_marker)*
+
+> Query if a marker exists.
+
+### [has_permission](other/has_permission)*
+
+> Same as get_permission.
+
 ### [cave_in](other/cave_in)*
 
 > Start a cave in.
@@ -64,11 +72,3 @@
 ### [teleport_all](other/teleport_all)*
 
 > Teleport all actors in a cubic region.
-
-### [has_marker](other/has_marker)*
-
-> Query if a marker exists.
-
-### [has_permission](other/has_permission)*
-
-> Same as get_permission.
