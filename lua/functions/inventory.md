@@ -9,14 +9,6 @@
 
 ## Functions to manipulate inventory
 
-### [get_inventory](inventory/get_inventory)*
-
-> Get the total count of an item in the context actors inventory.
-
-### [get_block_inventory](inventory/get_block_inventory)*
-
-> Get the total count of an item in a block's inventory.
-
 ### [add_inventory](inventory/add_inventory)*
 
 > Add or subtract a quantity of an item to/from the context actors inventory.
@@ -28,6 +20,10 @@
 ### [add_region_inventory](inventory/add_region_inventory)*
 
 > Add or subtract a quantity of an item to/from all block inventories in a cubic region.
+
+### [can_equip](inventory/can_equip)*
+
+> Query whether or not the context actor can equip an item.
 
 ### [clear_inventory](inventory/clear_inventory)*
 
@@ -49,6 +45,18 @@
 
 > Copy all block inventories in a cubic region to another region.
 
+### [equip](inventory/equip)*
+
+> Cause the context actor to equip an item.
+
+### [get_block_inventory](inventory/get_block_inventory)*
+
+> Get the total count of an item in a block's inventory.
+
+### [get_inventory](inventory/get_inventory)*
+
+> Get the total count of an item in the context actors inventory.
+
 ### [move_inventory](inventory/move_inventory)*
 
 > Move (transfer) a block inventory to another block.
@@ -64,3 +72,7 @@
 ### [move_inventory_region](inventory/move_inventory_region)*
 
 > Move (transfer) all block inventories in a cubic region to another region.
+
+### [unequip](inventory/unequip)*
+
+> Unequip an item.

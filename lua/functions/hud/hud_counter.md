@@ -14,9 +14,9 @@ hud_counter(
 	string name,
 	bool is_player,
 	string history,
-	udim2 pos,
+	NLua.LuaTable pos,
 	double scale,
-	color color,
+	NLua.LuaTable color,
 	string props)
 ```
 

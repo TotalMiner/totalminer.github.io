@@ -15,10 +15,10 @@ hud_bar(
 	bool is_player,
 	string history,
 	long max_value,
-	udim2 pos,
-	udim2 size,
+	NLua.LuaTable pos,
+	NLua.LuaTable size,
 	double scale,
-	color color,
+	NLua.LuaTable color,
 	string props)
 ```
 

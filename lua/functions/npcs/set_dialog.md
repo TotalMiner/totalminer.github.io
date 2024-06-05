@@ -1,22 +1,22 @@
 
 # (Official) LUA Scripting Documentation
 
-## remove_sky_color_player
+## set_dialog
 
-Remove the current context sky color.
+Set a dialog tree for the context actor.
 
 ___
 
 Spec:
 
 ```lua
-remove_sky_color_player(
-	long transition)
+set_dialog(
+	string name)
 ```
 
 ## Parameters
 
-- `transition`: 
+- `name`: The name of the dialog tree
 
 ___
 
@@ -26,4 +26,4 @@ This documentation is incomplete
 
 ___
 
-### [back](../other)
+### [back](../npcs)

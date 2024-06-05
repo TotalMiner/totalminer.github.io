@@ -18,11 +18,11 @@ menu(
 ## Parameters
 
 - `heading`: Header Text
-- `args`: A list of items
+- `args`: A list of menu items
 
 ## Returns
 
-- `long`: The number of the selected menu item. Zero = no selection (escape).
+- `long`: The number of the selected menu item. Zero = no selection (escape), 1 = Heading, 2 = first Item.
 
 ___
 

@@ -15,11 +15,11 @@ hud_shape(
 	bool is_player,
 	string shape,
 	long item_id,
-	udim2 pos,
-	udim2 size,
-	long bw,
-	color color,
-	color borderColor,
+	NLua.LuaTable pos,
+	NLua.LuaTable size,
+	long border,
+	NLua.LuaTable color,
+	NLua.LuaTable borderColor,
 	string props)
 ```
 
@@ -31,7 +31,7 @@ hud_shape(
 - `item_id`: If an item_id is specified, the texture for that item will be draw inside the element
 - `pos`: The screen coordinate of the element (Top Left udim2)
 - `size`: The size of the element (udim2)
-- `bw`: The size of the elements border. Zero = no border
+- `border`: The width of the elements border in pixels. Zero = no border
 - `color`: The color of the shape (color)
 - `borderColor`: The color of the shape border (color)
 - `props`: Properties that define how the hud element is drawn

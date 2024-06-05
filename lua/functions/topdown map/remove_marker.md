@@ -1,22 +1,22 @@
 
 # (Official) LUA Scripting Documentation
 
-## remove_tint_color
+## remove_marker
 
-Remove the current global tint color.
+Remove a marker from the top down map.
 
 ___
 
 Spec:
 
 ```lua
-remove_tint_color(
-	long transition)
+remove_marker(
+	string name)
 ```
 
 ## Parameters
 
-- `transition`: 
+- `name`: The name of the marker
 
 ___
 
@@ -26,4 +26,4 @@ This documentation is incomplete
 
 ___
 
-### [back](../other)
+### [back](../topdown map)

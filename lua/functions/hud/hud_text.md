@@ -14,9 +14,9 @@ hud_text(
 	string name,
 	bool is_player,
 	string text,
-	udim2 pos,
+	NLua.LuaTable pos,
 	double scale,
-	color color,
+	NLua.LuaTable color,
 	double rot,
 	string props)
 ```

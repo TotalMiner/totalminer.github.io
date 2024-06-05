@@ -21,7 +21,7 @@ get_pos()
 
 ___
 
-The world position components are world space coordinates so they are floating point numbers. The position is the actors foot position
+The position components are world space coordinates so they are floating point numbers. The position is the actors foot position
 
 ___
 

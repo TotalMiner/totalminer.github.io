@@ -17,6 +17,10 @@
 
 > Get the number of actions the context actor has performed.
 
+### [get_actor_name](getters/get_actor_name)*
+
+> Get the name of the context actor.
+
 ### [get_block_info](getters/get_block_info)*
 
 > Get various world data of a block.
@@ -124,6 +128,10 @@
 ### [get_pos](getters/get_pos)*
 
 > Get the current world position of the context actor.
+
+### [get_random_pos](getters/get_random_pos)*
+
+> Get a random position within a circle.
 
 ### [get_random](getters/get_random)*
 

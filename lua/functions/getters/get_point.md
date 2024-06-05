@@ -21,7 +21,7 @@ get_point()
 
 ___
 
-The world point components are voxel coordinates so they are integers. The point is taken from the actors foot position
+The point components are voxel coordinates so they are integers. The point is taken from the actors foot position
 
 ___
 

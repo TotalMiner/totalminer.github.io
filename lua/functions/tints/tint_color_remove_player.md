@@ -1,7 +1,7 @@
 
 # (Official) LUA Scripting Documentation
 
-## remove_tint_color_player
+## tint_color_remove_player
 
 Remove the current context tint color.
 
@@ -10,7 +10,7 @@ ___
 Spec:
 
 ```lua
-remove_tint_color_player(
+tint_color_remove_player(
 	long transition)
 ```
 
@@ -26,4 +26,4 @@ This documentation is incomplete
 
 ___
 
-### [back](../other)
+### [back](../tints)

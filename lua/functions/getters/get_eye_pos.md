@@ -21,7 +21,7 @@ get_eye_pos()
 
 ___
 
-The world position components are world space coordinates so they are floating point numbers. The position is the actors eye position. If the actor is a player, then this is equivalent to the players camera position
+The position components are world space coordinates so they are floating point numbers. The position is the actors eye position. If the actor is a player, then this is equivalent to the players camera position
 
 ___
 
