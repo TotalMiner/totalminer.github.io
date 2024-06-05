@@ -15,8 +15,6 @@ ___
 - [Cctv](functions/cctv) (3,3)
 - [Effects](functions/effects) (4,4)
 - [Entities](functions/entities) (1,1)
-- [Getters](functions/getters) (45,45)
-- [Other](functions/other) (16,16)
 - [Gui](functions/gui) (6,6)
 - [History](functions/history) (12,12)
 - [Hud](functions/hud) (7,7)
@@ -36,5 +34,7 @@ ___
 - [Topdown map](functions/topdown map) (4,4)
 - [Weather](functions/weather) (6,6)
 - [Zones](functions/zones) (10,10)
+- [Getters](functions/getters) (45,45)
+- [Other](functions/other) (16,16)
 
 ___
