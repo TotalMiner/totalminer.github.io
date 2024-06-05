@@ -9,10 +9,6 @@
 
 ## Functions to manipulate getters
 
-### [get_timer](getters/get_timer)
-
-> Read the current elapsed time in milliseconds from the internal script timer.
-
 ### [get_action_count](getters/get_action_count)*
 
 > Get the number of actions the context actor has performed.

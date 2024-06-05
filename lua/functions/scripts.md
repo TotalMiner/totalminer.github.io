@@ -17,6 +17,10 @@
 
 > Function undefined.
 
+### [require](scripts/require)*
+
+> Load a library.
+
 ### [set_event_script](scripts/set_event_script)*
 
 > Set a script to execute on an event.

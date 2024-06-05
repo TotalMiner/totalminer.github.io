@@ -32,3 +32,8 @@
 ### [set_nameplate](hud/set_nameplate)*
 
 > Set nameplate options.
+
+### [show_player_hud](hud/show_player_hud)*
+
+> Show / Hide the players HUD - HotBar, Compass, Reticle, other HUD info panels
+            Same as HUD: ON/OFF on the Pause => Options Menu.
