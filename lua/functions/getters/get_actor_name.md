@@ -22,7 +22,7 @@ ___
 ## Example
 
 ```lua
-notify(get_actor_name(), " has completed a level!")
+notify(get_actor_name().." has completed a level!")
 ```
 
 ___
