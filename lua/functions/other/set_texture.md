@@ -22,7 +22,17 @@ set_texture(
 - `x`: The x component of the map point of the block.
 - `y`: The y component of the map point of the block.
 - `z`: The z component of the map point of the block.
-- `tex_id`: 
+- `tex_id`: The numerical value of active texture list starting at 0.
+
+___
+
+## Example
+
+```lua
+set_texture(73, 201, 85, 3)
+```
+
+Sets the texture of the block at 73, 201, 85 to the fourth active texture for that block.
 
 ___
 
