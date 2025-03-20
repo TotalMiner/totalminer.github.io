@@ -23,8 +23,24 @@ set_block(
 - `x`: The x component of the map point
 - `y`: The y component of the map point
 - `z`: The z component of the map point
-- `block_id`: 
-- `aux`: 
+- `block_id`: The numerical block value, this can also be from the global block enum
+- `aux`: The auxiliary data for setting orientation (This can be omitted)
+
+___
+
+## Example
+
+```lua
+set_block(100, 201, 100, block.grass)
+```
+
+Sets a grass block at 100, 201, 100.
+
+```lua
+set_block (100, 201, 100, block.stairs, 14)
+```
+
+Sets a stairs block at 100, 201, 100 that is upside down and facing east.
 
 ___
 

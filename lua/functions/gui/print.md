@@ -3,7 +3,7 @@
 
 ## print
 
-Same as notify().
+Post a notification to the screen.
 
 ___
 
@@ -16,7 +16,15 @@ print(
 
 ## Parameters
 
-- `args`: 
+- `args`: The message text to print. Multiple arguments can be passed, including numbers (which are converted to text).
+
+___
+
+## Example
+
+```lua
+print("Player Username is: "..get_actor_name())
+```
 
 ___
 

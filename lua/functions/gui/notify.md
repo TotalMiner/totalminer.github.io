@@ -23,7 +23,7 @@ ___
 ## Example
 
 ```lua
-notify("The players clan id is: ", get_clan())
+notify("Player Username is: "..get_actor_name())
 ```
 
 ___
