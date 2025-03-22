@@ -17,6 +17,10 @@
 
 > Change the region of an existing zone.
 
+### [set_zone_builder](zones/set_zone_builder)*
+
+> Adds or clears zone builders.
+
 ### [set_zone_types](zones/set_zone_types)*
 
 > Set a zone's types.

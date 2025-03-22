@@ -33,6 +33,10 @@
 
 > A dice query (same as is_random).
 
+### [is_cursor_valid](other/is_cursor_valid)*
+
+> Queries if the context actor cursor is currently targeting a block.
+
 ### [is_random](other/is_random)*
 
 > A dice query (same as is_chance).

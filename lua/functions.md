@@ -10,12 +10,12 @@ ___
 
 ## Function Groups
 
-- [Blocks](functions/blocks) (13,13)
+- [Blocks](functions/blocks) (17,17)
 - [Blueprints](functions/blueprints) (2,2)
 - [Cctv](functions/cctv) (3,3)
 - [Effects](functions/effects) (4,4)
 - [Entities](functions/entities) (1,1)
-- [Gui](functions/gui) (6,6)
+- [Gui](functions/gui) (7,7)
 - [History](functions/history) (12,12)
 - [Hud](functions/hud) (7,7)
 - [Inventory](functions/inventory) (17,17)
@@ -33,8 +33,8 @@ ___
 - [Tints](functions/tints) (8,8)
 - [Topdown map](functions/topdown map) (4,4)
 - [Weather](functions/weather) (6,6)
-- [Zones](functions/zones) (10,10)
-- [Getters](functions/getters) (45,45)
-- [Other](functions/other) (16,16)
+- [Zones](functions/zones) (11,11)
+- [Getters](functions/getters) (47,46)
+- [Other](functions/other) (17,17)
 
 ___

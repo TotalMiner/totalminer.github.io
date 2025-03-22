@@ -57,9 +57,9 @@ Table of DropItems:
 
 ### Examples:
 ```lua
-local loot = { point = vector3(1,200,2) } -- loot table is just a chest location
+local loot = { point = vec3(1,200,2) } -- loot table is just a chest location
 local loot = { item.chance, { item.steelsword, 1, 50 } } -- loot table is a chance item and a steelsword with a 50 percent drop rate.
-local loot = { point = vector3(1,200,2), item.chance, { item.steelsword, 1, 50 } } -- loot table is a chest location, chance item and a sword with a 50 percent drop rate.
+local loot = { point = vec3(1,200,2), item.chance, { item.steelsword, 1, 50 } } -- loot table is a chest location, chance item and a sword with a 50 percent drop rate.
 ```
 ___
 ### Combat Stats
@@ -82,7 +82,7 @@ local x, y, z = get_cursor_point()
 local type = "zombie"
 local ai = "MyZombieAI"
 local stats = { health = 100, attack = 50 }
-local chest_pos = vector3(1, 201, 2)
+local chest_pos = vec3(1, 201, 2)
 local loot = { point = chest_pos, item.ironsword, item.steelsword, { item.grass, 10, 50 } }
 spawn_npc(type, x, y, z, name, ai, dialog, kill_script, stats, loot)
 ```

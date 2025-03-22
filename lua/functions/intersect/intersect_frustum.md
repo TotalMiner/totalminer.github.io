@@ -49,8 +49,8 @@ ___
 ## Example
 
 ```lua
-local dir = vector3(get_view_dir())
-local near = vector3(get_eye_pos()) + (dir * 0.2)
+local dir = vec3(get_view_dir())
+local near = vec3(get_eye_pos()) + (dir * 0.2)
 local far = near + (dir * 50)
 if intersect_frustum(near.x,near.y,near.z,far.x,far.y,far.z,60)
 then

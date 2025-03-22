@@ -23,7 +23,7 @@ remove_event_script(
 ___
 
 Valid values for event_type:
-"PlayerJoin", "PlayerLeave", "PlayerDeath", "PlayerRespawn", "ItemSwing", "ItemEquip"
+"PlayerJoin", "PlayerLeave", "PlayerDeath", "PlayerRespawn", "PlayerEscape", "WorldUpdate", "ItemSwing", "ItemEquip"
 "ItemUnequip", "CustomMenu", "ButtonX", "ButtonY", "ButtonB", "BlockPlaced", "BlockCleared"
 
 ___

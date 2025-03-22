@@ -9,6 +9,10 @@
 
 ## Functions to manipulate getters
 
+### [get_zone_region](getters/get_zone_region)
+
+> Get the region of a specified existing zone.
+
 ### [get_action_count](getters/get_action_count)*
 
 > Get the number of actions the context actor has performed.
@@ -17,21 +21,21 @@
 
 > Get the name of the context actor.
 
-### [get_block_info](getters/get_block_info)*
-
-> Get various world data of a block.
-
-### [get_block_light](getters/get_block_light)*
-
-> Get the amount of block emitted light at a map point.
-
 ### [get_clan_name](getters/get_clan_name)*
 
 > Get the clan name of the context actor.
 
 ### [get_cursor_point](getters/get_cursor_point)*
 
-> Get the world point of the players block cursor.
+> Get the world point of the context actor block cursor.
+
+### [get_cursor_face](getters/get_cursor_face)*
+
+> Get the face of the block targeted by the context actor block cursor.
+
+### [get_cursor_distance](getters/get_cursor_distance)*
+
+> Get the distance to the block targeted by the context actor block cursor.
 
 ### [get_eye_pos](getters/get_eye_pos)*
 
@@ -116,6 +120,10 @@
 ### [get_permission](getters/get_permission)*
 
 > Query if the context player has a particular permission.
+
+### [get_placement_point](getters/get_placement_point)*
+
+> Get the world point where a block would be placed by the context actor.
 
 ### [get_point](getters/get_point)*
 

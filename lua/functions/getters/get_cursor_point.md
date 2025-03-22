@@ -3,7 +3,7 @@
 
 ## get_cursor_point
 
-Get the world point of the players block cursor.
+Get the world point of the context actor block cursor.
 
 ___
 
@@ -18,6 +18,10 @@ get_cursor_point()
 - `long`: The x component of the cursor point
 - `long`: The y component of the cursor point
 - `long`: The z component of the cursor point
+
+___
+
+if y == 0 then the cursor is invalid (not targeting a block)
 
 ___
 

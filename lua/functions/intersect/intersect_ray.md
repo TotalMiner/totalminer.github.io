@@ -47,8 +47,8 @@ ___
 ## Example
 
 ```lua
-local dir = vector3(get_view_dir())
-local eye = vector3(get_eye_pos()) + (dir * 0.2)
+local dir = vec3(get_view_dir())
+local eye = vec3(get_eye_pos()) + (dir * 0.2)
 local far = eye + (dir * 50)
 if
 intersect_ray(eye.x, eye.y, eye.z, far.x, far.y, far.z)

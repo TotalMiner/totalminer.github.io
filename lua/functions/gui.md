@@ -13,6 +13,10 @@
 
 > Display an input field and wait for user input.
 
+### [input_num](gui/input_num)*
+
+> Display an input number dialog and wait for user input.
+
 ### [menu](gui/menu)*
 
 > Display a menu (list of items) and wait for user input (item selection).
@@ -31,4 +35,4 @@
 
 ### [print](gui/print)*
 
-> Same as notify().
+> Post a notification to the screen.
