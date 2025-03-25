@@ -18,7 +18,7 @@ set_zone_builder(
 ## Parameters
 
 - `name`: Target Zone Name
-- `builder_type`: Can be passed player,clan,none if player is passed will set builder to players name running script
+- `builder_type`: Can be passed "player", "clan" , "none" If player is passed will set builder to players name running script
 
 ___
 
