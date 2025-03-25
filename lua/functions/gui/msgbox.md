@@ -17,7 +17,8 @@ msgbox(
 	string x_text,
 	string y_text,
 	string b_text,
-	bool vertical)
+	bool vertical,
+	bool no_cancel)
 ```
 
 ## Parameters
@@ -27,8 +28,15 @@ msgbox(
 - `a_text`: Text for the A button prompt
 - `x_text`: Text for the X button prompt
 - `y_text`: Text for the Y button prompt
-- `b_text`: Text for the B butto prompt
+- `b_text`: Text for the B button prompt
 - `vertical`: true = display button prompts vertically. Omit for default = false = display horizontally
+- `no_cancel`: true/false, toggle if the close button is visible and if the menu can be closed without pressing any of the buttons. If no buttons are present the close button will be hidden but can still be closed with the appropriate keybind.
+
+___
+
+Leaving an empty string for any of the button arguments will omit them from the message box.
+
+___
 
 ## Returns
 
