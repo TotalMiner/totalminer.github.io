@@ -34,7 +34,7 @@ ___
 - [Topdown map](functions/topdown map) (4,4)
 - [Weather](functions/weather) (6,6)
 - [Zones](functions/zones) (11,11)
-- [Getters](functions/getters) (47,46)
+- [Getters](functions/getters) (49,48)
 - [Other](functions/other) (17,17)
 
 ___
