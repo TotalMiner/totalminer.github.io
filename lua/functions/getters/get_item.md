@@ -25,7 +25,7 @@ get_item(
 ___
 
 Valid values for source are:
-"left", "right", "head", "neck", "body", "legs", "feet", "leftside", "rightside"
+"left", "right", "head", "neck", "body", "legs", "leftside", "rightside"
 
 ___
 

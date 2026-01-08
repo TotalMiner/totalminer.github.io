@@ -196,11 +196,3 @@
 ### [get_viewport_height](getters/get_viewport_height)*
 
 > Get the viewport height (in pixels).
-
-### [get_actor_avatar](getters/get_actor_avatar)*
-
-> Get the avatar of the context actor.
-
-### [get_text](getters/get_text)*
-
-> Get the text of a block (Sign, Book, etc).
