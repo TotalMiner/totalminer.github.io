@@ -20,7 +20,8 @@ teleport_all(
 	long x3,
 	long y3,
 	long z3,
-	bool is_rel)
+	bool is_rel,
+	string dir)
 ```
 
 ## Parameters
@@ -35,6 +36,7 @@ teleport_all(
 - `y3`: 
 - `z3`: 
 - `is_rel`: 
+- `dir`: The look direction target will be looking after teleporting.
 
 ___
 
