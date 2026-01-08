@@ -77,14 +77,6 @@
 
 > Get an equipped or event raising item.
 
-### [get_item_name](getters/get_item_name)*
-
-> Get the name of an item.
-
-### [get_item_desc](getters/get_item_desc)*
-
-> Get the description of an item.
-
 ### [get_light](getters/get_light)*
 
 > Get full light data of a map point.

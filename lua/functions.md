@@ -10,7 +10,7 @@ ___
 
 ## Function Groups
 
-- [Blocks](functions/blocks) (18,18)
+- [Blocks](functions/blocks) (17,17)
 - [Blueprints](functions/blueprints) (2,2)
 - [Cctv](functions/cctv) (3,3)
 - [Effects](functions/effects) (4,4)
@@ -34,7 +34,7 @@ ___
 - [Topdown map](functions/topdown map) (4,4)
 - [Weather](functions/weather) (6,6)
 - [Zones](functions/zones) (11,11)
-- [Getters](functions/getters) (51,50)
+- [Getters](functions/getters) (49,48)
 - [Other](functions/other) (17,17)
 
 ___
