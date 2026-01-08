@@ -77,6 +77,14 @@
 
 > Get an equipped or event raising item.
 
+### [get_item_name](getters/get_item_name)*
+
+> Get the name of an item.
+
+### [get_item_desc](getters/get_item_desc)*
+
+> Get the description of an item.
+
 ### [get_light](getters/get_light)*
 
 > Get full light data of a map point.
@@ -196,3 +204,11 @@
 ### [get_viewport_height](getters/get_viewport_height)*
 
 > Get the viewport height (in pixels).
+
+### [get_actor_avatar](getters/get_actor_avatar)*
+
+> Get the avatar of the context actor.
+
+### [get_text](getters/get_text)*
+
+> Get the text of a block (Sign, Book, etc).

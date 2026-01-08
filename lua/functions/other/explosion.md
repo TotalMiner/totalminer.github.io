@@ -23,8 +23,8 @@ explosion(
 - `x`: The x component of the map point of the explosion.
 - `y`: The y component of the map point of the explosion.
 - `z`: The z component of the map point of the explosion.
-- `radius`: The radius of the explosion specified in blocks
-- `strength`: The strength of the explosion (some blocks are resistant to low strength explosions
+- `radius`: The radius of the explosion specified in blocks, Max 25
+- `strength`: The strength of the explosion (some blocks are resistant to low strength explosions, Max 300
 
 ___
 

@@ -45,6 +45,10 @@
 
 > Replace a block id with another block id in a cubic region.
 
+### [clear_block](blocks/clear_block)*
+
+> Clears block id at the map point.
+
 ### [set_block](blocks/set_block)*
 
 > Set block id and aux data at a map point.
