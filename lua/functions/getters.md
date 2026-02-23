@@ -13,6 +13,18 @@
 
 > Get the region of a specified existing zone.
 
+### [get_item_type](getters/get_item_type)*
+
+> Get the type of the specified item.
+
+### [get_item_subtype](getters/get_item_subtype)*
+
+> Get the subtype of the specified item.
+
+### [get_item_class](getters/get_item_class)*
+
+> Get the class of the specified item.
+
 ### [get_action_count](getters/get_action_count)*
 
 > Get the number of actions the context actor has performed.
@@ -69,13 +81,18 @@
 
 > Get the current health of the context actor as a percentage (0-100%) of it's maximum health.
 
+### [get_utc](getters/get_utc)*
+
+> Get various world data of a block.
+
 ### [get_hour](getters/get_hour)*
 
 > Get the current game hour from the 24 hour day clock.
 
 ### [get_item](getters/get_item)*
 
-> Get an equipped or event raising item.
+> dw
+            Get an equipped or event raising item.
 
 ### [get_item_name](getters/get_item_name)*
 

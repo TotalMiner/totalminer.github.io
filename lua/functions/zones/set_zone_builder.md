@@ -17,8 +17,16 @@ set_zone_builder(
 
 ## Parameters
 
-- `name`: Target Zone Name
-- `builder_type`: Can be passed "player", "clan" , "none" If player is passed will set builder to players name running script
+- `name`: The name of the zone to set the builder of.
+- `builder_type`: The zone builder to add or clear.
+
+___
+
+Valid builder_types are:
+- "Player" - Sets the zone builder to the player running the script.
+- "Clan" - Sets the zone builder to the clan of the player running the script.
+- "None" - Removes the builder from the zone.
+
 
 ___
 

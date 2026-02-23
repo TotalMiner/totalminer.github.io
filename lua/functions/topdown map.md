@@ -24,3 +24,7 @@
 ### [set_waypoint](topdown map/set_waypoint)*
 
 > Set a waypoint for the context player.
+
+### [has_marker](topdown map/has_marker)*
+
+> Query if a marker exists.

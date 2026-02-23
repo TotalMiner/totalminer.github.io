@@ -1,21 +1,20 @@
 
 # (Official) LUA Scripting Documentation
 
-## set_text
+## set_texture
 
-Set the text of a block (Sign, Book etc).
+Set a block's visible texture.
 
 ___
 
 Spec:
 
 ```lua
-set_text(
+set_texture(
 	long x,
 	long y,
 	long z,
-	string text,
-	long page)
+	long tex_id)
 ```
 
 ## Parameters
@@ -23,8 +22,17 @@ set_text(
 - `x`: The x component of the map point of the block.
 - `y`: The y component of the map point of the block.
 - `z`: The z component of the map point of the block.
-- `text`: 
-- `page`: 
+- `tex_id`: The numerical value of active texture list starting at 0.
+
+___
+
+## Example
+
+```lua
+set_texture(73, 201, 85, 3)
+```
+
+Sets the texture of the block at 73, 201, 85 to the fourth active texture for that block.
 
 ___
 
@@ -34,4 +42,4 @@ This documentation is incomplete
 
 ___
 
-### [back](../other)
+### [back](../blocks)

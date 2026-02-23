@@ -16,3 +16,7 @@
 ### [set_permissions_all](permissions/set_permissions_all)*
 
 > Set permissions for the context player.
+
+### [has_permission](permissions/has_permission)*
+
+> Query if the context player has a particular permission.

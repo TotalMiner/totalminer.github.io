@@ -9,13 +9,17 @@
 
 ## Miscellaneous Functions
 
-### [has_marker](other/has_marker)*
+### [is_item_type](other/is_item_type)*
 
-> Query if a marker exists.
+> Checks if an item has the specified item type.
 
-### [has_permission](other/has_permission)*
+### [is_item_subtype](other/is_item_subtype)*
 
-> Same as get_permission.
+> Checks if an item has the specified item subtype.
+
+### [is_item_class](other/is_item_class)*
+
+> Checks if an item has the specified item class.
 
 ### [cave_in](other/cave_in)*
 
@@ -60,14 +64,6 @@
 ### [set_reach](other/set_reach)*
 
 > Set the reach of the context actor.
-
-### [set_text](other/set_text)*
-
-> Set the text of a block (Sign, Book etc).
-
-### [set_texture](other/set_texture)*
-
-> Set a block's visible texture.
 
 ### [teleport](other/teleport)*
 

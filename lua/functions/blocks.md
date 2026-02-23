@@ -73,6 +73,14 @@
 
 > Set block id in a spherical region.
 
+### [set_text](blocks/set_text)*
+
+> Set the text of a block (Sign, Book etc).
+
+### [set_texture](blocks/set_texture)*
+
+> Set a block's visible texture.
+
 ### [get_block_info](blocks/get_block_info)*
 
 > Get various world data of a block.
