@@ -11,15 +11,15 @@
 
 ### [is_item_type](other/is_item_type)*
 
-> Checks if an item has the specified item type.
+> Gets the specified item type.
 
 ### [is_item_subtype](other/is_item_subtype)*
 
-> Checks if an item has the specified item subtype.
+> Gets the specified item subtype.
 
 ### [is_item_class](other/is_item_class)*
 
-> Checks if an item has the specified item class.
+> Gets the the specified item class.
 
 ### [cave_in](other/cave_in)*
 

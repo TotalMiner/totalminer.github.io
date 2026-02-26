@@ -83,7 +83,7 @@
 
 ### [get_utc](getters/get_utc)*
 
-> Get various world data of a block.
+> Returns the current UTC time.
 
 ### [get_hour](getters/get_hour)*
 
@@ -91,8 +91,7 @@
 
 ### [get_item](getters/get_item)*
 
-> dw
-            Get an equipped or event raising item.
+> Get an equipped or event raising item.
 
 ### [get_item_name](getters/get_item_name)*
 

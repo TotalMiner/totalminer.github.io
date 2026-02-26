@@ -3,8 +3,7 @@
 
 ## get_item
 
-dw
-            Get an equipped or event raising item.
+Get an equipped or event raising item.
 
 ___
 
