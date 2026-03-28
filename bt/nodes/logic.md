@@ -8,18 +8,18 @@
 
 ## Logic Nodes
 
-### [Exit](exit)
+### [Exit](logic/exit)
 
 > Force the behavior tree to restart.
 
-### [Load](load)
+### [Load](logic/load)
 
 > Placeholder
 
-### [Proxy](proxy)
+### [Proxy](logic/proxy)
 
 > Import a behavior tree into the current behavior
 
-### [Update](update)
+### [Update](logic/update)
 
 > The start of the behavior update loop.
